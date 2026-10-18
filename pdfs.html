@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>계측 필기 PDF</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@600&display=swap">
+<style>
+:root { --paper:#F3F5F7; --card:#FFFFFF; --ink:#18212B; --sub:#5A6676; --line:#DCE2E9;
+  --f:"IBM Plex Sans KR","Noto Sans KR","Malgun Gothic",sans-serif; --m:"IBM Plex Mono",ui-monospace,monospace; }
+@media (prefers-color-scheme: dark) { :root { --paper:#11161C; --card:#19212A; --ink:#E5EAF0; --sub:#94A1B0; --line:#29323D; color-scheme:dark; } }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--f); -webkit-text-size-adjust:100%; }
+main { max-width:46rem; margin:0 auto; padding:32px max(16px, env(safe-area-inset-right,0px)) 48px max(16px, env(safe-area-inset-left,0px)); }
+h1 { margin:0 0 6px; font-size:28px; letter-spacing:-.02em; }
+p { margin:0 0 18px; color:var(--sub); line-height:1.6; }
+.back { display:inline-flex; align-items:center; min-height:44px; padding:0 14px; margin-bottom:20px; border:1px solid var(--line); border-radius:10px; color:var(--ink); text-decoration:none; }
+ul { list-style:none; margin:0; padding:0; display:grid; gap:8px; }
+li a { display:grid; grid-template-columns:3rem 1fr auto; align-items:center; gap:12px; padding:14px 16px; background:var(--card);
+  border:1px solid var(--line); border-left:5px solid var(--c); border-radius:10px; color:var(--ink); text-decoration:none; min-height:56px; }
+.num { font:600 15px var(--m); color:var(--c); }
+.txt b { display:block; font-size:16px; }
+.txt small { color:var(--sub); font-size:13px; }
+.size { font:600 12px var(--m); color:var(--sub); }
+.note { margin-top:24px; font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="./">← 페이서 리딩으로</a>
+  <h1>계측 필기 PDF</h1>
+  <p>갤럭시탭 가로(16:10) 화면용. 왼쪽은 본문, 오른쪽은 펜으로 쓰고 지우는 필기 패드입니다. 00 플랜부터 보세요.</p>
+  <ul>
+      <li><a href="pdf/00_5day_plan.pdf" style="--c:#0F172A">
+        <span class="num">00</span>
+        <span class="txt"><b>5일 학습 플랜</b><small>타임라인 · 하루 체크리스트 · 기출 대응표</small></span>
+        <span class="size">0.1 MB</span></a></li>
+      <li><a href="pdf/01_circuit_theory.pdf" style="--c:#2563EB">
+        <span class="num">01</span>
+        <span class="txt"><b>회로이론</b><small>DAY 1</small></span>
+        <span class="size">2.6 MB</span></a></li>
+      <li><a href="pdf/02_control.pdf" style="--c:#7C3AED">
+        <span class="num">02</span>
+        <span class="txt"><b>제어공학</b><small>DAY 2</small></span>
+        <span class="size">2.5 MB</span></a></li>
+      <li><a href="pdf/03_electromagnetics.pdf" style="--c:#0D9488">
+        <span class="num">03</span>
+        <span class="txt"><b>전자기학</b><small>DAY 3</small></span>
+        <span class="size">3.1 MB</span></a></li>
+      <li><a href="pdf/04_machines_applications.pdf" style="--c:#EA580C">
+        <span class="num">04</span>
+        <span class="txt"><b>전기기기·전기응용</b><small>DAY 4</small></span>
+        <span class="size">3.4 MB</span></a></li>
+      <li><a href="pdf/05_digital_computer.pdf" style="--c:#16A34A">
+        <span class="num">05</span>
+        <span class="txt"><b>디지털 논리·컴퓨터 구조</b><small>DAY 5</small></span>
+        <span class="size">2.3 MB</span></a></li>
+      <li><a href="pdf/06_supplement.pdf" style="--c:#DB2777">
+        <span class="num">06</span>
+        <span class="txt"><b>누락 보충</b><small>DAY 1~5 저녁에 끼워 보기</small></span>
+        <span class="size">3.5 MB</span></a></li>
+  </ul>
+  <p class="note">비공식 학습자료입니다. 출제 범위·비중을 예측하거나 보장하지 않으며 오류가 있을 수 있습니다. 공식 수험 안내와 표준 교재를 우선하세요.</p>
+</main>
+</body>
+</html>
