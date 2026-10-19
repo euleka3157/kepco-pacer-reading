@@ -13,13 +13,15 @@ window.MathJax = {
   const DATA_ROOT = 'data/question-bank/';
   const STORAGE_KEY = 'kepco-question-bank:v1';
   const APP = 'kepco-question-bank';
+  const UNIT_ID = /^(?:[A-Z]\d{2}|P(?!000)\d{3})$/;
+  const QUESTION_ID = /^(?:[A-Z]\d{2}|P(?!000)\d{3})-S\d+-Q\d{2,3}$/;
   const TYPE_LABELS = { calculation: '계산필요', recall: '계산불필요(단순암기)' };
   const cache = new Map();
   let manifest, knownIds = new Set(), records = { answers: {}, favorites: [] };
   let classifications;
   let pendingChanges = [];
   let scopeQuestions = [], visibleQuestions = [], currentIndex = 0, view = 'all';
-  let search = '', loadToken = 0, submitted = false, busy = true, mathQueue = Promise.resolve();
+  let search = '', loadToken = 0, submitted = false, selfRevealed = false, busy = true, mathQueue = Promise.resolve();
   const recordSubscribers = new Set();
   const copyRecords = (value) => JSON.parse(JSON.stringify(value));
 
@@ -133,7 +135,7 @@ window.MathJax = {
     const result = { answers: {}, favorites: [] };
     let skipped = 0;
     for (const [id, item] of Object.entries(value.answers)) {
-      if (!/^[A-Z]\d{2}-S\d+-Q\d{2,3}$/.test(id) || !item || typeof item !== 'object' ||
+      if (!QUESTION_ID.test(id) || !item || typeof item !== 'object' ||
         !Number.isSafeInteger(item.attempts) || item.attempts < 1 || item.attempts > 1000000 ||
         !Number.isSafeInteger(item.correct) || item.correct < 0 || item.correct > item.attempts ||
         typeof item.lastCorrect !== 'boolean' || !Array.isArray(item.selected) || item.selected.length > 20 ||
@@ -147,7 +149,7 @@ window.MathJax = {
         selected: item.selected.slice(), updatedAt: item.updatedAt };
     }
     for (const id of value.favorites) {
-      if (typeof id !== 'string' || !/^[A-Z]\d{2}-S\d+-Q\d{2,3}$/.test(id)) throw new Error('즐겨찾기 기록 형식이 올바르지 않습니다.');
+      if (typeof id !== 'string' || !QUESTION_ID.test(id)) throw new Error('즐겨찾기 기록 형식이 올바르지 않습니다.');
       if (!knownIds.has(id)) { skipped++; continue; }
       result.favorites.push(id);
     }
@@ -222,7 +224,9 @@ window.MathJax = {
     const choices = [...new Set(manifest.sets.filter((set) =>
       (!$('subjectFilter').value || set.subject === $('subjectFilter').value) &&
       (!$('unitFilter').value || set.unit === $('unitFilter').value)).map((set) => set.set))].sort((a, b) => a - b);
-    fillSelect($('setFilter'), [['', '모든 세트'], ...choices.map((n) => [String(n), `${n}회차`])], '');
+    fillSelect($('setFilter'), [['', '모든 묶음'], ...choices.map((n) => [String(n), `문항묶음 ${n}`])], '');
+    $('setHelp').hidden = !selectedSets().some((set) => set.subject === 'P');
+    $('searchHelp').hidden = $('setHelp').hidden;
   }
   function validateManifest(value) {
     if (!value || value.version !== 1 || !Array.isArray(value.subjects) || !Array.isArray(value.sets) || !value.sets.length || value.sets.length > 1000) throw new Error('문제 목록 형식이 올바르지 않습니다.');
@@ -234,11 +238,16 @@ window.MathJax = {
     let count = 0;
     for (const set of value.sets) {
       if (!set || typeof set.id !== 'string' || sets.has(set.id) || !subjects.has(set.subject) ||
-        !/^[A-Z]\d{2}$/.test(set.unit) || typeof set.unitTitle !== 'string' ||
+        !UNIT_ID.test(set.unit) || typeof set.unitTitle !== 'string' ||
         !Number.isInteger(set.set) || set.set < 1 || set.set > 99 || !Number.isInteger(set.count) || set.count < 1 || set.count > 999 ||
         !/^[A-Za-z0-9_-]+\.json$/.test(set.path)) throw new Error('문제 세트 목록이 올바르지 않습니다.');
+      if (set.subject === 'P' && (!/^P(?!000)\d{3}$/.test(set.unit) || set.set > 2 || set.count > 25)) throw new Error('전기 기출·복원 문항묶음 형식이 올바르지 않습니다.');
       sets.add(set.id); count += set.count;
-      for (let i = 1; i <= set.count; i++) knownIds.add(`${set.unit}-S${set.set}-Q${String(i).padStart(2, '0')}`);
+      for (let i = 1; i <= set.count; i++) {
+        const id = `${set.unit}-S${set.set}-Q${String(i).padStart(2, '0')}`;
+        if (knownIds.has(id)) throw new Error('중복된 문제 ID가 있습니다.');
+        knownIds.add(id);
+      }
     }
     if (count !== value.totalQuestions) throw new Error('문항 수와 문제 목록이 일치하지 않습니다.');
     return value;
@@ -255,6 +264,32 @@ window.MathJax = {
     }
     return value.labels;
   }
+  function validImage(value, originalId, kind) {
+    if (!value || typeof value !== 'object' || typeof value.src !== 'string' ||
+      !Number.isInteger(value.width) || value.width < 1 || value.width > 30000 ||
+      !Number.isInteger(value.height) || value.height < 1 || value.height > 30000) return false;
+    const prefix = `${DATA_ROOT}assets/electric/${originalId}-`;
+    if (!value.src.startsWith(prefix)) return false;
+    const file = value.src.slice(prefix.length);
+    return kind === 'question' ? file === 'q.webp' : /^e[1-9]\d*\.webp$/.test(file);
+  }
+  function validateImportedQuestion(q) {
+    const source = q.source;
+    if (!source || typeof source !== 'object' ||
+      !['collection', 'collectionLabel', 'examLabel', 'originalId'].every((key) => typeof source[key] === 'string' && source[key].length > 0 && source[key].length <= 2000) ||
+      !/^[A-Za-z0-9_-]{1,200}$/.test(source.originalId) ||
+      !['string', 'number'].includes(typeof source.number) || !String(source.number).trim() || String(source.number).length > 40 ||
+      (source.note !== undefined && (typeof source.note !== 'string' || source.note.length > 2000)) ||
+      !['multiple', 'self'].includes(q.responseType) ||
+      (q.searchText !== undefined && (typeof q.searchText !== 'string' || q.searchText.length > 200000)) ||
+      !validImage(q.questionImage, source.originalId, 'question') ||
+      !Array.isArray(q.explanationImages) || q.explanationImages.length > 40 ||
+      !q.explanationImages.every((image) => validImage(image, source.originalId, 'explanation'))) {
+      throw new Error('원문 문제 이미지 또는 출처 형식이 올바르지 않습니다.');
+    }
+    if (q.responseType === 'self' && (typeof q.answerText !== 'string' || q.options.length !== 2 ||
+      q.options[0].correct !== true || q.options[1].correct !== false)) throw new Error('주관식 직접 채점 형식이 올바르지 않습니다.');
+  }
   async function getSet(meta) {
     if (!cache.has(meta.id)) cache.set(meta.id, fetchJSON(DATA_ROOT + meta.path).then((value) => {
       if (!value || value.id !== meta.id || !Array.isArray(value.questions) || value.questions.length !== meta.count) throw new Error('문제 세트 형식이 올바르지 않습니다.');
@@ -263,10 +298,12 @@ window.MathJax = {
         const expectedId = `${meta.unit}-S${meta.set}-Q${String(index + 1).padStart(2, '0')}`;
         if (!q || q.id !== expectedId || ids.has(q.id) || typeof q.question !== 'string' || !q.question.trim() ||
           !Array.isArray(q.options) || q.options.length < 2 || q.options.length > 20 ||
-          !q.options.every((option) => option && typeof option.text === 'string' && typeof option.correct === 'boolean' && typeof option.explanation === 'string' &&
+          !q.options.every((option) => option && typeof option.text === 'string' && typeof option.correct === 'boolean' &&
+            (typeof option.explanation === 'string' || (meta.subject === 'P' && option.explanation === undefined)) &&
             (option.explanationHtml === undefined || (typeof option.explanationHtml === 'string' && option.explanationHtml.length <= 300000))) ||
           !q.options.some((option) => option.correct) || (q.hint !== undefined && typeof q.hint !== 'string')) throw new Error('문항 또는 정답 형식이 올바르지 않습니다.');
         ids.add(q.id);
+        if (meta.subject === 'P') validateImportedQuestion(q);
         return { ...q, studyType: classifications[q.id], subject: meta.subject, unit: meta.unit, unitTitle: meta.unitTitle, set: meta.set, number: index + 1 };
       });
     }).catch((error) => { cache.delete(meta.id); throw error; }));
@@ -312,7 +349,8 @@ window.MathJax = {
   function searchedQuestions() {
     const term = search.toLocaleLowerCase('ko-KR');
     const type = $('typeFilter').value;
-    return scopeQuestions.filter((q) => (!type || q.studyType === type) && (!term || q.question.toLocaleLowerCase('ko-KR').includes(term)));
+    return scopeQuestions.filter((q) => (!type || q.studyType === type) &&
+      (!term || `${q.question}\n${q.subject === 'P' ? `${q.searchText || ''}\n${q.source.collectionLabel} ${q.source.examLabel} ${q.source.number}번` : ''}`.toLocaleLowerCase('ko-KR').includes(term)));
   }
   function filterQuestions() {
     return searchedQuestions().filter((q) => view === 'all' || (view === 'wrong' ? isWrong(q.id) : isFavorite(q.id)));
@@ -334,15 +372,42 @@ window.MathJax = {
   function clearMath() {
     if (typeof window.MathJax?.typesetClear === 'function') MathJax.typesetClear([$('questionCard')]);
   }
+  function sourceImage(image, label, eager = false) {
+    const figure = node('figure', 'source-image'), img = node('img');
+    img.src = image.src; img.alt = label; img.width = image.width; img.height = image.height;
+    img.loading = eager ? 'eager' : 'lazy'; img.decoding = 'async';
+    const caption = node('figcaption'), link = node('a', '', '원본 크게 보기 (새 탭)');
+    link.href = image.src; link.target = '_blank'; link.rel = 'noopener noreferrer';
+    caption.append(node('span', '', label), link);
+    const error = node('p', 'image-error', '이미지를 불러오지 못했습니다. 인터넷 연결을 확인하거나 원본 크게 보기를 눌러 주세요.');
+    error.hidden = true;
+    img.addEventListener('error', () => { img.hidden = true; error.hidden = false; });
+    figure.append(img, caption, error); return figure;
+  }
+  function originalExplanations(question, container) {
+    container.replaceChildren();
+    if (!question.explanationImages.length) {
+      container.append(node('p', 'small muted', '원본에 해설이 없습니다.')); return;
+    }
+    question.explanationImages.forEach((image, i) => container.append(sourceImage(image, `해설 원문 ${i + 1}`)));
+  }
   function renderQuestion() {
-    submitted = false; clearMath();
+    submitted = false; selfRevealed = false; clearMath();
     const question = visibleQuestions[currentIndex];
     $('questionCard').hidden = !question; $('emptyState').hidden = !!question;
     $('feedback').hidden = true; $('tryAgain').hidden = true; $('checkButton').disabled = true;
     $('checkButton').hidden = false;
+    $('checkButton').textContent = '정답 확인';
+    $('correctAnswer').hidden = false;
+    $('answerForm').hidden = false;
+    $('selfCheck').hidden = true; $('selfSolution').hidden = true; $('revealAnswer').hidden = false;
+    $('selfExplanations').replaceChildren(); $('questionMedia').replaceChildren();
+    $('questionMedia').hidden = true; $('questionSource').hidden = true; $('questionSourceNote').hidden = true;
     $('hintBox').open = false;
     $('resultSummary').textContent = `${view === 'all' ? '전체' : view === 'wrong' ? '오답노트' : '즐겨찾기'}${$('typeFilter').value ? ` · ${TYPE_LABELS[$('typeFilter').value]}` : ''} · ${visibleQuestions.length.toLocaleString('ko-KR')}문항${question ? ` · ${currentIndex + 1}번째` : ''}`;
-    fillSelect($('questionJump'), question ? visibleQuestions.map((q, i) => [String(i), `${i + 1} / ${visibleQuestions.length} · ${q.unit} ${q.set}회차 ${q.number}번`]) : [['', '문제 없음']], String(currentIndex));
+    fillSelect($('questionJump'), question ? visibleQuestions.map((q, i) => [String(i), q.subject === 'P' ?
+      `${i + 1} / ${visibleQuestions.length} · ${q.source.examLabel} · 원문 ${q.source.number}번` :
+      `${i + 1} / ${visibleQuestions.length} · ${q.unit} ${q.set}회차 ${q.number}번`]) : [['', '문제 없음']], String(currentIndex));
     setBusy(false);
     if (!question) {
       $('emptyState').textContent = search ? '검색에 맞는 문제가 없습니다. 검색어나 위의 과목·단원 범위를 바꿔 보세요.' :
@@ -350,18 +415,30 @@ window.MathJax = {
         view === 'favorites' ? '선택한 범위에 즐겨찾기가 없습니다. 문제의 ☆ 즐겨찾기를 눌러 모아 보세요.' : '이 범위에 표시할 문제가 없습니다.';
       return;
     }
-    $('questionMeta').textContent = `${question.unit} ${question.unitTitle} · ${question.set}회차 · ${question.number}번`;
+    const imported = question.subject === 'P', self = imported && question.responseType === 'self';
+    $('questionMeta').textContent = `${question.unit} ${question.unitTitle} · ${imported ? `문항묶음 ${question.set}` : `${question.set}회차`} · ${question.number}번`;
     $('questionType').textContent = TYPE_LABELS[question.studyType];
     $('questionType').dataset.type = question.studyType;
     $('questionTitle').textContent = question.question;
+    if (imported) {
+      $('questionSource').textContent = `출처: ${question.source.collectionLabel} · ${question.source.examLabel} · 원문 ${question.source.number}번`;
+      $('questionSource').hidden = false;
+      $('questionSourceNote').textContent = question.source.note || '';
+      $('questionSourceNote').hidden = !question.source.note;
+      $('questionMedia').append(sourceImage(question.questionImage, `문제 원문 · ${question.source.number}번`, true));
+      $('questionMedia').hidden = false;
+    }
+    $('selfCheck').hidden = !self; $('answerForm').hidden = self;
+    if (self) $('checkButton').textContent = '직접 채점 기록 저장';
     updateFavoriteButton();
     const multiple = question.options.filter((option) => option.correct).length > 1;
-    $('choiceInstruction').textContent = multiple ? '정답을 모두 선택하세요.' : '답을 하나 선택하세요.';
+    $('choiceInstruction').textContent = self ? '정답·해설과 비교한 결과를 직접 선택하세요.' :
+      multiple ? '정답을 모두 선택하세요.' : imported ? '원문 이미지의 선지 번호를 선택하세요.' : '답을 하나 선택하세요.';
     $('choices').replaceChildren($('choiceInstruction'));
     question.options.forEach((option, i) => {
       const label = node('label', 'choice');
       const input = node('input'); input.type = multiple ? 'checkbox' : 'radio'; input.name = 'answer'; input.value = String(i);
-      const text = node('span', 'choice-text', `${i + 1}. ${option.text}`);
+      const text = node('span', 'choice-text', imported ? option.text : `${i + 1}. ${option.text}`);
       label.append(input, text); $('choices').append(label);
     });
     const previous = records.answers[question.id];
@@ -378,11 +455,22 @@ window.MathJax = {
     $('favoriteButton').setAttribute('aria-label', favorite ? '즐겨찾기 해제' : '즐겨찾기 추가');
   }
   function currentSelection() { return [...$('choices').querySelectorAll('input:checked')].map((input) => Number(input.value)); }
+  $('revealAnswer').addEventListener('click', () => {
+    const q = visibleQuestions[currentIndex];
+    if (!q || q.subject !== 'P' || q.responseType !== 'self' || busy || submitted || selfRevealed) return;
+    selfRevealed = true;
+    $('selfAnswer').textContent = q.answerText ? `원문 정답: ${q.answerText}` : '정답은 아래 원문 해설에서 확인하세요.';
+    originalExplanations(q, $('selfExplanations'));
+    $('revealAnswer').hidden = true; $('selfSolution').hidden = false; $('answerForm').hidden = false;
+    renderMath(); $('selfSolution').focus({ preventScroll: true }); $('selfSolution').scrollIntoView({ block: 'start' });
+  });
   $('answerForm').addEventListener('change', () => { $('checkButton').disabled = submitted || !currentSelection().length; });
   $('answerForm').addEventListener('submit', (event) => {
     event.preventDefault();
     const q = visibleQuestions[currentIndex], selected = currentSelection();
     if (!q || busy || submitted || !selected.length) return;
+    const self = q.subject === 'P' && q.responseType === 'self';
+    if (self && !selfRevealed) return;
     submitted = true;
     const correct = q.options.every((option, i) => option.correct === selected.includes(i));
     const updatedAt = new Date().toISOString();
@@ -395,23 +483,29 @@ window.MathJax = {
     updateStats();
     $('choices').querySelectorAll('.choice').forEach((label, i) => {
       label.querySelector('input').disabled = true;
-      label.classList.toggle('correct', q.options[i].correct);
+      label.classList.toggle('correct', q.options[i].correct && (!self || selected.includes(i)));
       label.classList.toggle('incorrect', selected.includes(i) && !q.options[i].correct);
-      const note = q.options[i].correct ? (selected.includes(i) ? '선택한 정답' : '정답') : selected.includes(i) ? '선택한 오답' : '';
+      const note = self ? (selected.includes(i) ? '직접 채점한 결과' : '') :
+        q.options[i].correct ? (selected.includes(i) ? '선택한 정답' : '정답') : selected.includes(i) ? '선택한 오답' : '';
       if (note) label.querySelector('.choice-text').append(node('span', 'choice-note', note));
     });
     $('checkButton').hidden = true; $('tryAgain').hidden = false;
     $('feedback').hidden = false; $('feedback').classList.toggle('wrong', !correct);
-    $('feedbackTitle').textContent = correct ? '정답입니다.' : '오답입니다.';
-    $('correctAnswer').textContent = `정답: ${q.options.flatMap((option, i) => option.correct ? [i + 1] : []).join(', ')}번`;
+    $('feedbackTitle').textContent = self ? (correct ? '직접 채점: 맞았어요' : '직접 채점: 틀렸어요') : correct ? '정답입니다.' : '오답입니다.';
+    $('correctAnswer').hidden = self;
+    $('correctAnswer').textContent = self ? '' : `정답: ${q.options.flatMap((option, i) => option.correct ? [i + 1] : []).join(', ')}번`;
     $('reviewMessage').textContent = correct ? (previous?.lastCorrect === false ? '이 문제를 오답노트에서 제거했습니다. 아래 해설은 계속 볼 수 있습니다.' : '정답 기록을 저장했습니다.') : '오답노트에 저장했습니다. 다시 풀어 맞히면 자동으로 제거됩니다.';
     if (view === 'wrong' && correct) $('resultSummary').textContent = `오답노트 · 남은 ${filterQuestions().length}문항 · 현재 해설 표시 중`;
     $('explanations').replaceChildren();
-    q.options.forEach((option, i) => {
-      const section = node('div', 'explanation');
-      section.append(node('h4', '', `${i + 1}번 · ${option.correct ? '정답' : '오답'} 해설`), explanationContent(option));
-      $('explanations').append(section);
-    });
+    if (q.subject === 'P') {
+      if (!self) originalExplanations(q, $('explanations'));
+    } else {
+      q.options.forEach((option, i) => {
+        const section = node('div', 'explanation');
+        section.append(node('h4', '', `${i + 1}번 · ${option.correct ? '정답' : '오답'} 해설`), explanationContent(option));
+        $('explanations').append(section);
+      });
+    }
     renderMath(); $('feedbackTitle').focus({ preventScroll: true });
   });
   $('tryAgain').addEventListener('click', () => { renderQuestion(); $('questionArea').focus(); });

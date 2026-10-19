@@ -17,11 +17,12 @@
     return prototype === Object.prototype || prototype === null;
   }
   function validUnit(unit) {
+    if (typeof unit === 'string' && /^P\d{3}$/.test(unit)) return Number(unit.slice(1)) >= 1;
     const match = typeof unit === 'string' && /^([CTEMD])(\d{2})$/.exec(unit);
     return !!match && Number(match[2]) >= 1 && Number(match[2]) <= UNIT_LIMITS[match[1]];
   }
   function unitForId(id) {
-    const match = typeof id === 'string' && /^([CTEMD]\d{2})-S([12])-Q(\d{2})$/.exec(id);
+    const match = typeof id === 'string' && /^([CTEMD]\d{2}|P\d{3})-S([12])-Q(\d{2})$/.exec(id);
     return match && validUnit(match[1]) && Number(match[3]) >= 1 && Number(match[3]) <= 25 ? match[1] : '';
   }
   function idsForUnit(unit) {
