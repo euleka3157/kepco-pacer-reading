@@ -13,11 +13,15 @@ window.MathJax = {
   const DATA_ROOT = 'data/question-bank/';
   const STORAGE_KEY = 'kepco-question-bank:v1';
   const APP = 'kepco-question-bank';
+  const TYPE_LABELS = { calculation: '계산필요', recall: '계산불필요(단순암기)' };
   const cache = new Map();
   let manifest, knownIds = new Set(), records = { answers: {}, favorites: [] };
+  let classifications;
   let pendingChanges = [];
   let scopeQuestions = [], visibleQuestions = [], currentIndex = 0, view = 'all';
   let search = '', loadToken = 0, submitted = false, busy = true, mathQueue = Promise.resolve();
+  const recordSubscribers = new Set();
+  const copyRecords = (value) => JSON.parse(JSON.stringify(value));
 
   function node(tag, className, text) {
     const element = document.createElement(tag);
@@ -111,8 +115,12 @@ window.MathJax = {
       loaded = true;
     } catch (_) { storageWarning(); }
     if (loaded) for (const pending of pendingChanges) pending(latest);
+    const before = copyRecords(latest);
     const result = change(latest);
     records = latest; pendingChanges.push(change); saveRecords();
+    for (const subscriber of recordSubscribers) {
+      try { subscriber(before, copyRecords(records)); } catch (_) { /* Local study remains available. */ }
+    }
     return result;
   }
   function validateRecords(value, imported = false) {
@@ -154,6 +162,21 @@ window.MathJax = {
   }
   function isWrong(id) { return records.answers[id]?.lastCorrect === false; }
   function isFavorite(id) { return records.favorites.includes(id); }
+  function refreshRecordIndicators() {
+    updateStats(); updateFavoriteButton();
+    const question = visibleQuestions[currentIndex], previous = question && records.answers[question.id];
+    if (question && !submitted) $('previousResult').textContent = previous ? `이전 ${previous.attempts}회 풀이 · 최근 ${previous.lastCorrect ? '정답' : '오답'}` : '이전 풀이 기록 없음';
+  }
+  window.StudyBankBridge = {
+    ready: false,
+    getKnownIds: () => new Set(knownIds),
+    getRecords: () => copyRecords(records),
+    subscribe(callback) { recordSubscribers.add(callback); return () => recordSubscribers.delete(callback); },
+    applyRecords(value) {
+      records = validateRecords(value).records;
+      saveRecords(); refreshRecordIndicators();
+    }
+  };
   function updateStats() {
     const entries = Object.values(records.answers);
     $('attemptedStat').textContent = entries.length.toLocaleString('ko-KR');
@@ -172,9 +195,7 @@ window.MathJax = {
       const latest = raw ? validateRecords(JSON.parse(raw)).records : { answers: {}, favorites: [] };
       for (const pending of pendingChanges) pending(latest);
       records = latest;
-      updateStats(); updateFavoriteButton();
-      const question = visibleQuestions[currentIndex], previous = question && records.answers[question.id];
-      if (question && !submitted) $('previousResult').textContent = previous ? `이전 ${previous.attempts}회 풀이 · 최근 ${previous.lastCorrect ? '정답' : '오답'}` : '이전 풀이 기록 없음';
+      refreshRecordIndicators();
     } catch (_) { storageWarning('다른 탭에서 변경된 학습 기록을 읽지 못했습니다. 현재 문제는 계속 풀 수 있습니다.'); }
   });
   function fillSelect(select, options, value) {
@@ -227,6 +248,13 @@ window.MathJax = {
     if (!response.ok) throw new Error(`파일을 불러오지 못했습니다 (${response.status}).`);
     return response.json();
   }
+  function validateClassifications(value) {
+    if (!value || value.version !== 1 || !value.labels || typeof value.labels !== 'object' || Array.isArray(value.labels) ||
+      Object.keys(value.labels).length !== knownIds.size || [...knownIds].some((id) => !Object.hasOwn(TYPE_LABELS, value.labels[id]))) {
+      throw new Error('문항 분류와 문제 목록이 일치하지 않습니다.');
+    }
+    return value.labels;
+  }
   async function getSet(meta) {
     if (!cache.has(meta.id)) cache.set(meta.id, fetchJSON(DATA_ROOT + meta.path).then((value) => {
       if (!value || value.id !== meta.id || !Array.isArray(value.questions) || value.questions.length !== meta.count) throw new Error('문제 세트 형식이 올바르지 않습니다.');
@@ -239,7 +267,7 @@ window.MathJax = {
             (option.explanationHtml === undefined || (typeof option.explanationHtml === 'string' && option.explanationHtml.length <= 300000))) ||
           !q.options.some((option) => option.correct) || (q.hint !== undefined && typeof q.hint !== 'string')) throw new Error('문항 또는 정답 형식이 올바르지 않습니다.');
         ids.add(q.id);
-        return { ...q, subject: meta.subject, unit: meta.unit, unitTitle: meta.unitTitle, set: meta.set, number: index + 1 };
+        return { ...q, studyType: classifications[q.id], subject: meta.subject, unit: meta.unit, unitTitle: meta.unitTitle, set: meta.set, number: index + 1 };
       });
     }).catch((error) => { cache.delete(meta.id); throw error; }));
     return cache.get(meta.id);
@@ -248,6 +276,7 @@ window.MathJax = {
     busy = value;
     $('questionArea').setAttribute('aria-busy', String(value));
     $('searchButton').disabled = value;
+    $('typeFilter').disabled = value || !classifications;
     $('importButton').disabled = value || !manifest;
     for (const button of document.querySelectorAll('[data-view]')) button.disabled = value;
     $('previousButton').disabled = value || currentIndex === 0;
@@ -282,7 +311,8 @@ window.MathJax = {
   }
   function searchedQuestions() {
     const term = search.toLocaleLowerCase('ko-KR');
-    return scopeQuestions.filter((q) => !term || q.question.toLocaleLowerCase('ko-KR').includes(term));
+    const type = $('typeFilter').value;
+    return scopeQuestions.filter((q) => (!type || q.studyType === type) && (!term || q.question.toLocaleLowerCase('ko-KR').includes(term)));
   }
   function filterQuestions() {
     return searchedQuestions().filter((q) => view === 'all' || (view === 'wrong' ? isWrong(q.id) : isFavorite(q.id)));
@@ -311,7 +341,7 @@ window.MathJax = {
     $('feedback').hidden = true; $('tryAgain').hidden = true; $('checkButton').disabled = true;
     $('checkButton').hidden = false;
     $('hintBox').open = false;
-    $('resultSummary').textContent = `${view === 'all' ? '전체' : view === 'wrong' ? '오답노트' : '즐겨찾기'} · ${visibleQuestions.length.toLocaleString('ko-KR')}문항${question ? ` · ${currentIndex + 1}번째` : ''}`;
+    $('resultSummary').textContent = `${view === 'all' ? '전체' : view === 'wrong' ? '오답노트' : '즐겨찾기'}${$('typeFilter').value ? ` · ${TYPE_LABELS[$('typeFilter').value]}` : ''} · ${visibleQuestions.length.toLocaleString('ko-KR')}문항${question ? ` · ${currentIndex + 1}번째` : ''}`;
     fillSelect($('questionJump'), question ? visibleQuestions.map((q, i) => [String(i), `${i + 1} / ${visibleQuestions.length} · ${q.unit} ${q.set}회차 ${q.number}번`]) : [['', '문제 없음']], String(currentIndex));
     setBusy(false);
     if (!question) {
@@ -321,6 +351,8 @@ window.MathJax = {
       return;
     }
     $('questionMeta').textContent = `${question.unit} ${question.unitTitle} · ${question.set}회차 · ${question.number}번`;
+    $('questionType').textContent = TYPE_LABELS[question.studyType];
+    $('questionType').dataset.type = question.studyType;
     $('questionTitle').textContent = question.question;
     updateFavoriteButton();
     const multiple = question.options.filter((option) => option.correct).length > 1;
@@ -418,6 +450,7 @@ window.MathJax = {
   $('subjectFilter').addEventListener('change', () => { updateUnitOptions(); loadScope(); });
   $('unitFilter').addEventListener('change', () => { updateSetOptions(); loadScope(); });
   $('setFilter').addEventListener('change', loadScope);
+  $('typeFilter').addEventListener('change', () => { if (!busy) applyView(); });
   $('searchForm').addEventListener('submit', (event) => { event.preventDefault(); if (!busy) { search = $('searchInput').value.trim(); applyView(); } });
   $('searchInput').addEventListener('search', () => { if (!busy && !$('searchInput').value) { search = ''; applyView(); } });
   $('retryLoad').addEventListener('click', () => manifest ? loadScope() : start());
@@ -449,15 +482,22 @@ window.MathJax = {
   });
   async function start() {
     try {
-      showNotice(''); knownIds = new Set();
-      manifest = validateManifest(await fetchJSON(DATA_ROOT + 'manifest.json'));
+      showNotice(''); manifest = undefined; knownIds = new Set(); classifications = undefined; cache.clear();
+      const [manifestData, classificationData] = await Promise.all([
+        fetchJSON(DATA_ROOT + 'manifest.json'), fetchJSON(DATA_ROOT + 'classifications.json')
+      ]);
+      manifest = validateManifest(manifestData);
+      classifications = validateClassifications(classificationData);
       readRecords(); updateStats();
+      window.StudyBankBridge.ready = true;
+      document.dispatchEvent(new Event('bank-records-ready'));
       fillSelect($('subjectFilter'), [['', '모든 과목'], ...manifest.subjects.map((subject) => [subject.id, subject.label])], manifest.subjects[0]?.id);
       updateUnitOptions(true);
       for (const id of ['subjectFilter', 'unitFilter', 'setFilter', 'searchInput', 'exportButton', 'importButton']) $(id).disabled = false;
       $('bankSummary').textContent = `${manifest.sets.length}세트 · ${manifest.totalQuestions.toLocaleString('ko-KR')}문항`;
       await loadScope();
     } catch (_) {
+      if (!classifications) manifest = undefined;
       setBusy(false); $('bankSummary').textContent = '문제 목록을 불러오지 못했습니다.';
       $('emptyState').textContent = '문제 데이터를 준비 중이거나 연결에 문제가 있습니다. 잠시 후 다시 불러와 주세요.';
       $('resultSummary').textContent = '불러오기 실패'; $('retryLoad').hidden = false;

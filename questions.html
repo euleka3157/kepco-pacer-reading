@@ -10,8 +10,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <link rel="stylesheet" href="vendor/katex/katex.min.css">
-<link rel="stylesheet" href="questions.css">
-<script src="questions.js" defer></script>
+<link rel="stylesheet" href="questions.css?v=types1">
+<script src="questions.js?v=types1" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg.js" defer></script>
 </head>
 <body>
@@ -35,6 +35,14 @@
       <label>과목<select id="subjectFilter" disabled></select></label>
       <label>단원<select id="unitFilter" disabled></select></label>
       <label>세트<select id="setFilter" disabled></select></label>
+    </div>
+    <div class="type-filter-row">
+      <label>풀이 유형<select id="typeFilter" aria-describedby="typeHelp" disabled>
+        <option value="">모든 유형</option>
+        <option value="calculation">계산필요</option>
+        <option value="recall">계산불필요(단순암기)</option>
+      </select></label>
+      <p id="typeHelp" class="small muted">수치 대입·연산·식 도출은 계산필요, 정의·성질·공식 확인과 기본 개념 판단은 계산불필요로 분류했습니다.</p>
     </div>
     <form id="searchForm" class="search-row" role="search">
       <label for="searchInput" class="sr-only">선택한 범위의 문제 본문 검색</label>
@@ -62,7 +70,7 @@
     <p class="empty" id="emptyState">문제를 준비하고 있습니다.</p>
     <article id="questionCard" hidden>
       <div class="question-top">
-        <p id="questionMeta" class="eyebrow"></p>
+        <div class="question-heading"><p id="questionMeta" class="eyebrow"></p><span id="questionType" class="type-badge"></span></div>
         <button type="button" id="favoriteButton" class="favorite" aria-pressed="false">☆ 즐겨찾기</button>
       </div>
       <h2 id="questionTitle" class="question-title"></h2>
