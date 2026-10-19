@@ -37,6 +37,12 @@ h2 { font-size: 19px; }
 .muted { color: var(--sub); }
 .small { font-size: 13px; }
 .panel { border: 1px solid var(--line); border-radius: 14px; background: var(--card); padding: 20px; }
+.bank-categories { margin-bottom: 16px; }
+.category-tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.category-tabs button { min-width: 0; padding: 10px 6px; font-weight: 700; word-break: keep-all; }
+.category-tabs button[aria-pressed="true"] { color: var(--acc); background: var(--acc-soft); border-color: var(--acc); }
+.category-tabs span { display: block; font: 500 12px/1.7 var(--m); }
+#categoryHelp { margin-top: 10px; overflow-wrap: anywhere; }
 .notice { padding: 12px 16px; margin-bottom: 14px; border: 1px solid var(--line); border-radius: 10px; background: var(--acc-soft); overflow-wrap: anywhere; }
 .warning { color: var(--bad); background: var(--bad-bg); }
 .filter-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.8fr) minmax(0, .7fr); gap: 12px; }

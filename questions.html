@@ -10,9 +10,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <link rel="stylesheet" href="vendor/katex/katex.min.css">
-<link rel="stylesheet" href="questions.css?v=electric1">
+<link rel="stylesheet" href="questions.css?v=category1">
 <script src="sync-records.js?v=electric1" defer></script>
-<script src="questions.js?v=electric1" defer></script>
+<script src="questions.js?v=category1" defer></script>
 <script src="cloud-sync.js?v=electric1" type="module"></script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg.js" defer></script>
 </head>
@@ -30,6 +30,14 @@
     <div><p class="eyebrow">계측 필기 · 전기 기출·복원</p><h1>문제은행</h1></div>
     <p id="bankSummary" class="muted" role="status">문제 목록을 불러오는 중입니다.</p>
   </div>
+  <section class="panel bank-categories" aria-label="문제 카테고리">
+    <div class="category-tabs" role="group" aria-label="카테고리 선택">
+      <button type="button" data-category="all" aria-pressed="true" disabled>전체 <span id="categoryAllCount"></span></button>
+      <button type="button" data-category="practice" aria-pressed="false" disabled>단원별 연습 <span id="categoryPracticeCount"></span></button>
+      <button type="button" data-category="past" aria-pressed="false" disabled>기출 <span id="categoryPastCount"></span></button>
+    </div>
+    <p id="categoryHelp" class="small muted">카테고리를 선택하면 해당 문제만 모아 볼 수 있습니다.</p>
+  </section>
   <div id="notice" class="notice" role="status" hidden></div>
   <div id="storageWarning" class="notice warning" role="status" hidden></div>
   <section class="panel cloud-sync" aria-labelledby="syncTitle">

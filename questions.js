@@ -16,6 +16,9 @@ window.MathJax = {
   const UNIT_ID = /^(?:[A-Z]\d{2}|P(?!000)\d{3})$/;
   const QUESTION_ID = /^(?:[A-Z]\d{2}|P(?!000)\d{3})-S\d+-Q\d{2,3}$/;
   const TYPE_LABELS = { calculation: '계산필요', recall: '계산불필요(단순암기)' };
+  const CATEGORY_LABELS = { all: '전체', practice: '단원별 연습', past: '기출' };
+  const initialCategory = new URLSearchParams(location.search).get('category');
+  let category = Object.hasOwn(CATEGORY_LABELS, initialCategory) ? initialCategory : 'all';
   const cache = new Map();
   let manifest, knownIds = new Set(), records = { answers: {}, favorites: [] };
   let classifications;
@@ -207,21 +210,37 @@ window.MathJax = {
     if (options.some(([id]) => id === value)) select.value = value;
   }
   function selectedSets() {
-    return manifest.sets.filter((set) =>
+    return categorySets().filter((set) =>
       (!$('subjectFilter').value || set.subject === $('subjectFilter').value) &&
       (!$('unitFilter').value || set.unit === $('unitFilter').value) &&
       (!$('setFilter').value || String(set.set) === $('setFilter').value));
   }
+  function categorySets(value = category) {
+    return manifest.sets.filter((set) => value === 'all' || (value === 'past' ? set.subject === 'P' : set.subject !== 'P'));
+  }
+  function updateCategoryOptions(first = false) {
+    for (const button of document.querySelectorAll('[data-category]')) {
+      button.disabled = false;
+      button.setAttribute('aria-pressed', String(button.dataset.category === category));
+      button.querySelector('span').textContent = `${categorySets(button.dataset.category).reduce((sum, set) => sum + set.count, 0).toLocaleString('ko-KR')}문항`;
+    }
+    $('categoryHelp').textContent = category === 'past' ? '기출: 새로 추가한 전기 기출·복원 문제를 모았습니다. 아래에서 회차·풀이 유형·오답·즐겨찾기를 골라 보세요.' :
+      category === 'practice' ? '단원별 연습: NotebookLM으로 만든 계측 시험 대비 연습문제입니다.' : '전체: 단원별 연습과 전기 기출·복원 문제를 모두 포함합니다.';
+    const subjects = new Set(categorySets().map((set) => set.subject));
+    fillSelect($('subjectFilter'), [['', '모든 과목'], ...manifest.subjects.filter((subject) => subjects.has(subject.id)).map((subject) => [subject.id, subject.label])],
+      category === 'past' ? 'P' : first && category === 'all' ? manifest.subjects[0]?.id : '');
+    updateUnitOptions(first && category === 'all');
+  }
   function updateUnitOptions(first = false) {
     const subject = $('subjectFilter').value;
-    const units = new Map(manifest.sets.filter((set) => !subject || set.subject === subject).map((set) => [set.unit, set.unitTitle]));
+    const units = new Map(categorySets().filter((set) => !subject || set.subject === subject).map((set) => [set.unit, set.unitTitle]));
     const options = [['', '모든 단원']];
     units.forEach((title, id) => options.push([id, `${id} ${title}`]));
     fillSelect($('unitFilter'), options, first ? options[1]?.[0] : '');
     updateSetOptions();
   }
   function updateSetOptions() {
-    const choices = [...new Set(manifest.sets.filter((set) =>
+    const choices = [...new Set(categorySets().filter((set) =>
       (!$('subjectFilter').value || set.subject === $('subjectFilter').value) &&
       (!$('unitFilter').value || set.unit === $('unitFilter').value)).map((set) => set.set))].sort((a, b) => a - b);
     fillSelect($('setFilter'), [['', '모든 묶음'], ...choices.map((n) => [String(n), `문항묶음 ${n}`])], '');
@@ -542,6 +561,18 @@ window.MathJax = {
     applyView();
   });
   $('subjectFilter').addEventListener('change', () => { updateUnitOptions(); loadScope(); });
+  for (const button of document.querySelectorAll('[data-category]')) button.addEventListener('click', () => {
+    if (!manifest || !classifications || category === button.dataset.category) return;
+    category = button.dataset.category;
+    updateCategoryOptions();
+    try {
+      const url = new URL(location.href);
+      if (category === 'all') url.searchParams.delete('category');
+      else url.searchParams.set('category', category);
+      history.replaceState(null, '', url);
+    } catch (_) {}
+    loadScope();
+  });
   $('unitFilter').addEventListener('change', () => { updateSetOptions(); loadScope(); });
   $('setFilter').addEventListener('change', loadScope);
   $('typeFilter').addEventListener('change', () => { if (!busy) applyView(); });
@@ -577,6 +608,7 @@ window.MathJax = {
   async function start() {
     try {
       showNotice(''); manifest = undefined; knownIds = new Set(); classifications = undefined; cache.clear();
+      for (const button of document.querySelectorAll('[data-category]')) button.disabled = true;
       const [manifestData, classificationData] = await Promise.all([
         fetchJSON(DATA_ROOT + 'manifest.json'), fetchJSON(DATA_ROOT + 'classifications.json')
       ]);
@@ -585,8 +617,7 @@ window.MathJax = {
       readRecords(); updateStats();
       window.StudyBankBridge.ready = true;
       document.dispatchEvent(new Event('bank-records-ready'));
-      fillSelect($('subjectFilter'), [['', '모든 과목'], ...manifest.subjects.map((subject) => [subject.id, subject.label])], manifest.subjects[0]?.id);
-      updateUnitOptions(true);
+      updateCategoryOptions(true);
       for (const id of ['subjectFilter', 'unitFilter', 'setFilter', 'searchInput', 'exportButton', 'importButton']) $(id).disabled = false;
       $('bankSummary').textContent = `${manifest.sets.length}세트 · ${manifest.totalQuestions.toLocaleString('ko-KR')}문항`;
       await loadScope();
