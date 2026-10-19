@@ -10,9 +10,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <link rel="stylesheet" href="vendor/katex/katex.min.css">
-<link rel="stylesheet" href="questions.css?v=category1">
+<link rel="stylesheet" href="questions.css?v=resume1">
 <script src="sync-records.js?v=electric1" defer></script>
-<script src="questions.js?v=category1" defer></script>
+<script src="questions.js?v=resume1" defer></script>
 <script src="cloud-sync.js?v=electric1" type="module"></script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg.js" defer></script>
 </head>
@@ -85,14 +85,15 @@
     <div><span>즐겨찾기</span><strong id="favoriteStat">0</strong></div>
   </section>
   <div class="question-toolbar">
-    <p id="resultSummary" role="status">준비 중</p>
+    <div><p id="resultSummary" role="status">준비 중</p><p id="scopeProgress" class="small" role="status"></p></div>
+    <button type="button" id="resumeButton" disabled>미풀이 이어풀기</button>
     <button type="button" id="retryLoad" hidden>다시 불러오기</button>
   </div>
   <section id="questionArea" class="panel question-area" tabindex="-1" aria-label="현재 문제" aria-busy="true">
     <p class="empty" id="emptyState">문제를 준비하고 있습니다.</p>
     <article id="questionCard" hidden>
       <div class="question-top">
-        <div class="question-heading"><p id="questionMeta" class="eyebrow"></p><span id="questionType" class="type-badge"></span></div>
+        <div class="question-heading"><p id="questionMeta" class="eyebrow"></p><span id="questionType" class="type-badge"></span> <span id="questionStatus" class="completion-badge"></span></div>
         <button type="button" id="favoriteButton" class="favorite" aria-pressed="false">☆ 즐겨찾기</button>
       </div>
       <h2 id="questionTitle" class="question-title"></h2>

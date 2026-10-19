@@ -12,6 +12,7 @@ window.MathJax = {
   const $ = (id) => document.getElementById(id);
   const DATA_ROOT = 'data/question-bank/';
   const STORAGE_KEY = 'kepco-question-bank:v1';
+  const SCOPE_KEY = 'kepco-question-bank:scope:v1';
   const APP = 'kepco-question-bank';
   const UNIT_ID = /^(?:[A-Z]\d{2}|P(?!000)\d{3})$/;
   const QUESTION_ID = /^(?:[A-Z]\d{2}|P(?!000)\d{3})-S\d+-Q\d{2,3}$/;
@@ -25,6 +26,7 @@ window.MathJax = {
   let pendingChanges = [];
   let scopeQuestions = [], visibleQuestions = [], currentIndex = 0, view = 'all';
   let search = '', loadToken = 0, submitted = false, selfRevealed = false, busy = true, mathQueue = Promise.resolve();
+  let scopeReady = false, resumeUntouched = true, inferScopeFromRecords = false;
   const recordSubscribers = new Set();
   const copyRecords = (value) => JSON.parse(JSON.stringify(value));
 
@@ -166,11 +168,16 @@ window.MathJax = {
     } catch (_) { storageWarning('저장된 학습 기록을 읽지 못했습니다. 현재 화면에는 기록이 표시되지 않습니다. 백업이 있다면 ‘백업 가져오기’로 복원해 주세요.'); }
   }
   function isWrong(id) { return records.answers[id]?.lastCorrect === false; }
+  function isAnswered(id) { return (records.answers[id]?.attempts || 0) > 0; }
   function isFavorite(id) { return records.favorites.includes(id); }
   function refreshRecordIndicators() {
-    updateStats(); updateFavoriteButton();
-    const question = visibleQuestions[currentIndex], previous = question && records.answers[question.id];
-    if (question && !submitted) $('previousResult').textContent = previous ? `이전 ${previous.attempts}회 풀이 · 최근 ${previous.lastCorrect ? '정답' : '오답'}` : '이전 풀이 기록 없음';
+    updateStats();
+    if (!scopeReady) return;
+    updateFavoriteButton(); updateCompletionUI();
+    if (busy || view !== 'all' || !resumeUntouched || submitted || selfRevealed || currentSelection().length) return;
+    if (inferScopeFromRecords && restoreLatestScope()) { loadScope(); return; }
+    const question = visibleQuestions[currentIndex];
+    if (question && resumeIndex(visibleQuestions) !== currentIndex) applyView();
   }
   window.StudyBankBridge = {
     ready: false,
@@ -208,6 +215,100 @@ window.MathJax = {
       const option = node('option', '', text); option.value = id; return option;
     }));
     if (options.some(([id]) => id === value)) select.value = value;
+  }
+  function saveScope() {
+    if (!scopeReady) return;
+    try {
+      localStorage.setItem(SCOPE_KEY, JSON.stringify({ version: 1, category, subject: $('subjectFilter').value,
+        unit: $('unitFilter').value, set: $('setFilter').value, type: $('typeFilter').value, search }));
+    } catch (_) { /* Answer records and backups remain independent of scope preferences. */ }
+  }
+  function markQuestionActivity() {
+    resumeUntouched = false; inferScopeFromRecords = false; saveScope();
+  }
+  function chooseScopeValue(id, value) {
+    $(id).value = [...$(id).options].some((option) => option.value === value) ? value : '';
+  }
+  function restoreSavedScope() {
+    try {
+      const value = JSON.parse(localStorage.getItem(SCOPE_KEY));
+      if (!value || value.version !== 1 || !Object.hasOwn(CATEGORY_LABELS, value.category) ||
+        !['subject', 'unit', 'set', 'type', 'search'].every((key) => typeof value[key] === 'string') ||
+        (Object.hasOwn(CATEGORY_LABELS, initialCategory) && initialCategory !== value.category)) return false;
+      category = value.category; updateCategoryOptions();
+      chooseScopeValue('subjectFilter', value.subject); updateUnitOptions();
+      chooseScopeValue('unitFilter', value.unit); updateSetOptions();
+      chooseScopeValue('setFilter', value.set); chooseScopeValue('typeFilter', value.type);
+      search = value.search.slice(0, 200).trim(); $('searchInput').value = search;
+      return true;
+    } catch (_) { return false; }
+  }
+  function restoreLatestScope() {
+    let latestId, latestTime = -Infinity;
+    for (const [id, answer] of Object.entries(records.answers)) {
+      const time = Date.parse(answer.updatedAt);
+      if (time > latestTime) { latestId = id; latestTime = time; }
+    }
+    if (!latestId) return false;
+    const [unit] = latestId.split('-');
+    const meta = manifest.sets.find((set) => set.unit === unit);
+    if (!meta) return false;
+    const targetCategory = meta.subject === 'P' ? 'past' : 'all';
+    if (category === targetCategory && $('subjectFilter').value === meta.subject && $('unitFilter').value === unit) return false;
+    category = targetCategory; updateCategoryOptions();
+    $('subjectFilter').value = meta.subject; updateUnitOptions();
+    $('unitFilter').value = unit; updateSetOptions();
+    return true;
+  }
+  function loadChangedScope() {
+    inferScopeFromRecords = false; resumeUntouched = true; saveScope(); loadScope();
+  }
+  function nextUnansweredIndex(questions, after = -1, includeCurrent = true) {
+    for (let offset = 1; offset <= questions.length; offset++) {
+      const index = (after + offset) % questions.length;
+      if ((!includeCurrent && index === after) || isAnswered(questions[index].id)) continue;
+      return index;
+    }
+    return -1;
+  }
+  function resumeIndex(questions) {
+    let latest = -1, latestTime = -Infinity;
+    questions.forEach((question, index) => {
+      const answer = records.answers[question.id];
+      if (answer && Date.parse(answer.updatedAt) > latestTime) { latest = index; latestTime = Date.parse(answer.updatedAt); }
+    });
+    const next = nextUnansweredIndex(questions, latest);
+    return next >= 0 ? next : Math.max(0, latest);
+  }
+  function completionLabel(question) {
+    const previous = records.answers[question.id];
+    return previous ? `풀이 완료 · 최근 ${previous.lastCorrect ? '정답' : '오답'}` : '미풀이';
+  }
+  function questionJumpLabel(question, index) {
+    const source = question.subject === 'P' ? `${question.source.examLabel} · 원문 ${question.source.number}번` :
+      `${question.unit} ${question.set}회차 ${question.number}번`;
+    return `[${completionLabel(question)}] ${index + 1} / ${visibleQuestions.length} · ${source}`;
+  }
+  function updateNavigation() {
+    $('previousButton').disabled = busy || currentIndex === 0;
+    $('nextButton').textContent = view === 'all' ? '다음 미풀이 →' : '다음 →';
+    $('nextButton').disabled = busy || (view === 'all' ? nextUnansweredIndex(visibleQuestions, currentIndex, false) < 0 : currentIndex >= visibleQuestions.length - 1);
+    $('resumeButton').disabled = busy || view !== 'all' || !visibleQuestions.some((question) => !isAnswered(question.id));
+  }
+  function updateCompletionUI() {
+    const question = visibleQuestions[currentIndex], previous = question && records.answers[question.id];
+    $('questionStatus').textContent = question ? completionLabel(question) : '';
+    $('questionStatus').dataset.state = previous ? previous.lastCorrect ? 'correct' : 'wrong' : 'new';
+    if (question) $('previousResult').textContent = previous ? `이전 ${previous.attempts}회 풀이 · 최근 ${previous.lastCorrect ? '정답' : '오답'}` : '이전 풀이 기록 없음';
+    const answered = visibleQuestions.filter((item) => isAnswered(item.id)).length;
+    const remaining = visibleQuestions.length - answered;
+    $('scopeProgress').textContent = `현재 범위: 풀이 완료 ${answered.toLocaleString('ko-KR')}문항 · 미풀이 ${remaining.toLocaleString('ko-KR')}문항` +
+      (visibleQuestions.length && !remaining && view === 'all' ? ' · 모두 풀었습니다. 문제 번호를 선택해 복습할 수 있습니다.' : '');
+    if ($('questionJump').options.length === visibleQuestions.length) visibleQuestions.forEach((item, index) => {
+      const label = questionJumpLabel(item, index);
+      if ($('questionJump').options[index].textContent !== label) $('questionJump').options[index].textContent = label;
+    });
+    updateNavigation();
   }
   function selectedSets() {
     return categorySets().filter((set) =>
@@ -335,8 +436,7 @@ window.MathJax = {
     $('typeFilter').disabled = value || !classifications;
     $('importButton').disabled = value || !manifest;
     for (const button of document.querySelectorAll('[data-view]')) button.disabled = value;
-    $('previousButton').disabled = value || currentIndex === 0;
-    $('nextButton').disabled = value || currentIndex >= visibleQuestions.length - 1;
+    updateNavigation();
     $('questionJump').disabled = value || !visibleQuestions.length;
   }
   async function loadScope() {
@@ -359,7 +459,9 @@ window.MathJax = {
     }));
     if (token !== loadToken) return;
     scopeQuestions = loaded.flatMap((questions) => questions || []);
-    setBusy(false); applyView();
+    setBusy(false);
+    if (inferScopeFromRecords && resumeUntouched && view === 'all' && restoreLatestScope()) { loadScope(); return; }
+    applyView();
     if (failed.length) {
       showNotice(`${failed.length}개 세트를 불러오지 못했습니다. 현재 ${scopeQuestions.length}문항만 표시합니다. 인터넷 연결을 확인한 뒤 ‘다시 불러오기’를 눌러 주세요.`, true);
       $('retryLoad').hidden = false;
@@ -377,7 +479,7 @@ window.MathJax = {
   function applyView(preserveId) {
     visibleQuestions = filterQuestions();
     const preservedIndex = visibleQuestions.findIndex((q) => q.id === preserveId);
-    currentIndex = preservedIndex >= 0 ? preservedIndex : 0;
+    currentIndex = preservedIndex >= 0 ? preservedIndex : view === 'all' ? resumeIndex(visibleQuestions) : 0;
     for (const button of document.querySelectorAll('[data-view]')) button.setAttribute('aria-pressed', String(button.dataset.view === view));
     updateStats(); renderQuestion();
   }
@@ -424,10 +526,9 @@ window.MathJax = {
     $('questionMedia').hidden = true; $('questionSource').hidden = true; $('questionSourceNote').hidden = true;
     $('hintBox').open = false;
     $('resultSummary').textContent = `${view === 'all' ? '전체' : view === 'wrong' ? '오답노트' : '즐겨찾기'}${$('typeFilter').value ? ` · ${TYPE_LABELS[$('typeFilter').value]}` : ''} · ${visibleQuestions.length.toLocaleString('ko-KR')}문항${question ? ` · ${currentIndex + 1}번째` : ''}`;
-    fillSelect($('questionJump'), question ? visibleQuestions.map((q, i) => [String(i), q.subject === 'P' ?
-      `${i + 1} / ${visibleQuestions.length} · ${q.source.examLabel} · 원문 ${q.source.number}번` :
-      `${i + 1} / ${visibleQuestions.length} · ${q.unit} ${q.set}회차 ${q.number}번`]) : [['', '문제 없음']], String(currentIndex));
+    fillSelect($('questionJump'), question ? visibleQuestions.map((q, i) => [String(i), questionJumpLabel(q, i)]) : [['', '문제 없음']], String(currentIndex));
     setBusy(false);
+    updateCompletionUI();
     if (!question) {
       $('emptyState').textContent = search ? '검색에 맞는 문제가 없습니다. 검색어나 위의 과목·단원 범위를 바꿔 보세요.' :
         view === 'wrong' ? '선택한 범위에 남은 오답이 없습니다. 틀린 문제는 여기에 자동으로 모입니다.' :
@@ -477,19 +578,21 @@ window.MathJax = {
   $('revealAnswer').addEventListener('click', () => {
     const q = visibleQuestions[currentIndex];
     if (!q || q.subject !== 'P' || q.responseType !== 'self' || busy || submitted || selfRevealed) return;
+    markQuestionActivity();
     selfRevealed = true;
     $('selfAnswer').textContent = q.answerText ? `원문 정답: ${q.answerText}` : '정답은 아래 원문 해설에서 확인하세요.';
     originalExplanations(q, $('selfExplanations'));
     $('revealAnswer').hidden = true; $('selfSolution').hidden = false; $('answerForm').hidden = false;
     renderMath(); $('selfSolution').focus({ preventScroll: true }); $('selfSolution').scrollIntoView({ block: 'start' });
   });
-  $('answerForm').addEventListener('change', () => { $('checkButton').disabled = submitted || !currentSelection().length; });
+  $('answerForm').addEventListener('change', () => { markQuestionActivity(); $('checkButton').disabled = submitted || !currentSelection().length; });
   $('answerForm').addEventListener('submit', (event) => {
     event.preventDefault();
     const q = visibleQuestions[currentIndex], selected = currentSelection();
     if (!q || busy || submitted || !selected.length) return;
     const self = q.subject === 'P' && q.responseType === 'self';
     if (self && !selfRevealed) return;
+    markQuestionActivity();
     submitted = true;
     const correct = q.options.every((option, i) => option.correct === selected.includes(i));
     const updatedAt = new Date().toISOString();
@@ -499,7 +602,7 @@ window.MathJax = {
         lastCorrect: correct, selected, updatedAt };
       return prior;
     }, 'answer');
-    updateStats();
+    updateStats(); updateCompletionUI();
     $('choices').querySelectorAll('.choice').forEach((label, i) => {
       label.querySelector('input').disabled = true;
       label.classList.toggle('correct', q.options[i].correct && (!self || selected.includes(i)));
@@ -527,9 +630,10 @@ window.MathJax = {
     }
     renderMath(); $('feedbackTitle').focus({ preventScroll: true });
   });
-  $('tryAgain').addEventListener('click', () => { renderQuestion(); $('questionArea').focus(); });
+  $('tryAgain').addEventListener('click', () => { markQuestionActivity(); renderQuestion(); $('questionArea').focus(); });
   $('favoriteButton').addEventListener('click', () => {
     const q = visibleQuestions[currentIndex]; if (!q || busy) return;
+    markQuestionActivity();
     const shouldAdd = $('favoriteButton').getAttribute('aria-pressed') !== 'true';
     commitMutation((latest) => {
       latest.favorites = shouldAdd ? [...new Set([...latest.favorites, q.id])] : latest.favorites.filter((id) => id !== q.id);
@@ -539,28 +643,42 @@ window.MathJax = {
   });
   function moveQuestion(delta) {
     if (busy) return;
+    markQuestionActivity();
     const current = visibleQuestions[currentIndex];
     const target = visibleQuestions[currentIndex + delta];
     visibleQuestions = filterQuestions();
     const targetIndex = visibleQuestions.findIndex((q) => q.id === target?.id);
     const retainedIndex = visibleQuestions.findIndex((q) => q.id === current?.id);
-    currentIndex = targetIndex >= 0 ? targetIndex : Math.max(0, Math.min(visibleQuestions.length - 1, retainedIndex >= 0 ? retainedIndex + delta : currentIndex));
+    if (delta > 0 && view === 'all') {
+      const next = nextUnansweredIndex(visibleQuestions, retainedIndex, false);
+      if (next < 0) { updateCompletionUI(); return; }
+      currentIndex = next;
+    } else currentIndex = targetIndex >= 0 ? targetIndex : Math.max(0, Math.min(visibleQuestions.length - 1, retainedIndex >= 0 ? retainedIndex + delta : currentIndex));
     renderQuestion(); $('questionArea').focus(); $('questionArea').scrollIntoView({ block: 'start' });
   }
   $('previousButton').addEventListener('click', () => moveQuestion(-1));
   $('nextButton').addEventListener('click', () => moveQuestion(1));
+  $('resumeButton').addEventListener('click', () => {
+    if (busy || view !== 'all') return;
+    markQuestionActivity(); applyView(); $('questionArea').focus(); $('questionArea').scrollIntoView({ block: 'start' });
+  });
+  $('questionArea').addEventListener('pointerdown', markQuestionActivity);
+  $('questionArea').addEventListener('keydown', markQuestionActivity);
+  $('hintBox').addEventListener('toggle', () => { if ($('hintBox').open) markQuestionActivity(); });
   $('questionJump').addEventListener('change', () => {
     if (busy) return;
+    markQuestionActivity();
     const target = visibleQuestions[Number($('questionJump').value)];
     applyView(target?.id); $('questionArea').focus(); $('questionArea').scrollIntoView({ block: 'start' });
   });
   for (const button of document.querySelectorAll('[data-view]')) button.addEventListener('click', () => {
     if (busy) return;
     view = button.dataset.view;
+    inferScopeFromRecords = false; resumeUntouched = view === 'all';
     $('scopeHelp').textContent = '위 숫자는 선택한 범위와 검색에 맞는 문항 수입니다.';
     applyView();
   });
-  $('subjectFilter').addEventListener('change', () => { updateUnitOptions(); loadScope(); });
+  $('subjectFilter').addEventListener('change', () => { updateUnitOptions(); loadChangedScope(); });
   for (const button of document.querySelectorAll('[data-category]')) button.addEventListener('click', () => {
     if (!manifest || !classifications || category === button.dataset.category) return;
     category = button.dataset.category;
@@ -571,13 +689,13 @@ window.MathJax = {
       else url.searchParams.set('category', category);
       history.replaceState(null, '', url);
     } catch (_) {}
-    loadScope();
+    loadChangedScope();
   });
-  $('unitFilter').addEventListener('change', () => { updateSetOptions(); loadScope(); });
-  $('setFilter').addEventListener('change', loadScope);
-  $('typeFilter').addEventListener('change', () => { if (!busy) applyView(); });
-  $('searchForm').addEventListener('submit', (event) => { event.preventDefault(); if (!busy) { search = $('searchInput').value.trim(); applyView(); } });
-  $('searchInput').addEventListener('search', () => { if (!busy && !$('searchInput').value) { search = ''; applyView(); } });
+  $('unitFilter').addEventListener('change', () => { updateSetOptions(); loadChangedScope(); });
+  $('setFilter').addEventListener('change', loadChangedScope);
+  $('typeFilter').addEventListener('change', () => { if (!busy) { inferScopeFromRecords = false; resumeUntouched = true; saveScope(); applyView(); } });
+  $('searchForm').addEventListener('submit', (event) => { event.preventDefault(); if (!busy) { search = $('searchInput').value.trim(); inferScopeFromRecords = false; resumeUntouched = true; saveScope(); applyView(); } });
+  $('searchInput').addEventListener('search', () => { if (!busy && !$('searchInput').value) { search = ''; inferScopeFromRecords = false; resumeUntouched = true; saveScope(); applyView(); } });
   $('retryLoad').addEventListener('click', () => manifest ? loadScope() : start());
   $('exportButton').addEventListener('click', () => {
     const payload = { app: APP, version: 1, exportedAt: new Date().toISOString(), ...records };
@@ -608,6 +726,7 @@ window.MathJax = {
   async function start() {
     try {
       showNotice(''); manifest = undefined; knownIds = new Set(); classifications = undefined; cache.clear();
+      scopeReady = false;
       for (const button of document.querySelectorAll('[data-category]')) button.disabled = true;
       const [manifestData, classificationData] = await Promise.all([
         fetchJSON(DATA_ROOT + 'manifest.json'), fetchJSON(DATA_ROOT + 'classifications.json')
@@ -618,6 +737,10 @@ window.MathJax = {
       window.StudyBankBridge.ready = true;
       document.dispatchEvent(new Event('bank-records-ready'));
       updateCategoryOptions(true);
+      const restored = restoreSavedScope();
+      inferScopeFromRecords = !restored && !Object.hasOwn(CATEGORY_LABELS, initialCategory);
+      if (inferScopeFromRecords) restoreLatestScope();
+      scopeReady = true; resumeUntouched = true;
       for (const id of ['subjectFilter', 'unitFilter', 'setFilter', 'searchInput', 'exportButton', 'importButton']) $(id).disabled = false;
       $('bankSummary').textContent = `${manifest.sets.length}세트 · ${manifest.totalQuestions.toLocaleString('ko-KR')}문항`;
       await loadScope();

@@ -74,6 +74,10 @@ h2 { font-size: 19px; }
 .question-heading { min-width: 0; }
 .type-badge { display: inline-block; margin-top: 6px; padding: 2px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); color: var(--sub); font-size: 12px; }
 .type-badge[data-type="calculation"] { color: var(--acc); border-color: var(--acc); background: var(--acc-soft); }
+.completion-badge { display: inline-block; margin-top: 6px; padding: 2px 8px; border-radius: 6px; background: var(--paper); color: var(--sub); font-size: 13px; font-weight: 700; }
+.completion-badge[data-state="correct"] { color: var(--good); background: var(--good-bg); }
+.completion-badge[data-state="wrong"] { color: var(--bad); background: var(--bad-bg); }
+#scopeProgress { margin-top: 4px; overflow-wrap: anywhere; }
 .favorite { flex: none; font-size: 13px; }
 .favorite[aria-pressed="true"] { color: var(--acc); border-color: var(--acc); background: var(--acc-soft); }
 .question-title { font-size: clamp(18px, 3vw, 22px); line-height: 1.75; margin: 20px 0; font-weight: 500; white-space: pre-wrap; overflow-wrap: anywhere; }
