@@ -227,6 +227,8 @@ body.tts .no-tts { display: none; }
 }
 @media (max-width: 560px) {
   .brand { display: none; }
+  .top-in { flex-wrap: wrap; gap: 8px; }
+  .books { order: 1; flex-basis: 100%; }
   .row.main { flex-direction: column; align-items: stretch; }
   .transport { justify-content: center; }
   :root { --fs: 19px; }
@@ -239,6 +241,7 @@ body.tts .no-tts { display: none; }
     <div class="brand">계측 페이서 리딩<small>KEPCO E&amp;C · 10.24</small></div>
     <button class="toc-btn" id="tocBtn" aria-controls="toc" aria-expanded="false">목차</button>
     <nav class="books" id="books" aria-label="과목"></nav>
+    <a class="pdf-link" href="questions.html">문제은행</a>
     <a class="pdf-link" href="pdfs.html">PDF 받기</a>
   </div>
 </header>

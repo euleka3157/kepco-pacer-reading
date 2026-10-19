@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="계측 필기 대비 단원별 문제은행, 오답노트와 즐겨찾기.">
+<title>계측 필기 문제은행</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="vendor/katex/katex.min.css">
+<link rel="stylesheet" href="questions.css">
+<script src="questions.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#questionArea">문제로 바로가기</a>
+<header class="site-head">
+  <nav class="site-nav" aria-label="사이트 메뉴">
+    <a href="./">← 페이서 리딩</a>
+    <a href="questions.html" aria-current="page">문제은행</a>
+    <a href="pdfs.html">PDF 받기</a>
+  </nav>
+</header>
+<main>
+  <div class="page-heading">
+    <div><p class="eyebrow">계측 필기 · 단원별 연습</p><h1>문제은행</h1></div>
+    <p id="bankSummary" class="muted" role="status">문제 목록을 불러오는 중입니다.</p>
+  </div>
+  <div id="notice" class="notice" role="status" hidden></div>
+  <div id="storageWarning" class="notice warning" role="status" hidden></div>
+  <section class="panel filters" aria-label="문제 범위">
+    <div class="filter-grid">
+      <label>과목<select id="subjectFilter" disabled></select></label>
+      <label>단원<select id="unitFilter" disabled></select></label>
+      <label>세트<select id="setFilter" disabled></select></label>
+    </div>
+    <form id="searchForm" class="search-row" role="search">
+      <label for="searchInput" class="sr-only">선택한 범위의 문제 본문 검색</label>
+      <input id="searchInput" type="search" placeholder="선택한 범위의 문제 본문 검색" maxlength="200" autocomplete="off" disabled>
+      <button type="submit" id="searchButton" disabled>검색</button>
+    </form>
+    <div class="view-tabs" role="group" aria-label="문제 보기">
+      <button type="button" data-view="all" aria-pressed="true">전체 <span id="allCount">0</span></button>
+      <button type="button" data-view="wrong" aria-pressed="false">오답노트 <span id="wrongCount">0</span></button>
+      <button type="button" data-view="favorites" aria-pressed="false">즐겨찾기 <span id="favoriteCount">0</span></button>
+    </div>
+    <p class="small muted" id="scopeHelp">위 숫자는 선택한 범위와 검색에 맞는 문항 수입니다.</p>
+  </section>
+  <section class="stats" aria-label="전체 학습 기록">
+    <div><span>풀어본 문제</span><strong id="attemptedStat">0</strong></div>
+    <div><span>최근 정답</span><strong id="correctStat">0</strong></div>
+    <div><span>남은 오답</span><strong id="wrongStat">0</strong></div>
+    <div><span>즐겨찾기</span><strong id="favoriteStat">0</strong></div>
+  </section>
+  <div class="question-toolbar">
+    <p id="resultSummary" role="status">준비 중</p>
+    <button type="button" id="retryLoad" hidden>다시 불러오기</button>
+  </div>
+  <section id="questionArea" class="panel question-area" tabindex="-1" aria-label="현재 문제" aria-busy="true">
+    <p class="empty" id="emptyState">문제를 준비하고 있습니다.</p>
+    <article id="questionCard" hidden>
+      <div class="question-top">
+        <p id="questionMeta" class="eyebrow"></p>
+        <button type="button" id="favoriteButton" class="favorite" aria-pressed="false">☆ 즐겨찾기</button>
+      </div>
+      <h2 id="questionTitle" class="question-title"></h2>
+      <form id="answerForm">
+        <fieldset id="choices"><legend id="choiceInstruction">답을 하나 선택하세요.</legend></fieldset>
+        <div class="answer-actions">
+          <button type="submit" id="checkButton" class="primary" disabled>정답 확인</button>
+          <button type="button" id="tryAgain" hidden>다시 풀기</button>
+          <span id="previousResult" class="small muted"></span>
+        </div>
+      </form>
+      <details id="hintBox" class="hint" hidden><summary>힌트 보기</summary><p id="hintText"></p></details>
+      <section id="feedback" class="feedback" aria-label="정답과 해설" hidden>
+        <h3 id="feedbackTitle" tabindex="-1"></h3>
+        <p id="correctAnswer"></p>
+        <p id="reviewMessage" class="small"></p>
+        <div id="explanations"></div>
+      </section>
+    </article>
+  </section>
+  <nav class="question-pagination" aria-label="문제 이동">
+    <button type="button" id="previousButton" disabled>← 이전</button>
+    <label for="questionJump" class="sr-only">문제 번호 선택</label>
+    <select id="questionJump" disabled><option>문제 없음</option></select>
+    <button type="button" id="nextButton" disabled>다음 →</button>
+  </nav>
+  <section class="panel records" aria-labelledby="recordsTitle">
+    <h2 id="recordsTitle">학습 기록 보관</h2>
+    <p>오답과 즐겨찾기는 <strong>지금 사용하는 기기의 이 브라우저</strong>에 저장됩니다. 다른 기기와 자동으로 동기화되지 않으며, 브라우저 데이터를 지우면 기록도 사라집니다.</p>
+    <p>틀린 문제는 오답노트에 들어갑니다. 다시 풀어 맞히면 오답노트에서 자동으로 빠지고, 현재 문제의 해설은 계속 볼 수 있습니다. 통계의 ‘최근 정답’은 각 문제의 마지막 채점 결과입니다.</p>
+    <div class="backup-actions">
+      <button type="button" id="exportButton" disabled>기록 백업 저장</button>
+      <button type="button" id="importButton" disabled>백업 가져오기</button>
+      <input id="importFile" type="file" accept=".json,application/json" hidden>
+    </div>
+    <p class="small muted">백업을 가져오면 즐겨찾기는 합쳐지고, 풀이 기록은 문제별로 더 최근 기록을 사용합니다. 기존 기록을 통째로 지우지 않습니다.</p>
+    <p id="backupStatus" class="small" role="status"></p>
+  </section>
+  <footer class="page-note">비공식 학습자료입니다. NotebookLM에서 생성한 문제로 오류가 있을 수 있습니다. 정답·해설은 공식 수험 안내와 표준 교재를 함께 확인하세요.</footer>
+</main>
+</body>
+</html>
