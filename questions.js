@@ -107,7 +107,7 @@ window.MathJax = {
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(records)); pendingChanges = []; }
     catch (_) { storageWarning(); }
   }
-  function commitMutation(change) {
+  function commitMutation(change, kind = 'local') {
     let latest = records, loaded = false;
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
@@ -119,7 +119,7 @@ window.MathJax = {
     const result = change(latest);
     records = latest; pendingChanges.push(change); saveRecords();
     for (const subscriber of recordSubscribers) {
-      try { subscriber(before, copyRecords(records)); } catch (_) { /* Local study remains available. */ }
+      try { subscriber(before, copyRecords(records), { kind }); } catch (_) { /* Local study remains available. */ }
     }
     return result;
   }
@@ -391,7 +391,7 @@ window.MathJax = {
       latest.answers[q.id] = { attempts: (prior?.attempts || 0) + 1, correct: (prior?.correct || 0) + Number(correct),
         lastCorrect: correct, selected, updatedAt };
       return prior;
-    });
+    }, 'answer');
     updateStats();
     $('choices').querySelectorAll('.choice').forEach((label, i) => {
       label.querySelector('input').disabled = true;
@@ -420,7 +420,7 @@ window.MathJax = {
     const shouldAdd = $('favoriteButton').getAttribute('aria-pressed') !== 'true';
     commitMutation((latest) => {
       latest.favorites = shouldAdd ? [...new Set([...latest.favorites, q.id])] : latest.favorites.filter((id) => id !== q.id);
-    });
+    }, 'favorite');
     updateFavoriteButton(); updateStats();
     if (view === 'favorites') $('scopeHelp').textContent = '즐겨찾기를 해제한 현재 문제는 이동하거나 범위를 바꾸면 목록에서 빠집니다.';
   });
@@ -473,7 +473,7 @@ window.MathJax = {
           if (!latest.answers[id] || Date.parse(value.updatedAt) > Date.parse(latest.answers[id].updatedAt)) latest.answers[id] = value;
         }
         latest.favorites = [...new Set([...latest.favorites, ...incoming.favorites])];
-      });
+      }, 'import');
       if (busy) updateStats();
       else applyView(visibleQuestions[currentIndex]?.id);
       $('backupStatus').textContent = `백업을 가져왔습니다.${validated.skipped ? ` 현재 문제은행에 없는 기록 ${validated.skipped}개는 제외했습니다.` : ''}`;
