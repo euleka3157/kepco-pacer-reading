@@ -1,25 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="510" viewBox="0 0 960 510">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">차동 보호: 보호 구간에 들어오고 나가는 전류 비교</text>
 <rect x="270" y="95" width="410" height="105" rx="10" fill="#F8FAFC" stroke="#64748B" stroke-width="2"/>
-<text x="475" y="155" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">보호 구간</text>
-<line x1="70" y1="150" x2="890" y2="150" stroke="#25344A" stroke-width="3"/>
+<line x1="70" y1="150" x2="890" y2="150" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="200" cy="150" r="32" fill="none" stroke="#2563EB" stroke-width="3"/>
 <circle cx="750" cy="150" r="32" fill="none" stroke="#2563EB" stroke-width="3"/>
-<line x1="90" y1="105" x2="220" y2="105" stroke="#2563EB" stroke-width="3"/>
-<polygon points="220,105 209.19463477176788,110.21958640933477 209.19463477176788,99.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="690" y1="105" x2="855" y2="105" stroke="#2563EB" stroke-width="3"/>
-<polygon points="855,105 844.1946347717678,110.21958640933477 844.1946347717678,99.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="480" y="250" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">외부 고장·정상: 보정 후 유입 ≈ 유출</text>
+<line x1="90" y1="105" x2="220" y2="105" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="220,105 207.84396411823886,110.87203471050161 207.84396411823886,99.12796528949839" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="690" y1="105" x2="855" y2="105" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="855,105 842.8439641182389,110.87203471050161 842.8439641182389,99.12796528949839" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="270" y="315" width="410" height="105" rx="10" fill="#F8FAFC" stroke="#64748B" stroke-width="2"/>
-<text x="475" y="375" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">보호 구간</text>
-<line x1="70" y1="370" x2="890" y2="370" stroke="#25344A" stroke-width="3"/>
+<line x1="70" y1="370" x2="890" y2="370" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="200" cy="370" r="32" fill="none" stroke="#2563EB" stroke-width="3"/>
 <circle cx="750" cy="370" r="32" fill="none" stroke="#2563EB" stroke-width="3"/>
-<line x1="90" y1="325" x2="220" y2="325" stroke="#2563EB" stroke-width="3"/>
-<polygon points="220,325 209.19463477176788,330.21958640933474 209.19463477176788,319.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="855" y1="325" x2="690" y2="325" stroke="#DC2626" stroke-width="3"/>
-<polygon points="690,325 700.8053652282322,319.78041359066526 700.8053652282322,330.21958640933474" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<polyline points="485,325 465,358 492,367 470,410" stroke="#DC2626" stroke-width="4" fill="none"/>
-<text x="480" y="470" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">내부 고장: 보정 후 차동전류 발생</text>
+<line x1="90" y1="325" x2="220" y2="325" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="220,325 207.84396411823886,330.8720347105016 207.84396411823886,319.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="855" y1="325" x2="690" y2="325" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="690,325 702.1560358817611,319.1279652894984 702.1560358817611,330.8720347105016" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="485,325 465,358 492,367 470,410" stroke="#DC2626" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">차동 보호: 보호 구간에 들어오고 나가는 전류 비교</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">차동 보호: 보호 구간에 들어오고 나가는 전류 비교</text>
+<text x="380" y="130" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">보호 구간</text>
+<text x="380" y="130" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">보호 구간</text>
+<text x="480" y="250" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">외부 고장·정상: 보정 후 유입 ≈ 유출</text>
+<text x="480" y="250" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">외부 고장·정상: 보정 후 유입 ≈ 유출</text>
+<text x="380" y="350" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">보호 구간</text>
+<text x="380" y="350" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">보호 구간</text>
+<text x="480" y="470" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">내부 고장: 보정 후 차동전류 발생</text>
+<text x="480" y="470" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">내부 고장: 보정 후 차동전류 발생</text>
 </svg>

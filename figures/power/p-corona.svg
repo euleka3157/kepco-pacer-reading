@@ -1,57 +1,61 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="450" viewBox="0 0 960 450">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">코로나: 도체 표면의 전계와 주변 공기 이온화</text>
 <circle cx="250" cy="210" r="28" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
-<line x1="288.0" y1="210.0" x2="345.0" y2="210.0" stroke="#DC2626" stroke-width="3"/>
-<polygon points="345.0,210.0 334.1946347717679,215.21958640933477 334.1946347717679,204.78041359066523" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="282.9089653438087" y1="229.0" x2="332.2724133595217" y2="257.5" stroke="#DC2626" stroke-width="3"/>
-<polygon points="332.2724133595217,257.5 320.30489937003625,256.61761181361584 325.524485779371,247.57702295815204" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="269.0" y1="242.90896534380866" x2="297.5" y2="292.2724133595217" stroke="#DC2626" stroke-width="3"/>
-<polygon points="297.5,292.2724133595217 287.57702295815204,285.524485779371 296.61761181361584,280.30489937003625" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="250.0" y1="248.0" x2="250.0" y2="305.0" stroke="#DC2626" stroke-width="3"/>
-<polygon points="250.0,305.0 244.78041359066523,294.1946347717679 255.21958640933477,294.1946347717679" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="231.0" y1="242.9089653438087" x2="202.50000000000003" y2="292.2724133595217" stroke="#DC2626" stroke-width="3"/>
-<polygon points="202.50000000000003,292.2724133595217 203.3823881863842,280.30489937003625 212.422977041848,285.524485779371" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="217.0910346561913" y1="229.0" x2="167.7275866404783" y2="257.5" stroke="#DC2626" stroke-width="3"/>
-<polygon points="167.7275866404783,257.5 174.47551422062898,247.57702295815204 179.69510062996375,256.61761181361584" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="212.0" y1="210.0" x2="155.0" y2="210.0" stroke="#DC2626" stroke-width="3"/>
-<polygon points="155.0,210.0 165.80536522823212,204.78041359066523 165.80536522823212,215.21958640933477" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="217.0910346561913" y1="191.0" x2="167.7275866404783" y2="162.50000000000003" stroke="#DC2626" stroke-width="3"/>
-<polygon points="167.7275866404783,162.50000000000003 179.69510062996375,163.38238818638416 174.47551422062898,172.422977041848" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="230.99999999999997" y1="177.09103465619134" x2="202.49999999999994" y2="127.72758664047835" stroke="#DC2626" stroke-width="3"/>
-<polygon points="202.49999999999994,127.72758664047835 212.42297704184793,134.475514220629 203.3823881863841,139.69510062996378" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="250.0" y1="172.0" x2="249.99999999999997" y2="115.0" stroke="#DC2626" stroke-width="3"/>
-<polygon points="249.99999999999997,115.0 255.21958640933474,125.80536522823212 244.7804135906652,125.80536522823212" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="269.0" y1="177.09103465619134" x2="297.5" y2="127.72758664047834" stroke="#DC2626" stroke-width="3"/>
-<polygon points="297.5,127.72758664047834 296.61761181361584,139.69510062996378 287.57702295815204,134.475514220629" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="282.90896534380863" y1="190.99999999999997" x2="332.27241335952164" y2="162.49999999999994" stroke="#DC2626" stroke-width="3"/>
-<polygon points="332.27241335952164,162.49999999999994 325.524485779371,172.4229770418479 320.3048993700362,163.3823881863841" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="250" y="380" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">가느다란 도체</text>
+<line x1="288.0" y1="210.0" x2="345.0" y2="210.0" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="345.0,210.0 332.8439641182389,215.8720347105016 332.8439641182389,204.1279652894984" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="282.9089653438087" y1="229.0" x2="332.2724133595217" y2="257.5" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="332.2724133595217,257.5 318.8089601213506,256.5073132903178 324.68099483185216,246.33665082792103" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="269.0" y1="242.90896534380866" x2="297.5" y2="292.2724133595217" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="297.5,292.2724133595217 286.33665082792106,284.68099483185216 296.5073132903178,278.8089601213506" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="250.0" y1="248.0" x2="250.0" y2="305.0" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="250.0,305.0 244.1279652894984,292.8439641182389 255.87203471050162,292.8439641182389" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="231.0" y1="242.9089653438087" x2="202.50000000000003" y2="292.2724133595217" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="202.50000000000003,292.2724133595217 203.4926867096822,278.8089601213506 213.663349172079,284.68099483185216" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="217.0910346561913" y1="229.0" x2="167.7275866404783" y2="257.5" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="167.7275866404783,257.5 175.3190051681478,246.33665082792103 181.19103987864943,256.5073132903178" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="212.0" y1="210.0" x2="155.0" y2="210.0" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="155.0,210.0 167.15603588176114,204.12796528949838 167.15603588176114,215.8720347105016" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="217.0910346561913" y1="191.0" x2="167.7275866404783" y2="162.50000000000003" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="167.7275866404783,162.50000000000003 181.19103987864943,163.4926867096822 175.3190051681478,173.663349172079" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="230.99999999999997" y1="177.09103465619134" x2="202.49999999999994" y2="127.72758664047835" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="202.49999999999994,127.72758664047835 213.6633491720789,135.31900516814784 203.49268670968212,141.19103987864946" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="250.0" y1="172.0" x2="249.99999999999997" y2="115.0" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="249.99999999999997,115.0 255.8720347105016,127.15603588176114 244.12796528949838,127.15603588176114" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="269.0" y1="177.09103465619134" x2="297.5" y2="127.72758664047834" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="297.5,127.72758664047834 296.5073132903178,141.19103987864946 286.33665082792106,135.31900516814784" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="282.90896534380863" y1="190.99999999999997" x2="332.27241335952164" y2="162.49999999999994" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="332.27241335952164,162.49999999999994 324.6809948318521,173.6633491720789 318.80896012135054,163.49268670968212" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="700" cy="210" r="64" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
-<line x1="774.0" y1="210.0" x2="831.0" y2="210.0" stroke="#DC2626" stroke-width="3"/>
-<polygon points="831.0,210.0 820.1946347717678,215.21958640933477 820.1946347717678,204.78041359066523" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="764.0858798800484" y1="247.0" x2="813.4493278957615" y2="275.5" stroke="#DC2626" stroke-width="3"/>
-<polygon points="813.4493278957615,275.5 801.4818139062761,274.61761181361584 806.7014003156108,265.57702295815204" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="737.0" y1="274.0858798800484" x2="765.5" y2="323.4493278957615" stroke="#DC2626" stroke-width="3"/>
-<polygon points="765.5,323.4493278957615 755.577022958152,316.7014003156108 764.6176118136159,311.48181390627605" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="700.0" y1="284.0" x2="700.0" y2="341.0" stroke="#DC2626" stroke-width="3"/>
-<polygon points="700.0,341.0 694.7804135906653,330.1946347717679 705.2195864093347,330.1946347717679" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="663.0" y1="274.0858798800485" x2="634.5" y2="323.4493278957615" stroke="#DC2626" stroke-width="3"/>
-<polygon points="634.5,323.4493278957615 635.3823881863841,311.48181390627605 644.422977041848,316.7014003156108" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="635.9141201199516" y1="247.0" x2="586.5506721042385" y2="275.5" stroke="#DC2626" stroke-width="3"/>
-<polygon points="586.5506721042385,275.5 593.2985996843892,265.57702295815204 598.5181860937239,274.61761181361584" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="626.0" y1="210.0" x2="569.0" y2="210.00000000000003" stroke="#DC2626" stroke-width="3"/>
-<polygon points="569.0,210.00000000000003 579.8053652282322,204.78041359066526 579.8053652282322,215.2195864093348" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="635.9141201199516" y1="173.00000000000003" x2="586.5506721042385" y2="144.50000000000006" stroke="#DC2626" stroke-width="3"/>
-<polygon points="586.5506721042385,144.50000000000006 598.5181860937239,145.3823881863842 593.2985996843892,154.42297704184801" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="663.0" y1="145.91412011995155" x2="634.5" y2="96.55067210423856" stroke="#DC2626" stroke-width="3"/>
-<polygon points="634.5,96.55067210423856 644.422977041848,103.29859968438923 635.3823881863841,108.518186093724" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="700.0" y1="136.0" x2="700.0" y2="79.0" stroke="#DC2626" stroke-width="3"/>
-<polygon points="700.0,79.0 705.2195864093347,89.80536522823212 694.7804135906653,89.80536522823212" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="737.0" y1="145.91412011995155" x2="765.5" y2="96.55067210423854" stroke="#DC2626" stroke-width="3"/>
-<polygon points="765.5,96.55067210423854 764.6176118136159,108.51818609372398 755.577022958152,103.29859968438922" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="764.0858798800484" y1="172.99999999999997" x2="813.4493278957614" y2="144.49999999999994" stroke="#DC2626" stroke-width="3"/>
-<polygon points="813.4493278957614,144.49999999999994 806.7014003156107,154.42297704184793 801.481813906276,145.3823881863841" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="700" y="380" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">굵은 도체·등가반지름 증가</text>
-<text x="480" y="95" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">같은 전위·주변 조건에서 곡률이 큰 표면은 전계가 집중되기 쉽다</text>
+<line x1="774.0" y1="210.0" x2="831.0" y2="210.0" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="831.0,210.0 818.8439641182389,215.8720347105016 818.8439641182389,204.1279652894984" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="764.0858798800484" y1="247.0" x2="813.4493278957615" y2="275.5" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="813.4493278957615,275.5 799.9858746575903,274.5073132903178 805.857909368092,264.33665082792106" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="737.0" y1="274.0858798800484" x2="765.5" y2="323.4493278957615" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="765.5,323.4493278957615 754.3366508279211,315.85790936809195 764.5073132903178,309.9858746575904" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="700.0" y1="284.0" x2="700.0" y2="341.0" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="700.0,341.0 694.1279652894984,328.8439641182389 705.8720347105016,328.8439641182389" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="663.0" y1="274.0858798800485" x2="634.5" y2="323.4493278957615" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="634.5,323.4493278957615 635.4926867096822,309.9858746575904 645.6633491720789,315.85790936809195" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="635.9141201199516" y1="247.0" x2="586.5506721042385" y2="275.5" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="586.5506721042385,275.5 594.142090631908,264.33665082792106 600.0141253424097,274.5073132903178" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="626.0" y1="210.0" x2="569.0" y2="210.00000000000003" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="569.0,210.00000000000003 581.1560358817611,204.1279652894984 581.1560358817611,215.87203471050162" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="635.9141201199516" y1="173.00000000000003" x2="586.5506721042385" y2="144.50000000000006" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="586.5506721042385,144.50000000000006 600.0141253424097,145.4926867096822 594.142090631908,155.66334917207902" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="663.0" y1="145.91412011995155" x2="634.5" y2="96.55067210423856" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="634.5,96.55067210423856 645.6633491720789,104.14209063190806 635.4926867096822,110.01412534240967" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="700.0" y1="136.0" x2="700.0" y2="79.0" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="700.0,79.0 705.8720347105016,91.15603588176114 694.1279652894984,91.15603588176114" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="737.0" y1="145.91412011995155" x2="765.5" y2="96.55067210423854" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="765.5,96.55067210423854 764.5073132903178,110.01412534240966 754.3366508279211,104.14209063190806" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="764.0858798800484" y1="172.99999999999997" x2="813.4493278957614" y2="144.49999999999994" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="813.4493278957614,144.49999999999994 805.8579093680919,155.6633491720789 799.9858746575902,145.49268670968212" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">코로나: 도체 표면의 전계와 주변 공기 이온화</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">코로나: 도체 표면의 전계와 주변 공기 이온화</text>
+<text x="250" y="380" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">가느다란 도체</text>
+<text x="250" y="380" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">가느다란 도체</text>
+<text x="700" y="380" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">굵은 도체·등가반지름 증가</text>
+<text x="700" y="380" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">굵은 도체·등가반지름 증가</text>
+<text x="480" y="69" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">같은 전위·주변 조건에서 곡률이 큰 표면은 전계가 집중되기 쉽다</text>
+<text x="480" y="69" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">같은 전위·주변 조건에서 곡률이 큰 표면은 전계가 집중되기 쉽다</text>
 </svg>

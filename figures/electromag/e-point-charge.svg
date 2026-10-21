@@ -1,42 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">점전하의 힘 · 전계 · 전위</text>
-<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1"/>
+<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="135" cy="250" r="20" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
-<text x="135" y="258" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="26" fill="#DC2626" text-anchor="middle" font-weight="700">+</text>
 <circle cx="340" cy="250" r="20" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
-<text x="340" y="258" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="26" fill="#DC2626" text-anchor="middle" font-weight="700">+</text>
-<line x1="105" y1="250" x2="55" y2="250" stroke="#DC2626" stroke-width="3"/>
-<polygon points="55,250 65.80536522823212,244.78041359066523 65.80536522823212,255.21958640933477" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="370" y1="250" x2="425" y2="250" stroke="#DC2626" stroke-width="3"/>
-<polygon points="425,250 414.1946347717679,255.21958640933477 414.1946347717679,244.78041359066523" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="135" y1="325" x2="340" y2="325" stroke="#64748B" stroke-width="2"/>
-<polygon points="340,325 332.79642318117857,328.4797242728898 332.79642318117857,321.5202757271102" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="340" y1="325" x2="135" y2="325" stroke="#64748B" stroke-width="2"/>
-<polygon points="135,325 142.2035768188214,321.5202757271102 142.2035768188214,328.4797242728898" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="237.5" y="315.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">r</text>
-<text x="50" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">같은 부호: 서로 밀어낸다</text>
-<text x="55" y="390" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">F ∝ 1/r²    E = F/q시험</text>
+<line x1="105" y1="250" x2="55" y2="250" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="55,250 67.15603588176114,244.12796528949838 67.15603588176114,255.8720347105016" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="370" y1="250" x2="425" y2="250" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="425,250 412.8439641182389,255.8720347105016 412.8439641182389,244.1279652894984" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="135" y1="325" x2="340" y2="325" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="340,325 330.9955289764732,329.3496553411123 330.9955289764732,320.6503446588877" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="340" y1="325" x2="135" y2="325" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="135,325 144.00447102352678,320.6503446588877 144.00447102352678,329.3496553411123" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="715" cy="250" r="20" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
-<text x="715" y="258" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="26" fill="#DC2626" text-anchor="middle" font-weight="700">+</text>
-<line x1="750.0" y1="250.0" x2="860.0" y2="250.0" stroke="#2563EB" stroke-width="3"/>
-<polygon points="860.0,250.0 849.1946347717678,255.21958640933477 849.1946347717678,244.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="739.7487373415291" y1="274.74873734152914" x2="817.5304832720494" y2="352.5304832720494" stroke="#2563EB" stroke-width="3"/>
-<polygon points="817.5304832720494,352.5304832720494 806.1991313009394,348.58074119099894 813.5807411909989,341.1991313009394" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="715.0" y1="285.0" x2="715.0" y2="395.0" stroke="#2563EB" stroke-width="3"/>
-<polygon points="715.0,395.0 709.7804135906653,384.1946347717679 720.2195864093347,384.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="690.2512626584709" y1="274.74873734152914" x2="612.4695167279506" y2="352.5304832720494" stroke="#2563EB" stroke-width="3"/>
-<polygon points="612.4695167279506,352.5304832720494 616.4192588090011,341.1991313009394 623.8008686990606,348.58074119099894" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="680.0" y1="250.0" x2="570.0" y2="250.00000000000003" stroke="#2563EB" stroke-width="3"/>
-<polygon points="570.0,250.00000000000003 580.8053652282322,244.78041359066526 580.8053652282322,255.2195864093348" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="690.2512626584709" y1="225.25126265847084" x2="612.4695167279506" y2="147.46951672795063" stroke="#2563EB" stroke-width="3"/>
-<polygon points="612.4695167279506,147.46951672795063 623.8008686990606,151.41925880900112 616.4192588090011,158.80086869906066" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="715.0" y1="215.0" x2="715.0" y2="105.0" stroke="#2563EB" stroke-width="3"/>
-<polygon points="715.0,105.0 720.2195864093347,115.80536522823212 709.7804135906653,115.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="739.7487373415291" y1="225.25126265847084" x2="817.5304832720494" y2="147.46951672795058" stroke="#2563EB" stroke-width="3"/>
-<polygon points="817.5304832720494,147.46951672795058 813.5807411909989,158.8008686990606 806.1991313009394,151.4192588090011" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="550" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">+Q의 전계는 바깥 방향</text>
-<text x="555" y="430" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">E = Q/(4πεr²),  V = Q/(4πεr)</text>
-<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">전계는 벡터, 전위는 스칼라다. 음전하의 전기력은 전계와 반대이며 전위차가 운동에너지로 </text>
-<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">바뀐다.</text>
+<line x1="750.0" y1="250.0" x2="860.0" y2="250.0" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="860.0,250.0 847.8439641182389,255.8720347105016 847.8439641182389,244.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="739.7487373415291" y1="274.74873734152914" x2="817.5304832720494" y2="352.5304832720494" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="817.5304832720494,352.5304832720494 804.7827123045506,348.0870234308676 813.0870234308676,339.78271230455067" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="715.0" y1="285.0" x2="715.0" y2="395.0" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="715.0,395.0 709.1279652894984,382.8439641182389 720.8720347105016,382.8439641182389" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="690.2512626584709" y1="274.74873734152914" x2="612.4695167279506" y2="352.5304832720494" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="612.4695167279506,352.5304832720494 616.9129765691324,339.78271230455067 625.2172876954494,348.0870234308676" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="680.0" y1="250.0" x2="570.0" y2="250.00000000000003" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="570.0,250.00000000000003 582.1560358817611,244.1279652894984 582.1560358817611,255.87203471050162" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="690.2512626584709" y1="225.25126265847084" x2="612.4695167279506" y2="147.46951672795063" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="612.4695167279506,147.46951672795063 625.2172876954494,151.91297656913244 616.9129765691324,160.2172876954494" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="715.0" y1="215.0" x2="715.0" y2="105.0" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="715.0,105.0 720.8720347105016,117.15603588176114 709.1279652894984,117.15603588176114" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="739.7487373415291" y1="225.25126265847084" x2="817.5304832720494" y2="147.46951672795058" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="817.5304832720494,147.46951672795058 813.0870234308676,160.21728769544933 804.7827123045506,151.91297656913238" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">점전하의 힘 · 전계 · 전위</text>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">점전하의 힘 · 전계 · 전위</text>
+<text x="135" y="258" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="26" text-anchor="middle" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+</text>
+<text x="135" y="258" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="26" text-anchor="middle" font-weight="700" fill="#DC2626">+</text>
+<text x="340" y="258" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="26" text-anchor="middle" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+</text>
+<text x="340" y="258" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="26" text-anchor="middle" font-weight="700" fill="#DC2626">+</text>
+<text x="237.5" y="315.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">r</text>
+<text x="237.5" y="315.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#64748B">r</text>
+<text x="50" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">같은 부호: 서로 밀어낸다</text>
+<text x="50" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">같은 부호: 서로 밀어낸다</text>
+<text x="55" y="390" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">F ∝ 1/r²    E = F/q시험</text>
+<text x="55" y="390" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">F ∝ 1/r²    E = F/q시험</text>
+<text x="715" y="258" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="26" text-anchor="middle" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+</text>
+<text x="715" y="258" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="26" text-anchor="middle" font-weight="700" fill="#DC2626">+</text>
+<text x="550" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+Q의 전계는 바깥 방향</text>
+<text x="550" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">+Q의 전계는 바깥 방향</text>
+<text x="555" y="430" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">E = Q/(4πεr²),  V = Q/(4πεr)</text>
+<text x="555" y="430" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">E = Q/(4πεr²),  V = Q/(4πεr)</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">전계는 벡터, 전위는 스칼라다. 음전하의 전기력은 전계와 반대이며 전위차가 운동에너지로 </text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">전계는 벡터, 전위는 스칼라다. 음전하의 전기력은 전계와 반대이며 전위차가 운동에너지로 </text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">바뀐다.</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">바뀐다.</text>
 </svg>

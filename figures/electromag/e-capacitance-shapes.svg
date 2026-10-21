@@ -1,36 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">정전용량의 형상: 같은 반지름 기호라도 다르다</text>
 <circle cx="150" cy="220" r="75" fill="#E2E8F0" stroke="#64748B" stroke-width="3"/>
-<line x1="150" y1="220" x2="225" y2="220" stroke="#2563EB" stroke-width="3"/>
-<polygon points="225,220 214.19463477176788,225.21958640933477 214.19463477176788,214.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="175" y="200" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">a</text>
-<text x="65" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">고립 도체 구</text>
-<text x="50" y="360" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">C = 4πεa</text>
+<line x1="150" y1="220" x2="225" y2="220" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="225,220 212.84396411823886,225.8720347105016 212.84396411823886,214.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="470" cy="220" r="115" fill="#E2E8F0" stroke="#64748B" stroke-width="3"/>
 <circle cx="470" cy="220" r="90" fill="white" stroke="#64748B" stroke-width="3"/>
 <circle cx="470" cy="220" r="45" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
-<line x1="470" y1="220" x2="515" y2="220" stroke="#DC2626" stroke-width="3"/>
-<polygon points="515,220 504.1946347717679,225.21958640933477 504.1946347717679,214.78041359066523" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="470" y1="220" x2="470" y2="130" stroke="#2563EB" stroke-width="3"/>
-<polygon points="470,130 475.21958640933474,140.80536522823212 464.78041359066526,140.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="480" y="210" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">a</text>
-<text x="480" y="160" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">b</text>
-<text x="385" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">동심구 콘덴서</text>
-<text x="345" y="360" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">C = 4πε/(1/a-1/b)</text>
-<line x1="690" y1="160" x2="915" y2="160" stroke="#DC2626" stroke-width="7"/>
-<line x1="690" y1="285" x2="915" y2="285" stroke="#2563EB" stroke-width="7"/>
+<line x1="470" y1="220" x2="515" y2="220" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="515,220 502.8439641182389,225.8720347105016 502.8439641182389,214.1279652894984" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="470" y1="220" x2="470" y2="130" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="470,130 475.8720347105016,142.15603588176114 464.1279652894984,142.15603588176114" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="690" y1="160" x2="915" y2="160" stroke="#DC2626" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="690" y1="285" x2="915" y2="285" stroke="#2563EB" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="695" y="165" width="215" height="115" rx="0" fill="#ECFDF5" stroke="#15803D" stroke-width="1"/>
-<line x1="925" y1="160" x2="925" y2="285" stroke="#64748B" stroke-width="2"/>
-<polygon points="925,285 921.5202757271102,277.79642318117857 928.4797242728898,277.79642318117857" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="925" y1="285" x2="925" y2="160" stroke="#64748B" stroke-width="2"/>
-<polygon points="925,160 928.4797242728898,167.2035768188214 921.5202757271102,167.2035768188214" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="925.0" y="212.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">d</text>
-<text x="735" y="225" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">ε, 면적 S</text>
-<text x="690" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">평행판 콘덴서</text>
-<text x="690" y="360" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">C = εS/d</text>
-<text x="50" y="430" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">동심구의 외부 도체는 접지 또는 전위 기준을 지정한다.</text>
-<text x="50" y="470" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">평행판 식은 판의 크기가 간격보다 충분히 크고 가장자리 효과가 작을 때 쓴다.</text>
-<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">동축 원통의 정전용량은 전계의 반지름 방향 적분으로 구한다. 단위길이당 C와 전체 C를 구</text>
-<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">별한다.</text>
+<line x1="925" y1="160" x2="925" y2="285" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="925,285 920.6503446588877,275.9955289764732 929.3496553411123,275.9955289764732" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="925" y1="285" x2="925" y2="160" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="925,160 929.3496553411123,169.00447102352678 920.6503446588877,169.00447102352678" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">정전용량의 형상: 같은 반지름 기호라도 다르다</text>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">정전용량의 형상: 같은 반지름 기호라도 다르다</text>
+<text x="175" y="200" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">a</text>
+<text x="175" y="200" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">a</text>
+<text x="65" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">고립 도체 구</text>
+<text x="65" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">고립 도체 구</text>
+<text x="50" y="360" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">C = 4πεa</text>
+<text x="50" y="360" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">C = 4πεa</text>
+<text x="480" y="210" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">a</text>
+<text x="480" y="210" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">a</text>
+<text x="480" y="160" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">b</text>
+<text x="480" y="160" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">b</text>
+<text x="385" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">동심구 콘덴서</text>
+<text x="385" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">동심구 콘덴서</text>
+<text x="345" y="360" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">C = 4πε/(1/a-1/b)</text>
+<text x="345" y="360" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">C = 4πε/(1/a-1/b)</text>
+<text x="935" y="212.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">d</text>
+<text x="935" y="212.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#64748B">d</text>
+<text x="735" y="225" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">ε, 면적 S</text>
+<text x="735" y="225" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">ε, 면적 S</text>
+<text x="690" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">평행판 콘덴서</text>
+<text x="690" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">평행판 콘덴서</text>
+<text x="690" y="360" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">C = εS/d</text>
+<text x="690" y="360" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">C = εS/d</text>
+<text x="50" y="430" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">동심구의 외부 도체는 접지 또는 전위 기준을 지정한다.</text>
+<text x="50" y="430" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">동심구의 외부 도체는 접지 또는 전위 기준을 지정한다.</text>
+<text x="50" y="470" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">평행판 식은 판의 크기가 간격보다 충분히 크고 가장자리 효과가 작을 때 쓴다.</text>
+<text x="50" y="470" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">평행판 식은 판의 크기가 간격보다 충분히 크고 가장자리 효과가 작을 때 쓴다.</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">동축 원통의 정전용량은 전계의 반지름 방향 적분으로 구한다. 단위길이당 C와 전체 C를 구</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">동축 원통의 정전용량은 전계의 반지름 방향 적분으로 구한다. 단위길이당 C와 전체 C를 구</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">별한다.</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">별한다.</text>
 </svg>

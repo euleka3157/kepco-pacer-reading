@@ -1,29 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500">
 <rect width="100%" height="100%" fill="white"/>
-<text x="28" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">가제어·가관측: 도달할 수 있는가, 구분할 수 있는가</text>
 <rect x="50" y="105" width="360" height="65" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="230.0" y="144.76" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">가제어성</text>
-<defs><clipPath id="c5"><rect x="130" y="240" width="250" height="150"/></clipPath></defs>
-<line x1="130" y1="340.0" x2="385" y2="340.0" stroke="#64748B" stroke-width="2"/>
-<polygon points="385,340.0 374.1946347717679,345.21958640933474 374.1946347717679,334.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="213.33333333333331" y1="390" x2="213.33333333333331" y2="235" stroke="#64748B" stroke-width="2"/>
-<polygon points="213.33333333333331,235 218.55291974266808,245.80536522823212 208.11374692399855,245.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="380" y="420" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">x1</text>
-<text x="130" y="226" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">x2</text>
-<line x1="213.33333333333331" y1="340.0" x2="338.33333333333337" y2="330.0" stroke="#2563EB" stroke-width="3"/>
-<polygon points="338.33333333333337,330.0 327.9786172621058,336.06463973243757 327.14614310523143,325.65871277150876" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="213.33333333333331" y1="340.0" x2="230.0" y2="265.0" stroke="#15803D" stroke-width="3"/>
-<polygon points="230.0,265.0 232.75127988644644,276.6803449857629 222.5606944618372,274.4157704469608" stroke="#15803D" stroke-width="1" fill="#15803D"/>
-<text x="60" y="440" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#2563EB" text-anchor="start" font-weight="400">rank[B AB …]=n</text>
+<defs><clipPath id="c7"><rect x="130" y="240" width="250" height="150"/></clipPath></defs>
+<line x1="130" y1="340.0" x2="385" y2="340.0" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="385,340.0 374.1946347717679,345.21958640933474 374.1946347717679,334.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="213.33333333333331" y1="390" x2="213.33333333333331" y2="235" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="213.33333333333331,235 218.55291974266808,245.80536522823212 208.11374692399855,245.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="213.33333333333331" y1="340.0" x2="338.33333333333337" y2="330.0" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="338.33333333333337,330.0 326.6842777532023,336.8227196989923 325.7477443267187,325.11605186794736" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="213.33333333333331" y1="340.0" x2="230.0" y2="265.0" stroke="#15803D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="230.0,265.0 233.09518987225223,278.1403881089832 221.63078126956685,275.5927417528309" stroke="#15803D" stroke-width="1" fill="#15803D" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="535" y="105" width="360" height="65" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="715.0" y="144.76" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">가관측성</text>
 <rect x="560" y="225" width="130" height="70" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="625.0" y="267.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">상태 x</text>
-<line x1="690" y1="260" x2="770" y2="260" stroke="#2563EB" stroke-width="3"/>
-<polygon points="770,260 759.1946347717678,265.21958640933474 759.1946347717678,254.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="690" y1="260" x2="770" y2="260" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="770,260 757.8439641182389,265.8720347105016 757.8439641182389,254.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="770" y="225" width="130" height="70" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="835.0" y="267.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">출력 y</text>
-<text x="540" y="350" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">서로 다른 초기상태가</text>
-<text x="540" y="385" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">같은 출력 기록을 만드는가?</text>
-<text x="540" y="440" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#2563EB" text-anchor="start" font-weight="400">rank[C; CA; …]=n</text>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">가제어·가관측: 도달할 수 있는가, 구분할 수 있는가</text>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">가제어·가관측: 도달할 수 있는가, 구분할 수 있는가</text>
+<text x="230.0" y="144.76" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">가제어성</text>
+<text x="230.0" y="144.76" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">가제어성</text>
+<text x="394" y="347.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">x1</text>
+<text x="394" y="347.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">x1</text>
+<text x="223.33333333333331" y="238" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">x2</text>
+<text x="223.33333333333331" y="238" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">x2</text>
+<text x="60" y="440" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">rank[B AB …]=n</text>
+<text x="60" y="440" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#2563EB">rank[B AB …]=n</text>
+<text x="715.0" y="144.76" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">가관측성</text>
+<text x="715.0" y="144.76" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">가관측성</text>
+<text x="625.0" y="267.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">상태 x</text>
+<text x="625.0" y="267.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">상태 x</text>
+<text x="835.0" y="267.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">출력 y</text>
+<text x="835.0" y="267.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">출력 y</text>
+<text x="540" y="350" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">서로 다른 초기상태가</text>
+<text x="540" y="350" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#25344A">서로 다른 초기상태가</text>
+<text x="540" y="385" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">같은 출력 기록을 만드는가?</text>
+<text x="540" y="385" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#25344A">같은 출력 기록을 만드는가?</text>
+<text x="540" y="440" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">rank[C; CA; …]=n</text>
+<text x="540" y="440" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#2563EB">rank[C; CA; …]=n</text>
 </svg>

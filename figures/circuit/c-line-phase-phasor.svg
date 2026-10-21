@@ -1,34 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
 <rect width="100%" height="100%" fill="white"/>
-<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">선간량은 두 상의 차: 30°와 n상 일반화</text>
-<line x1="190" y1="310" x2="490" y2="310" stroke="#64748B" stroke-width="2"/>
-<polygon points="490,310 479.1946347717679,315.21958640933474 479.1946347717679,304.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="190" y1="310" x2="190" y2="115" stroke="#64748B" stroke-width="2"/>
-<polygon points="190,115 195.21958640933477,125.80536522823212 184.78041359066523,125.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="485" y="342" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">Re</text>
-<text x="180" y="103" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">Im</text>
-<line x1="190" y1="310" x2="335.0" y2="310.0" stroke="#2563EB" stroke-width="3"/>
-<polygon points="335.0,310.0 324.1946347717679,315.21958640933474 324.1946347717679,304.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="345.0" y="302.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="start" font-weight="400">Va</text>
-<line x1="190" y1="310" x2="117.50000000000003" y2="435.5736835487436" stroke="#DC2626" stroke-width="3"/>
-<polygon points="117.50000000000003,435.5736835487436 118.38238818638418,423.60616955925815 127.422977041848,428.8257559685929" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="127.50000000000003" y="427.5736835487436" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#DC2626" text-anchor="start" font-weight="400">Vb</text>
-<line x1="190" y1="310" x2="262.5" y2="184.4263164512564" stroke="#B45309" stroke-width="3"/>
-<polygon points="262.5,184.4263164512564 261.61761181361584,196.39383044074185 252.57702295815204,191.17424403140708" stroke="#B45309" stroke-width="1" fill="#B45309"/>
-<text x="272.5" y="176.4263164512564" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#B45309" text-anchor="start" font-weight="400">−Vb</text>
-<line x1="190" y1="310" x2="407.5" y2="184.4263164512564" stroke="#7C3AED" stroke-width="3"/>
-<polygon points="407.5,184.4263164512564 400.7520724198493,194.34929349310437 395.53248601051456,185.30870463764057" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
-<text x="417.5" y="176.4263164512564" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#7C3AED" text-anchor="start" font-weight="400">Vab</text>
-<line x1="335" y1="310" x2="407.5" y2="184.4" stroke="#B45309" stroke-width="2"/>
-<polygon points="407.5,184.4 406.61869765519003,196.36759400117805 397.5776352527866,191.14882788514103" stroke="#B45309" stroke-width="1" fill="#B45309"/>
-<text x="55" y="505" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">Vab = Va − Vb = √3 V상∠30°</text>
+<line x1="190" y1="310" x2="490" y2="310" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="490,310 479.1946347717679,315.21958640933474 479.1946347717679,304.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="190" y1="310" x2="190" y2="115" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="190,115 195.21958640933477,125.80536522823212 184.78041359066523,125.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="190" y1="310" x2="335.0" y2="310.0" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="335.0,310.0 322.8439641182389,315.8720347105016 322.8439641182389,304.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="190" y1="310" x2="117.50000000000003" y2="435.5736835487436" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="117.50000000000003,435.5736835487436 118.4926867096822,422.1102303105725 128.663349172079,427.98226502107406" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="190" y1="310" x2="262.5" y2="184.4263164512564" stroke="#B45309" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="262.5,184.4263164512564 261.5073132903178,197.88976968942754 251.33665082792103,192.01773497892592" stroke="#B45309" stroke-width="1" fill="#B45309" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="190" y1="310" x2="407.5" y2="184.4263164512564" stroke="#7C3AED" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="407.5,184.4263164512564 399.90858147233047,195.58966562333538 394.0365467618289,185.4190031609386" stroke="#7C3AED" stroke-width="1" fill="#7C3AED" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="335" y1="310" x2="407.5" y2="184.4" stroke="#B45309" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="407.5,184.4 406.61869765519003,196.36759400117805 397.5776352527866,191.14882788514103" stroke="#B45309" stroke-width="1" fill="#B45309" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="745" cy="270" r="150" fill="white" stroke="#64748B" stroke-width="3"/>
-<line x1="745" y1="270" x2="866.3525491562422" y2="181.83221215612903" stroke="#2563EB" stroke-width="3"/>
-<polygon points="866.3525491562422,181.83221215612903 860.6788209706474,192.4061805916781 854.5428291417011,183.96071237415742" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="745" y1="270" x2="866.3525491562422" y2="358.167787843871" stroke="#DC2626" stroke-width="3"/>
-<polygon points="866.3525491562422,358.167787843871 854.5428291417011,356.0392876258426 860.6788209706474,347.5938194083219" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="866.3525491562422" y1="181.83221215612903" x2="866.3525491562422" y2="358.167787843871" stroke="#7C3AED" stroke-width="4"/>
-<text x="600" y="90" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">n상: 이웃 두 상 사이 2π/n</text>
-<text x="575" y="470" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">V선 = 2V상 sin(π/n)</text>
-<text x="620" y="510" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">그림: 5상 중 이웃 두 상</text>
+<line x1="745" y1="270" x2="866.3525491562422" y2="181.83221215612903" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="866.3525491562422,181.83221215612903 859.9696049474481,193.72792664612174 853.0666141398834,184.22677490141098" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="745" y1="270" x2="866.3525491562422" y2="358.167787843871" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="866.3525491562422,358.167787843871 853.0666141398834,355.773225098589 859.9696049474481,346.2720733538783" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="866.3525491562422" y1="181.83221215612903" x2="866.3525491562422" y2="358.167787843871" stroke="#7C3AED" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">선간량은 두 상의 차: 30°와 n상 일반화</text>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">선간량은 두 상의 차: 30°와 n상 일반화</text>
+<text x="485" y="342" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Re</text>
+<text x="485" y="342" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="#64748B">Re</text>
+<text x="180" y="103" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Im</text>
+<text x="180" y="103" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">Im</text>
+<text x="357" y="300" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Va</text>
+<text x="357" y="300" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#2563EB">Va</text>
+<text x="135.5" y="431.574" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Vb</text>
+<text x="135.5" y="431.574" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#DC2626">Vb</text>
+<text x="272.5" y="176.4263164512564" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">−Vb</text>
+<text x="272.5" y="176.4263164512564" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#B45309">−Vb</text>
+<text x="417.5" y="176.4263164512564" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Vab</text>
+<text x="417.5" y="176.4263164512564" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#7C3AED">Vab</text>
+<text x="55" y="505" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Vab = Va − Vb = √3 V상∠30°</text>
+<text x="55" y="505" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">Vab = Va − Vb = √3 V상∠30°</text>
+<text x="600" y="90" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">n상: 이웃 두 상 사이 2π/n</text>
+<text x="600" y="90" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">n상: 이웃 두 상 사이 2π/n</text>
+<text x="575" y="470" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">V선 = 2V상 sin(π/n)</text>
+<text x="575" y="470" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">V선 = 2V상 sin(π/n)</text>
+<text x="620" y="510" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">그림: 5상 중 이웃 두 상</text>
+<text x="620" y="510" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">그림: 5상 중 이웃 두 상</text>
 </svg>

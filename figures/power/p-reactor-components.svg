@@ -1,25 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="570" viewBox="0 0 960 570">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">원자로 구성품의 역할</text>
 <rect x="80" y="90" width="500" height="370" rx="85" fill="#F1F5F9" stroke="#64748B" stroke-width="4"/>
 <rect x="170" y="155" width="320" height="240" rx="30" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
 <rect x="225" y="185" width="28" height="175" rx="4" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
 <rect x="305" y="185" width="28" height="175" rx="4" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
 <rect x="385" y="185" width="28" height="175" rx="4" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
 <rect x="270" y="105" width="16" height="210" rx="0" fill="#CBD5E1" stroke="#64748B" stroke-width="2"/>
-<line x1="278" y1="70" x2="278" y2="115" stroke="#DC2626" stroke-width="3"/>
-<polygon points="278,115 272.78041359066526,104.19463477176788 283.21958640933474,104.19463477176788" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="278" y1="70" x2="278" y2="115" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="278,115 272.1279652894984,102.84396411823886 283.8720347105016,102.84396411823886" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="350" y="105" width="16" height="210" rx="0" fill="#CBD5E1" stroke="#64748B" stroke-width="2"/>
-<line x1="358" y1="70" x2="358" y2="115" stroke="#DC2626" stroke-width="3"/>
-<polygon points="358,115 352.78041359066526,104.19463477176788 363.21958640933474,104.19463477176788" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="145" y1="360" x2="145" y2="195" stroke="#2563EB" stroke-width="3"/>
-<polygon points="145,195 150.21958640933477,205.80536522823212 139.78041359066523,205.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="510" y1="195" x2="510" y2="360" stroke="#2563EB" stroke-width="3"/>
-<polygon points="510,360 504.78041359066526,349.1946347717679 515.2195864093347,349.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="620" y="125" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">연료: 핵분열 열</text>
-<text x="620" y="195" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">감속재: 중성자 감속</text>
-<text x="620" y="265" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">제어봉: 중성자 흡수</text>
-<text x="620" y="335" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">냉각재: 열 운반</text>
-<text x="620" y="405" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">반사체·차폐: 역할 구별</text>
-<text x="480" y="525" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">한 물질이 감속재·냉각재 역할을 겸하기도 함</text>
+<line x1="358" y1="70" x2="358" y2="115" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="358,115 352.1279652894984,102.84396411823886 363.8720347105016,102.84396411823886" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="145" y1="360" x2="145" y2="195" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="145,195 150.87203471050162,207.15603588176114 139.1279652894984,207.15603588176114" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="510" y1="195" x2="510" y2="360" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="510,360 504.1279652894984,347.8439641182389 515.8720347105016,347.8439641182389" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">원자로 구성품의 역할</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">원자로 구성품의 역할</text>
+<text x="620" y="125" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">연료: 핵분열 열</text>
+<text x="620" y="125" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">연료: 핵분열 열</text>
+<text x="620" y="195" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">감속재: 중성자 감속</text>
+<text x="620" y="195" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">감속재: 중성자 감속</text>
+<text x="620" y="265" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">제어봉: 중성자 흡수</text>
+<text x="620" y="265" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">제어봉: 중성자 흡수</text>
+<text x="620" y="335" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">냉각재: 열 운반</text>
+<text x="620" y="335" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">냉각재: 열 운반</text>
+<text x="620" y="405" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">반사체·차폐: 역할 구별</text>
+<text x="620" y="405" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">반사체·차폐: 역할 구별</text>
+<text x="480" y="525" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">한 물질이 감속재·냉각재 역할을 겸하기도 함</text>
+<text x="480" y="525" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">한 물질이 감속재·냉각재 역할을 겸하기도 함</text>
 </svg>

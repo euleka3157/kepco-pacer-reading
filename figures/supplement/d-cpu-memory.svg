@@ -1,40 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="590" viewBox="0 0 960 590">
 <rect width="100%" height="100%" fill="white"/>
-<text x="28" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">폰 노이만 구조: 명령과 데이터를 같은 메모리에서 읽는다</text>
 <rect x="60" y="100" width="480" height="290" rx="15" fill="#EFF6FF" stroke="#2563EB" stroke-width="3"/>
-<text x="85" y="140" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="27" fill="#2563EB" text-anchor="start" font-weight="700">CPU</text>
 <rect x="100" y="180" width="170" height="75" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="185.0" y="224.76" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">제어장치 CU</text>
 <rect x="315" y="180" width="170" height="75" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="400.0" y="224.76" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">연산장치 ALU</text>
 <rect x="100" y="295" width="385" height="65" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="292.5" y="334.76" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">레지스터: PC · IR · 범용 레지스터</text>
-<line x1="270" y1="215" x2="315" y2="215" stroke="#2563EB" stroke-width="3"/>
-<polygon points="315,215 304.1946347717679,220.21958640933477 304.1946347717679,209.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="400" y1="255" x2="400" y2="295" stroke="#2563EB" stroke-width="3"/>
-<polygon points="400,295 394.78041359066526,284.1946347717679 405.21958640933474,284.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="190" y1="295" x2="190" y2="255" stroke="#2563EB" stroke-width="3"/>
-<polygon points="190,255 195.21958640933477,265.8053652282321 184.78041359066523,265.8053652282321" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="270" y1="215" x2="315" y2="215" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="315,215 302.8439641182389,220.8720347105016 302.8439641182389,209.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="400" y1="255" x2="400" y2="295" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="400,295 394.1279652894984,282.8439641182389 405.8720347105016,282.8439641182389" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="190" y1="295" x2="190" y2="255" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="190,255 195.87203471050162,267.1560358817611 184.1279652894984,267.1560358817611" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="650" y="140" width="250" height="140" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="775.0" y="202.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">주기억장치</text>
-<text x="775.0" y="232.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">명령 + 데이터</text>
-<line x1="540" y1="235" x2="650" y2="235" stroke="#25344A" stroke-width="3"/>
-<line x1="540" y1="235" x2="650" y2="235" stroke="#2563EB" stroke-width="3"/>
-<polygon points="650,235 639.1946347717678,240.21958640933477 639.1946347717678,229.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="650" y1="255" x2="540" y2="255" stroke="#2563EB" stroke-width="3"/>
-<polygon points="540,255 550.8053652282322,249.78041359066523 550.8053652282322,260.21958640933474" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="665" y="325" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">주소·데이터·제어</text>
-<text x="665" y="355" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">공유 버스</text>
+<line x1="540" y1="235" x2="650" y2="235" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="540" y1="235" x2="650" y2="235" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="650,235 637.8439641182389,240.8720347105016 637.8439641182389,229.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="650" y1="255" x2="540" y2="255" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="540,255 552.1560358817611,249.12796528949838 552.1560358817611,260.8720347105016" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="650" y="385" width="250" height="80" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="775.0" y="432.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">입출력 장치</text>
 <circle cx="595" cy="235" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<line x1="595" y1="235" x2="595" y2="425" stroke="#25344A" stroke-width="3"/>
-<line x1="595" y1="425" x2="650" y2="425" stroke="#0D9488" stroke-width="3"/>
-<polygon points="650,425 639.1946347717678,430.21958640933474 639.1946347717678,419.78041359066526" stroke="#0D9488" stroke-width="1" fill="#0D9488"/>
-<line x1="650" y1="445" x2="575" y2="445" stroke="#0D9488" stroke-width="3"/>
-<polygon points="575,445 585.8053652282322,439.78041359066526 585.8053652282322,450.21958640933474" stroke="#0D9488" stroke-width="1" fill="#0D9488"/>
-<line x1="575" y1="445" x2="575" y2="255" stroke="#25344A" stroke-width="3"/>
+<line x1="595" y1="235" x2="595" y2="425" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="595" y1="425" x2="650" y2="425" stroke="#0D9488" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="650,425 637.8439641182389,430.8720347105016 637.8439641182389,419.1279652894984" stroke="#0D9488" stroke-width="1" fill="#0D9488" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="650" y1="445" x2="575" y2="445" stroke="#0D9488" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="575,445 587.1560358817611,439.1279652894984 587.1560358817611,450.8720347105016" stroke="#0D9488" stroke-width="1" fill="#0D9488" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="575" y1="445" x2="575" y2="255" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="575" cy="255" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="60" y="500" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="400">명령 인출 → 해독 → 피연산자 읽기 → 실행 → 결과 저장</text>
-<text x="60" y="550" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">PC: 다음 명령 주소 · IR: 현재 명령 · ALU: 산술·논리 연산</text>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">폰 노이만 구조: 명령과 데이터를 같은 메모리에서 읽는다</text>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">폰 노이만 구조: 명령과 데이터를 같은 메모리에서 읽는다</text>
+<text x="85" y="140" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="27" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">CPU</text>
+<text x="85" y="140" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="27" text-anchor="start" font-weight="700" fill="#2563EB">CPU</text>
+<text x="185.0" y="224.76" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">제어장치 CU</text>
+<text x="185.0" y="224.76" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">제어장치 CU</text>
+<text x="400.0" y="224.76" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">연산장치 ALU</text>
+<text x="400.0" y="224.76" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">연산장치 ALU</text>
+<text x="292.5" y="334.76" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">레지스터: PC · IR · 범용 레지스터</text>
+<text x="292.5" y="334.76" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">레지스터: PC · IR · 범용 레지스터</text>
+<text x="775.0" y="202.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">주기억장치</text>
+<text x="775.0" y="202.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">주기억장치</text>
+<text x="775.0" y="232.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">명령 + 데이터</text>
+<text x="775.0" y="232.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">명령 + 데이터</text>
+<text x="665" y="325" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">주소·데이터·제어</text>
+<text x="665" y="325" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#25344A">주소·데이터·제어</text>
+<text x="665" y="355" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">공유 버스</text>
+<text x="665" y="355" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#25344A">공유 버스</text>
+<text x="775.0" y="432.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">입출력 장치</text>
+<text x="775.0" y="432.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">입출력 장치</text>
+<text x="60" y="500" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">명령 인출 → 해독 → 피연산자 읽기 → 실행 → 결과 저장</text>
+<text x="60" y="500" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="400" fill="#25344A">명령 인출 → 해독 → 피연산자 읽기 → 실행 → 결과 저장</text>
+<text x="60" y="550" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">PC: 다음 명령 주소 · IR: 현재 명령 · ALU: 산술·논리 연산</text>
+<text x="60" y="550" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">PC: 다음 명령 주소 · IR: 현재 명령 · ALU: 산술·논리 연산</text>
 </svg>

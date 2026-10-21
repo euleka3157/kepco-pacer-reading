@@ -1,16 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">자속은 면의 법선과 이루는 각으로 계산한다</text>
-<polygon points="160,180 540,140 680,350 300,390" stroke="#64748B" stroke-width="3" fill="#EFF6FF"/>
-<line x1="420" y1="265" x2="420" y2="80" stroke="#7C3AED" stroke-width="3"/>
-<polygon points="420,80 425.21958640933474,90.80536522823212 414.78041359066526,90.80536522823212" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
-<line x1="420" y1="265" x2="680" y2="80" stroke="#2563EB" stroke-width="3"/>
-<polygon points="680,80 674.2219688078246,90.51733595271388 668.1698059446115,82.01159355036042" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="435" y="95" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">면 법선 n</text>
-<text x="670" y="70" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">B</text>
-<text x="475" y="175" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">θ</text>
-<text x="235" y="345" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">면적 S</text>
-<text x="70" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">Φ = BS cosθ</text>
-<text x="500" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">면에 평행한 B → Φ=0</text>
-<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">θ는 자계와 면 자체의 각이 아니다. 자계가 면에 수직이면 θ=0이고 자속이 최대다.</text>
+<polygon points="160,180 540,140 680,350 300,390" stroke="#64748B" stroke-width="3" fill="#EFF6FF" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="420" y1="265" x2="420" y2="80" stroke="#7C3AED" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="420,80 425.8720347105016,92.15603588176114 414.1279652894984,92.15603588176114" stroke="#7C3AED" stroke-width="1" fill="#7C3AED" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="420" y1="265" x2="680" y2="80" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="680,80 673.4997149088026,91.83200294680312 666.691031687688,82.26304274415547" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">자속은 면의 법선과 이루는 각으로 계산한다</text>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">자속은 면의 법선과 이루는 각으로 계산한다</text>
+<text x="435" y="95" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">면 법선 n</text>
+<text x="435" y="95" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">면 법선 n</text>
+<text x="670" y="70" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">B</text>
+<text x="670" y="70" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">B</text>
+<text x="475" y="175" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">θ</text>
+<text x="475" y="175" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">θ</text>
+<text x="286" y="345" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">면적 S</text>
+<text x="286" y="345" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">면적 S</text>
+<text x="70" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Φ = BS cosθ</text>
+<text x="70" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">Φ = BS cosθ</text>
+<text x="500" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">면에 평행한 B → Φ=0</text>
+<text x="500" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">면에 평행한 B → Φ=0</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">θ는 자계와 면 자체의 각이 아니다. 자계가 면에 수직이면 θ=0이고 자속이 최대다.</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">θ는 자계와 면 자체의 각이 아니다. 자계가 면에 수직이면 θ=0이고 자속이 최대다.</text>
 </svg>

@@ -1,31 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480">
 <rect width="100%" height="100%" fill="white"/>
-<text x="28" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">컨벌루션: 겹치는 구간의 면적이 출력이 된다</text>
-<defs><clipPath id="c3"><rect x="80" y="130" width="350" height="210"/></clipPath></defs>
-<line x1="80" y1="340.0" x2="435" y2="340.0" stroke="#64748B" stroke-width="2"/>
-<polygon points="435,340.0 424.1946347717679,345.21958640933474 424.1946347717679,334.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="130.0" y1="340" x2="130.0" y2="125" stroke="#64748B" stroke-width="2"/>
-<polygon points="130.0,125 135.21958640933477,135.80536522823212 124.78041359066523,135.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="430" y="370" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">τ</text>
-<text x="80" y="116" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">신호</text>
-<g clip-path="url(#c3)">
-<polyline points="130.0,340.0 130.0,190.0 230.0,190.0 230.0,340.0" stroke="#2563EB" stroke-width="3" fill="none"/>
+<defs><clipPath id="c4"><rect x="80" y="130" width="350" height="210"/></clipPath></defs>
+<line x1="80" y1="340.0" x2="435" y2="340.0" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="435,340.0 424.1946347717679,345.21958640933474 424.1946347717679,334.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="130.0" y1="340" x2="130.0" y2="125" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="130.0,125 135.21958640933477,135.80536522823212 124.78041359066523,135.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<g clip-path="url(#c4)">
+<polyline points="130.0,340.0 130.0,190.0 230.0,190.0 230.0,340.0" stroke="#2563EB" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<g clip-path="url(#c3)">
-<polyline points="180.0,340.0 180.0,190.0 280.0,190.0 280.0,340.0" stroke="#DC2626" stroke-width="3" fill="none"/>
+<g clip-path="url(#c4)">
+<polyline points="180.0,340.0 180.0,190.0 280.0,190.0 280.0,340.0" stroke="#DC2626" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <rect x="180.0" y="190.0" width="50.0" height="150.0" rx="0" fill="#E9D5FF" stroke="none" stroke-width="0"/>
-<text x="85" y="400" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">t=1.5일 때 겹침 길이 0.5</text>
-<defs><clipPath id="c18"><rect x="560" y="130" width="310" height="210"/></clipPath></defs>
-<line x1="560" y1="340.0" x2="875" y2="340.0" stroke="#64748B" stroke-width="2"/>
-<polygon points="875,340.0 864.1946347717678,345.21958640933474 864.1946347717678,334.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="560.0" y1="340" x2="560.0" y2="125" stroke="#64748B" stroke-width="2"/>
-<polygon points="560.0,125 565.2195864093347,135.80536522823212 554.7804135906653,135.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="870" y="370" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">t</text>
-<text x="560" y="116" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">y(t)</text>
-<g clip-path="url(#c18)">
-<polyline points="560.0,340.0 684.0,190.0 808.0,340.0 870.0,340.0" stroke="#7C3AED" stroke-width="3" fill="none"/>
+<defs><clipPath id="c22"><rect x="560" y="130" width="310" height="210"/></clipPath></defs>
+<line x1="560" y1="340.0" x2="875" y2="340.0" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="875,340.0 864.1946347717678,345.21958640933474 864.1946347717678,334.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="560.0" y1="340" x2="560.0" y2="125" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="560.0,125 565.2195864093347,135.80536522823212 554.7804135906653,135.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<g clip-path="url(#c22)">
+<polyline points="560.0,340.0 684.0,190.0 808.0,340.0 870.0,340.0" stroke="#7C3AED" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text x="555" y="400" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">폭 1 사각펄스 * 폭 1 사각펄스</text>
-<text x="65" y="455" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">y(t)=∫f(τ)g(t-τ)dτ · 신호를 뒤집고 → 이동하고 → 곱해 적분</text>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">컨벌루션: 겹치는 구간의 면적이 출력이 된다</text>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">컨벌루션: 겹치는 구간의 면적이 출력이 된다</text>
+<text x="430" y="370" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">τ</text>
+<text x="430" y="370" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="#64748B">τ</text>
+<text x="140.0" y="128" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">신호</text>
+<text x="140.0" y="128" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">신호</text>
+<text x="85" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">t=1.5일 때 겹침 길이 0.5</text>
+<text x="85" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">t=1.5일 때 겹침 길이 0.5</text>
+<text x="870" y="370" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">t</text>
+<text x="870" y="370" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="#64748B">t</text>
+<text x="560" y="116" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">y(t)</text>
+<text x="560" y="116" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">y(t)</text>
+<text x="555" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">폭 1 사각펄스 * 폭 1 사각펄스</text>
+<text x="555" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#25344A">폭 1 사각펄스 * 폭 1 사각펄스</text>
+<text x="65" y="455" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">y(t)=∫f(τ)g(t-τ)dτ · 신호를 뒤집고 → 이동하고 → 곱해 적분</text>
+<text x="65" y="455" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">y(t)=∫f(τ)g(t-τ)dτ · 신호를 뒤집고 → 이동하고 → 곱해 적분</text>
 </svg>

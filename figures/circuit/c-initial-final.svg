@@ -1,38 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
 <rect width="100%" height="100%" fill="white"/>
-<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">스위칭 전후의 등가: 상태변수 연속성</text>
 <rect x="25" y="70" width="440" height="210" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
-<text x="41" y="99" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">무전류 L, t=0+</text>
-<polyline points="80,175 113.0,175.0 125.375,185.0 137.75,165.0 150.125,185.0 162.5,165.0 174.875,185.0 187.25,165.0 199.625,185.0 212.0,175.0 245,175" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="162.5" y="151.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">R</text>
-<line x1="245" y1="175" x2="280" y2="175" stroke="#25344A" stroke-width="3"/>
-<line x1="360" y1="175" x2="415" y2="175" stroke="#25344A" stroke-width="3"/>
+<polyline points="80,175 113.0,175.0 125.375,185.0 137.75,165.0 150.125,185.0 162.5,165.0 174.875,185.0 187.25,165.0 199.625,185.0 212.0,175.0 245,175" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="245" y1="175" x2="280" y2="175" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="360" y1="175" x2="415" y2="175" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="280" cy="175" r="5" fill="white" stroke="#DC2626" stroke-width="3"/>
 <circle cx="360" cy="175" r="5" fill="white" stroke="#DC2626" stroke-width="3"/>
-<text x="95" y="245" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">개방처럼 보임</text>
 <rect x="495" y="70" width="440" height="210" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
-<text x="511" y="99" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">L, 직류 최종</text>
-<polyline points="550,175 583.0,175.0 595.375,185.0 607.75,165.0 620.125,185.0 632.5,165.0 644.875,185.0 657.25,165.0 669.625,185.0 682.0,175.0 715,175" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="632.5" y="151.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">R</text>
-<line x1="715" y1="175" x2="750" y2="175" stroke="#25344A" stroke-width="3"/>
-<line x1="830" y1="175" x2="885" y2="175" stroke="#25344A" stroke-width="3"/>
-<line x1="750" y1="175" x2="830" y2="175" stroke="#15803D" stroke-width="4"/>
-<text x="565" y="245" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">단락처럼 보임</text>
+<polyline points="550,175 583.0,175.0 595.375,185.0 607.75,165.0 620.125,185.0 632.5,165.0 644.875,185.0 657.25,165.0 669.625,185.0 682.0,175.0 715,175" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="715" y1="175" x2="750" y2="175" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="830" y1="175" x2="885" y2="175" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="750" y1="175" x2="830" y2="175" stroke="#15803D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="25" y="305" width="440" height="210" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
-<text x="41" y="334" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">무충전 C, t=0+</text>
-<polyline points="80,410 113.0,410.0 125.375,420.0 137.75,400.0 150.125,420.0 162.5,400.0 174.875,420.0 187.25,400.0 199.625,420.0 212.0,410.0 245,410" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="162.5" y="386.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">R</text>
-<line x1="245" y1="410" x2="280" y2="410" stroke="#25344A" stroke-width="3"/>
-<line x1="360" y1="410" x2="415" y2="410" stroke="#25344A" stroke-width="3"/>
-<line x1="280" y1="410" x2="360" y2="410" stroke="#15803D" stroke-width="4"/>
-<text x="95" y="480" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">단락처럼 보임</text>
+<polyline points="80,410 113.0,410.0 125.375,420.0 137.75,400.0 150.125,420.0 162.5,400.0 174.875,420.0 187.25,400.0 199.625,420.0 212.0,410.0 245,410" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="245" y1="410" x2="280" y2="410" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="360" y1="410" x2="415" y2="410" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="280" y1="410" x2="360" y2="410" stroke="#15803D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="495" y="305" width="440" height="210" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
-<text x="511" y="334" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">C, 직류 최종</text>
-<polyline points="550,410 583.0,410.0 595.375,420.0 607.75,400.0 620.125,420.0 632.5,400.0 644.875,420.0 657.25,400.0 669.625,420.0 682.0,410.0 715,410" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="632.5" y="386.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">R</text>
-<line x1="715" y1="410" x2="750" y2="410" stroke="#25344A" stroke-width="3"/>
-<line x1="830" y1="410" x2="885" y2="410" stroke="#25344A" stroke-width="3"/>
+<polyline points="550,410 583.0,410.0 595.375,420.0 607.75,400.0 620.125,420.0 632.5,400.0 644.875,420.0 657.25,400.0 669.625,420.0 682.0,410.0 715,410" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="715" y1="410" x2="750" y2="410" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="830" y1="410" x2="885" y2="410" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="750" cy="410" r="5" fill="white" stroke="#DC2626" stroke-width="3"/>
 <circle cx="830" cy="410" r="5" fill="white" stroke="#DC2626" stroke-width="3"/>
-<text x="565" y="480" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">개방처럼 보임</text>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">스위칭 전후의 등가: 상태변수 연속성</text>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">스위칭 전후의 등가: 상태변수 연속성</text>
+<text x="41" y="99" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">무전류 L, t=0+</text>
+<text x="41" y="99" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="#25344A">무전류 L, t=0+</text>
+<text x="162.5" y="151.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R</text>
+<text x="162.5" y="151.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">R</text>
+<text x="95" y="245" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">개방처럼 보임</text>
+<text x="95" y="245" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">개방처럼 보임</text>
+<text x="511" y="99" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">L, 직류 최종</text>
+<text x="511" y="99" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="#25344A">L, 직류 최종</text>
+<text x="632.5" y="151.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R</text>
+<text x="632.5" y="151.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">R</text>
+<text x="565" y="245" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">단락처럼 보임</text>
+<text x="565" y="245" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">단락처럼 보임</text>
+<text x="41" y="334" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">무충전 C, t=0+</text>
+<text x="41" y="334" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="#25344A">무충전 C, t=0+</text>
+<text x="162.5" y="386.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R</text>
+<text x="162.5" y="386.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">R</text>
+<text x="95" y="480" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">단락처럼 보임</text>
+<text x="95" y="480" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">단락처럼 보임</text>
+<text x="511" y="334" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">C, 직류 최종</text>
+<text x="511" y="334" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="#25344A">C, 직류 최종</text>
+<text x="632.5" y="386.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R</text>
+<text x="632.5" y="386.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">R</text>
+<text x="565" y="480" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">개방처럼 보임</text>
+<text x="565" y="480" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">개방처럼 보임</text>
 </svg>

@@ -1,31 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480">
 <rect width="100%" height="100%" fill="white"/>
-<text x="28" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">상태천이: 초기상태와 입력 효과를 따로 합친다</text>
 <rect x="40" y="110" width="170" height="70" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="125.0" y="152.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">x(0)</text>
-<line x1="210" y1="145" x2="290" y2="145" stroke="#2563EB" stroke-width="3"/>
-<polygon points="290,145 279.1946347717679,150.21958640933477 279.1946347717679,139.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="210" y1="145" x2="290" y2="145" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="290,145 277.8439641182389,150.8720347105016 277.8439641182389,139.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="290" y="110" width="260" height="70" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="420.0" y="152.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">Φ(t)=exp(At)</text>
-<line x1="550" y1="145" x2="740" y2="145" stroke="#2563EB" stroke-width="3"/>
-<polygon points="740,145 729.1946347717678,150.21958640933477 729.1946347717678,139.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="740" y1="145" x2="740" y2="230" stroke="#25344A" stroke-width="3"/>
+<line x1="550" y1="145" x2="740" y2="145" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="740,145 727.8439641182389,150.8720347105016 727.8439641182389,139.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="740" y1="145" x2="740" y2="230" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="40" y="290" width="170" height="70" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="125.0" y="332.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">u(τ)</text>
-<line x1="210" y1="325" x2="290" y2="325" stroke="#2563EB" stroke-width="3"/>
-<polygon points="290,325 279.1946347717679,330.21958640933474 279.1946347717679,319.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="210" y1="325" x2="290" y2="325" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="290,325 277.8439641182389,330.8720347105016 277.8439641182389,319.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="290" y="270" width="340" height="110" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="460.0" y="317.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">Φ(t-τ)B 를 곱하고</text>
-<text x="460.0" y="347.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">0≤τ≤t 동안 적분</text>
-<line x1="630" y1="325" x2="740" y2="325" stroke="#25344A" stroke-width="3"/>
-<line x1="740" y1="325" x2="740" y2="274" stroke="#2563EB" stroke-width="3"/>
-<polygon points="740,274 745.2195864093347,284.8053652282321 734.7804135906653,284.8053652282321" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="630" y1="325" x2="740" y2="325" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="740" y1="325" x2="740" y2="274" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="740,274 745.8720347105016,286.1560358817611 734.1279652894984,286.1560358817611" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="740" cy="252" r="22" fill="white" stroke="#25344A" stroke-width="3"/>
-<text x="734" y="260" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">Σ</text>
-<text x="705" y="234" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">+</text>
-<text x="760" y="300" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">+</text>
-<line x1="762" y1="252" x2="900" y2="252" stroke="#2563EB" stroke-width="3"/>
-<polygon points="900,252 889.1946347717678,257.21958640933474 889.1946347717678,246.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="845" y="230" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="400">x(t)</text>
-<text x="40" y="435" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#2563EB" text-anchor="start" font-weight="400">자유응답 Φ(t)x(0) + 강제응답 ∫[0,t] Φ(t-τ)Bu(τ)dτ</text>
+<line x1="762" y1="252" x2="900" y2="252" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="900,252 887.8439641182389,257.8720347105016 887.8439641182389,246.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">상태천이: 초기상태와 입력 효과를 따로 합친다</text>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">상태천이: 초기상태와 입력 효과를 따로 합친다</text>
+<text x="125.0" y="152.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">x(0)</text>
+<text x="125.0" y="152.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">x(0)</text>
+<text x="420.0" y="152.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Φ(t)=exp(At)</text>
+<text x="420.0" y="152.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">Φ(t)=exp(At)</text>
+<text x="125.0" y="332.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">u(τ)</text>
+<text x="125.0" y="332.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">u(τ)</text>
+<text x="460.0" y="317.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Φ(t-τ)B 를 곱하고</text>
+<text x="460.0" y="317.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">Φ(t-τ)B 를 곱하고</text>
+<text x="460.0" y="347.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">0≤τ≤t 동안 적분</text>
+<text x="460.0" y="347.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">0≤τ≤t 동안 적분</text>
+<text x="734" y="260" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Σ</text>
+<text x="734" y="260" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#25344A">Σ</text>
+<text x="705" y="234" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+</text>
+<text x="705" y="234" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">+</text>
+<text x="760" y="300" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+</text>
+<text x="760" y="300" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">+</text>
+<text x="845" y="230" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">x(t)</text>
+<text x="845" y="230" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="400" fill="#25344A">x(t)</text>
+<text x="40" y="435" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">자유응답 Φ(t)x(0) + 강제응답 ∫[0,t] Φ(t-τ)Bu(τ)dτ</text>
+<text x="40" y="435" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="400" fill="#2563EB">자유응답 Φ(t)x(0) + 강제응답 ∫[0,t] Φ(t-τ)Bu(τ)dτ</text>
 </svg>

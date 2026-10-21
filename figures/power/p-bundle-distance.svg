@@ -1,31 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">등가선간거리와 복도체의 소도체 간격</text>
 <line x1="110" y1="260" x2="320" y2="260" stroke="#64748B" stroke-width="2" stroke-dasharray="6 5"/>
 <line x1="320" y1="260" x2="215" y2="80" stroke="#64748B" stroke-width="2" stroke-dasharray="6 5"/>
 <line x1="215" y1="80" x2="110" y2="260" stroke="#64748B" stroke-width="2" stroke-dasharray="6 5"/>
 <circle cx="110" cy="260" r="16" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
-<text x="110" y="305" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">A</text>
 <circle cx="320" cy="260" r="16" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
-<text x="320" y="305" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">B</text>
 <circle cx="215" cy="80" r="16" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
-<text x="215" y="125" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">C</text>
-<text x="215" y="345" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">Dm = (DAB·DBC·DCA)^(1/3)</text>
-<polyline points="470.0,135.0 470.0,245.0 470.0,135.0" stroke="#64748B" stroke-width="2" fill="none"/>
+<polyline points="470.0,135.0 470.0,245.0 470.0,135.0" stroke="#64748B" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="470.0" cy="135.0" r="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
 <circle cx="470.0" cy="245.0" r="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
-<text x="470" y="320" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">2도체</text>
-<polyline points="640.0,135.0 687.6313972081441,217.5 592.3686027918559,217.50000000000003 640.0,135.0" stroke="#64748B" stroke-width="2" fill="none"/>
+<polyline points="640.0,135.0 687.6313972081441,217.5 592.3686027918559,217.50000000000003 640.0,135.0" stroke="#64748B" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="640.0" cy="135.0" r="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
 <circle cx="687.6313972081441" cy="217.5" r="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
 <circle cx="592.3686027918559" cy="217.50000000000003" r="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
-<text x="640" y="320" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">3도체</text>
-<polyline points="810.0,135.0 865.0,190.0 810.0,245.0 755.0,190.0 810.0,135.0" stroke="#64748B" stroke-width="2" fill="none"/>
+<polyline points="810.0,135.0 865.0,190.0 810.0,245.0 755.0,190.0 810.0,135.0" stroke="#64748B" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="810.0" cy="135.0" r="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
 <circle cx="865.0" cy="190.0" r="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
 <circle cx="810.0" cy="245.0" r="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
 <circle cx="755.0" cy="190.0" r="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
-<text x="810" y="320" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">4도체</text>
-<text x="480" y="415" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#DC2626" text-anchor="middle" font-weight="400">상 사이 간격 Dm과 한 상 내부 간격 s는 서로 다르다</text>
-<text x="480" y="485" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">4도체 정사각형: 인접 s, 대각선 √2s</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">등가선간거리와 복도체의 소도체 간격</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">등가선간거리와 복도체의 소도체 간격</text>
+<text x="110" y="305" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">A</text>
+<text x="110" y="305" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">A</text>
+<text x="320" y="305" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">B</text>
+<text x="320" y="305" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">B</text>
+<text x="215" y="125" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">C</text>
+<text x="215" y="125" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">C</text>
+<text x="215" y="345" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Dm = (DAB·DBC·DCA)^(1/3)</text>
+<text x="215" y="345" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">Dm = (DAB·DBC·DCA)^(1/3)</text>
+<text x="470" y="320" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">2도체</text>
+<text x="470" y="320" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">2도체</text>
+<text x="640" y="320" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">3도체</text>
+<text x="640" y="320" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">3도체</text>
+<text x="810" y="320" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">4도체</text>
+<text x="810" y="320" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">4도체</text>
+<text x="480" y="415" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">상 사이 간격 Dm과 한 상 내부 간격 s는 서로 다르다</text>
+<text x="480" y="415" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="#DC2626">상 사이 간격 Dm과 한 상 내부 간격 s는 서로 다르다</text>
+<text x="480" y="485" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">4도체 정사각형: 인접 s, 대각선 √2s</text>
+<text x="480" y="485" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">4도체 정사각형: 인접 s, 대각선 √2s</text>
 </svg>

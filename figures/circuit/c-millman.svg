@@ -1,43 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
 <rect width="100%" height="100%" fill="white"/>
-<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">밀만 정리: 병렬 가지의 전압과 전류 방향</text>
-<line x1="100" y1="130" x2="845" y2="130" stroke="#25344A" stroke-width="3"/>
-<line x1="100" y1="405" x2="845" y2="405" stroke="#25344A" stroke-width="3"/>
-<polyline points="190,130 190.0,156.0 180.0,165.75 200.0,175.5 180.0,185.25 200.0,195.0 180.0,204.75 200.0,214.5 180.0,224.25 190.0,234.0 190,260" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="164.0" y="195.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">R1</text>
+<line x1="100" y1="130" x2="845" y2="130" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100" y1="405" x2="845" y2="405" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="190,130 190.0,156.0 180.0,165.75 200.0,175.5 180.0,185.25 200.0,195.0 180.0,204.75 200.0,214.5 180.0,224.25 190.0,234.0 190,260" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="190" cy="315" r="32" fill="white" stroke="#25344A" stroke-width="3"/>
-<text x="190" y="310" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">+</text>
-<text x="190" y="334" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">−</text>
-<text x="143" y="322" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">E1</text>
-<line x1="190" y1="260" x2="190" y2="283" stroke="#25344A" stroke-width="3"/>
-<line x1="190" y1="347" x2="190" y2="405" stroke="#25344A" stroke-width="3"/>
-<line x1="250" y1="260" x2="250" y2="190" stroke="#2563EB" stroke-width="3"/>
-<polygon points="250,190 255.21958640933477,200.80536522823212 244.78041359066523,200.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<polyline points="470,130 470.0,156.0 460.0,165.75 480.0,175.5 460.0,185.25 480.0,195.0 460.0,204.75 480.0,214.5 460.0,224.25 470.0,234.0 470,260" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="444.0" y="195.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">R2</text>
+<line x1="190" y1="260" x2="190" y2="283" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="190" y1="347" x2="190" y2="405" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="250" y1="260" x2="250" y2="190" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="250,190 255.87203471050162,202.15603588176114 244.1279652894984,202.15603588176114" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="470,130 470.0,156.0 460.0,165.75 480.0,175.5 460.0,185.25 480.0,195.0 460.0,204.75 480.0,214.5 460.0,224.25 470.0,234.0 470,260" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="470" cy="315" r="32" fill="white" stroke="#25344A" stroke-width="3"/>
-<text x="470" y="310" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">+</text>
-<text x="470" y="334" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">−</text>
-<text x="423" y="322" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">E2</text>
-<line x1="470" y1="260" x2="470" y2="283" stroke="#25344A" stroke-width="3"/>
-<line x1="470" y1="347" x2="470" y2="405" stroke="#25344A" stroke-width="3"/>
-<line x1="530" y1="260" x2="530" y2="190" stroke="#2563EB" stroke-width="3"/>
-<polygon points="530,190 535.2195864093347,200.80536522823212 524.7804135906653,200.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<polyline points="750,130 750.0,156.0 740.0,165.75 760.0,175.5 740.0,185.25 760.0,195.0 740.0,204.75 760.0,214.5 740.0,224.25 750.0,234.0 750,260" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="724.0" y="195.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">R3</text>
+<line x1="470" y1="260" x2="470" y2="283" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="470" y1="347" x2="470" y2="405" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="530" y1="260" x2="530" y2="190" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="530,190 535.8720347105016,202.15603588176114 524.1279652894984,202.15603588176114" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="750,130 750.0,156.0 740.0,165.75 760.0,175.5 740.0,185.25 760.0,195.0 740.0,204.75 760.0,214.5 740.0,224.25 750.0,234.0 750,260" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="750" cy="315" r="32" fill="white" stroke="#25344A" stroke-width="3"/>
-<text x="750" y="310" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">+</text>
-<text x="750" y="334" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">−</text>
-<text x="703" y="322" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">E3</text>
-<line x1="750" y1="260" x2="750" y2="283" stroke="#25344A" stroke-width="3"/>
-<line x1="750" y1="347" x2="750" y2="405" stroke="#25344A" stroke-width="3"/>
-<line x1="810" y1="260" x2="810" y2="190" stroke="#2563EB" stroke-width="3"/>
-<polygon points="810,190 815.2195864093347,200.80536522823212 804.7804135906653,200.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="750" y1="260" x2="750" y2="283" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="750" y1="347" x2="750" y2="405" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="810" y1="260" x2="810" y2="190" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="810,190 815.8720347105016,202.15603588176114 804.1279652894984,202.15603588176114" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="845" cy="130" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="845" y="116" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">V</text>
-<line x1="845" y1="405" x2="845" y2="417" stroke="#25344A" stroke-width="3"/>
-<line x1="828.0" y1="417" x2="862.0" y2="417" stroke="#25344A" stroke-width="3"/>
-<line x1="834.0" y1="425" x2="856.0" y2="425" stroke="#25344A" stroke-width="3"/>
-<line x1="840.0" y1="433" x2="850.0" y2="433" stroke="#25344A" stroke-width="3"/>
-<text x="115" y="475" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">각 가지 전류: (Ek − V)/Rk       마디에서 전류합 = 0</text>
+<line x1="845" y1="405" x2="845" y2="417" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="828.0" y1="417" x2="862.0" y2="417" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="834.0" y1="425" x2="856.0" y2="425" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="840.0" y1="433" x2="850.0" y2="433" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">밀만 정리: 병렬 가지의 전압과 전류 방향</text>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">밀만 정리: 병렬 가지의 전압과 전류 방향</text>
+<text x="164.0" y="195.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R1</text>
+<text x="164.0" y="195.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">R1</text>
+<text x="190" y="310" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+</text>
+<text x="190" y="310" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">+</text>
+<text x="190" y="334" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">−</text>
+<text x="190" y="334" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">−</text>
+<text x="143" y="322" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">E1</text>
+<text x="143" y="322" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">E1</text>
+<text x="444.0" y="195.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R2</text>
+<text x="444.0" y="195.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">R2</text>
+<text x="470" y="310" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+</text>
+<text x="470" y="310" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">+</text>
+<text x="470" y="334" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">−</text>
+<text x="470" y="334" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">−</text>
+<text x="423" y="322" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">E2</text>
+<text x="423" y="322" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">E2</text>
+<text x="724.0" y="195.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R3</text>
+<text x="724.0" y="195.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">R3</text>
+<text x="750" y="310" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+</text>
+<text x="750" y="310" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">+</text>
+<text x="750" y="334" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">−</text>
+<text x="750" y="334" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">−</text>
+<text x="703" y="322" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">E3</text>
+<text x="703" y="322" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">E3</text>
+<text x="845" y="116" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">V</text>
+<text x="845" y="116" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">V</text>
+<text x="115" y="475" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">각 가지 전류: (Ek − V)/Rk       마디에서 전류합 = 0</text>
+<text x="115" y="475" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">각 가지 전류: (Ek − V)/Rk       마디에서 전류합 = 0</text>
 </svg>

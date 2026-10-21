@@ -1,22 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">효율의 분모·분자는 어느 에너지 경계인가</text>
 <rect x="35.0" y="130" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="135.0" y="179.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">연료의 열</text>
 <rect x="265.0" y="130" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="365.0" y="179.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">증기가 받은 열</text>
-<line x1="237.0" y1="173" x2="262.0" y2="173" stroke="#2563EB" stroke-width="3"/>
-<polygon points="262.0,173 251.19463477176788,178.21958640933477 251.19463477176788,167.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="237.0" y1="173" x2="262.0" y2="173" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="262.0,173 249.84396411823886,178.8720347105016 249.84396411823886,167.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="495.0" y="130" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="595.0" y="179.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">터빈 축일</text>
-<line x1="467.0" y1="173" x2="492.0" y2="173" stroke="#2563EB" stroke-width="3"/>
-<polygon points="492.0,173 481.1946347717679,178.21958640933477 481.1946347717679,167.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="467.0" y1="173" x2="492.0" y2="173" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="492.0,173 479.8439641182389,178.8720347105016 479.8439641182389,167.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="725.0" y="130" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="825.0" y="179.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">발전기 전력</text>
-<line x1="697.0" y1="173" x2="722.0" y2="173" stroke="#2563EB" stroke-width="3"/>
-<polygon points="722.0,173 711.1946347717678,178.21958640933477 711.1946347717678,167.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="245" y="300" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#DC2626" text-anchor="middle" font-weight="400">보일러 효율</text>
-<text x="480" y="345" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="400">열사이클·터빈 측 효율</text>
-<text x="745" y="300" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#15803D" text-anchor="middle" font-weight="400">발전기 효율</text>
-<text x="480" y="435" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="middle" font-weight="400">전체 효율 = 최종 전력 / 연료 투입열 (서로 같은 단위)</text>
+<line x1="697.0" y1="173" x2="722.0" y2="173" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="722.0,173 709.8439641182389,178.8720347105016 709.8439641182389,167.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">효율의 분모·분자는 어느 에너지 경계인가</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">효율의 분모·분자는 어느 에너지 경계인가</text>
+<text x="135.0" y="179.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">연료의 열</text>
+<text x="135.0" y="179.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#2563EB">연료의 열</text>
+<text x="365.0" y="179.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">증기가 받은 열</text>
+<text x="365.0" y="179.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#2563EB">증기가 받은 열</text>
+<text x="595.0" y="179.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">터빈 축일</text>
+<text x="595.0" y="179.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#2563EB">터빈 축일</text>
+<text x="825.0" y="179.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">발전기 전력</text>
+<text x="825.0" y="179.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#2563EB">발전기 전력</text>
+<text x="245" y="300" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">보일러 효율</text>
+<text x="245" y="300" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#DC2626">보일러 효율</text>
+<text x="480" y="345" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">열사이클·터빈 측 효율</text>
+<text x="480" y="345" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#2563EB">열사이클·터빈 측 효율</text>
+<text x="745" y="300" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">발전기 효율</text>
+<text x="745" y="300" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#15803D">발전기 효율</text>
+<text x="480" y="435" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">전체 효율 = 최종 전력 / 연료 투입열 (서로 같은 단위)</text>
+<text x="480" y="435" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="#25344A">전체 효율 = 최종 전력 / 연료 투입열 (서로 같은 단위)</text>
 </svg>

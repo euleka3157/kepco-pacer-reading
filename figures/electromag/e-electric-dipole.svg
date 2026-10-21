@@ -1,30 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">전기쌍극자의 축 · 관측점 · 각도</text>
 <circle cx="290" cy="320" r="20" fill="#EFF6FF" stroke="#2563EB" stroke-width="3"/>
-<text x="290" y="328" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="26" fill="#2563EB" text-anchor="middle" font-weight="700">-</text>
 <circle cx="500" cy="320" r="20" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
-<text x="500" y="328" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="26" fill="#DC2626" text-anchor="middle" font-weight="700">+</text>
-<line x1="320" y1="320" x2="470" y2="320" stroke="#7C3AED" stroke-width="3"/>
-<polygon points="470,320 459.1946347717679,325.21958640933474 459.1946347717679,314.78041359066526" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
-<text x="335" y="255" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">p = qd</text>
-<line x1="290" y1="380" x2="500" y2="380" stroke="#64748B" stroke-width="2"/>
-<polygon points="500,380 492.79642318117857,383.4797242728898 492.79642318117857,376.5202757271102" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="500" y1="380" x2="290" y2="380" stroke="#64748B" stroke-width="2"/>
-<polygon points="290,380 297.20357681882143,376.5202757271102 297.20357681882143,383.4797242728898" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="395.0" y="370.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">d</text>
+<line x1="320" y1="320" x2="470" y2="320" stroke="#7C3AED" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="470,320 457.8439641182389,325.8720347105016 457.8439641182389,314.1279652894984" stroke="#7C3AED" stroke-width="1" fill="#7C3AED" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="290" y1="380" x2="500" y2="380" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="500,380 490.9955289764732,384.3496553411123 490.9955289764732,375.6503446588877" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="500" y1="380" x2="290" y2="380" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="290,380 299.0044710235268,375.6503446588877 299.0044710235268,384.3496553411123" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="395" cy="320" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="395" y="306" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">O</text>
 <circle cx="690" cy="125" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="690" y="111" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">P</text>
-<line x1="395" y1="320" x2="690" y2="125" stroke="#2563EB" stroke-width="3"/>
-<polygon points="690,125 683.8642094017769,135.31271417885497 678.1077048733291,126.60415604607499" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="395" y1="320" x2="690" y2="125" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="690,125 683.097235576999,136.60180345121185 676.6211679824952,126.80467555183436" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="290" y1="320" x2="690" y2="125" stroke="#64748B" stroke-width="2" stroke-dasharray="5 5"/>
 <line x1="500" y1="320" x2="690" y2="125" stroke="#64748B" stroke-width="2" stroke-dasharray="5 5"/>
-<text x="570" y="185" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">r</text>
-<text x="460" y="295" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">θ</text>
-<text x="60" y="440" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">p의 방향: -q → +q</text>
-<text x="510" y="440" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">먼 거리 조건: r ≫ d</text>
-<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">θ는 쌍극자 모멘트 p의 축과 관측 방향 r 사이의 각. 전위는 cosθ/r², 전계는 1/r³에 비</text>
-<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">례한다.</text>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">전기쌍극자의 축 · 관측점 · 각도</text>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">전기쌍극자의 축 · 관측점 · 각도</text>
+<text x="290" y="328" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="26" text-anchor="middle" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">-</text>
+<text x="290" y="328" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="26" text-anchor="middle" font-weight="700" fill="#2563EB">-</text>
+<text x="500" y="328" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="26" text-anchor="middle" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+</text>
+<text x="500" y="328" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="26" text-anchor="middle" font-weight="700" fill="#DC2626">+</text>
+<text x="335" y="255" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">p = qd</text>
+<text x="335" y="255" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">p = qd</text>
+<text x="395.0" y="370.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">d</text>
+<text x="395.0" y="370.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#64748B">d</text>
+<text x="395" y="306" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">O</text>
+<text x="395" y="306" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">O</text>
+<text x="690" y="111" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">P</text>
+<text x="690" y="111" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">P</text>
+<text x="562" y="171" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">r</text>
+<text x="562" y="171" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">r</text>
+<text x="460" y="295" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">θ</text>
+<text x="460" y="295" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">θ</text>
+<text x="60" y="440" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">p의 방향: -q → +q</text>
+<text x="60" y="440" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">p의 방향: -q → +q</text>
+<text x="510" y="440" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">먼 거리 조건: r ≫ d</text>
+<text x="510" y="440" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">먼 거리 조건: r ≫ d</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">θ는 쌍극자 모멘트 p의 축과 관측 방향 r 사이의 각. 전위는 cosθ/r², 전계는 1/r³에 비</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">θ는 쌍극자 모멘트 p의 축과 관측 방향 r 사이의 각. 전위는 cosθ/r², 전계는 1/r³에 비</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">례한다.</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">례한다.</text>
 </svg>

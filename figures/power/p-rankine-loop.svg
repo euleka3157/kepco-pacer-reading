@@ -1,24 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">랭킨 사이클의 물·증기 순환</text>
 <rect x="80" y="115" width="250" height="85" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="205.0" y="164.76" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">보일러: 열 공급</text>
 <rect x="610" y="115" width="250" height="85" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="735.0" y="164.76" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">터빈: 축일 출력</text>
 <rect x="610" y="370" width="250" height="85" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="735.0" y="419.76" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">복수기: 열 방출</text>
 <rect x="80" y="370" width="250" height="85" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="205.0" y="419.76" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">급수 펌프: 일 입력</text>
-<line x1="335" y1="155" x2="605" y2="155" stroke="#DC2626" stroke-width="5"/>
-<polygon points="605,155 594.1946347717678,160.21958640933477 594.1946347717678,149.78041359066523" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="735" y1="205" x2="735" y2="365" stroke="#DC2626" stroke-width="5"/>
-<polygon points="735,365 729.7804135906653,354.1946347717679 740.2195864093347,354.1946347717679" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="605" y1="410" x2="335" y2="410" stroke="#2563EB" stroke-width="5"/>
-<polygon points="335,410 345.8053652282321,404.78041359066526 345.8053652282321,415.21958640933474" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="205" y1="365" x2="205" y2="205" stroke="#2563EB" stroke-width="5"/>
-<polygon points="205,205 210.21958640933477,215.80536522823212 199.78041359066523,215.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="455" y="125" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">고온·고압 증기</text>
-<text x="830" y="285" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">배기 증기</text>
-<text x="470" y="460" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">응축수</text>
-<text x="120" y="285" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">고압 급수</text>
+<line x1="335" y1="155" x2="605" y2="155" stroke="#DC2626" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="605,155 586.5408344017701,163.91679344928022 586.5408344017701,146.08320655071978" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="735" y1="205" x2="735" y2="365" stroke="#DC2626" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="735,365 726.0832065507198,346.5408344017701 743.9167934492802,346.5408344017701" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="605" y1="410" x2="335" y2="410" stroke="#2563EB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="335,410 353.4591655982299,401.08320655071975 353.4591655982299,418.91679344928025" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="205" y1="365" x2="205" y2="205" stroke="#2563EB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="205,205 213.91679344928022,223.45916559822987 196.08320655071978,223.45916559822987" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">랭킨 사이클의 물·증기 순환</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">랭킨 사이클의 물·증기 순환</text>
+<text x="205.0" y="164.76" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">보일러: 열 공급</text>
+<text x="205.0" y="164.76" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">보일러: 열 공급</text>
+<text x="735.0" y="164.76" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">터빈: 축일 출력</text>
+<text x="735.0" y="164.76" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">터빈: 축일 출력</text>
+<text x="735.0" y="419.76" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">복수기: 열 방출</text>
+<text x="735.0" y="419.76" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">복수기: 열 방출</text>
+<text x="205.0" y="419.76" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">급수 펌프: 일 입력</text>
+<text x="205.0" y="419.76" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">급수 펌프: 일 입력</text>
+<text x="455" y="125" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">고온·고압 증기</text>
+<text x="455" y="125" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">고온·고압 증기</text>
+<text x="830" y="285" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">배기 증기</text>
+<text x="830" y="285" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">배기 증기</text>
+<text x="470" y="460" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">응축수</text>
+<text x="470" y="460" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">응축수</text>
+<text x="120" y="285" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">고압 급수</text>
+<text x="120" y="285" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">고압 급수</text>
 </svg>

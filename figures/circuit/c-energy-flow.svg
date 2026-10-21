@@ -1,21 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="450" viewBox="0 0 960 450">
 <rect width="100%" height="100%" fill="white"/>
-<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">전기열·효율: 입력에서 유용한 출력까지</text>
 <rect x="35" y="150" width="215" height="110" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="142.5" y="197.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">전기 입력</text>
-<text x="142.5" y="227.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">W = Pt</text>
-<line x1="250" y1="205" x2="340" y2="205" stroke="#2563EB" stroke-width="3"/>
-<polygon points="340,205 329.1946347717679,210.21958640933477 329.1946347717679,199.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="250" y1="205" x2="340" y2="205" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="340,205 327.8439641182389,210.8720347105016 327.8439641182389,199.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="340" y="150" width="240" height="110" rx="10" fill="#EFF6FF" stroke="#7C3AED" stroke-width="2"/>
-<text x="460.0" y="212.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#7C3AED" text-anchor="middle" font-weight="700">변환 장치</text>
-<line x1="580" y1="205" x2="685" y2="205" stroke="#15803D" stroke-width="3"/>
-<polygon points="685,205 674.1946347717678,210.21958640933477 674.1946347717678,199.78041359066523" stroke="#15803D" stroke-width="1" fill="#15803D"/>
+<line x1="580" y1="205" x2="685" y2="205" stroke="#15803D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="685,205 672.8439641182389,210.8720347105016 672.8439641182389,199.1279652894984" stroke="#15803D" stroke-width="1" fill="#15803D" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="685" y="150" width="235" height="110" rx="10" fill="#EFF6FF" stroke="#15803D" stroke-width="2"/>
-<text x="802.5" y="197.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#15803D" text-anchor="middle" font-weight="700">유용한 출력</text>
-<text x="802.5" y="227.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#15803D" text-anchor="middle" font-weight="700">Q = mcΔT</text>
-<line x1="460" y1="260" x2="460" y2="350" stroke="#DC2626" stroke-width="3"/>
-<polygon points="460,350 454.78041359066526,339.1946347717679 465.21958640933474,339.1946347717679" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="490" y="345" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">손실</text>
-<text x="85" y="395" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">η = 유용한 출력 / 입력</text>
-<text x="535" y="395" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">같은 시간·같은 에너지 단위로 비교</text>
+<line x1="460" y1="260" x2="460" y2="350" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="460,350 454.1279652894984,337.8439641182389 465.8720347105016,337.8439641182389" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">전기열·효율: 입력에서 유용한 출력까지</text>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">전기열·효율: 입력에서 유용한 출력까지</text>
+<text x="142.5" y="197.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">전기 입력</text>
+<text x="142.5" y="197.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">전기 입력</text>
+<text x="142.5" y="227.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">W = Pt</text>
+<text x="142.5" y="227.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">W = Pt</text>
+<text x="460.0" y="212.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">변환 장치</text>
+<text x="460.0" y="212.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#7C3AED">변환 장치</text>
+<text x="802.5" y="197.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">유용한 출력</text>
+<text x="802.5" y="197.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#15803D">유용한 출력</text>
+<text x="802.5" y="227.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Q = mcΔT</text>
+<text x="802.5" y="227.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#15803D">Q = mcΔT</text>
+<text x="490" y="345" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">손실</text>
+<text x="490" y="345" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">손실</text>
+<text x="85" y="395" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">η = 유용한 출력 / 입력</text>
+<text x="85" y="395" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">η = 유용한 출력 / 입력</text>
+<text x="535" y="395" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">같은 시간·같은 에너지 단위로 비교</text>
+<text x="535" y="395" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">같은 시간·같은 에너지 단위로 비교</text>
 </svg>

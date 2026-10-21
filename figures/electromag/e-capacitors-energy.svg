@@ -1,45 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">콘덴서 연결과 전극 사이의 힘</text>
-<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1"/>
-<line x1="60" y1="180" x2="118.0" y2="180.0" stroke="#25344A" stroke-width="3"/>
-<line x1="132.0" y1="180.0" x2="190" y2="180" stroke="#25344A" stroke-width="3"/>
-<line x1="118.0" y1="202.0" x2="118.0" y2="158.0" stroke="#25344A" stroke-width="3"/>
-<line x1="132.0" y1="202.0" x2="132.0" y2="158.0" stroke="#25344A" stroke-width="3"/>
-<text x="125.0" y="148.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">C1</text>
-<line x1="190" y1="180" x2="248.0" y2="180.0" stroke="#25344A" stroke-width="3"/>
-<line x1="262.0" y1="180.0" x2="320" y2="180" stroke="#25344A" stroke-width="3"/>
-<line x1="248.0" y1="202.0" x2="248.0" y2="158.0" stroke="#25344A" stroke-width="3"/>
-<line x1="262.0" y1="202.0" x2="262.0" y2="158.0" stroke="#25344A" stroke-width="3"/>
-<text x="255.0" y="148.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">C2</text>
-<text x="80" y="240" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">직렬: Q 같음, V 분배</text>
-<line x1="60" y1="320" x2="60" y2="420" stroke="#25344A" stroke-width="3"/>
-<line x1="350" y1="320" x2="350" y2="420" stroke="#25344A" stroke-width="3"/>
-<line x1="60" y1="320" x2="198.0" y2="320.0" stroke="#25344A" stroke-width="3"/>
-<line x1="212.0" y1="320.0" x2="350" y2="320" stroke="#25344A" stroke-width="3"/>
-<line x1="198.0" y1="342.0" x2="198.0" y2="298.0" stroke="#25344A" stroke-width="3"/>
-<line x1="212.0" y1="342.0" x2="212.0" y2="298.0" stroke="#25344A" stroke-width="3"/>
-<text x="205.0" y="288.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">C1</text>
-<line x1="60" y1="420" x2="198.0" y2="420.0" stroke="#25344A" stroke-width="3"/>
-<line x1="212.0" y1="420.0" x2="350" y2="420" stroke="#25344A" stroke-width="3"/>
-<line x1="198.0" y1="442.0" x2="198.0" y2="398.0" stroke="#25344A" stroke-width="3"/>
-<line x1="212.0" y1="442.0" x2="212.0" y2="398.0" stroke="#25344A" stroke-width="3"/>
-<text x="205.0" y="388.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">C2</text>
-<text x="70" y="470" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">병렬: V 같음, Q 분배</text>
-<line x1="570" y1="170" x2="880" y2="170" stroke="#DC2626" stroke-width="7"/>
-<line x1="570" y1="370" x2="880" y2="370" stroke="#2563EB" stroke-width="7"/>
-<line x1="725" y1="190" x2="725" y2="245" stroke="#DC2626" stroke-width="3"/>
-<polygon points="725,245 719.7804135906653,234.19463477176788 730.2195864093347,234.19463477176788" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="725" y1="350" x2="725" y2="295" stroke="#2563EB" stroke-width="3"/>
-<polygon points="725,295 730.2195864093347,305.8053652282321 719.7804135906653,305.8053652282321" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="585" y="140" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">+Q</text>
-<text x="585" y="405" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">-Q</text>
-<text x="760" y="255" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">인력</text>
-<line x1="905" y1="170" x2="905" y2="370" stroke="#64748B" stroke-width="2"/>
-<polygon points="905,370 901.5202757271102,362.79642318117857 908.4797242728898,362.79642318117857" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="905" y1="370" x2="905" y2="170" stroke="#64748B" stroke-width="2"/>
-<polygon points="905,170 908.4797242728898,177.2035768188214 901.5202757271102,177.2035768188214" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="905.0" y="260.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">d</text>
-<text x="550" y="460" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">W = ½CV²,  압력 = ½εE²</text>
-<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">힘 계산에서 전압원이 연결되어 V가 일정한지, 분리되어 Q가 일정한지 조건을 먼저 정한다.</text>
+<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="60" y1="180" x2="118.0" y2="180.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="132.0" y1="180.0" x2="190" y2="180" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="118.0" y1="202.0" x2="118.0" y2="158.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="132.0" y1="202.0" x2="132.0" y2="158.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="190" y1="180" x2="248.0" y2="180.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="262.0" y1="180.0" x2="320" y2="180" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="248.0" y1="202.0" x2="248.0" y2="158.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="262.0" y1="202.0" x2="262.0" y2="158.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="60" y1="320" x2="60" y2="420" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="350" y1="320" x2="350" y2="420" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="60" y1="320" x2="198.0" y2="320.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="212.0" y1="320.0" x2="350" y2="320" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="198.0" y1="342.0" x2="198.0" y2="298.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="212.0" y1="342.0" x2="212.0" y2="298.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="60" y1="420" x2="198.0" y2="420.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="212.0" y1="420.0" x2="350" y2="420" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="198.0" y1="442.0" x2="198.0" y2="398.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="212.0" y1="442.0" x2="212.0" y2="398.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="570" y1="170" x2="880" y2="170" stroke="#DC2626" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="570" y1="370" x2="880" y2="370" stroke="#2563EB" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="725" y1="190" x2="725" y2="245" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="725,245 719.1279652894984,232.84396411823886 730.8720347105016,232.84396411823886" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="725" y1="350" x2="725" y2="295" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="725,295 730.8720347105016,307.1560358817611 719.1279652894984,307.1560358817611" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="905" y1="170" x2="905" y2="370" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="905,370 900.6503446588877,360.9955289764732 909.3496553411123,360.9955289764732" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="905" y1="370" x2="905" y2="170" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="905,170 909.3496553411123,179.00447102352678 900.6503446588877,179.00447102352678" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">콘덴서 연결과 전극 사이의 힘</text>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">콘덴서 연결과 전극 사이의 힘</text>
+<text x="125.0" y="148.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">C1</text>
+<text x="125.0" y="148.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">C1</text>
+<text x="255.0" y="148.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">C2</text>
+<text x="255.0" y="148.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">C2</text>
+<text x="80" y="240" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">직렬: Q 같음, V 분배</text>
+<text x="80" y="240" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">직렬: Q 같음, V 분배</text>
+<text x="205.0" y="288.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">C1</text>
+<text x="205.0" y="288.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">C1</text>
+<text x="205.0" y="388.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">C2</text>
+<text x="205.0" y="388.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">C2</text>
+<text x="70" y="470" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">병렬: V 같음, Q 분배</text>
+<text x="70" y="470" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">병렬: V 같음, Q 분배</text>
+<text x="585" y="140" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+Q</text>
+<text x="585" y="140" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">+Q</text>
+<text x="585" y="405" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">-Q</text>
+<text x="585" y="405" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">-Q</text>
+<text x="760" y="255" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">인력</text>
+<text x="760" y="255" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">인력</text>
+<text x="895" y="260" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">d</text>
+<text x="895" y="260" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#64748B">d</text>
+<text x="550" y="460" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">W = ½CV²,  압력 = ½εE²</text>
+<text x="550" y="460" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">W = ½CV²,  압력 = ½εE²</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">힘 계산에서 전압원이 연결되어 V가 일정한지, 분리되어 Q가 일정한지 조건을 먼저 정한다.</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">힘 계산에서 전압원이 연결되어 V가 일정한지, 분리되어 Q가 일정한지 조건을 먼저 정한다.</text>
 </svg>

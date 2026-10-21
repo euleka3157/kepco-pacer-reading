@@ -1,27 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="570" viewBox="0 0 960 570">
 <rect width="100%" height="100%" fill="white"/>
-<text x="28" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">직접 사상 캐시: 태그·인덱스·블록 내 위치</text>
-<text x="55" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="400">예: 32비트 주소 · 캐시 데이터 32 KiB · 블록 64 B</text>
 <rect x="60" y="135" width="450" height="80" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="285.0" y="182.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">태그 17비트</text>
 <rect x="510" y="135" width="240" height="80" rx="10" fill="#EFF6FF" stroke="#15803D" stroke-width="2"/>
-<text x="630.0" y="182.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#15803D" text-anchor="middle" font-weight="700">인덱스 9비트</text>
 <rect x="750" y="135" width="150" height="80" rx="10" fill="#EFF6FF" stroke="#7C3AED" stroke-width="2"/>
-<text x="825.0" y="182.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#7C3AED" text-anchor="middle" font-weight="700">오프셋 6비트</text>
-<line x1="630" y1="215" x2="630" y2="300" stroke="#15803D" stroke-width="3"/>
-<polygon points="630,300 624.7804135906653,289.1946347717679 635.2195864093347,289.1946347717679" stroke="#15803D" stroke-width="1" fill="#15803D"/>
+<line x1="630" y1="215" x2="630" y2="300" stroke="#15803D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="630,300 624.1279652894984,287.8439641182389 635.8720347105016,287.8439641182389" stroke="#15803D" stroke-width="1" fill="#15803D" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="420" y="300" width="430" height="170" rx="10" fill="#F8FAFC" stroke="#64748B" stroke-width="2"/>
-<text x="445" y="340" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#15803D" text-anchor="start" font-weight="400">512개 라인 중 하나를 선택</text>
 <rect x="445" y="370" width="100" height="60" rx="10" fill="#EFF6FF" stroke="#64748B" stroke-width="2"/>
-<text x="495.0" y="406.93" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#64748B" text-anchor="middle" font-weight="700">Valid</text>
 <rect x="545" y="370" width="130" height="60" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="610.0" y="406.93" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="middle" font-weight="700">저장 태그</text>
 <rect x="675" y="370" width="150" height="60" rx="10" fill="#EFF6FF" stroke="#7C3AED" stroke-width="2"/>
-<text x="750.0" y="406.93" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#7C3AED" text-anchor="middle" font-weight="700">64 B 데이터</text>
-<line x1="285" y1="215" x2="285" y2="400" stroke="#25344A" stroke-width="3"/>
-<line x1="285" y1="400" x2="420" y2="400" stroke="#2563EB" stroke-width="3"/>
-<polygon points="420,400 409.1946347717679,405.21958640933474 409.1946347717679,394.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="75" y="345" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">주소 태그와</text>
-<text x="75" y="385" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="start" font-weight="400">저장 태그 비교</text>
-<text x="55" y="525" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">라인=메모리 블록 번호 mod 512 · Valid=1이고 태그가 같으면 적중</text>
+<line x1="285" y1="215" x2="285" y2="400" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="285" y1="400" x2="420" y2="400" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="420,400 407.8439641182389,405.8720347105016 407.8439641182389,394.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">직접 사상 캐시: 태그·인덱스·블록 내 위치</text>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">직접 사상 캐시: 태그·인덱스·블록 내 위치</text>
+<text x="55" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">예: 32비트 주소 · 캐시 데이터 32 KiB · 블록 64 B</text>
+<text x="55" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="400" fill="#25344A">예: 32비트 주소 · 캐시 데이터 32 KiB · 블록 64 B</text>
+<text x="285.0" y="182.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">태그 17비트</text>
+<text x="285.0" y="182.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">태그 17비트</text>
+<text x="630.0" y="182.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">인덱스 9비트</text>
+<text x="630.0" y="182.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#15803D">인덱스 9비트</text>
+<text x="825.0" y="182.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">오프셋 6비트</text>
+<text x="825.0" y="182.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#7C3AED">오프셋 6비트</text>
+<text x="445" y="340" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">512개 라인 중 하나를 선택</text>
+<text x="445" y="340" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#15803D">512개 라인 중 하나를 선택</text>
+<text x="495.0" y="406.93" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Valid</text>
+<text x="495.0" y="406.93" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="700" fill="#64748B">Valid</text>
+<text x="610.0" y="406.93" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">저장 태그</text>
+<text x="610.0" y="406.93" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="700" fill="#2563EB">저장 태그</text>
+<text x="750.0" y="406.93" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">64 B 데이터</text>
+<text x="750.0" y="406.93" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="700" fill="#7C3AED">64 B 데이터</text>
+<text x="75" y="345" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">주소 태그와</text>
+<text x="75" y="345" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">주소 태그와</text>
+<text x="75" y="385" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">저장 태그 비교</text>
+<text x="75" y="385" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#2563EB">저장 태그 비교</text>
+<text x="55" y="525" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">라인=메모리 블록 번호 mod 512 · Valid=1이고 태그가 같으면 적중</text>
+<text x="55" y="525" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">라인=메모리 블록 번호 mod 512 · Valid=1이고 태그가 같으면 적중</text>
 </svg>

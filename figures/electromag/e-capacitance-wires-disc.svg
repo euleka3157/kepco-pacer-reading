@@ -1,35 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">평행 도선 · 도선과 대지 · 원판의 기하</text>
 <circle cx="105" cy="220" r="27" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
 <circle cx="245" cy="220" r="27" fill="#EFF6FF" stroke="#2563EB" stroke-width="3"/>
-<line x1="105" y1="305" x2="245" y2="305" stroke="#64748B" stroke-width="2"/>
-<polygon points="245,305 237.7964231811786,308.4797242728898 237.7964231811786,301.5202757271102" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="245" y1="305" x2="105" y2="305" stroke="#64748B" stroke-width="2"/>
-<polygon points="105,305 112.20357681882142,301.5202757271102 112.20357681882142,308.4797242728898" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="175.0" y="295.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">중심 간격 d</text>
-<text x="105" y="210" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">a</text>
-<text x="60" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">평행 도선: d ≫ a</text>
-<text x="45" y="375" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">C′ ≈ πε / ln(d/a)</text>
+<line x1="105" y1="305" x2="245" y2="305" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="245,305 235.99552897647322,309.3496553411123 235.99552897647322,300.6503446588877" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="245" y1="305" x2="105" y2="305" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="105,305 114.00447102352678,300.6503446588877 114.00447102352678,309.3496553411123" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="480" cy="180" r="27" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
-<line x1="350" y1="320" x2="620" y2="320" stroke="#64748B" stroke-width="5"/>
-<line x1="480" y1="320" x2="480" y2="332" stroke="#25344A" stroke-width="3"/>
-<line x1="463.0" y1="332" x2="497.0" y2="332" stroke="#25344A" stroke-width="3"/>
-<line x1="469.0" y1="340" x2="491.0" y2="340" stroke="#25344A" stroke-width="3"/>
-<line x1="475.0" y1="348" x2="485.0" y2="348" stroke="#25344A" stroke-width="3"/>
-<line x1="550" y1="180" x2="550" y2="320" stroke="#64748B" stroke-width="2"/>
-<polygon points="550,320 546.5202757271102,312.79642318117857 553.4797242728898,312.79642318117857" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="550" y1="320" x2="550" y2="180" stroke="#64748B" stroke-width="2"/>
-<polygon points="550,180 553.4797242728898,187.2035768188214 546.5202757271102,187.2035768188214" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="550.0" y="240.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">h</text>
-<text x="420" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">도선과 접지 평면</text>
-<text x="350" y="375" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">C′ ≈ 2πε / ln(2h/a)</text>
+<line x1="350" y1="320" x2="620" y2="320" stroke="#64748B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="480" y1="320" x2="480" y2="332" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="463.0" y1="332" x2="497.0" y2="332" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="469.0" y1="340" x2="491.0" y2="340" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="475.0" y1="348" x2="485.0" y2="348" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="550" y1="180" x2="550" y2="320" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="550,320 545.6503446588877,310.9955289764732 554.3496553411123,310.9955289764732" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="550" y1="320" x2="550" y2="180" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="550,180 554.3496553411123,189.00447102352678 545.6503446588877,189.00447102352678" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
 <ellipse cx="795" cy="230" rx="105" ry="30" fill="#E2E8F0" stroke="#64748B" stroke-width="3"/>
-<line x1="795" y1="230" x2="900" y2="230" stroke="#2563EB" stroke-width="3"/>
-<polygon points="900,230 889.1946347717678,235.21958640933477 889.1946347717678,224.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="835" y="210" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">a</text>
-<text x="700" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">두께가 매우 작은 원판</text>
-<text x="710" y="375" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">고립 원판 C = 8εa</text>
-<text x="75" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">고립한 두 구(반지름 a,b), 매우 먼 거리: C ≈ 4πε/(1/a+1/b)</text>
-<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">C′는 단위길이당 F/m. 도선 근사식의 d,h는 표면 간격이 아니라 중심 기준 거리다.</text>
+<line x1="795" y1="230" x2="900" y2="230" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="900,230 887.8439641182389,235.8720347105016 887.8439641182389,224.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">평행 도선 · 도선과 대지 · 원판의 기하</text>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">평행 도선 · 도선과 대지 · 원판의 기하</text>
+<text x="175.0" y="295.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">중심 간격 d</text>
+<text x="175.0" y="295.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#64748B">중심 간격 d</text>
+<text x="105" y="210" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">a</text>
+<text x="105" y="210" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">a</text>
+<text x="60" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">평행 도선: d ≫ a</text>
+<text x="60" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">평행 도선: d ≫ a</text>
+<text x="45" y="375" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">C′ ≈ πε / ln(d/a)</text>
+<text x="45" y="375" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">C′ ≈ πε / ln(d/a)</text>
+<text x="540" y="240" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">h</text>
+<text x="540" y="240" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#64748B">h</text>
+<text x="420" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">도선과 접지 평면</text>
+<text x="420" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">도선과 접지 평면</text>
+<text x="350" y="375" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">C′ ≈ 2πε / ln(2h/a)</text>
+<text x="350" y="375" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">C′ ≈ 2πε / ln(2h/a)</text>
+<text x="839" y="194" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">a</text>
+<text x="839" y="194" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">a</text>
+<text x="700" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">두께가 매우 작은 원판</text>
+<text x="700" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">두께가 매우 작은 원판</text>
+<text x="710" y="375" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">고립 원판 C = 8εa</text>
+<text x="710" y="375" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">고립 원판 C = 8εa</text>
+<text x="75" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">고립한 두 구(반지름 a,b), 매우 먼 거리: C ≈ 4πε/(1/a+1/b)</text>
+<text x="75" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">고립한 두 구(반지름 a,b), 매우 먼 거리: C ≈ 4πε/(1/a+1/b)</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">C′는 단위길이당 F/m. 도선 근사식의 d,h는 표면 간격이 아니라 중심 기준 거리다.</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">C′는 단위길이당 F/m. 도선 근사식의 d,h는 표면 간격이 아니라 중심 기준 거리다.</text>
 </svg>

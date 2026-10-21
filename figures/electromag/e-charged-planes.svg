@@ -1,61 +1,77 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">전하가 있는 면: 도체 표면과 무한 평면의 차이</text>
-<text x="50" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">도체 표면</text>
-<text x="355" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">고립한 무한 전하판</text>
-<text x="660" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">평행판 (+σ, -σ)</text>
 <rect x="55" y="255" width="240" height="120" rx="0" fill="#E2E8F0" stroke="#64748B" stroke-width="2"/>
-<text x="90" y="330" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">도체 내부 E=0</text>
-<text x="80" y="250" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#DC2626" text-anchor="start" font-weight="400">+</text>
-<line x1="86" y1="225" x2="86" y2="150" stroke="#2563EB" stroke-width="3"/>
-<polygon points="86,150 91.21958640933477,160.80536522823212 80.78041359066523,160.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="120" y="250" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#DC2626" text-anchor="start" font-weight="400">+</text>
-<line x1="126" y1="225" x2="126" y2="150" stroke="#2563EB" stroke-width="3"/>
-<polygon points="126,150 131.21958640933477,160.80536522823212 120.78041359066523,160.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="160" y="250" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#DC2626" text-anchor="start" font-weight="400">+</text>
-<line x1="166" y1="225" x2="166" y2="150" stroke="#2563EB" stroke-width="3"/>
-<polygon points="166,150 171.21958640933477,160.80536522823212 160.78041359066523,160.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="200" y="250" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#DC2626" text-anchor="start" font-weight="400">+</text>
-<line x1="206" y1="225" x2="206" y2="150" stroke="#2563EB" stroke-width="3"/>
-<polygon points="206,150 211.21958640933477,160.80536522823212 200.78041359066523,160.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="240" y="250" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#DC2626" text-anchor="start" font-weight="400">+</text>
-<line x1="246" y1="225" x2="246" y2="150" stroke="#2563EB" stroke-width="3"/>
-<polygon points="246,150 251.21958640933477,160.80536522823212 240.78041359066523,160.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="75" y="420" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">바깥 E = σ/ε</text>
-<line x1="375" y1="270" x2="605" y2="270" stroke="#DC2626" stroke-width="4"/>
-<line x1="395" y1="250" x2="395" y2="170" stroke="#2563EB" stroke-width="3"/>
-<polygon points="395,170 400.21958640933474,180.80536522823212 389.78041359066526,180.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="395" y1="290" x2="395" y2="370" stroke="#2563EB" stroke-width="3"/>
-<polygon points="395,370 389.78041359066526,359.1946347717679 400.21958640933474,359.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="445" y1="250" x2="445" y2="170" stroke="#2563EB" stroke-width="3"/>
-<polygon points="445,170 450.21958640933474,180.80536522823212 439.78041359066526,180.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="445" y1="290" x2="445" y2="370" stroke="#2563EB" stroke-width="3"/>
-<polygon points="445,370 439.78041359066526,359.1946347717679 450.21958640933474,359.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="495" y1="250" x2="495" y2="170" stroke="#2563EB" stroke-width="3"/>
-<polygon points="495,170 500.21958640933474,180.80536522823212 489.78041359066526,180.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="495" y1="290" x2="495" y2="370" stroke="#2563EB" stroke-width="3"/>
-<polygon points="495,370 489.78041359066526,359.1946347717679 500.21958640933474,359.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="545" y1="250" x2="545" y2="170" stroke="#2563EB" stroke-width="3"/>
-<polygon points="545,170 550.2195864093347,180.80536522823212 539.7804135906653,180.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="545" y1="290" x2="545" y2="370" stroke="#2563EB" stroke-width="3"/>
-<polygon points="545,370 539.7804135906653,359.1946347717679 550.2195864093347,359.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="595" y1="250" x2="595" y2="170" stroke="#2563EB" stroke-width="3"/>
-<polygon points="595,170 600.2195864093347,180.80536522823212 589.7804135906653,180.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="595" y1="290" x2="595" y2="370" stroke="#2563EB" stroke-width="3"/>
-<polygon points="595,370 589.7804135906653,359.1946347717679 600.2195864093347,359.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="368" y="420" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">양쪽 E = σ/(2ε)</text>
-<line x1="680" y1="180" x2="905" y2="180" stroke="#DC2626" stroke-width="5"/>
-<line x1="680" y1="355" x2="905" y2="355" stroke="#2563EB" stroke-width="5"/>
-<line x1="700" y1="205" x2="700" y2="335" stroke="#2563EB" stroke-width="3"/>
-<polygon points="700,335 694.7804135906653,324.1946347717679 705.2195864093347,324.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="750" y1="205" x2="750" y2="335" stroke="#2563EB" stroke-width="3"/>
-<polygon points="750,335 744.7804135906653,324.1946347717679 755.2195864093347,324.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="800" y1="205" x2="800" y2="335" stroke="#2563EB" stroke-width="3"/>
-<polygon points="800,335 794.7804135906653,324.1946347717679 805.2195864093347,324.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="850" y1="205" x2="850" y2="335" stroke="#2563EB" stroke-width="3"/>
-<polygon points="850,335 844.7804135906653,324.1946347717679 855.2195864093347,324.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="670" y="158" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">+σ</text>
-<text x="675" y="390" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">-σ</text>
-<text x="690" y="430" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">판 사이 E = σ/ε</text>
-<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">가장자리 효과를 무시한 무한면 근사. 도체 내부, 한 장의 양쪽, 두 판 사이를 구별한다.</text>
+<line x1="86" y1="225" x2="86" y2="150" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="86,150 91.87203471050161,162.15603588176114 80.12796528949839,162.15603588176114" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="126" y1="225" x2="126" y2="150" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="126,150 131.87203471050162,162.15603588176114 120.12796528949839,162.15603588176114" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="166" y1="225" x2="166" y2="150" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="166,150 171.87203471050162,162.15603588176114 160.1279652894984,162.15603588176114" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="206" y1="225" x2="206" y2="150" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="206,150 211.87203471050162,162.15603588176114 200.1279652894984,162.15603588176114" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="246" y1="225" x2="246" y2="150" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="246,150 251.87203471050162,162.15603588176114 240.1279652894984,162.15603588176114" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="375" y1="270" x2="605" y2="270" stroke="#DC2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="395" y1="250" x2="395" y2="170" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="395,170 400.8720347105016,182.15603588176114 389.1279652894984,182.15603588176114" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="395" y1="290" x2="395" y2="370" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="395,370 389.1279652894984,357.8439641182389 400.8720347105016,357.8439641182389" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="445" y1="250" x2="445" y2="170" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="445,170 450.8720347105016,182.15603588176114 439.1279652894984,182.15603588176114" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="445" y1="290" x2="445" y2="370" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="445,370 439.1279652894984,357.8439641182389 450.8720347105016,357.8439641182389" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="495" y1="250" x2="495" y2="170" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="495,170 500.8720347105016,182.15603588176114 489.1279652894984,182.15603588176114" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="495" y1="290" x2="495" y2="370" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="495,370 489.1279652894984,357.8439641182389 500.8720347105016,357.8439641182389" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="545" y1="250" x2="545" y2="170" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="545,170 550.8720347105016,182.15603588176114 539.1279652894984,182.15603588176114" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="545" y1="290" x2="545" y2="370" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="545,370 539.1279652894984,357.8439641182389 550.8720347105016,357.8439641182389" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="595" y1="250" x2="595" y2="170" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="595,170 600.8720347105016,182.15603588176114 589.1279652894984,182.15603588176114" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="595" y1="290" x2="595" y2="370" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="595,370 589.1279652894984,357.8439641182389 600.8720347105016,357.8439641182389" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="680" y1="180" x2="905" y2="180" stroke="#DC2626" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="680" y1="355" x2="905" y2="355" stroke="#2563EB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="700" y1="205" x2="700" y2="335" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="700,335 694.1279652894984,322.8439641182389 705.8720347105016,322.8439641182389" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="750" y1="205" x2="750" y2="335" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="750,335 744.1279652894984,322.8439641182389 755.8720347105016,322.8439641182389" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="800" y1="205" x2="800" y2="335" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="800,335 794.1279652894984,322.8439641182389 805.8720347105016,322.8439641182389" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="850" y1="205" x2="850" y2="335" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="850,335 844.1279652894984,322.8439641182389 855.8720347105016,322.8439641182389" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">전하가 있는 면: 도체 표면과 무한 평면의 차이</text>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">전하가 있는 면: 도체 표면과 무한 평면의 차이</text>
+<text x="50" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">도체 표면</text>
+<text x="50" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">도체 표면</text>
+<text x="355" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">고립한 무한 전하판</text>
+<text x="355" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">고립한 무한 전하판</text>
+<text x="660" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">평행판 (+σ, -σ)</text>
+<text x="660" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">평행판 (+σ, -σ)</text>
+<text x="90" y="330" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">도체 내부 E=0</text>
+<text x="90" y="330" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">도체 내부 E=0</text>
+<text x="80" y="250" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+</text>
+<text x="80" y="250" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#DC2626">+</text>
+<text x="120" y="250" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+</text>
+<text x="120" y="250" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#DC2626">+</text>
+<text x="160" y="250" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+</text>
+<text x="160" y="250" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#DC2626">+</text>
+<text x="200" y="250" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+</text>
+<text x="200" y="250" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#DC2626">+</text>
+<text x="240" y="250" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+</text>
+<text x="240" y="250" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#DC2626">+</text>
+<text x="75" y="420" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">바깥 E = σ/ε</text>
+<text x="75" y="420" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">바깥 E = σ/ε</text>
+<text x="368" y="420" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">양쪽 E = σ/(2ε)</text>
+<text x="368" y="420" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">양쪽 E = σ/(2ε)</text>
+<text x="670" y="158" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+σ</text>
+<text x="670" y="158" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">+σ</text>
+<text x="675" y="390" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">-σ</text>
+<text x="675" y="390" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">-σ</text>
+<text x="690" y="430" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">판 사이 E = σ/ε</text>
+<text x="690" y="430" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">판 사이 E = σ/ε</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">가장자리 효과를 무시한 무한면 근사. 도체 내부, 한 장의 양쪽, 두 판 사이를 구별한다.</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">가장자리 효과를 무시한 무한면 근사. 도체 내부, 한 장의 양쪽, 두 판 사이를 구별한다.</text>
 </svg>

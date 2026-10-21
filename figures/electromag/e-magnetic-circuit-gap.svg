@@ -1,42 +1,56 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">자기회로와 공극: 자속은 같아도 H는 다르다</text>
-<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1"/>
+<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="70" y="145" width="345" height="260" rx="0" fill="#E2E8F0" stroke="#64748B" stroke-width="2"/>
 <rect x="145" y="215" width="195" height="120" rx="0" fill="white" stroke="#64748B" stroke-width="2"/>
 <rect x="335" y="250" width="90" height="38" rx="0" fill="white" stroke="white" stroke-width="0"/>
-<line x1="50" y1="200" x2="165" y2="200" stroke="#2563EB" stroke-width="5"/>
-<line x1="50" y1="230" x2="165" y2="230" stroke="#2563EB" stroke-width="5"/>
-<line x1="50" y1="260" x2="165" y2="260" stroke="#2563EB" stroke-width="5"/>
-<line x1="50" y1="290" x2="165" y2="290" stroke="#2563EB" stroke-width="5"/>
-<line x1="50" y1="320" x2="165" y2="320" stroke="#2563EB" stroke-width="5"/>
-<line x1="50" y1="350" x2="165" y2="350" stroke="#2563EB" stroke-width="5"/>
-<line x1="190" y1="180" x2="310" y2="180" stroke="#7C3AED" stroke-width="3"/>
-<polygon points="310,180 299.1946347717679,185.21958640933477 299.1946347717679,174.78041359066523" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
-<text x="210" y="165" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">Φ</text>
-<text x="60" y="110" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">N회 · 전류 I</text>
-<line x1="385" y1="245" x2="385" y2="292" stroke="#64748B" stroke-width="2"/>
-<polygon points="385,292 381.5202757271102,284.79642318117857 388.4797242728898,284.79642318117857" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="385" y1="292" x2="385" y2="245" stroke="#64748B" stroke-width="2"/>
-<polygon points="385,245 388.4797242728898,252.2035768188214 381.5202757271102,252.2035768188214" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="385.0" y="258.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">g</text>
-<text x="270" y="455" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">공극: μ≈μ0</text>
+<line x1="50" y1="200" x2="165" y2="200" stroke="#2563EB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="50" y1="230" x2="165" y2="230" stroke="#2563EB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="50" y1="260" x2="165" y2="260" stroke="#2563EB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="50" y1="290" x2="165" y2="290" stroke="#2563EB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="50" y1="320" x2="165" y2="320" stroke="#2563EB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="50" y1="350" x2="165" y2="350" stroke="#2563EB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="190" y1="180" x2="310" y2="180" stroke="#7C3AED" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="310,180 297.8439641182389,185.8720347105016 297.8439641182389,174.1279652894984" stroke="#7C3AED" stroke-width="1" fill="#7C3AED" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="385" y1="245" x2="385" y2="292" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="385,292 380.6503446588877,282.9955289764732 389.3496553411123,282.9955289764732" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="385" y1="292" x2="385" y2="245" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="385,245 389.3496553411123,254.00447102352678 380.6503446588877,254.00447102352678" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="570" cy="275" r="35" fill="white" stroke="#25344A" stroke-width="3"/>
-<text x="570" y="270" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">+</text>
-<text x="570" y="294" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">-</text>
-<text x="520" y="282" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">NI</text>
-<polyline points="570,180 603.0,180.0 615.375,190.0 627.75,170.0 640.125,190.0 652.5,170.0 664.875,190.0 677.25,170.0 689.625,190.0 702.0,180.0 735,180" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="652.5" y="156.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">Rm철</text>
-<polyline points="735,180 768.0,180.0 780.375,190.0 792.75,170.0 805.125,190.0 817.5,170.0 829.875,190.0 842.25,170.0 854.625,190.0 867.0,180.0 900,180" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="817.5" y="156.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">Rm공극</text>
-<line x1="570" y1="180" x2="570" y2="240" stroke="#25344A" stroke-width="3"/>
-<line x1="570" y1="310" x2="570" y2="390" stroke="#25344A" stroke-width="3"/>
-<line x1="570" y1="390" x2="900" y2="390" stroke="#25344A" stroke-width="3"/>
-<line x1="900" y1="390" x2="900" y2="180" stroke="#25344A" stroke-width="3"/>
-<line x1="760" y1="390" x2="650" y2="390" stroke="#7C3AED" stroke-width="3"/>
-<polygon points="650,390 660.8053652282322,384.78041359066526 660.8053652282322,395.21958640933474" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
-<text x="690" y="425" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">Φ</text>
-<text x="550" y="105" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">등가 자기회로: 직렬 자기저항</text>
-<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">같은 단면에서 누설을 무시하면 Φ와 B는 이어진다. 공극은 μ가 작으므로 H와 기자력 강하</text>
-<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">가 커진다.</text>
+<polyline points="570,180 603.0,180.0 615.375,190.0 627.75,170.0 640.125,190.0 652.5,170.0 664.875,190.0 677.25,170.0 689.625,190.0 702.0,180.0 735,180" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="735,180 768.0,180.0 780.375,190.0 792.75,170.0 805.125,190.0 817.5,170.0 829.875,190.0 842.25,170.0 854.625,190.0 867.0,180.0 900,180" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="570" y1="180" x2="570" y2="240" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="570" y1="310" x2="570" y2="390" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="570" y1="390" x2="900" y2="390" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="900" y1="390" x2="900" y2="180" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="760" y1="390" x2="650" y2="390" stroke="#7C3AED" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="650,390 662.1560358817611,384.1279652894984 662.1560358817611,395.8720347105016" stroke="#7C3AED" stroke-width="1" fill="#7C3AED" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">자기회로와 공극: 자속은 같아도 H는 다르다</text>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">자기회로와 공극: 자속은 같아도 H는 다르다</text>
+<text x="210" y="165" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Φ</text>
+<text x="210" y="165" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">Φ</text>
+<text x="60" y="110" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">N회 · 전류 I</text>
+<text x="60" y="110" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">N회 · 전류 I</text>
+<text x="385.0" y="258.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">g</text>
+<text x="385.0" y="258.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#64748B">g</text>
+<text x="270" y="455" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">공극: μ≈μ0</text>
+<text x="270" y="455" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">공극: μ≈μ0</text>
+<text x="570" y="270" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+</text>
+<text x="570" y="270" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">+</text>
+<text x="570" y="294" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">-</text>
+<text x="570" y="294" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">-</text>
+<text x="520" y="282" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">NI</text>
+<text x="520" y="282" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">NI</text>
+<text x="652.5" y="156.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Rm철</text>
+<text x="652.5" y="156.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">Rm철</text>
+<text x="817.5" y="156.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Rm공극</text>
+<text x="817.5" y="156.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">Rm공극</text>
+<text x="690" y="425" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Φ</text>
+<text x="690" y="425" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">Φ</text>
+<text x="550" y="105" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">등가 자기회로: 직렬 자기저항</text>
+<text x="550" y="105" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">등가 자기회로: 직렬 자기저항</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">같은 단면에서 누설을 무시하면 Φ와 B는 이어진다. 공극은 μ가 작으므로 H와 기자력 강하</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">같은 단면에서 누설을 무시하면 Φ와 B는 이어진다. 공극은 μ가 작으므로 H와 기자력 강하</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">가 커진다.</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">가 커진다.</text>
 </svg>

@@ -1,38 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">정전유도와 전자유도 · 차폐선</text>
-<line x1="70" y1="120" x2="420" y2="120" stroke="#DC2626" stroke-width="4"/>
-<text x="70" y="90" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#DC2626" text-anchor="start" font-weight="400">전력선</text>
-<line x1="240" y1="120" x2="240.0" y2="188.0" stroke="#25344A" stroke-width="3"/>
-<line x1="240.0" y1="202.0" x2="240" y2="270" stroke="#25344A" stroke-width="3"/>
-<line x1="218.0" y1="188.0" x2="262.0" y2="188.0" stroke="#25344A" stroke-width="3"/>
-<line x1="218.0" y1="202.0" x2="262.0" y2="202.0" stroke="#25344A" stroke-width="3"/>
-<text x="208.0" y="195.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">Cm</text>
-<line x1="70" y1="270" x2="420" y2="270" stroke="#2563EB" stroke-width="4"/>
-<text x="70" y="245" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="start" font-weight="400">통신선</text>
-<line x1="240" y1="270" x2="240.0" y2="338.0" stroke="#25344A" stroke-width="3"/>
-<line x1="240.0" y1="352.0" x2="240" y2="420" stroke="#25344A" stroke-width="3"/>
-<line x1="218.0" y1="338.0" x2="262.0" y2="338.0" stroke="#25344A" stroke-width="3"/>
-<line x1="218.0" y1="352.0" x2="262.0" y2="352.0" stroke="#25344A" stroke-width="3"/>
-<text x="208.0" y="345.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">Cs</text>
-<line x1="240" y1="420" x2="240" y2="432" stroke="#25344A" stroke-width="3"/>
-<line x1="223.0" y1="432" x2="257.0" y2="432" stroke="#25344A" stroke-width="3"/>
-<line x1="229.0" y1="440" x2="251.0" y2="440" stroke="#25344A" stroke-width="3"/>
-<line x1="235.0" y1="448" x2="245.0" y2="448" stroke="#25344A" stroke-width="3"/>
-<line x1="550" y1="130" x2="880" y2="130" stroke="#DC2626" stroke-width="4"/>
-<text x="550" y="105" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#DC2626" text-anchor="start" font-weight="400">전력선: I0</text>
-<line x1="550" y1="250" x2="880" y2="250" stroke="#15803D" stroke-width="4"/>
-<text x="550" y="225" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#15803D" text-anchor="start" font-weight="400">접지 차폐선</text>
-<line x1="550" y1="370" x2="880" y2="370" stroke="#2563EB" stroke-width="4"/>
-<text x="550" y="345" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="start" font-weight="400">통신선</text>
-<line x1="570" y1="250" x2="570" y2="262" stroke="#25344A" stroke-width="3"/>
-<line x1="553.0" y1="262" x2="587.0" y2="262" stroke="#25344A" stroke-width="3"/>
-<line x1="559.0" y1="270" x2="581.0" y2="270" stroke="#25344A" stroke-width="3"/>
-<line x1="565.0" y1="278" x2="575.0" y2="278" stroke="#25344A" stroke-width="3"/>
-<line x1="860" y1="250" x2="860" y2="262" stroke="#25344A" stroke-width="3"/>
-<line x1="843.0" y1="262" x2="877.0" y2="262" stroke="#25344A" stroke-width="3"/>
-<line x1="849.0" y1="270" x2="871.0" y2="270" stroke="#25344A" stroke-width="3"/>
-<line x1="855.0" y1="278" x2="865.0" y2="278" stroke="#25344A" stroke-width="3"/>
-<path d="M 640 145 C 790 180 790 310 640 350" stroke="#7C3AED" stroke-width="3" fill="none"/>
-<text x="780" y="300" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#7C3AED" text-anchor="start" font-weight="400">상호유도</text>
+<line x1="70" y1="120" x2="420" y2="120" stroke="#DC2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="240" y1="120" x2="240.0" y2="188.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="240.0" y1="202.0" x2="240" y2="270" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="218.0" y1="188.0" x2="262.0" y2="188.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="218.0" y1="202.0" x2="262.0" y2="202.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="70" y1="270" x2="420" y2="270" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="240" y1="270" x2="240.0" y2="338.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="240.0" y1="352.0" x2="240" y2="420" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="218.0" y1="338.0" x2="262.0" y2="338.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="218.0" y1="352.0" x2="262.0" y2="352.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="240" y1="420" x2="240" y2="432" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="223.0" y1="432" x2="257.0" y2="432" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="229.0" y1="440" x2="251.0" y2="440" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="235.0" y1="448" x2="245.0" y2="448" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="550" y1="130" x2="880" y2="130" stroke="#DC2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="550" y1="250" x2="880" y2="250" stroke="#15803D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="550" y1="370" x2="880" y2="370" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="570" y1="250" x2="570" y2="262" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="553.0" y1="262" x2="587.0" y2="262" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="559.0" y1="270" x2="581.0" y2="270" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="565.0" y1="278" x2="575.0" y2="278" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="860" y1="250" x2="860" y2="262" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="843.0" y1="262" x2="877.0" y2="262" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="849.0" y1="270" x2="871.0" y2="270" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="855.0" y1="278" x2="865.0" y2="278" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 640 145 C 790 180 790 310 640 350" stroke="#7C3AED" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">정전유도와 전자유도 · 차폐선</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">정전유도와 전자유도 · 차폐선</text>
+<text x="70" y="90" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">전력선</text>
+<text x="70" y="90" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#DC2626">전력선</text>
+<text x="208.0" y="195.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Cm</text>
+<text x="208.0" y="195.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">Cm</text>
+<text x="70" y="245" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">통신선</text>
+<text x="70" y="245" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#2563EB">통신선</text>
+<text x="208.0" y="345.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Cs</text>
+<text x="208.0" y="345.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">Cs</text>
+<text x="550" y="105" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">전력선: I0</text>
+<text x="550" y="105" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#DC2626">전력선: I0</text>
+<text x="534" y="225" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">접지 차폐선</text>
+<text x="534" y="225" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#15803D">접지 차폐선</text>
+<text x="550" y="345" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">통신선</text>
+<text x="550" y="345" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#2563EB">통신선</text>
+<text x="780" y="300" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">상호유도</text>
+<text x="780" y="300" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#7C3AED">상호유도</text>
 </svg>

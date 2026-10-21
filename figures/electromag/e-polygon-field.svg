@@ -1,42 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">정다각형 전류: 변 길이 ℓ와 내접 반지름 a</text>
-<polygon points="165.0,155.0 264.5929214352104,327.5 65.40707856478957,327.50000000000006" stroke="#2563EB" stroke-width="4" fill="none"/>
-<line x1="165" y1="270" x2="214.7964607176052" y2="241.25" stroke="#DC2626" stroke-width="3"/>
-<text x="173" y="255" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#DC2626" text-anchor="start" font-weight="400">a</text>
+<polygon points="165.0,155.0 264.5929214352104,327.5 65.40707856478957,327.50000000000006" stroke="#2563EB" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="165" y1="270" x2="214.7964607176052" y2="241.25" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="165" cy="270" r="15" fill="white" stroke="#2563EB" stroke-width="3"/>
 <circle cx="165" cy="270" r="4" fill="#2563EB" stroke="#2563EB" stroke-width="3"/>
-<line x1="165.0" y1="155.0" x2="264.5929214352104" y2="327.5" stroke="#2563EB" stroke-width="3"/>
-<polygon points="264.5929214352104,327.5 254.66994439336247,320.7520724198493 263.71053324882627,315.53248601051456" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="75" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">정3각형</text>
-<text x="95" y="435" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">모든 변의 기여를 합산</text>
-<polygon points="480.0,155.0 595.0,270.0 480.0,385.0 365.0,270.0" stroke="#2563EB" stroke-width="4" fill="none"/>
-<line x1="480" y1="270" x2="537.5" y2="212.5" stroke="#DC2626" stroke-width="3"/>
-<text x="488" y="255" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#DC2626" text-anchor="start" font-weight="400">a</text>
+<line x1="165.0" y1="155.0" x2="264.5929214352104" y2="327.5" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="264.5929214352104,327.5 253.42957226313146,319.90858147233047 263.60023472552825,314.0365467618289" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="480.0,155.0 595.0,270.0 480.0,385.0 365.0,270.0" stroke="#2563EB" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="480" y1="270" x2="537.5" y2="212.5" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="480" cy="270" r="15" fill="white" stroke="#2563EB" stroke-width="3"/>
 <circle cx="480" cy="270" r="4" fill="#2563EB" stroke="#2563EB" stroke-width="3"/>
-<line x1="480.0" y1="155.0" x2="595.0" y2="270.0" stroke="#2563EB" stroke-width="3"/>
-<polygon points="595.0,270.0 583.66864802889,266.0502579189495 591.0502579189495,258.66864802889" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="390" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">정4각형</text>
-<text x="410" y="435" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">모든 변의 기여를 합산</text>
-<polygon points="795.0,155.0 894.5929214352104,212.5 894.5929214352104,327.5 795.0,385.0 695.4070785647896,327.50000000000006 695.4070785647896,212.5" stroke="#2563EB" stroke-width="4" fill="none"/>
-<line x1="795" y1="270" x2="844.7964607176052" y2="183.75" stroke="#DC2626" stroke-width="3"/>
-<text x="803" y="255" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#DC2626" text-anchor="start" font-weight="400">a</text>
+<line x1="480.0" y1="155.0" x2="595.0" y2="270.0" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="595.0,270.0 582.2522290325012,265.55654015881817 590.5565401588182,257.25222903250125" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="795.0,155.0 894.5929214352104,212.5 894.5929214352104,327.5 795.0,385.0 695.4070785647896,327.50000000000006 695.4070785647896,212.5" stroke="#2563EB" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="795" y1="270" x2="844.7964607176052" y2="183.75" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="795" cy="270" r="15" fill="white" stroke="#2563EB" stroke-width="3"/>
 <circle cx="795" cy="270" r="4" fill="#2563EB" stroke="#2563EB" stroke-width="3"/>
-<line x1="795.0" y1="155.0" x2="894.5929214352104" y2="212.5" stroke="#2563EB" stroke-width="3"/>
-<polygon points="894.5929214352104,212.5 882.625407445725,211.61761181361584 887.8449938550598,202.57702295815204" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="705" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">정6각형</text>
-<text x="725" y="435" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">모든 변의 기여를 합산</text>
-<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">그림의 전류는 시계 방향이므로 중심 H는 종이 안이다. 같은 변 길이 ℓ인지 같은 내접 반지</text>
-<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">름 a인지 먼저 확인한다.</text>
+<line x1="795.0" y1="155.0" x2="894.5929214352104" y2="212.5" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="894.5929214352104,212.5 881.1294681970393,211.50731329031782 887.001502907541,201.33665082792103" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="165" cy="270" r="16" fill="white" stroke="#2563EB" stroke-width="3"/>
-<line x1="157" y1="262" x2="173" y2="278" stroke="#2563EB" stroke-width="3"/>
-<line x1="157" y1="278" x2="173" y2="262" stroke="#2563EB" stroke-width="3"/>
+<line x1="157" y1="262" x2="173" y2="278" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="157" y1="278" x2="173" y2="262" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="480" cy="270" r="16" fill="white" stroke="#2563EB" stroke-width="3"/>
-<line x1="472" y1="262" x2="488" y2="278" stroke="#2563EB" stroke-width="3"/>
-<line x1="472" y1="278" x2="488" y2="262" stroke="#2563EB" stroke-width="3"/>
+<line x1="472" y1="262" x2="488" y2="278" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="472" y1="278" x2="488" y2="262" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="795" cy="270" r="16" fill="white" stroke="#2563EB" stroke-width="3"/>
-<line x1="787" y1="262" x2="803" y2="278" stroke="#2563EB" stroke-width="3"/>
-<line x1="787" y1="278" x2="803" y2="262" stroke="#2563EB" stroke-width="3"/>
+<line x1="787" y1="262" x2="803" y2="278" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="787" y1="278" x2="803" y2="262" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">정다각형 전류: 변 길이 ℓ와 내접 반지름 a</text>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">정다각형 전류: 변 길이 ℓ와 내접 반지름 a</text>
+<text x="175" y="247" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">a</text>
+<text x="175" y="247" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#DC2626">a</text>
+<text x="75" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">정3각형</text>
+<text x="75" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">정3각형</text>
+<text x="95" y="435" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">모든 변의 기여를 합산</text>
+<text x="95" y="435" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">모든 변의 기여를 합산</text>
+<text x="480" y="245" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">a</text>
+<text x="480" y="245" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#DC2626">a</text>
+<text x="390" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">정4각형</text>
+<text x="390" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">정4각형</text>
+<text x="410" y="435" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">모든 변의 기여를 합산</text>
+<text x="410" y="435" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">모든 변의 기여를 합산</text>
+<text x="815" y="263" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">a</text>
+<text x="815" y="263" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#DC2626">a</text>
+<text x="705" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">정6각형</text>
+<text x="705" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">정6각형</text>
+<text x="725" y="435" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">모든 변의 기여를 합산</text>
+<text x="725" y="435" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">모든 변의 기여를 합산</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">그림의 전류는 시계 방향이므로 중심 H는 종이 안이다. 같은 변 길이 ℓ인지 같은 내접 반지</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">그림의 전류는 시계 방향이므로 중심 H는 종이 안이다. 같은 변 길이 ℓ인지 같은 내접 반지</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">름 a인지 먼저 확인한다.</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">름 a인지 먼저 확인한다.</text>
 </svg>

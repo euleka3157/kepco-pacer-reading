@@ -1,21 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">단락이 생기면 부하가 우회되고 계통 임피던스가 전류를 제한</text>
 <circle cx="100" cy="230" r="35" fill="white" stroke="#25344A" stroke-width="3"/>
-<text x="100" y="225" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">+</text>
-<text x="100" y="249" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">-</text>
-<text x="50" y="237" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">E</text>
-<line x1="135" y1="230" x2="260" y2="230" stroke="#25344A" stroke-width="3"/>
-<polyline points="260,230 298.0,230.0 312.25,240.0 326.5,220.0 340.75,240.0 355.0,220.0 369.25,240.0 383.5,220.0 397.75,240.0 412.0,230.0 450,230" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="355.0" y="206.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">Z계통</text>
-<line x1="450" y1="230" x2="830" y2="230" stroke="#25344A" stroke-width="3"/>
-<polyline points="830,230 830.0,260.0 820.0,271.25 840.0,282.5 820.0,293.75 840.0,305.0 820.0,316.25 840.0,327.5 820.0,338.75 830.0,350.0 830,380" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="804.0" y="305.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">Z부하</text>
-<line x1="830" y1="380" x2="100" y2="380" stroke="#25344A" stroke-width="3"/>
-<line x1="100" y1="380" x2="100" y2="265" stroke="#25344A" stroke-width="3"/>
-<polyline points="600,230 580,275 620,295 590,340 600,380" stroke="#DC2626" stroke-width="5" fill="none"/>
-<line x1="500" y1="180" x2="580" y2="180" stroke="#DC2626" stroke-width="3"/>
-<polygon points="580,180 569.1946347717678,185.21958640933477 569.1946347717678,174.78041359066523" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="620" y="315" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#DC2626" text-anchor="start" font-weight="400">고장 경로</text>
-<text x="480" y="440" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="middle" font-weight="400">Is ≈ E / Z계통 · 부하전류와 혼동 금지</text>
+<line x1="135" y1="230" x2="260" y2="230" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="260,230 298.0,230.0 312.25,240.0 326.5,220.0 340.75,240.0 355.0,220.0 369.25,240.0 383.5,220.0 397.75,240.0 412.0,230.0 450,230" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="450" y1="230" x2="830" y2="230" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="830,230 830.0,260.0 820.0,271.25 840.0,282.5 820.0,293.75 840.0,305.0 820.0,316.25 840.0,327.5 820.0,338.75 830.0,350.0 830,380" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="830" y1="380" x2="100" y2="380" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100" y1="380" x2="100" y2="265" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="600,230 580,275 620,295 590,340 600,380" stroke="#DC2626" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="500" y1="180" x2="580" y2="180" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="580,180 567.8439641182389,185.8720347105016 567.8439641182389,174.1279652894984" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">단락이 생기면 부하가 우회되고 계통 임피던스가 전류를 제한</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">단락이 생기면 부하가 우회되고 계통 임피던스가 전류를 제한</text>
+<text x="100" y="225" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+</text>
+<text x="100" y="225" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">+</text>
+<text x="100" y="249" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">-</text>
+<text x="100" y="249" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">-</text>
+<text x="50" y="237" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">E</text>
+<text x="50" y="237" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">E</text>
+<text x="355.0" y="206.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Z계통</text>
+<text x="355.0" y="206.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">Z계통</text>
+<text x="804.0" y="305.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Z부하</text>
+<text x="804.0" y="305.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">Z부하</text>
+<text x="620" y="315" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">고장 경로</text>
+<text x="620" y="315" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#DC2626">고장 경로</text>
+<text x="480" y="440" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Is ≈ E / Z계통 · 부하전류와 혼동 금지</text>
+<text x="480" y="440" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="#25344A">Is ≈ E / Z계통 · 부하전류와 혼동 금지</text>
 </svg>

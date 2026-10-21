@@ -1,38 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
 <rect width="100%" height="100%" fill="white"/>
-<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">2전력계법: 3상 3선의 전류코일·전압코일</text>
-<line x1="70" y1="140" x2="865" y2="140" stroke="#25344A" stroke-width="3"/>
-<text x="35" y="148" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">a</text>
-<line x1="70" y1="275" x2="865" y2="275" stroke="#25344A" stroke-width="3"/>
-<text x="35" y="283" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">b</text>
-<line x1="70" y1="410" x2="865" y2="410" stroke="#25344A" stroke-width="3"/>
-<text x="35" y="418" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">c</text>
+<line x1="70" y1="140" x2="865" y2="140" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="70" y1="275" x2="865" y2="275" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="70" y1="410" x2="865" y2="410" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="250" y="104" width="100" height="72" rx="10" fill="white" stroke="#2563EB" stroke-width="2"/>
-<text x="300" y="148" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#2563EB" text-anchor="middle" font-weight="400">W2</text>
 <circle cx="370" cy="140" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<line x1="370" y1="140" x2="370" y2="275" stroke="#25344A" stroke-width="3"/>
+<line x1="370" y1="140" x2="370" y2="275" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="370" cy="275" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
 <circle cx="370" cy="207.5" r="18" fill="white" stroke="#DC2626" stroke-width="3"/>
-<text x="403" y="213.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#DC2626" text-anchor="start" font-weight="400">V</text>
-<text x="386" y="174" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#DC2626" text-anchor="start" font-weight="400">+</text>
-<text x="386" y="258" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#DC2626" text-anchor="start" font-weight="400">−</text>
 <rect x="520" y="374" width="100" height="72" rx="10" fill="white" stroke="#2563EB" stroke-width="2"/>
-<text x="570" y="418" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#2563EB" text-anchor="middle" font-weight="400">W1</text>
 <circle cx="640" cy="410" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<line x1="640" y1="410" x2="640" y2="275" stroke="#25344A" stroke-width="3"/>
+<line x1="640" y1="410" x2="640" y2="275" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="640" cy="275" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
 <circle cx="640" cy="342.5" r="18" fill="white" stroke="#DC2626" stroke-width="3"/>
-<text x="673" y="348.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#DC2626" text-anchor="start" font-weight="400">V</text>
-<text x="656" y="392" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#DC2626" text-anchor="start" font-weight="400">+</text>
-<text x="656" y="308" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#DC2626" text-anchor="start" font-weight="400">−</text>
 <rect x="790" y="100" width="125" height="350" rx="10" fill="#EFF6FF" stroke="#15803D" stroke-width="2"/>
-<text x="852.5" y="267.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#15803D" text-anchor="middle" font-weight="700">3상</text>
-<text x="852.5" y="297.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#15803D" text-anchor="middle" font-weight="700">부하</text>
-<line x1="100" y1="103" x2="210" y2="103" stroke="#2563EB" stroke-width="3"/>
-<polygon points="210,103 199.19463477176788,108.21958640933477 199.19463477176788,97.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="220" y="108" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">Ia</text>
-<line x1="365" y1="448" x2="475" y2="448" stroke="#2563EB" stroke-width="3"/>
-<polygon points="475,448 464.1946347717679,453.21958640933474 464.1946347717679,442.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="485" y="454" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">Ic</text>
-<text x="100" y="510" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">전압 기준선 b 공통 → P = W1 + W2</text>
+<line x1="100" y1="103" x2="210" y2="103" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="210,103 197.84396411823886,108.87203471050161 197.84396411823886,97.12796528949839" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="365" y1="448" x2="475" y2="448" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="475,448 462.8439641182389,453.8720347105016 462.8439641182389,442.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">2전력계법: 3상 3선의 전류코일·전압코일</text>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">2전력계법: 3상 3선의 전류코일·전압코일</text>
+<text x="35" y="148" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">a</text>
+<text x="35" y="148" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#25344A">a</text>
+<text x="35" y="283" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">b</text>
+<text x="35" y="283" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#25344A">b</text>
+<text x="35" y="418" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">c</text>
+<text x="35" y="418" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#25344A">c</text>
+<text x="300" y="148" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">W2</text>
+<text x="300" y="148" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="#2563EB">W2</text>
+<text x="403" y="213.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">V</text>
+<text x="403" y="213.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#DC2626">V</text>
+<text x="386" y="174" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+</text>
+<text x="386" y="174" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#DC2626">+</text>
+<text x="386" y="258" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">−</text>
+<text x="386" y="258" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#DC2626">−</text>
+<text x="570" y="418" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">W1</text>
+<text x="570" y="418" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="#2563EB">W1</text>
+<text x="673" y="348.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">V</text>
+<text x="673" y="348.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#DC2626">V</text>
+<text x="656" y="392" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+</text>
+<text x="656" y="392" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#DC2626">+</text>
+<text x="656" y="308" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">−</text>
+<text x="656" y="308" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#DC2626">−</text>
+<text x="852.5" y="267.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">3상</text>
+<text x="852.5" y="267.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#15803D">3상</text>
+<text x="852.5" y="297.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">부하</text>
+<text x="852.5" y="297.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#15803D">부하</text>
+<text x="220" y="108" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Ia</text>
+<text x="220" y="108" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">Ia</text>
+<text x="485" y="454" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Ic</text>
+<text x="485" y="454" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">Ic</text>
+<text x="100" y="510" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">전압 기준선 b 공통 → P = W1 + W2</text>
+<text x="100" y="510" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">전압 기준선 b 공통 → P = W1 + W2</text>
 </svg>

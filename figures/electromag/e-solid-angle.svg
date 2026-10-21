@@ -1,19 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">쌍극자·이중층의 입체각: 관측점에서 본 넓이</text>
 <circle cx="150" cy="300" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="150" y="286" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">관측점 P</text>
 <ellipse cx="680" cy="270" rx="115" ry="165" fill="#ECFDF5" stroke="#15803D" stroke-width="3"/>
-<line x1="150" y1="300" x2="680" y2="105" stroke="#2563EB" stroke-width="2"/>
-<line x1="150" y1="300" x2="680" y2="435" stroke="#2563EB" stroke-width="2"/>
-<line x1="150" y1="300" x2="790" y2="270" stroke="#2563EB" stroke-width="2"/>
-<line x1="150" y1="300" x2="565" y2="270" stroke="#2563EB" stroke-width="2"/>
-<line x1="680" y1="270" x2="865" y2="235" stroke="#7C3AED" stroke-width="3"/>
-<polygon points="865,235 855.3532472572981,242.13723766741535 853.4126920084008,231.8800170661011" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
-<text x="825" y="215" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">면 법선</text>
-<path d="M 260 260 Q 290 300 260 335" stroke="#DC2626" stroke-width="3" fill="none"/>
-<text x="300" y="310" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">입체각 Ω</text>
-<text x="515" y="495" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">dΩ = cosθ dS / r²</text>
-<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">평면각[rad]과 입체각[sr]은 다르다. 작은 면에서 거리 r와 법선각 θ를 사용하며, 구 전체</text>
-<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">는 4π sr다.</text>
+<line x1="150" y1="300" x2="680" y2="105" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="150" y1="300" x2="680" y2="435" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="150" y1="300" x2="790" y2="270" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="150" y1="300" x2="565" y2="270" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="680" y1="270" x2="865" y2="235" stroke="#7C3AED" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="865,235 854.1474031644603,243.02939237584226 851.9642785094509,231.49001919936373" stroke="#7C3AED" stroke-width="1" fill="#7C3AED" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 260 260 Q 290 300 260 335" stroke="#DC2626" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">쌍극자·이중층의 입체각: 관측점에서 본 넓이</text>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">쌍극자·이중층의 입체각: 관측점에서 본 넓이</text>
+<text x="144" y="264" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">관측점 P</text>
+<text x="144" y="264" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">관측점 P</text>
+<text x="825" y="215" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">면 법선</text>
+<text x="825" y="215" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">면 법선</text>
+<text x="300" y="310" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">입체각 Ω</text>
+<text x="300" y="310" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">입체각 Ω</text>
+<text x="515" y="495" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">dΩ = cosθ dS / r²</text>
+<text x="515" y="495" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">dΩ = cosθ dS / r²</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">평면각[rad]과 입체각[sr]은 다르다. 작은 면에서 거리 r와 법선각 θ를 사용하며, 구 전체</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">평면각[rad]과 입체각[sr]은 다르다. 작은 면에서 거리 r와 법선각 θ를 사용하며, 구 전체</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">는 4π sr다.</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">는 4π sr다.</text>
 </svg>

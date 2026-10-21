@@ -154,3 +154,37 @@ mjx-container[display="true"] { overflow-x: auto; overflow-y: hidden; padding: 4
   .question-pagination button { padding: 8px 10px; font-size: 13px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* ---- top bar: questions first, filters summarised (UI pass 2026-10-21) ---- */
+.page-heading { margin-bottom: 14px; }
+.quickbar { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; margin-bottom: 14px; padding: 14px; border: 1px solid var(--line); border-radius: 14px; background: var(--card); }
+.quickbar > * { min-width: 0; }
+.quickbar .category-tabs button { min-height: 44px; padding: 6px; }
+.quickbar .category-tabs span { display: inline; margin-left: 4px; }
+.quick-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+.type-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.type-chips button { font-size: 14px; }
+.type-chips button[aria-pressed="true"] { background: var(--acc-soft); border-color: var(--acc); color: var(--acc); font-weight: 700; }
+.scope-details { border: 1px solid var(--line); border-radius: 10px; background: var(--paper); }
+.scope-details > summary { list-style: none; display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 8px 12px; cursor: pointer; }
+.scope-details > summary::-webkit-details-marker { display: none; }
+.sd-label { flex: none; font-size: 13px; font-weight: 700; color: var(--sub); }
+.sd-value { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; }
+.sd-open { flex: none; font-size: 13px; color: var(--acc); font-weight: 700; }
+.sd-open::after { content: " ▾"; }
+.scope-details[open] .sd-open::after { content: " ▴"; }
+.scope-details > summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 10px; }
+.scope-details .filters { padding: 4px 12px 14px; }
+.quick-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 12px; }
+.quick-foot #categoryHelp { margin: 0; flex: 1 1 16rem; }
+.sync-chip { display: inline-flex; align-items: center; min-height: 36px; padding: 4px 12px; border: 1px solid var(--line); border-radius: 18px; font-size: 13px; color: var(--ink); text-decoration: none; background: var(--paper); }
+.question-toolbar { position: sticky; top: 0; z-index: 4; padding: 6px 0; background: var(--paper); }
+.question-toolbar #resumeButton:not(:disabled) { color: #fff; background: var(--acc); border-color: var(--acc); font-weight: 700; }
+@media (prefers-color-scheme: dark) { .question-toolbar #resumeButton:not(:disabled) { color: #0d1622; } }
+.stats { margin-top: 8px; }
+@media (max-width: 640px) {
+  .quickbar { padding: 10px; gap: 8px; }
+  .quick-row { gap: 6px; }
+  .view-tabs button, .type-chips button { padding: 6px 10px; font-size: 13px; }
+  .quick-foot #categoryHelp { display: none; }
+}

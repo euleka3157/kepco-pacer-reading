@@ -1,35 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">집중 부하와 균일 분포 부하의 선로 전류</text>
-<line x1="70" y1="135" x2="450" y2="135" stroke="#2563EB" stroke-width="4"/>
-<text x="75" y="110" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">말단 집중</text>
-<line x1="450" y1="135" x2="450" y2="205" stroke="#DC2626" stroke-width="3"/>
-<polygon points="450,205 444.78041359066526,194.19463477176788 455.21958640933474,194.19463477176788" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="560" y1="225" x2="860" y2="225" stroke="#64748B" stroke-width="2"/>
-<polygon points="860,225 849.1946347717678,230.21958640933477 849.1946347717678,219.78041359066523" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="560" y1="225" x2="560" y2="110" stroke="#64748B" stroke-width="2"/>
-<polygon points="560,110 565.2195864093347,120.80536522823212 554.7804135906653,120.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="855" y="257" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">x</text>
-<text x="550" y="98" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">I</text>
-<polyline points="560,135 850,135" stroke="#2563EB" stroke-width="4" fill="none"/>
-<line x1="70" y1="335" x2="450" y2="335" stroke="#2563EB" stroke-width="4"/>
-<text x="75" y="310" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">균일 분포</text>
-<line x1="145" y1="335" x2="145" y2="405" stroke="#DC2626" stroke-width="3"/>
-<polygon points="145,405 139.78041359066523,394.1946347717679 150.21958640933477,394.1946347717679" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="220" y1="335" x2="220" y2="405" stroke="#DC2626" stroke-width="3"/>
-<polygon points="220,405 214.78041359066523,394.1946347717679 225.21958640933477,394.1946347717679" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="295" y1="335" x2="295" y2="405" stroke="#DC2626" stroke-width="3"/>
-<polygon points="295,405 289.78041359066526,394.1946347717679 300.21958640933474,394.1946347717679" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="370" y1="335" x2="370" y2="405" stroke="#DC2626" stroke-width="3"/>
-<polygon points="370,405 364.78041359066526,394.1946347717679 375.21958640933474,394.1946347717679" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="445" y1="335" x2="445" y2="405" stroke="#DC2626" stroke-width="3"/>
-<polygon points="445,405 439.78041359066526,394.1946347717679 450.21958640933474,394.1946347717679" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="560" y1="425" x2="860" y2="425" stroke="#64748B" stroke-width="2"/>
-<polygon points="860,425 849.1946347717678,430.21958640933474 849.1946347717678,419.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="560" y1="425" x2="560" y2="310" stroke="#64748B" stroke-width="2"/>
-<polygon points="560,310 565.2195864093347,320.8053652282321 554.7804135906653,320.8053652282321" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="855" y="457" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">x</text>
-<text x="550" y="298" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">I</text>
-<polyline points="560,335 850,425" stroke="#2563EB" stroke-width="4" fill="none"/>
-<text x="480" y="510" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">같은 총부하·길이: 균일 분포의 전압강하 계수 1/2 · 동손 계수 1/3</text>
+<line x1="70" y1="135" x2="450" y2="135" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="450" y1="135" x2="450" y2="205" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="450,205 444.1279652894984,192.84396411823886 455.8720347105016,192.84396411823886" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="560" y1="225" x2="860" y2="225" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="860,225 849.1946347717678,230.21958640933477 849.1946347717678,219.78041359066523" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="560" y1="225" x2="560" y2="110" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="560,110 565.2195864093347,120.80536522823212 554.7804135906653,120.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="560,135 850,135" stroke="#2563EB" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="70" y1="335" x2="450" y2="335" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="145" y1="335" x2="145" y2="405" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="145,405 139.1279652894984,392.8439641182389 150.87203471050162,392.8439641182389" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="220" y1="335" x2="220" y2="405" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="220,405 214.1279652894984,392.8439641182389 225.87203471050162,392.8439641182389" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="295" y1="335" x2="295" y2="405" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="295,405 289.1279652894984,392.8439641182389 300.8720347105016,392.8439641182389" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="370" y1="335" x2="370" y2="405" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="370,405 364.1279652894984,392.8439641182389 375.8720347105016,392.8439641182389" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="445" y1="335" x2="445" y2="405" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="445,405 439.1279652894984,392.8439641182389 450.8720347105016,392.8439641182389" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="560" y1="425" x2="860" y2="425" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="860,425 849.1946347717678,430.21958640933474 849.1946347717678,419.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="560" y1="425" x2="560" y2="310" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="560,310 565.2195864093347,320.8053652282321 554.7804135906653,320.8053652282321" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="560,335 850,425" stroke="#2563EB" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">집중 부하와 균일 분포 부하의 선로 전류</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">집중 부하와 균일 분포 부하의 선로 전류</text>
+<text x="75" y="110" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">말단 집중</text>
+<text x="75" y="110" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">말단 집중</text>
+<text x="855" y="257" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">x</text>
+<text x="855" y="257" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="#64748B">x</text>
+<text x="550" y="98" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">I</text>
+<text x="550" y="98" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">I</text>
+<text x="75" y="310" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">균일 분포</text>
+<text x="75" y="310" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">균일 분포</text>
+<text x="855" y="457" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">x</text>
+<text x="855" y="457" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="#64748B">x</text>
+<text x="550" y="298" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">I</text>
+<text x="550" y="298" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">I</text>
+<text x="480" y="510" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">같은 총부하·길이: 균일 분포의 전압강하 계수 1/2 · 동손 계수 1/3</text>
+<text x="480" y="510" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">같은 총부하·길이: 균일 분포의 전압강하 계수 1/2 · 동손 계수 1/3</text>
 </svg>

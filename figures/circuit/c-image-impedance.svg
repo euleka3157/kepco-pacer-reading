@@ -1,32 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
 <rect width="100%" height="100%" fill="white"/>
-<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">영상 임피던스: 서로 맞물리는 한 쌍의 종단</text>
 <rect x="320" y="120" width="310" height="130" rx="10" fill="#EFF6FF" stroke="#7C3AED" stroke-width="2"/>
-<text x="475.0" y="192.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#7C3AED" text-anchor="middle" font-weight="700">같은 2포트</text>
-<line x1="220" y1="145" x2="320" y2="145" stroke="#25344A" stroke-width="3"/>
-<line x1="220" y1="225" x2="320" y2="225" stroke="#25344A" stroke-width="3"/>
-<line x1="630" y1="145" x2="740" y2="145" stroke="#25344A" stroke-width="3"/>
-<line x1="630" y1="225" x2="740" y2="225" stroke="#25344A" stroke-width="3"/>
-<line x1="740" y1="145" x2="740" y2="158.0" stroke="#25344A" stroke-width="3"/>
+<line x1="220" y1="145" x2="320" y2="145" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="220" y1="225" x2="320" y2="225" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="630" y1="145" x2="740" y2="145" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="630" y1="225" x2="740" y2="225" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="740" y1="145" x2="740" y2="158.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="712" y="158.0" width="56" height="54" rx="2" fill="white" stroke="#25344A" stroke-width="2"/>
-<text x="740" y="192.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">Z02</text>
-<line x1="740" y1="212.0" x2="740" y2="225" stroke="#25344A" stroke-width="3"/>
-<line x1="100" y1="185" x2="210" y2="185" stroke="#2563EB" stroke-width="3"/>
-<polygon points="210,185 199.19463477176788,190.21958640933477 199.19463477176788,179.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="35" y="295" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">입력에서 Z01</text>
-<text x="670" y="295" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">종단 Z02</text>
+<line x1="740" y1="212.0" x2="740" y2="225" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100" y1="185" x2="210" y2="185" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="210,185 197.84396411823886,190.8720347105016 197.84396411823886,179.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="320" y="330" width="310" height="130" rx="10" fill="#EFF6FF" stroke="#7C3AED" stroke-width="2"/>
-<text x="475.0" y="402.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#7C3AED" text-anchor="middle" font-weight="700">같은 2포트</text>
-<line x1="220" y1="355" x2="320" y2="355" stroke="#25344A" stroke-width="3"/>
-<line x1="220" y1="435" x2="320" y2="435" stroke="#25344A" stroke-width="3"/>
-<line x1="630" y1="355" x2="740" y2="355" stroke="#25344A" stroke-width="3"/>
-<line x1="630" y1="435" x2="740" y2="435" stroke="#25344A" stroke-width="3"/>
-<line x1="220" y1="355" x2="220" y2="368.0" stroke="#25344A" stroke-width="3"/>
+<line x1="220" y1="355" x2="320" y2="355" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="220" y1="435" x2="320" y2="435" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="630" y1="355" x2="740" y2="355" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="630" y1="435" x2="740" y2="435" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="220" y1="355" x2="220" y2="368.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="192" y="368.0" width="56" height="54" rx="2" fill="white" stroke="#25344A" stroke-width="2"/>
-<text x="220" y="402.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">Z01</text>
-<line x1="220" y1="422.0" x2="220" y2="435" stroke="#25344A" stroke-width="3"/>
-<line x1="855" y1="395" x2="750" y2="395" stroke="#2563EB" stroke-width="3"/>
-<polygon points="750,395 760.8053652282322,389.78041359066526 760.8053652282322,400.21958640933474" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="35" y="505" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">종단 Z01</text>
-<text x="670" y="505" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">입력에서 Z02</text>
+<line x1="220" y1="422.0" x2="220" y2="435" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="855" y1="395" x2="750" y2="395" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="750,395 762.1560358817611,389.1279652894984 762.1560358817611,400.8720347105016" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">영상 임피던스: 서로 맞물리는 한 쌍의 종단</text>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">영상 임피던스: 서로 맞물리는 한 쌍의 종단</text>
+<text x="475.0" y="192.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">같은 2포트</text>
+<text x="475.0" y="192.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#7C3AED">같은 2포트</text>
+<text x="740" y="192.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Z02</text>
+<text x="740" y="192.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">Z02</text>
+<text x="35" y="295" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">입력에서 Z01</text>
+<text x="35" y="295" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">입력에서 Z01</text>
+<text x="670" y="295" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">종단 Z02</text>
+<text x="670" y="295" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">종단 Z02</text>
+<text x="475.0" y="402.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">같은 2포트</text>
+<text x="475.0" y="402.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#7C3AED">같은 2포트</text>
+<text x="220" y="402.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Z01</text>
+<text x="220" y="402.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">Z01</text>
+<text x="35" y="505" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">종단 Z01</text>
+<text x="35" y="505" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">종단 Z01</text>
+<text x="670" y="505" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">입력에서 Z02</text>
+<text x="670" y="505" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">입력에서 Z02</text>
 </svg>

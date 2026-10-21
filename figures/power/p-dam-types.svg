@@ -1,22 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="510" viewBox="0 0 960 510">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">중력댐·아치댐·부벽댐의 저항 원리</text>
-<polygon points="80,350 175,120 260,350" stroke="#64748B" stroke-width="3" fill="#E2E8F0"/>
-<line x1="75" y1="220" x2="140" y2="220" stroke="#2563EB" stroke-width="3"/>
-<polygon points="140,220 129.19463477176788,225.21958640933477 129.19463477176788,214.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="175" y1="230" x2="175" y2="335" stroke="#DC2626" stroke-width="3"/>
-<polygon points="175,335 169.78041359066523,324.1946347717679 180.21958640933477,324.1946347717679" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="170" y="415" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">중력댐: 자중</text>
-<path d="M 370 160 Q 490 340 610 160" stroke="#64748B" stroke-width="15" fill="none"/>
-<line x1="490" y1="120" x2="490" y2="235" stroke="#2563EB" stroke-width="3"/>
-<polygon points="490,235 484.78041359066526,224.19463477176788 495.21958640933474,224.19463477176788" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="450" y1="240" x2="375" y2="170" stroke="#DC2626" stroke-width="3"/>
-<polygon points="375,170 386.4607382418076,173.55689175443518 379.33790010896723,181.1885040396213" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="530" y1="240" x2="605" y2="170" stroke="#DC2626" stroke-width="3"/>
-<polygon points="605,170 600.6620998910328,181.1885040396213 593.5392617581924,173.55689175443518" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="490" y="415" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">아치댐: 양쪽 암반으로</text>
-<polygon points="730,350 780,130 820,350" stroke="#64748B" stroke-width="3" fill="#E2E8F0"/>
-<polygon points="790,240 900,350 820,350" stroke="#64748B" stroke-width="3" fill="#CBD5E1"/>
-<text x="815" y="415" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">부벽댐: 지지벽</text>
-<text x="480" y="485" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">물의 힘(파랑)과 대표 저항 경로(빨강)의 개념도</text>
+<polygon points="80,350 175,120 260,350" stroke="#64748B" stroke-width="3" fill="#E2E8F0" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="75" y1="220" x2="140" y2="220" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="140,220 127.84396411823886,225.8720347105016 127.84396411823886,214.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="175" y1="230" x2="175" y2="335" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="175,335 169.1279652894984,322.8439641182389 180.87203471050162,322.8439641182389" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 370 160 Q 490 340 610 160" stroke="#64748B" stroke-width="15" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="490" y1="120" x2="490" y2="235" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="490,235 484.1279652894984,222.84396411823886 495.8720347105016,222.84396411823886" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="450" y1="240" x2="375" y2="170" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="375,170 387.8933305220335,174.00150322373958 379.8801376225881,182.58706704457396" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="530" y1="240" x2="605" y2="170" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="605,170 600.1198623774119,182.58706704457396 592.1066694779664,174.00150322373958" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="730,350 780,130 820,350" stroke="#64748B" stroke-width="3" fill="#E2E8F0" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="790,240 900,350 820,350" stroke="#64748B" stroke-width="3" fill="#CBD5E1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">중력댐·아치댐·부벽댐의 저항 원리</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">중력댐·아치댐·부벽댐의 저항 원리</text>
+<text x="170" y="415" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">중력댐: 자중</text>
+<text x="170" y="415" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">중력댐: 자중</text>
+<text x="490" y="415" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">아치댐: 양쪽 암반으로</text>
+<text x="490" y="415" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">아치댐: 양쪽 암반으로</text>
+<text x="815" y="415" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">부벽댐: 지지벽</text>
+<text x="815" y="415" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">부벽댐: 지지벽</text>
+<text x="480" y="485" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">물의 힘(파랑)과 대표 저항 경로(빨강)의 개념도</text>
+<text x="480" y="485" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">물의 힘(파랑)과 대표 저항 경로(빨강)의 개념도</text>
 </svg>

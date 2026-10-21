@@ -1,38 +1,56 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="32" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">비접지 계통의 a상 완전지락: 대지 기준 이동</text>
 <rect x="20" y="65" width="445" height="455" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
-<text x="35" y="95" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">정상: 중성점 N과 대지 전위가 같음</text>
-<line x1="235" y1="300" x2="235.0" y2="155.0" stroke="#DC2626" stroke-width="4"/>
-<polygon points="235.0,155.0 240.21958640933477,165.80536522823212 229.78041359066523,165.80536522823212" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="244.0" y="146.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#DC2626" text-anchor="start" font-weight="400">Ea</text>
-<line x1="235" y1="300" x2="109.42631645125638" y2="372.5" stroke="#2563EB" stroke-width="4"/>
-<polygon points="109.42631645125638,372.5 116.17424403140706,362.57702295815204 121.39383044074182,371.61761181361584" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="118.42631645125638" y="363.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="start" font-weight="400">Eb</text>
-<line x1="235" y1="300" x2="360.5736835487436" y2="372.5" stroke="#15803D" stroke-width="4"/>
-<polygon points="360.5736835487436,372.5 348.60616955925815,371.61761181361584 353.8257559685929,362.57702295815204" stroke="#15803D" stroke-width="1" fill="#15803D"/>
-<text x="369.5736835487436" y="363.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#15803D" text-anchor="start" font-weight="400">Ec</text>
+<line x1="235" y1="300" x2="235.0" y2="155.0" stroke="#DC2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="235.0,155.0 242.3944140798909,170.3076007399955 227.6055859201091,170.3076007399955" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="235" y1="300" x2="109.42631645125638" y2="372.5" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="109.42631645125638,372.5 118.9858805231365,358.44244919071537 126.38029460302742,371.2499500692891" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="235" y1="300" x2="360.5736835487436" y2="372.5" stroke="#15803D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="360.5736835487436,372.5 343.61970539697256,371.2499500692891 351.01411947686347,358.44244919071537" stroke="#15803D" stroke-width="1" fill="#15803D" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="235" cy="300" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="247" y="330" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">N = 대지</text>
-<text x="60" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">각 상 대지전압 크기 = E</text>
-<text x="60" y="500" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">Ea + Eb + Ec = 0</text>
 <rect x="490" y="65" width="450" height="455" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
-<text x="505" y="95" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">a상 지락: a점이 대지 전위</text>
 <circle cx="720" cy="170" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="735" y="150" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">a = 대지</text>
-<line x1="720" y1="170" x2="594.4263164512564" y2="387.5" stroke="#2563EB" stroke-width="4"/>
-<polygon points="594.4263164512564,387.5 595.3087046376405,375.53248601051456 604.3492934931044,380.7520724198493" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="603.4263164512564" y="378.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="start" font-weight="400">Vb</text>
-<line x1="720" y1="170" x2="845.5736835487436" y2="387.5" stroke="#15803D" stroke-width="4"/>
-<polygon points="845.5736835487436,387.5 835.6507065068956,380.7520724198493 844.6912953623595,375.53248601051456" stroke="#15803D" stroke-width="1" fill="#15803D"/>
-<text x="854.5736835487436" y="378.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#15803D" text-anchor="start" font-weight="400">Vc</text>
+<line x1="720" y1="170" x2="594.4263164512564" y2="387.5" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="594.4263164512564,387.5 595.6763663819673,370.546021848229 608.483867260541,377.9404359281199" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="720" y1="170" x2="845.5736835487436" y2="387.5" stroke="#15803D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="845.5736835487436,387.5 831.516132739459,377.9404359281199 844.3236336180327,370.546021848229" stroke="#15803D" stroke-width="1" fill="#15803D" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="720" cy="315" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="690" y="321" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">N</text>
-<line x1="720" y1="170" x2="720" y2="315" stroke="#64748B" stroke-width="2"/>
-<polygon points="720,315 714.7804135906653,304.1946347717679 725.2195864093347,304.1946347717679" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="750" y="280" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">V0 = −Ea</text>
-<text x="520" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">Va = 0,  |Vb| = |Vc| = √3 E</text>
-<text x="520" y="500" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">Va + Vb + Vc = 3V0</text>
-<text x="40" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">선간전압은 그대로: 대지전압 기준만 이동한다. 직접접지의 전압변화와 구별.</text>
-<text x="40" y="605" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">GPT 예: 정상 상전압 110/√3 V → 지락 시 잔류출력 110√3 ≈ 190.5 V</text>
+<line x1="720" y1="170" x2="720" y2="315" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="720,315 714.7804135906653,304.1946347717679 725.2195864093347,304.1946347717679" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">비접지 계통의 a상 완전지락: 대지 기준 이동</text>
+<text x="32" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">비접지 계통의 a상 완전지락: 대지 기준 이동</text>
+<text x="35" y="95" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">정상: 중성점 N과 대지 전위가 같음</text>
+<text x="35" y="95" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="#25344A">정상: 중성점 N과 대지 전위가 같음</text>
+<text x="244.0" y="146.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Ea</text>
+<text x="244.0" y="146.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#DC2626">Ea</text>
+<text x="110.426" y="345.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Eb</text>
+<text x="110.426" y="345.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#2563EB">Eb</text>
+<text x="369.5736835487436" y="363.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Ec</text>
+<text x="369.5736835487436" y="363.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#15803D">Ec</text>
+<text x="249" y="288" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">N = 대지</text>
+<text x="249" y="288" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">N = 대지</text>
+<text x="60" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">각 상 대지전압 크기 = E</text>
+<text x="60" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">각 상 대지전압 크기 = E</text>
+<text x="60" y="500" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Ea + Eb + Ec = 0</text>
+<text x="60" y="500" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">Ea + Eb + Ec = 0</text>
+<text x="505" y="95" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">a상 지락: a점이 대지 전위</text>
+<text x="505" y="95" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="#25344A">a상 지락: a점이 대지 전위</text>
+<text x="735" y="150" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">a = 대지</text>
+<text x="735" y="150" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">a = 대지</text>
+<text x="613.426" y="382.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Vb</text>
+<text x="613.426" y="382.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#2563EB">Vb</text>
+<text x="854.5736835487436" y="378.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Vc</text>
+<text x="854.5736835487436" y="378.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#15803D">Vc</text>
+<text x="690" y="321" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">N</text>
+<text x="690" y="321" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">N</text>
+<text x="720" y="348" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">V0 = −Ea</text>
+<text x="720" y="348" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">V0 = −Ea</text>
+<text x="520" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Va = 0,  |Vb| = |Vc| = √3 E</text>
+<text x="520" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">Va = 0,  |Vb| = |Vc| = √3 E</text>
+<text x="520" y="500" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Va + Vb + Vc = 3V0</text>
+<text x="520" y="500" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">Va + Vb + Vc = 3V0</text>
+<text x="40" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">선간전압은 그대로: 대지전압 기준만 이동한다. 직접접지의 전압변화와 구별.</text>
+<text x="40" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">선간전압은 그대로: 대지전압 기준만 이동한다. 직접접지의 전압변화와 구별.</text>
+<text x="40" y="605" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">GPT 예: 정상 상전압 110/√3 V → 지락 시 잔류출력 110√3 ≈ 190.5 V</text>
+<text x="40" y="605" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">GPT 예: 정상 상전압 110/√3 V → 지락 시 잔류출력 110√3 ≈ 190.5 V</text>
 </svg>

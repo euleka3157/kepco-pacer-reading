@@ -1,50 +1,77 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
 <rect width="100%" height="100%" fill="white"/>
-<text x="28" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">Routh 표: 앞 두 행에서 다음 행을 계산</text>
 <rect x="55" y="100" width="140" height="70" rx="0" fill="#F8FAFC" stroke="#64748B" stroke-width="1"/>
-<text x="125" y="144" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="middle" font-weight="400">s⁴</text>
 <rect x="195" y="100" width="140" height="70" rx="0" fill="#ECFDF5" stroke="#64748B" stroke-width="1"/>
-<text x="265" y="144" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#2563EB" text-anchor="middle" font-weight="400">1</text>
 <rect x="335" y="100" width="140" height="70" rx="0" fill="#F8FAFC" stroke="#64748B" stroke-width="1"/>
-<text x="405" y="144" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="middle" font-weight="400">5</text>
 <rect x="475" y="100" width="140" height="70" rx="0" fill="#F8FAFC" stroke="#64748B" stroke-width="1"/>
-<text x="545" y="144" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="middle" font-weight="400">2</text>
 <rect x="55" y="170" width="140" height="70" rx="0" fill="#F8FAFC" stroke="#64748B" stroke-width="1"/>
-<text x="125" y="214" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="middle" font-weight="400">s³</text>
 <rect x="195" y="170" width="140" height="70" rx="0" fill="#ECFDF5" stroke="#64748B" stroke-width="1"/>
-<text x="265" y="214" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#2563EB" text-anchor="middle" font-weight="400">2</text>
 <rect x="335" y="170" width="140" height="70" rx="0" fill="#F8FAFC" stroke="#64748B" stroke-width="1"/>
-<text x="405" y="214" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="middle" font-weight="400">4</text>
 <rect x="475" y="170" width="140" height="70" rx="0" fill="#F8FAFC" stroke="#64748B" stroke-width="1"/>
-<text x="545" y="214" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="middle" font-weight="400">0</text>
 <rect x="55" y="240" width="140" height="70" rx="0" fill="#F8FAFC" stroke="#64748B" stroke-width="1"/>
-<text x="125" y="284" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="middle" font-weight="400">s²</text>
 <rect x="195" y="240" width="140" height="70" rx="0" fill="#ECFDF5" stroke="#64748B" stroke-width="1"/>
-<text x="265" y="284" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#2563EB" text-anchor="middle" font-weight="400">3</text>
 <rect x="335" y="240" width="140" height="70" rx="0" fill="#F8FAFC" stroke="#64748B" stroke-width="1"/>
-<text x="405" y="284" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="middle" font-weight="400">2</text>
 <rect x="475" y="240" width="140" height="70" rx="0" fill="#F8FAFC" stroke="#64748B" stroke-width="1"/>
-<text x="545" y="284" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="middle" font-weight="400">0</text>
 <rect x="55" y="310" width="140" height="70" rx="0" fill="#F8FAFC" stroke="#64748B" stroke-width="1"/>
-<text x="125" y="354" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="middle" font-weight="400">s¹</text>
 <rect x="195" y="310" width="140" height="70" rx="0" fill="#ECFDF5" stroke="#64748B" stroke-width="1"/>
-<text x="265" y="354" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#2563EB" text-anchor="middle" font-weight="400">8/3</text>
 <rect x="335" y="310" width="140" height="70" rx="0" fill="#F8FAFC" stroke="#64748B" stroke-width="1"/>
-<text x="405" y="354" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="middle" font-weight="400">0</text>
 <rect x="475" y="310" width="140" height="70" rx="0" fill="#F8FAFC" stroke="#64748B" stroke-width="1"/>
-<text x="545" y="354" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="middle" font-weight="400">0</text>
 <rect x="55" y="380" width="140" height="70" rx="0" fill="#F8FAFC" stroke="#64748B" stroke-width="1"/>
-<text x="125" y="424" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="middle" font-weight="400">s^0</text>
 <rect x="195" y="380" width="140" height="70" rx="0" fill="#ECFDF5" stroke="#64748B" stroke-width="1"/>
-<text x="265" y="424" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#2563EB" text-anchor="middle" font-weight="400">2</text>
 <rect x="335" y="380" width="140" height="70" rx="0" fill="#F8FAFC" stroke="#64748B" stroke-width="1"/>
-<text x="405" y="424" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="middle" font-weight="400"></text>
 <rect x="475" y="380" width="140" height="70" rx="0" fill="#F8FAFC" stroke="#64748B" stroke-width="1"/>
-<text x="545" y="424" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="middle" font-weight="400"></text>
-<text x="665" y="160" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">s⁴+2s³+5s²+4s+2</text>
-<text x="650" y="240" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">(2×5 - 1×4)/2 = 3</text>
-<text x="650" y="310" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#15803D" text-anchor="start" font-weight="400">첫 열: 1, 2, 3, 8/3, 2</text>
-<text x="650" y="365" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">부호 변화 0 → 우반평면</text>
-<text x="650" y="400" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">극점 0개</text>
-<text x="55" y="510" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">표의 계수 부호만 아니라 첫 열의 부호 변화를 센다.</text>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Routh 표: 앞 두 행에서 다음 행을 계산</text>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">Routh 표: 앞 두 행에서 다음 행을 계산</text>
+<text x="125" y="144" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">s⁴</text>
+<text x="125" y="144" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#25344A">s⁴</text>
+<text x="265" y="144" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">1</text>
+<text x="265" y="144" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#2563EB">1</text>
+<text x="405" y="144" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">5</text>
+<text x="405" y="144" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#25344A">5</text>
+<text x="545" y="144" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">2</text>
+<text x="545" y="144" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#25344A">2</text>
+<text x="125" y="214" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">s³</text>
+<text x="125" y="214" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#25344A">s³</text>
+<text x="265" y="214" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">2</text>
+<text x="265" y="214" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#2563EB">2</text>
+<text x="405" y="214" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">4</text>
+<text x="405" y="214" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#25344A">4</text>
+<text x="545" y="214" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">0</text>
+<text x="545" y="214" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#25344A">0</text>
+<text x="125" y="284" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">s²</text>
+<text x="125" y="284" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#25344A">s²</text>
+<text x="265" y="284" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">3</text>
+<text x="265" y="284" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#2563EB">3</text>
+<text x="405" y="284" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">2</text>
+<text x="405" y="284" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#25344A">2</text>
+<text x="545" y="284" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">0</text>
+<text x="545" y="284" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#25344A">0</text>
+<text x="125" y="354" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">s¹</text>
+<text x="125" y="354" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#25344A">s¹</text>
+<text x="265" y="354" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">8/3</text>
+<text x="265" y="354" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#2563EB">8/3</text>
+<text x="405" y="354" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">0</text>
+<text x="405" y="354" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#25344A">0</text>
+<text x="545" y="354" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">0</text>
+<text x="545" y="354" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#25344A">0</text>
+<text x="125" y="424" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">s^0</text>
+<text x="125" y="424" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#25344A">s^0</text>
+<text x="265" y="424" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">2</text>
+<text x="265" y="424" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#2563EB">2</text>
+<text x="405" y="424" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true"></text>
+<text x="405" y="424" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#25344A"></text>
+<text x="545" y="424" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true"></text>
+<text x="545" y="424" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="middle" font-weight="400" fill="#25344A"></text>
+<text x="665" y="160" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">s⁴+2s³+5s²+4s+2</text>
+<text x="665" y="160" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#25344A">s⁴+2s³+5s²+4s+2</text>
+<text x="650" y="240" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">(2×5 - 1×4)/2 = 3</text>
+<text x="650" y="240" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">(2×5 - 1×4)/2 = 3</text>
+<text x="650" y="310" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">첫 열: 1, 2, 3, 8/3, 2</text>
+<text x="650" y="310" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#15803D">첫 열: 1, 2, 3, 8/3, 2</text>
+<text x="650" y="365" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">부호 변화 0 → 우반평면</text>
+<text x="650" y="365" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#25344A">부호 변화 0 → 우반평면</text>
+<text x="650" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">극점 0개</text>
+<text x="650" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#25344A">극점 0개</text>
+<text x="55" y="510" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">표의 계수 부호만 아니라 첫 열의 부호 변화를 센다.</text>
+<text x="55" y="510" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#25344A">표의 계수 부호만 아니라 첫 열의 부호 변화를 센다.</text>
 </svg>

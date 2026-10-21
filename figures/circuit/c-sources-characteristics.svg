@@ -1,30 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
 <rect width="100%" height="100%" fill="white"/>
-<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">이상·실제 전원의 단자 특성과 전원 끄기</text>
-<line x1="90" y1="305" x2="430" y2="305" stroke="#64748B" stroke-width="2"/>
-<polygon points="430,305 419.1946347717679,310.21958640933474 419.1946347717679,299.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="90" y1="305" x2="90" y2="115" stroke="#64748B" stroke-width="2"/>
-<polygon points="90,115 95.21958640933477,125.80536522823212 84.78041359066523,125.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="425" y="337" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">i</text>
-<text x="80" y="103" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">v</text>
-<line x1="90" y1="140" x2="410" y2="140" stroke="#2563EB" stroke-width="4"/>
-<line x1="90" y1="140" x2="410" y2="305" stroke="#DC2626" stroke-width="4"/>
-<text x="145" y="115" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">이상 전압원: v=E</text>
-<text x="190" y="240" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#DC2626" text-anchor="start" font-weight="400">실제: v=E−ri</text>
-<line x1="560" y1="305" x2="875" y2="305" stroke="#64748B" stroke-width="2"/>
-<polygon points="875,305 864.1946347717678,310.21958640933474 864.1946347717678,299.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="560" y1="305" x2="560" y2="115" stroke="#64748B" stroke-width="2"/>
-<polygon points="560,115 565.2195864093347,125.80536522823212 554.7804135906653,125.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="870" y="337" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">i</text>
-<text x="550" y="103" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">v</text>
-<line x1="755" y1="305" x2="755" y2="120" stroke="#2563EB" stroke-width="4"/>
-<line x1="560" y1="120" x2="755" y2="305" stroke="#DC2626" stroke-width="4"/>
-<text x="580" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">이상 전류원: i=Is</text>
-<text x="600" y="350" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#DC2626" text-anchor="start" font-weight="400">실제: i=Is−v/rp</text>
+<line x1="90" y1="305" x2="430" y2="305" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="430,305 419.1946347717679,310.21958640933474 419.1946347717679,299.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="90" y1="305" x2="90" y2="115" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="90,115 95.21958640933477,125.80536522823212 84.78041359066523,125.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="90" y1="140" x2="410" y2="140" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="90" y1="140" x2="410" y2="305" stroke="#DC2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="560" y1="305" x2="875" y2="305" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="875,305 864.1946347717678,310.21958640933474 864.1946347717678,299.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="560" y1="305" x2="560" y2="115" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="560,115 565.2195864093347,125.80536522823212 554.7804135906653,125.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="755" y1="305" x2="755" y2="120" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="560" y1="120" x2="755" y2="305" stroke="#DC2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="55" y="400" width="385" height="140" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="247.5" y="462.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">독립 전압원 0 V</text>
-<text x="247.5" y="492.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">단락으로 대체</text>
 <rect x="510" y="400" width="385" height="140" rx="10" fill="#EFF6FF" stroke="#15803D" stroke-width="2"/>
-<text x="702.5" y="462.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#15803D" text-anchor="middle" font-weight="700">독립 전류원 0 A</text>
-<text x="702.5" y="492.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#15803D" text-anchor="middle" font-weight="700">개방으로 대체</text>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">이상·실제 전원의 단자 특성과 전원 끄기</text>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">이상·실제 전원의 단자 특성과 전원 끄기</text>
+<text x="425" y="337" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">i</text>
+<text x="425" y="337" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="#64748B">i</text>
+<text x="80" y="103" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">v</text>
+<text x="80" y="103" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">v</text>
+<text x="145" y="115" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">이상 전압원: v=E</text>
+<text x="145" y="115" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">이상 전압원: v=E</text>
+<text x="115" y="278" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">실제: v=E−ri</text>
+<text x="115" y="278" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#DC2626">실제: v=E−ri</text>
+<text x="870" y="337" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">i</text>
+<text x="870" y="337" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="#64748B">i</text>
+<text x="550" y="103" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">v</text>
+<text x="550" y="103" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">v</text>
+<text x="580" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">이상 전류원: i=Is</text>
+<text x="580" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">이상 전류원: i=Is</text>
+<text x="600" y="350" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">실제: i=Is−v/rp</text>
+<text x="600" y="350" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#DC2626">실제: i=Is−v/rp</text>
+<text x="247.5" y="462.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">독립 전압원 0 V</text>
+<text x="247.5" y="462.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">독립 전압원 0 V</text>
+<text x="247.5" y="492.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">단락으로 대체</text>
+<text x="247.5" y="492.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#2563EB">단락으로 대체</text>
+<text x="702.5" y="462.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">독립 전류원 0 A</text>
+<text x="702.5" y="462.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#15803D">독립 전류원 0 A</text>
+<text x="702.5" y="492.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">개방으로 대체</text>
+<text x="702.5" y="492.26" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="700" fill="#15803D">개방으로 대체</text>
 </svg>

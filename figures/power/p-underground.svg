@@ -1,30 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">직매식·관로식·전력구식 지중 전선로</text>
 <rect x="30" y="110" width="285" height="290" rx="0" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
-<text x="172" y="455" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="middle" font-weight="400">직매식</text>
 <rect x="70" y="210" width="205" height="18" rx="0" fill="#94A3B8" stroke="#64748B" stroke-width="2"/>
 <circle cx="105" cy="285" r="24" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
 <circle cx="172" cy="285" r="24" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
 <circle cx="240" cy="285" r="24" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
-<text x="172" y="170" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">보호 덮개</text>
 <rect x="345" y="110" width="285" height="290" rx="0" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
-<text x="487" y="455" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="middle" font-weight="400">관로식</text>
 <circle cx="420" cy="280" r="34" fill="white" stroke="#64748B" stroke-width="3"/>
 <circle cx="420" cy="280" r="17" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
 <circle cx="487" cy="280" r="34" fill="white" stroke="#64748B" stroke-width="3"/>
 <circle cx="487" cy="280" r="17" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
 <circle cx="555" cy="280" r="34" fill="white" stroke="#64748B" stroke-width="3"/>
 <circle cx="555" cy="280" r="17" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
-<text x="487" y="170" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">케이블 보호관</text>
 <rect x="660" y="110" width="285" height="290" rx="0" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
-<text x="802" y="455" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="middle" font-weight="400">전력구식</text>
 <rect x="700" y="145" width="205" height="230" rx="25" fill="white" stroke="#64748B" stroke-width="2"/>
-<line x1="720" y1="205" x2="785" y2="205" stroke="#64748B" stroke-width="3"/>
+<line x1="720" y1="205" x2="785" y2="205" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="758" cy="189" r="15" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
-<line x1="720" y1="270" x2="785" y2="270" stroke="#64748B" stroke-width="3"/>
+<line x1="720" y1="270" x2="785" y2="270" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="758" cy="254" r="15" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
-<line x1="720" y1="335" x2="785" y2="335" stroke="#64748B" stroke-width="3"/>
+<line x1="720" y1="335" x2="785" y2="335" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="758" cy="319" r="15" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
-<text x="840" y="280" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">통로</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">직매식·관로식·전력구식 지중 전선로</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">직매식·관로식·전력구식 지중 전선로</text>
+<text x="172" y="455" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">직매식</text>
+<text x="172" y="455" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="#25344A">직매식</text>
+<text x="172" y="170" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">보호 덮개</text>
+<text x="172" y="170" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">보호 덮개</text>
+<text x="487" y="455" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">관로식</text>
+<text x="487" y="455" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="#25344A">관로식</text>
+<text x="487" y="170" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">케이블 보호관</text>
+<text x="487" y="170" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">케이블 보호관</text>
+<text x="802" y="455" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">전력구식</text>
+<text x="802" y="455" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="#25344A">전력구식</text>
+<text x="840" y="280" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">통로</text>
+<text x="840" y="280" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">통로</text>
 </svg>

@@ -1,28 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="590" viewBox="0 0 960 590">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">가압경수로(PWR)와 비등경수로(BWR)</text>
-<text x="50" y="90" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">PWR: 1차수와 2차수 분리</text>
 <rect x="35.0" y="125" width="276.6666666666667" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="173.33333333333334" y="174.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">원자로·1차수</text>
 <rect x="341.6666666666667" y="125" width="276.6666666666667" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="480.0" y="174.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">증기발생기</text>
-<line x1="313.6666666666667" y1="168" x2="338.6666666666667" y2="168" stroke="#2563EB" stroke-width="3"/>
-<polygon points="338.6666666666667,168 327.86130143843457,173.21958640933477 327.86130143843457,162.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="313.6666666666667" y1="168" x2="338.6666666666667" y2="168" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="338.6666666666667,168 326.5106307849056,173.8720347105016 326.5106307849056,162.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="648.3333333333334" y="125" width="276.6666666666667" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="786.6666666666667" y="174.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">2차 증기·터빈</text>
-<line x1="620.3333333333334" y1="168" x2="645.3333333333334" y2="168" stroke="#2563EB" stroke-width="3"/>
-<polygon points="645.3333333333334,168 634.5279681051012,173.21958640933477 634.5279681051012,162.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="480" y="265" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#DC2626" text-anchor="middle" font-weight="400">열 전달 경계에서 물은 섞이지 않음</text>
-<text x="50" y="350" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">BWR: 원자로에서 만든 증기로 터빈 구동</text>
+<line x1="620.3333333333334" y1="168" x2="645.3333333333334" y2="168" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="645.3333333333334,168 633.1772974515723,173.8720347105016 633.1772974515723,162.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="35.0" y="385" width="276.6666666666667" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="173.33333333333334" y="434.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">원자로에서 비등</text>
 <rect x="341.6666666666667" y="385" width="276.6666666666667" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="480.0" y="434.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">증기 분리</text>
-<line x1="313.6666666666667" y1="428" x2="338.6666666666667" y2="428" stroke="#2563EB" stroke-width="3"/>
-<polygon points="338.6666666666667,428 327.86130143843457,433.21958640933474 327.86130143843457,422.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="313.6666666666667" y1="428" x2="338.6666666666667" y2="428" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="338.6666666666667,428 326.5106307849056,433.8720347105016 326.5106307849056,422.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="648.3333333333334" y="385" width="276.6666666666667" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="786.6666666666667" y="434.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">터빈·복수기</text>
-<line x1="620.3333333333334" y1="428" x2="645.3333333333334" y2="428" stroke="#2563EB" stroke-width="3"/>
-<polygon points="645.3333333333334,428 634.5279681051012,433.21958640933474 634.5279681051012,422.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="480" y="525" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="middle" font-weight="400">응축한 물을 급수로 되돌림</text>
+<line x1="620.3333333333334" y1="428" x2="645.3333333333334" y2="428" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="645.3333333333334,428 633.1772974515723,433.8720347105016 633.1772974515723,422.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">가압경수로(PWR)와 비등경수로(BWR)</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">가압경수로(PWR)와 비등경수로(BWR)</text>
+<text x="50" y="90" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">PWR: 1차수와 2차수 분리</text>
+<text x="50" y="90" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="#25344A">PWR: 1차수와 2차수 분리</text>
+<text x="173.33333333333334" y="174.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">원자로·1차수</text>
+<text x="173.33333333333334" y="174.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#2563EB">원자로·1차수</text>
+<text x="480.0" y="174.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">증기발생기</text>
+<text x="480.0" y="174.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#2563EB">증기발생기</text>
+<text x="786.6666666666667" y="174.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">2차 증기·터빈</text>
+<text x="786.6666666666667" y="174.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#2563EB">2차 증기·터빈</text>
+<text x="480" y="265" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">열 전달 경계에서 물은 섞이지 않음</text>
+<text x="480" y="265" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#DC2626">열 전달 경계에서 물은 섞이지 않음</text>
+<text x="50" y="350" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">BWR: 원자로에서 만든 증기로 터빈 구동</text>
+<text x="50" y="350" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="#25344A">BWR: 원자로에서 만든 증기로 터빈 구동</text>
+<text x="173.33333333333334" y="434.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">원자로에서 비등</text>
+<text x="173.33333333333334" y="434.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#2563EB">원자로에서 비등</text>
+<text x="480.0" y="434.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">증기 분리</text>
+<text x="480.0" y="434.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#2563EB">증기 분리</text>
+<text x="786.6666666666667" y="434.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">터빈·복수기</text>
+<text x="786.6666666666667" y="434.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#2563EB">터빈·복수기</text>
+<text x="480" y="525" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">응축한 물을 급수로 되돌림</text>
+<text x="480" y="525" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#2563EB">응축한 물을 급수로 되돌림</text>
 </svg>

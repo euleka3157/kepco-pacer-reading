@@ -1,71 +1,93 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">출력 위치가 전달함수를 정한다</text>
 <rect x="20" y="70" width="445" height="220" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
-<text x="36" y="99" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">RC 저역: C의 전압</text>
 <circle cx="70" cy="165" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
 <circle cx="70" cy="270" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<line x1="70" y1="270" x2="370" y2="270" stroke="#25344A" stroke-width="3"/>
-<polyline points="70,165 118.0,165.0 136.0,175.0 154.0,155.0 172.0,175.0 190.0,155.0 208.0,175.0 225.99999999999997,155.0 244.00000000000003,175.0 262.0,165.0 310,165" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="190.0" y="141.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">R</text>
-<line x1="310" y1="165" x2="370" y2="165" stroke="#25344A" stroke-width="3"/>
-<line x1="310" y1="165" x2="310.0" y2="210.5" stroke="#25344A" stroke-width="3"/>
-<line x1="310.0" y1="224.5" x2="310" y2="270" stroke="#25344A" stroke-width="3"/>
-<line x1="288.0" y1="210.5" x2="332.0" y2="210.5" stroke="#25344A" stroke-width="3"/>
-<line x1="288.0" y1="224.5" x2="332.0" y2="224.5" stroke="#25344A" stroke-width="3"/>
-<text x="278.0" y="217.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">C</text>
+<line x1="70" y1="270" x2="370" y2="270" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="70,165 118.0,165.0 136.0,175.0 154.0,155.0 172.0,175.0 190.0,155.0 208.0,175.0 225.99999999999997,155.0 244.00000000000003,175.0 262.0,165.0 310,165" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="310" y1="165" x2="370" y2="165" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="310" y1="165" x2="310.0" y2="210.5" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="310.0" y1="224.5" x2="310" y2="270" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="288.0" y1="210.5" x2="332.0" y2="210.5" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="288.0" y1="224.5" x2="332.0" y2="224.5" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="370" cy="165" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
 <circle cx="370" cy="270" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="62" y="245" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="end" font-weight="400">Vi</text>
-<text x="385" y="245" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#DC2626" text-anchor="start" font-weight="400">Vo</text>
 <rect x="490" y="70" width="450" height="220" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
-<text x="506" y="99" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">RC 고역: R의 전압</text>
 <circle cx="535" cy="165" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
 <circle cx="535" cy="270" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<line x1="535" y1="270" x2="835" y2="270" stroke="#25344A" stroke-width="3"/>
-<line x1="535" y1="165" x2="648.0" y2="165.0" stroke="#25344A" stroke-width="3"/>
-<line x1="662.0" y1="165.0" x2="775" y2="165" stroke="#25344A" stroke-width="3"/>
-<line x1="648.0" y1="187.0" x2="648.0" y2="143.0" stroke="#25344A" stroke-width="3"/>
-<line x1="662.0" y1="187.0" x2="662.0" y2="143.0" stroke="#25344A" stroke-width="3"/>
-<text x="655.0" y="133.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">C</text>
-<line x1="775" y1="165" x2="835" y2="165" stroke="#25344A" stroke-width="3"/>
-<polyline points="775,165 775.0,186.0 765.0,193.875 785.0,201.75 765.0,209.625 785.0,217.5 765.0,225.375 785.0,233.25 765.0,241.125 775.0,249.0 775,270" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="749.0" y="217.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">R</text>
+<line x1="535" y1="270" x2="835" y2="270" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="535" y1="165" x2="648.0" y2="165.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="662.0" y1="165.0" x2="775" y2="165" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="648.0" y1="187.0" x2="648.0" y2="143.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="662.0" y1="187.0" x2="662.0" y2="143.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="775" y1="165" x2="835" y2="165" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="775,165 775.0,186.0 765.0,193.875 785.0,201.75 765.0,209.625 785.0,217.5 765.0,225.375 785.0,233.25 765.0,241.125 775.0,249.0 775,270" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="835" cy="165" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
 <circle cx="835" cy="270" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="527" y="245" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="end" font-weight="400">Vi</text>
-<text x="850" y="245" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#DC2626" text-anchor="start" font-weight="400">Vo</text>
 <rect x="20" y="315" width="445" height="240" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
-<text x="36" y="344" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">저항 분압</text>
 <circle cx="70" cy="385" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
 <circle cx="70" cy="510" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<line x1="70" y1="510" x2="370" y2="510" stroke="#25344A" stroke-width="3"/>
-<polyline points="70,385 118.0,385.0 136.0,395.0 154.0,375.0 172.0,395.0 190.0,375.0 208.0,395.0 225.99999999999997,375.0 244.00000000000003,395.0 262.0,385.0 310,385" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="190.0" y="361.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">R1</text>
-<line x1="310" y1="385" x2="370" y2="385" stroke="#25344A" stroke-width="3"/>
-<polyline points="310,385 310.0,410.0 300.0,419.375 320.0,428.75 300.0,438.125 320.0,447.5 300.0,456.875 320.0,466.25 300.0,475.625 310.0,485.0 310,510" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="284.0" y="447.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">R2</text>
+<line x1="70" y1="510" x2="370" y2="510" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="70,385 118.0,385.0 136.0,395.0 154.0,375.0 172.0,395.0 190.0,375.0 208.0,395.0 225.99999999999997,375.0 244.00000000000003,395.0 262.0,385.0 310,385" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="310" y1="385" x2="370" y2="385" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="310,385 310.0,410.0 300.0,419.375 320.0,428.75 300.0,438.125 320.0,447.5 300.0,456.875 320.0,466.25 300.0,475.625 310.0,485.0 310,510" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="370" cy="385" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
 <circle cx="370" cy="510" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="62" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="end" font-weight="400">Vi</text>
-<text x="385" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#DC2626" text-anchor="start" font-weight="400">Vo</text>
 <rect x="490" y="315" width="450" height="240" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
-<text x="506" y="344" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">전류입력 병렬 RC</text>
-<line x1="555" y1="395" x2="875" y2="395" stroke="#25344A" stroke-width="3"/>
-<line x1="555" y1="520" x2="875" y2="520" stroke="#25344A" stroke-width="3"/>
+<line x1="555" y1="395" x2="875" y2="395" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="555" y1="520" x2="875" y2="520" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="555" cy="458" r="27" fill="white" stroke="#25344A" stroke-width="3"/>
-<line x1="555" y1="473" x2="555" y2="443" stroke="#25344A" stroke-width="3"/>
-<polygon points="555,443 560.2195864093347,453.8053652282321 549.7804135906653,453.8053652282321" stroke="#25344A" stroke-width="1" fill="#25344A"/>
-<text x="513" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">Ii</text>
-<line x1="555" y1="395" x2="555" y2="431" stroke="#25344A" stroke-width="3"/>
-<line x1="555" y1="485" x2="555" y2="520" stroke="#25344A" stroke-width="3"/>
-<polyline points="735,395 735.0,420.0 725.0,429.375 745.0,438.75 725.0,448.125 745.0,457.5 725.0,466.875 745.0,476.25 725.0,485.625 735.0,495.0 735,520" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="709.0" y="457.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">R</text>
-<line x1="875" y1="395" x2="875.0" y2="450.5" stroke="#25344A" stroke-width="3"/>
-<line x1="875.0" y1="464.5" x2="875" y2="520" stroke="#25344A" stroke-width="3"/>
-<line x1="853.0" y1="450.5" x2="897.0" y2="450.5" stroke="#25344A" stroke-width="3"/>
-<line x1="853.0" y1="464.5" x2="897.0" y2="464.5" stroke="#25344A" stroke-width="3"/>
-<text x="843.0" y="457.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">C</text>
-<text x="900" y="485" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">Vo</text>
-<text x="95" y="600" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">전압이득은 무차원 / 전류입력→전압출력 전달비는 Ω</text>
+<line x1="555" y1="473" x2="555" y2="443" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="555,443 560.8720347105016,455.1560358817611 549.1279652894984,455.1560358817611" stroke="#25344A" stroke-width="1" fill="#25344A" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="555" y1="395" x2="555" y2="431" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="555" y1="485" x2="555" y2="520" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="735,395 735.0,420.0 725.0,429.375 745.0,438.75 725.0,448.125 745.0,457.5 725.0,466.875 745.0,476.25 725.0,485.625 735.0,495.0 735,520" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="875" y1="395" x2="875.0" y2="450.5" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="875.0" y1="464.5" x2="875" y2="520" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="853.0" y1="450.5" x2="897.0" y2="450.5" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="853.0" y1="464.5" x2="897.0" y2="464.5" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">출력 위치가 전달함수를 정한다</text>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">출력 위치가 전달함수를 정한다</text>
+<text x="36" y="99" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">RC 저역: C의 전압</text>
+<text x="36" y="99" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="#25344A">RC 저역: C의 전압</text>
+<text x="190.0" y="141.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R</text>
+<text x="190.0" y="141.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">R</text>
+<text x="278.0" y="217.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">C</text>
+<text x="278.0" y="217.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">C</text>
+<text x="62" y="245" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Vi</text>
+<text x="62" y="245" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="end" font-weight="400" fill="#2563EB">Vi</text>
+<text x="385" y="245" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Vo</text>
+<text x="385" y="245" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#DC2626">Vo</text>
+<text x="506" y="99" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">RC 고역: R의 전압</text>
+<text x="506" y="99" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="#25344A">RC 고역: R의 전압</text>
+<text x="655.0" y="133.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">C</text>
+<text x="655.0" y="133.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">C</text>
+<text x="749.0" y="217.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R</text>
+<text x="749.0" y="217.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">R</text>
+<text x="527" y="245" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Vi</text>
+<text x="527" y="245" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="end" font-weight="400" fill="#2563EB">Vi</text>
+<text x="850" y="245" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Vo</text>
+<text x="850" y="245" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#DC2626">Vo</text>
+<text x="36" y="344" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">저항 분압</text>
+<text x="36" y="344" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="#25344A">저항 분압</text>
+<text x="190.0" y="361.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R1</text>
+<text x="190.0" y="361.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">R1</text>
+<text x="284.0" y="447.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R2</text>
+<text x="284.0" y="447.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">R2</text>
+<text x="62" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Vi</text>
+<text x="62" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="end" font-weight="400" fill="#2563EB">Vi</text>
+<text x="385" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Vo</text>
+<text x="385" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#DC2626">Vo</text>
+<text x="506" y="344" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">전류입력 병렬 RC</text>
+<text x="506" y="344" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="#25344A">전류입력 병렬 RC</text>
+<text x="521" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Ii</text>
+<text x="521" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">Ii</text>
+<text x="709.0" y="457.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R</text>
+<text x="709.0" y="457.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">R</text>
+<text x="843.0" y="457.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">C</text>
+<text x="843.0" y="457.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">C</text>
+<text x="900" y="485" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Vo</text>
+<text x="900" y="485" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">Vo</text>
+<text x="95" y="600" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">전압이득은 무차원 / 전류입력→전압출력 전달비는 Ω</text>
+<text x="95" y="600" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">전압이득은 무차원 / 전류입력→전압출력 전달비는 Ω</text>
 </svg>

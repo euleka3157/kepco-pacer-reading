@@ -1,40 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
 <rect width="100%" height="100%" fill="white"/>
-<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">T형과 π형의 마디·소자 위치</text>
 <rect x="20" y="75" width="440" height="390" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
-<text x="36" y="104" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">T형</text>
-<line x1="65" y1="180" x2="120.0" y2="180" stroke="#25344A" stroke-width="3"/>
+<line x1="65" y1="180" x2="120.0" y2="180" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="120.0" y="158" width="70" height="44" rx="2" fill="white" stroke="#25344A" stroke-width="2"/>
-<text x="155.0" y="188" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">Z1</text>
-<line x1="190.0" y1="180" x2="245" y2="180" stroke="#25344A" stroke-width="3"/>
-<line x1="245" y1="180" x2="297.5" y2="180" stroke="#25344A" stroke-width="3"/>
+<line x1="190.0" y1="180" x2="245" y2="180" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="245" y1="180" x2="297.5" y2="180" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="297.5" y="158" width="70" height="44" rx="2" fill="white" stroke="#25344A" stroke-width="2"/>
-<text x="332.5" y="188" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">Z2</text>
-<line x1="367.5" y1="180" x2="420" y2="180" stroke="#25344A" stroke-width="3"/>
-<line x1="245" y1="180" x2="245" y2="258.0" stroke="#25344A" stroke-width="3"/>
+<line x1="367.5" y1="180" x2="420" y2="180" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="245" y1="180" x2="245" y2="258.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="217" y="258.0" width="56" height="54" rx="2" fill="white" stroke="#25344A" stroke-width="2"/>
-<text x="245" y="292.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">Z3</text>
-<line x1="245" y1="312.0" x2="245" y2="390" stroke="#25344A" stroke-width="3"/>
-<line x1="65" y1="390" x2="420" y2="390" stroke="#25344A" stroke-width="3"/>
+<line x1="245" y1="312.0" x2="245" y2="390" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="65" y1="390" x2="420" y2="390" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="245" cy="180" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
 <circle cx="245" cy="390" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="60" y="440" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">중앙 분로 Z3, 양쪽 직렬 Z1·Z2</text>
 <rect x="490" y="75" width="450" height="390" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
-<text x="506" y="104" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">π형</text>
-<line x1="535" y1="180" x2="890" y2="180" stroke="#25344A" stroke-width="3"/>
-<line x1="610" y1="180" x2="677.5" y2="180" stroke="#25344A" stroke-width="3"/>
+<line x1="535" y1="180" x2="890" y2="180" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="610" y1="180" x2="677.5" y2="180" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="677.5" y="158" width="70" height="44" rx="2" fill="white" stroke="#25344A" stroke-width="2"/>
-<text x="712.5" y="188" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">Z2</text>
-<line x1="747.5" y1="180" x2="815" y2="180" stroke="#25344A" stroke-width="3"/>
-<line x1="550" y1="180" x2="550" y2="258.0" stroke="#25344A" stroke-width="3"/>
+<line x1="747.5" y1="180" x2="815" y2="180" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="550" y1="180" x2="550" y2="258.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="522" y="258.0" width="56" height="54" rx="2" fill="white" stroke="#25344A" stroke-width="2"/>
-<text x="550" y="292.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">Z1</text>
-<line x1="550" y1="312.0" x2="550" y2="390" stroke="#25344A" stroke-width="3"/>
-<line x1="875" y1="180" x2="875" y2="258.0" stroke="#25344A" stroke-width="3"/>
+<line x1="550" y1="312.0" x2="550" y2="390" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="875" y1="180" x2="875" y2="258.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="847" y="258.0" width="56" height="54" rx="2" fill="white" stroke="#25344A" stroke-width="2"/>
-<text x="875" y="292.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">Z3</text>
-<line x1="875" y1="312.0" x2="875" y2="390" stroke="#25344A" stroke-width="3"/>
-<line x1="535" y1="390" x2="890" y2="390" stroke="#25344A" stroke-width="3"/>
-<text x="530" y="440" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">중앙 직렬 Z2, 양쪽 분로 Z1·Z3</text>
-<text x="75" y="520" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">송전선 공칭 T: Z/2, Y, Z/2     공칭 π: Y/2, Z, Y/2</text>
+<line x1="875" y1="312.0" x2="875" y2="390" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="535" y1="390" x2="890" y2="390" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">T형과 π형의 마디·소자 위치</text>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">T형과 π형의 마디·소자 위치</text>
+<text x="36" y="104" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">T형</text>
+<text x="36" y="104" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="#25344A">T형</text>
+<text x="155.0" y="188" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Z1</text>
+<text x="155.0" y="188" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">Z1</text>
+<text x="332.5" y="188" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Z2</text>
+<text x="332.5" y="188" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">Z2</text>
+<text x="245" y="292.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Z3</text>
+<text x="245" y="292.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">Z3</text>
+<text x="60" y="440" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">중앙 분로 Z3, 양쪽 직렬 Z1·Z2</text>
+<text x="60" y="440" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">중앙 분로 Z3, 양쪽 직렬 Z1·Z2</text>
+<text x="506" y="104" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">π형</text>
+<text x="506" y="104" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="#25344A">π형</text>
+<text x="712.5" y="188" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Z2</text>
+<text x="712.5" y="188" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">Z2</text>
+<text x="550" y="292.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Z1</text>
+<text x="550" y="292.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">Z1</text>
+<text x="875" y="292.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Z3</text>
+<text x="875" y="292.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">Z3</text>
+<text x="530" y="440" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">중앙 직렬 Z2, 양쪽 분로 Z1·Z3</text>
+<text x="530" y="440" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">중앙 직렬 Z2, 양쪽 분로 Z1·Z3</text>
+<text x="75" y="520" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">송전선 공칭 T: Z/2, Y, Z/2     공칭 π: Y/2, Z, Y/2</text>
+<text x="75" y="520" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">송전선 공칭 T: Z/2, Y, Z/2     공칭 π: Y/2, Z, Y/2</text>
 </svg>

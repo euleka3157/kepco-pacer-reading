@@ -10,11 +10,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <link rel="stylesheet" href="vendor/katex/katex.min.css">
-<link rel="stylesheet" href="questions.css?v=resume1">
-<link rel="stylesheet" href="pen-notes.css?v=20261021">
+<link rel="stylesheet" href="questions.css?v=resume1ui1">
+<link rel="stylesheet" href="pen-notes.css?v=20261021ui1">
+<link rel="stylesheet" href="reader-ui.css?v=20261021ui1">
 <script src="sync-records.js?v=electric1" defer></script>
 <script src="questions.js?v=pen20261021" defer></script>
-<script src="pen-notes.js?v=20261021" defer></script>
+<script src="pen-notes.js?v=20261021ui1" defer></script>
+<script src="figview.js?v=20261021ui1" defer></script>
+<script src="questions-ui.js?v=20261021ui1" defer></script>
 <script src="cloud-sync.js?v=electric1" type="module"></script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg.js" defer></script>
 </head>
@@ -32,27 +35,23 @@
     <div><p class="eyebrow">계측 필기 · 전기 기출·복원</p><h1>문제은행</h1></div>
     <p id="bankSummary" class="muted" role="status">문제 목록을 불러오는 중입니다.</p>
   </div>
-  <section class="panel bank-categories" aria-label="문제 카테고리">
+  <section class="quickbar" aria-label="문제 고르기">
     <div class="category-tabs" role="group" aria-label="카테고리 선택">
       <button type="button" data-category="all" aria-pressed="true" disabled>전체 <span id="categoryAllCount"></span></button>
       <button type="button" data-category="practice" aria-pressed="false" disabled>단원별 연습 <span id="categoryPracticeCount"></span></button>
       <button type="button" data-category="past" aria-pressed="false" disabled>기출 <span id="categoryPastCount"></span></button>
     </div>
-    <p id="categoryHelp" class="small muted">카테고리를 선택하면 해당 문제만 모아 볼 수 있습니다.</p>
-  </section>
-  <div id="notice" class="notice" role="status" hidden></div>
-  <div id="storageWarning" class="notice warning" role="status" hidden></div>
-  <section class="panel cloud-sync" aria-labelledby="syncTitle">
-    <div class="sync-heading"><h2 id="syncTitle">Google 계정으로 학습 기록 연결</h2><span id="syncAccount" class="small muted"></span></div>
-    <p id="syncStatus" role="status">동기화를 준비하고 있습니다. 문제는 바로 풀 수 있습니다.</p>
-    <div class="sync-actions">
-      <button type="button" id="googleSignIn" disabled>Google로 로그인</button>
-      <button type="button" id="syncRetry" hidden>다시 동기화</button>
-      <button type="button" id="googleSignOut" hidden>로그아웃</button>
+    <div class="quick-row">
+      <div class="view-tabs" role="group" aria-label="문제 보기">
+        <button type="button" data-view="all" aria-pressed="true">전체 <span id="allCount">0</span></button>
+        <button type="button" data-view="wrong" aria-pressed="false">오답노트 <span id="wrongCount">0</span></button>
+        <button type="button" data-view="favorites" aria-pressed="false">즐겨찾기 <span id="favoriteCount">0</span></button>
+      </div>
+      <div class="type-chips" role="group" aria-label="풀이 유형 빠른 선택"><button type="button" data-type-chip="" aria-pressed="true" disabled>모든 유형</button><button type="button" data-type-chip="calculation" aria-pressed="false" disabled>계산필요</button><button type="button" data-type-chip="recall" aria-pressed="false" disabled>계산불필요</button></div>
     </div>
-    <p class="small muted">같은 Google 계정으로 로그인하면 다른 기기의 풀이 기록·오답·즐겨찾기가 합쳐집니다. 인터넷이 끊겨도 이 기기에 저장하고, 다시 연결되면 전송합니다.</p>
-  </section>
-  <section class="panel filters" aria-label="문제 범위">
+    <details id="scopeDetails" class="scope-details">
+      <summary><span class="sd-label">범위·검색</span><span id="scopeSummary" class="sd-value">과목·단원 전체</span><span class="sd-open">바꾸기</span></summary>
+      <div class="filters">
     <div class="filter-grid">
       <label>과목<select id="subjectFilter" disabled></select></label>
       <label>단원<select id="unitFilter" disabled></select></label>
@@ -73,19 +72,13 @@
       <button type="submit" id="searchButton" disabled>검색</button>
     </form>
     <p id="searchHelp" class="small muted" hidden>전기 원문은 추출된 텍스트가 있는 문항만 본문 검색됩니다. 스캔 원문은 원본 회차·문항 번호로 검색하세요.</p>
-    <div class="view-tabs" role="group" aria-label="문제 보기">
-      <button type="button" data-view="all" aria-pressed="true">전체 <span id="allCount">0</span></button>
-      <button type="button" data-view="wrong" aria-pressed="false">오답노트 <span id="wrongCount">0</span></button>
-      <button type="button" data-view="favorites" aria-pressed="false">즐겨찾기 <span id="favoriteCount">0</span></button>
-    </div>
     <p class="small muted" id="scopeHelp">위 숫자는 선택한 범위와 검색에 맞는 문항 수입니다.</p>
+      </div>
+    </details>
+    <div class="quick-foot"><p id="categoryHelp" class="small muted">카테고리를 선택하면 해당 문제만 모아 볼 수 있습니다.</p><a class="sync-chip" id="syncChip" href="#syncTitle">학습 기록: 확인 중</a></div>
   </section>
-  <section class="stats" aria-label="전체 학습 기록">
-    <div><span>풀어본 문제</span><strong id="attemptedStat">0</strong></div>
-    <div><span>최근 정답</span><strong id="correctStat">0</strong></div>
-    <div><span>남은 오답</span><strong id="wrongStat">0</strong></div>
-    <div><span>즐겨찾기</span><strong id="favoriteStat">0</strong></div>
-  </section>
+  <div id="notice" class="notice" role="status" hidden></div>
+  <div id="storageWarning" class="notice warning" role="status" hidden></div>
   <div class="question-toolbar">
     <div><p id="resultSummary" role="status">준비 중</p><p id="scopeProgress" class="small" role="status"></p></div>
     <button type="button" id="resumeButton" disabled>미풀이 이어풀기</button>
@@ -135,6 +128,22 @@
     <select id="questionJump" disabled><option>문제 없음</option></select>
     <button type="button" id="nextButton" disabled>다음 →</button>
   </nav>
+  <section class="stats" aria-label="전체 학습 기록">
+    <div><span>풀어본 문제</span><strong id="attemptedStat">0</strong></div>
+    <div><span>최근 정답</span><strong id="correctStat">0</strong></div>
+    <div><span>남은 오답</span><strong id="wrongStat">0</strong></div>
+    <div><span>즐겨찾기</span><strong id="favoriteStat">0</strong></div>
+  </section>
+  <section class="panel cloud-sync" aria-labelledby="syncTitle">
+    <div class="sync-heading"><h2 id="syncTitle">Google 계정으로 학습 기록 연결</h2><span id="syncAccount" class="small muted"></span></div>
+    <p id="syncStatus" role="status">동기화를 준비하고 있습니다. 문제는 바로 풀 수 있습니다.</p>
+    <div class="sync-actions">
+      <button type="button" id="googleSignIn" disabled>Google로 로그인</button>
+      <button type="button" id="syncRetry" hidden>다시 동기화</button>
+      <button type="button" id="googleSignOut" hidden>로그아웃</button>
+    </div>
+    <p class="small muted">같은 Google 계정으로 로그인하면 다른 기기의 풀이 기록·오답·즐겨찾기가 합쳐집니다. 인터넷이 끊겨도 이 기기에 저장하고, 다시 연결되면 전송합니다.</p>
+  </section>
   <section class="panel records" aria-labelledby="recordsTitle">
     <h2 id="recordsTitle">학습 기록 보관</h2>
     <p>오답과 즐겨찾기는 <strong>이 브라우저에 먼저 저장</strong>됩니다. Google 로그인 중에는 같은 계정의 기기와 동기화합니다. 로그아웃해도 이 브라우저의 기록은 남으며, 로그인하지 않은 기록은 다른 기기로 자동 전송되지 않습니다.</p>

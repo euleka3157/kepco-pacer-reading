@@ -1,51 +1,69 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">불평형 3상은 세 대칭분의 벡터합</text>
 <rect x="30" y="65" width="295" height="445" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
-<text x="46" y="94" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">a상</text>
-<line x1="165" y1="305" x2="178.5" y2="278.75" stroke="#64748B" stroke-width="3"/>
-<polygon points="178.5,278.75 178.19990221419354,290.74624696807103 168.91647316025959,285.9719120260479" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="179.75" y="282.875" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">0</text>
-<line x1="178.5" y1="278.75" x2="261.0" y2="278.75" stroke="#2563EB" stroke-width="3"/>
-<polygon points="261.0,278.75 250.19463477176788,283.96958640933474 250.19463477176788,273.53041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="227.75" y="269.75" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="start" font-weight="400">1</text>
-<line x1="261.0" y1="278.75" x2="285.0" y2="261.5" stroke="#DC2626" stroke-width="3"/>
-<polygon points="285.0,261.5 279.27221612663845,272.044785057082 273.1795385567684,263.5680162642193" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="281.0" y="261.125" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#DC2626" text-anchor="start" font-weight="400">2</text>
-<line x1="165" y1="305" x2="285.0" y2="261.5" stroke="#7C3AED" stroke-width="4"/>
-<polygon points="285.0,261.5 276.6203179695711,270.0895825899113 273.0626549338016,260.27533973261615" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<line x1="165" y1="305" x2="178.5" y2="278.75" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="178.5,278.75 178.16238999096774,292.24577783907995 167.71853230529203,286.8746510293039" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="178.5" y1="278.75" x2="261.0" y2="278.75" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="261.0,278.75 248.84396411823886,284.6220347105016 248.84396411823886,272.8779652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="261.0" y1="278.75" x2="285.0" y2="261.5" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="285.0,261.5 278.5562431424683,273.36288318921726 271.7019808763645,263.8265182972467" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="165" y1="305" x2="285.0" y2="261.5" stroke="#7C3AED" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="285.0,261.5 273.12878379022567,273.6685753357076 268.08876115621894,259.7650646212062" stroke="#7C3AED" stroke-width="1" fill="#7C3AED" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="165" cy="305" r="4" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="55" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">상전압 = 0 + 1 + 2</text>
 <rect x="340" y="65" width="295" height="445" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
-<text x="356" y="94" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">b상</text>
-<line x1="475" y1="305" x2="488.5" y2="278.75" stroke="#64748B" stroke-width="3"/>
-<polygon points="488.5,278.75 488.1999022141935,290.74624696807103 478.91647316025956,285.9719120260479" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="489.75" y="282.875" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">0</text>
-<line x1="488.5" y1="278.75" x2="447.25" y2="350.19709581221616" stroke="#2563EB" stroke-width="3"/>
-<polygon points="447.25,350.19709581221616 448.13238818638416,338.2295818227307 457.17297704184796,343.4491682320655" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="475.875" y="305.4735479061081" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="start" font-weight="400">1</text>
-<line x1="447.25" y1="350.19709581221616" x2="420.31106178471845" y2="338.03748612138963" stroke="#DC2626" stroke-width="3"/>
-<polygon points="420.31106178471845,338.03748612138963 432.30700545827875,337.7254999345665 428.01224712658757,347.240297883573" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="441.78053089235925" y="335.1172909668029" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#DC2626" text-anchor="start" font-weight="400">2</text>
-<line x1="475" y1="305" x2="420.31106178471845" y2="338.03748612138963" stroke="#7C3AED" stroke-width="4"/>
-<polygon points="420.31106178471845,338.03748612138963 426.860916813894,327.9826664264979 432.25872780004283,336.9179876683928" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<line x1="475" y1="305" x2="488.5" y2="278.75" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="488.5,278.75 488.1623899909677,292.24577783907995 477.718532305292,286.8746510293039" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="488.5" y1="278.75" x2="447.25" y2="350.19709581221616" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="447.25,350.19709581221616 448.2426867096822,336.73364257404506 458.41334917207894,342.60567728454663" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="447.25" y1="350.19709581221616" x2="420.31106178471845" y2="338.03748612138963" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="420.31106178471845,338.03748612138963 433.8064984174738,337.68650166121364 428.9748952943212,348.3906493538459" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="475" y1="305" x2="420.31106178471845" y2="338.03748612138963" stroke="#7C3AED" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="420.31106178471845,338.03748612138963 429.59002307605044,323.7931582202929 437.2369219730947,336.45152997964414" stroke="#7C3AED" stroke-width="1" fill="#7C3AED" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="475" cy="305" r="4" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="365" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">상전압 = 0 + 1 + 2</text>
 <rect x="650" y="65" width="295" height="445" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
-<text x="666" y="94" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">c상</text>
-<line x1="785" y1="305" x2="798.5" y2="278.75" stroke="#64748B" stroke-width="3"/>
-<polygon points="798.5,278.75 798.1999022141936,290.74624696807103 788.9164731602596,285.9719120260479" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="799.75" y="282.875" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">0</text>
-<line x1="798.5" y1="278.75" x2="757.25" y2="207.3029041877838" stroke="#2563EB" stroke-width="3"/>
-<polygon points="757.25,207.3029041877838 767.172977041848,214.05083176793448 758.1323881863841,219.27041817726925" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="785.875" y="234.02645209389192" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="start" font-weight="400">1</text>
-<line x1="757.25" y1="207.3029041877838" x2="760.1889382152816" y2="236.71251387861034" stroke="#DC2626" stroke-width="3"/>
-<polygon points="760.1889382152816,236.71251387861034 753.9207784150829,226.47971500835143 764.3082143166441,225.44168585220766" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="766.7194691076409" y="213.00770903319707" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#DC2626" text-anchor="start" font-weight="400">2</text>
-<line x1="785" y1="305" x2="760.1889382152816" y2="236.71251387861034" stroke="#7C3AED" stroke-width="4"/>
-<polygon points="760.1889382152816,236.71251387861034 768.7846825517161,245.0858751691946 758.9730593565677,248.65075657177638" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<line x1="785" y1="305" x2="798.5" y2="278.75" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="798.5,278.75 798.1623899909678,292.24577783907995 787.718532305292,286.8746510293039" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="798.5" y1="278.75" x2="757.25" y2="207.3029041877838" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="757.25,207.3029041877838 768.4133491720789,214.8943227154533 758.2426867096822,220.76635742595494" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="757.25" y1="207.3029041877838" x2="760.1889382152816" y2="236.71251387861034" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="760.1889382152816,236.71251387861034 753.137258440058,225.20061514956907 764.8231238293143,224.03283234890733" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="785" y1="305" x2="760.1889382152816" y2="236.71251387861034" stroke="#7C3AED" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="760.1889382152816,236.71251387861034 772.3662426918971,248.57477570693803 758.4664431654368,253.62502436059557" stroke="#7C3AED" stroke-width="1" fill="#7C3AED" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="785" cy="305" r="4" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="675" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">상전압 = 0 + 1 + 2</text>
-<text x="50" y="560" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">회색: 영상 / 파랑: 정상 / 빨강: 역상 / 보라: 실제 상전압</text>
-<text x="50" y="600" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">영상은 세 상에 공통, 정상·역상은 서로 반대 상순서로 회전</text>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">불평형 3상은 세 대칭분의 벡터합</text>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">불평형 3상은 세 대칭분의 벡터합</text>
+<text x="46" y="94" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">a상</text>
+<text x="46" y="94" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="#25344A">a상</text>
+<text x="179.75" y="268.875" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">0</text>
+<text x="179.75" y="268.875" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">0</text>
+<text x="227.75" y="269.75" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">1</text>
+<text x="227.75" y="269.75" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#2563EB">1</text>
+<text x="289" y="261.125" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">2</text>
+<text x="289" y="261.125" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#DC2626">2</text>
+<text x="55" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">상전압 = 0 + 1 + 2</text>
+<text x="55" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#25344A">상전압 = 0 + 1 + 2</text>
+<text x="356" y="94" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">b상</text>
+<text x="356" y="94" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="#25344A">b상</text>
+<text x="489.75" y="282.875" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">0</text>
+<text x="489.75" y="282.875" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">0</text>
+<text x="483.875" y="315.474" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">1</text>
+<text x="483.875" y="315.474" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#2563EB">1</text>
+<text x="431.781" y="313.117" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">2</text>
+<text x="431.781" y="313.117" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#DC2626">2</text>
+<text x="365" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">상전압 = 0 + 1 + 2</text>
+<text x="365" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#25344A">상전압 = 0 + 1 + 2</text>
+<text x="666" y="94" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">c상</text>
+<text x="666" y="94" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="700" fill="#25344A">c상</text>
+<text x="799.75" y="282.875" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">0</text>
+<text x="799.75" y="282.875" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">0</text>
+<text x="785.875" y="234.02645209389192" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">1</text>
+<text x="785.875" y="234.02645209389192" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#2563EB">1</text>
+<text x="766.7194691076409" y="213.00770903319707" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">2</text>
+<text x="766.7194691076409" y="213.00770903319707" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#DC2626">2</text>
+<text x="675" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">상전압 = 0 + 1 + 2</text>
+<text x="675" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#25344A">상전압 = 0 + 1 + 2</text>
+<text x="50" y="560" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">회색: 영상 / 파랑: 정상 / 빨강: 역상 / 보라: 실제 상전압</text>
+<text x="50" y="560" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">회색: 영상 / 파랑: 정상 / 빨강: 역상 / 보라: 실제 상전압</text>
+<text x="50" y="600" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">영상은 세 상에 공통, 정상·역상은 서로 반대 상순서로 회전</text>
+<text x="50" y="600" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">영상은 세 상에 공통, 정상·역상은 서로 반대 상순서로 회전</text>
 </svg>

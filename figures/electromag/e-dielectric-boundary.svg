@@ -1,20 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">유전체 경계: 각도는 법선에서 잰다</text>
 <rect x="60" y="100" width="840" height="190" rx="0" fill="#EFF6FF" stroke="#2563EB" stroke-width="1"/>
 <rect x="60" y="290" width="840" height="190" rx="0" fill="#ECFDF5" stroke="#15803D" stroke-width="1"/>
 <line x1="480" y1="90" x2="480" y2="495" stroke="#64748B" stroke-width="2" stroke-dasharray="6 6"/>
-<line x1="390" y1="125" x2="480" y2="290" stroke="#2563EB" stroke-width="3"/>
-<polygon points="480,290 470.2435760364802,283.01342777579333 479.40807963887835,278.0146076290307" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="480" y1="290" x2="690" y2="450" stroke="#0D9488" stroke-width="3"/>
-<polygon points="690,450 678.2417748210725,447.60330631042814 684.5683646807835,439.2996571195573" stroke="#0D9488" stroke-width="1" fill="#0D9488"/>
-<text x="95" y="150" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">매질 1: ε1</text>
-<text x="95" y="350" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">매질 2: ε2 &gt; ε1</text>
-<text x="500" y="115" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">법선 n</text>
-<text x="410" y="205" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">θ1</text>
-<text x="550" y="350" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">θ2</text>
-<text x="610" y="200" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">Et1 = Et2</text>
-<text x="610" y="240" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">Dn1 = Dn2 (σ자유=0)</text>
-<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">같은 전기력선이 매질 1에서 2로 이어진다. ε2&gt;ε1이면 θ2&gt;θ1, 즉 법선에서 더 눕는다. </text>
-<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">화살표 길이는 크기 비례가 아니다.</text>
+<line x1="390" y1="125" x2="480" y2="290" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="480,290 469.0240230410402,282.14010624776745 479.33408959373816,276.5164335826595" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="480" y1="290" x2="690" y2="450" stroke="#0D9488" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="690,450 676.7719966737064,447.30371959923167 683.8894102658815,437.962114259502" stroke="#0D9488" stroke-width="1" fill="#0D9488" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 480 230 A 60 60 0 0 0 451.3 237.3" stroke="#B45309" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 480 350 A 60 60 0 0 0 527.7 326.4" stroke="#B45309" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">유전체 경계: 각도는 법선에서 잰다</text>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">유전체 경계: 각도는 법선에서 잰다</text>
+<text x="95" y="150" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">매질 1: ε1</text>
+<text x="95" y="150" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">매질 1: ε1</text>
+<text x="95" y="350" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">매질 2: ε2 &gt; ε1</text>
+<text x="95" y="350" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">매질 2: ε2 &gt; ε1</text>
+<text x="490" y="86" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">법선 n</text>
+<text x="490" y="86" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">법선 n</text>
+<text x="459" y="214" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">θ1</text>
+<text x="459" y="214" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#B45309">θ1</text>
+<text x="522" y="376" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">θ2</text>
+<text x="522" y="376" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#B45309">θ2</text>
+<text x="610" y="200" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Et1 = Et2</text>
+<text x="610" y="200" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">Et1 = Et2</text>
+<text x="610" y="240" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Dn1 = Dn2 (σ자유=0)</text>
+<text x="610" y="240" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">Dn1 = Dn2 (σ자유=0)</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">같은 전기력선이 매질 1에서 2로 이어진다. ε2&gt;ε1이면 θ2&gt;θ1, 즉 법선에서 더 눕는다. </text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">같은 전기력선이 매질 1에서 2로 이어진다. ε2&gt;ε1이면 θ2&gt;θ1, 즉 법선에서 더 눕는다. </text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">화살표 길이는 크기 비례가 아니다.</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">화살표 길이는 크기 비례가 아니다.</text>
 </svg>

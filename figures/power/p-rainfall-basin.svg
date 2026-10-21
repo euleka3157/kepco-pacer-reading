@@ -1,20 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">집수 면적·강수 깊이·유출률로 평균 유량 구하기</text>
-<polygon points="90,270 300,130 520,230 300,390" stroke="#2563EB" stroke-width="3" fill="#DBEAFE"/>
-<line x1="170" y1="115" x2="170" y2="220" stroke="#2563EB" stroke-width="3"/>
-<polygon points="170,220 164.78041359066523,209.19463477176788 175.21958640933477,209.19463477176788" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="300" y1="65" x2="300" y2="170" stroke="#2563EB" stroke-width="3"/>
-<polygon points="300,170 294.78041359066526,159.19463477176788 305.21958640933474,159.19463477176788" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="440" y1="145" x2="440" y2="250" stroke="#2563EB" stroke-width="3"/>
-<polygon points="440,250 434.78041359066526,239.19463477176788 445.21958640933474,239.19463477176788" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="290" y="290" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="middle" font-weight="400">집수 면적 A</text>
-<line x1="320" y1="390" x2="620" y2="390" stroke="#2563EB" stroke-width="5"/>
-<polygon points="620,390 609.1946347717678,395.21958640933474 609.1946347717678,384.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<polygon points="90,270 300,130 520,230 300,390" stroke="#2563EB" stroke-width="3" fill="#DBEAFE" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="170" y1="115" x2="170" y2="220" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="170,220 164.1279652894984,207.84396411823886 175.87203471050162,207.84396411823886" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="300" y1="65" x2="300" y2="170" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="300,170 294.1279652894984,157.84396411823886 305.8720347105016,157.84396411823886" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="440" y1="145" x2="440" y2="250" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="440,250 434.1279652894984,237.84396411823886 445.8720347105016,237.84396411823886" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="320" y1="390" x2="620" y2="390" stroke="#2563EB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="620,390 601.5408344017701,398.91679344928025 601.5408344017701,381.08320655071975" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="640" y="340" width="240" height="85" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="760.0" y="390.09" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#2563EB" text-anchor="middle" font-weight="700">실제 유출량</text>
-<text x="700" y="150" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">체적 = 강수 깊이 × 면적</text>
-<text x="700" y="210" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">유출 체적 = 체적 × 유출률</text>
-<text x="700" y="270" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">평균 유량 = 유출 체적 / 시간</text>
-<text x="480" y="480" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="middle" font-weight="400">mm·km²·초를 같은 단위계로 변환한 다음 계산</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">집수 면적·강수 깊이·유출률로 평균 유량 구하기</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">집수 면적·강수 깊이·유출률로 평균 유량 구하기</text>
+<text x="290" y="290" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">집수 면적 A</text>
+<text x="290" y="290" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="middle" font-weight="400" fill="#25344A">집수 면적 A</text>
+<text x="760.0" y="390.09" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">실제 유출량</text>
+<text x="760.0" y="390.09" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="700" fill="#2563EB">실제 유출량</text>
+<text x="700" y="150" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">체적 = 강수 깊이 × 면적</text>
+<text x="700" y="150" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">체적 = 강수 깊이 × 면적</text>
+<text x="700" y="210" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">유출 체적 = 체적 × 유출률</text>
+<text x="700" y="210" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">유출 체적 = 체적 × 유출률</text>
+<text x="700" y="270" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">평균 유량 = 유출 체적 / 시간</text>
+<text x="700" y="270" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">평균 유량 = 유출 체적 / 시간</text>
+<text x="480" y="480" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">mm·km²·초를 같은 단위계로 변환한 다음 계산</text>
+<text x="480" y="480" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="#25344A">mm·km²·초를 같은 단위계로 변환한 다음 계산</text>
 </svg>

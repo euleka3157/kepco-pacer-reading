@@ -1,56 +1,70 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="550" viewBox="0 0 960 550">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">대지 정전용량 Cs와 선간 정전용량 Cm</text>
 <circle cx="110" cy="170" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="100" y="152" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">a</text>
 <circle cx="370" cy="170" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="360" y="152" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">b</text>
-<line x1="110" y1="170" x2="233.0" y2="170.0" stroke="#25344A" stroke-width="3"/>
-<line x1="247.0" y1="170.0" x2="370" y2="170" stroke="#25344A" stroke-width="3"/>
-<line x1="233.0" y1="192.0" x2="233.0" y2="148.0" stroke="#25344A" stroke-width="3"/>
-<line x1="247.0" y1="192.0" x2="247.0" y2="148.0" stroke="#25344A" stroke-width="3"/>
-<text x="240.0" y="138.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">Cm</text>
-<line x1="110" y1="170" x2="110.0" y2="258.0" stroke="#25344A" stroke-width="3"/>
-<line x1="110.0" y1="272.0" x2="110" y2="360" stroke="#25344A" stroke-width="3"/>
-<line x1="88.0" y1="258.0" x2="132.0" y2="258.0" stroke="#25344A" stroke-width="3"/>
-<line x1="88.0" y1="272.0" x2="132.0" y2="272.0" stroke="#25344A" stroke-width="3"/>
-<text x="78.0" y="265.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">Cs</text>
-<line x1="370" y1="170" x2="370.0" y2="258.0" stroke="#25344A" stroke-width="3"/>
-<line x1="370.0" y1="272.0" x2="370" y2="360" stroke="#25344A" stroke-width="3"/>
-<line x1="348.0" y1="258.0" x2="392.0" y2="258.0" stroke="#25344A" stroke-width="3"/>
-<line x1="348.0" y1="272.0" x2="392.0" y2="272.0" stroke="#25344A" stroke-width="3"/>
-<text x="338.0" y="265.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">Cs</text>
-<line x1="80" y1="360" x2="400" y2="360" stroke="#64748B" stroke-width="4"/>
-<line x1="240" y1="360" x2="240" y2="372" stroke="#25344A" stroke-width="3"/>
-<line x1="223.0" y1="372" x2="257.0" y2="372" stroke="#25344A" stroke-width="3"/>
-<line x1="229.0" y1="380" x2="251.0" y2="380" stroke="#25344A" stroke-width="3"/>
-<line x1="235.0" y1="388" x2="245.0" y2="388" stroke="#25344A" stroke-width="3"/>
-<text x="240" y="460" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">단상 2선: 1선당 Cs + 2Cm</text>
+<line x1="110" y1="170" x2="233.0" y2="170.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="247.0" y1="170.0" x2="370" y2="170" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="233.0" y1="192.0" x2="233.0" y2="148.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="247.0" y1="192.0" x2="247.0" y2="148.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="110" y1="170" x2="110.0" y2="258.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="110.0" y1="272.0" x2="110" y2="360" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="88.0" y1="258.0" x2="132.0" y2="258.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="88.0" y1="272.0" x2="132.0" y2="272.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="370" y1="170" x2="370.0" y2="258.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="370.0" y1="272.0" x2="370" y2="360" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="348.0" y1="258.0" x2="392.0" y2="258.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="348.0" y1="272.0" x2="392.0" y2="272.0" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="80" y1="360" x2="400" y2="360" stroke="#64748B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="240" y1="360" x2="240" y2="372" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="223.0" y1="372" x2="257.0" y2="372" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="229.0" y1="380" x2="251.0" y2="380" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="235.0" y1="388" x2="245.0" y2="388" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="570" cy="170" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="560" y="152" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">a</text>
-<line x1="570" y1="170" x2="570.0" y2="258.0" stroke="#2563EB" stroke-width="3"/>
-<line x1="570.0" y1="272.0" x2="570" y2="360" stroke="#2563EB" stroke-width="3"/>
-<line x1="548.0" y1="258.0" x2="592.0" y2="258.0" stroke="#2563EB" stroke-width="3"/>
-<line x1="548.0" y1="272.0" x2="592.0" y2="272.0" stroke="#2563EB" stroke-width="3"/>
-<text x="545" y="300" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="17" fill="#25344A" text-anchor="end" font-weight="400">Cs + 3Cm</text>
+<line x1="570" y1="170" x2="570.0" y2="258.0" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="570.0" y1="272.0" x2="570" y2="360" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="548.0" y1="258.0" x2="592.0" y2="258.0" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="548.0" y1="272.0" x2="592.0" y2="272.0" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="715" cy="170" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="705" y="152" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">b</text>
-<line x1="715" y1="170" x2="715.0" y2="258.0" stroke="#2563EB" stroke-width="3"/>
-<line x1="715.0" y1="272.0" x2="715" y2="360" stroke="#2563EB" stroke-width="3"/>
-<line x1="693.0" y1="258.0" x2="737.0" y2="258.0" stroke="#2563EB" stroke-width="3"/>
-<line x1="693.0" y1="272.0" x2="737.0" y2="272.0" stroke="#2563EB" stroke-width="3"/>
-<text x="690" y="300" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="17" fill="#25344A" text-anchor="end" font-weight="400">Cs + 3Cm</text>
+<line x1="715" y1="170" x2="715.0" y2="258.0" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="715.0" y1="272.0" x2="715" y2="360" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="693.0" y1="258.0" x2="737.0" y2="258.0" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="693.0" y1="272.0" x2="737.0" y2="272.0" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="860" cy="170" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="850" y="152" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">c</text>
-<line x1="860" y1="170" x2="860.0" y2="258.0" stroke="#2563EB" stroke-width="3"/>
-<line x1="860.0" y1="272.0" x2="860" y2="360" stroke="#2563EB" stroke-width="3"/>
-<line x1="838.0" y1="258.0" x2="882.0" y2="258.0" stroke="#2563EB" stroke-width="3"/>
-<line x1="838.0" y1="272.0" x2="882.0" y2="272.0" stroke="#2563EB" stroke-width="3"/>
-<text x="835" y="300" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="17" fill="#25344A" text-anchor="end" font-weight="400">Cs + 3Cm</text>
-<line x1="540" y1="360" x2="890" y2="360" stroke="#64748B" stroke-width="4"/>
-<line x1="715" y1="360" x2="715" y2="372" stroke="#25344A" stroke-width="3"/>
-<line x1="698.0" y1="372" x2="732.0" y2="372" stroke="#25344A" stroke-width="3"/>
-<line x1="704.0" y1="380" x2="726.0" y2="380" stroke="#25344A" stroke-width="3"/>
-<line x1="710.0" y1="388" x2="720.0" y2="388" stroke="#25344A" stroke-width="3"/>
-<text x="715" y="460" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">평형 3상: 1상당 작용 정전용량</text>
+<line x1="860" y1="170" x2="860.0" y2="258.0" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="860.0" y1="272.0" x2="860" y2="360" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="838.0" y1="258.0" x2="882.0" y2="258.0" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="838.0" y1="272.0" x2="882.0" y2="272.0" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="540" y1="360" x2="890" y2="360" stroke="#64748B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="715" y1="360" x2="715" y2="372" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="698.0" y1="372" x2="732.0" y2="372" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="704.0" y1="380" x2="726.0" y2="380" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="710.0" y1="388" x2="720.0" y2="388" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">대지 정전용량 Cs와 선간 정전용량 Cm</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">대지 정전용량 Cs와 선간 정전용량 Cm</text>
+<text x="100" y="152" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">a</text>
+<text x="100" y="152" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">a</text>
+<text x="360" y="152" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">b</text>
+<text x="360" y="152" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">b</text>
+<text x="240.0" y="138.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Cm</text>
+<text x="240.0" y="138.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">Cm</text>
+<text x="78.0" y="265.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Cs</text>
+<text x="78.0" y="265.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">Cs</text>
+<text x="338.0" y="265.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Cs</text>
+<text x="338.0" y="265.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">Cs</text>
+<text x="240" y="460" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">단상 2선: 1선당 Cs + 2Cm</text>
+<text x="240" y="460" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">단상 2선: 1선당 Cs + 2Cm</text>
+<text x="560" y="152" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">a</text>
+<text x="560" y="152" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">a</text>
+<text x="545" y="300" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Cs + 3Cm</text>
+<text x="545" y="300" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="#25344A">Cs + 3Cm</text>
+<text x="705" y="152" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">b</text>
+<text x="705" y="152" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">b</text>
+<text x="690" y="300" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Cs + 3Cm</text>
+<text x="690" y="300" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="#25344A">Cs + 3Cm</text>
+<text x="850" y="152" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">c</text>
+<text x="850" y="152" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">c</text>
+<text x="835" y="300" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Cs + 3Cm</text>
+<text x="835" y="300" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="#25344A">Cs + 3Cm</text>
+<text x="715" y="460" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">평형 3상: 1상당 작용 정전용량</text>
+<text x="715" y="460" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">평형 3상: 1상당 작용 정전용량</text>
 </svg>

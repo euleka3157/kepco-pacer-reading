@@ -1,27 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">나트륨냉각 고속로의 열 전달 경계</text>
 <rect x="60" y="145" width="220" height="240" rx="25" fill="none" stroke="#DC2626" stroke-width="5"/>
-<line x1="90" y1="145" x2="230" y2="145" stroke="#DC2626" stroke-width="4"/>
-<polygon points="230,145 219.19463477176788,150.21958640933477 219.19463477176788,139.78041359066523" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="250" y1="385" x2="110" y2="385" stroke="#DC2626" stroke-width="4"/>
-<polygon points="110,385 120.80536522823212,379.78041359066526 120.80536522823212,390.21958640933474" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="170" y="105" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="middle" font-weight="400">1차 Na: 노심</text>
+<line x1="90" y1="145" x2="230" y2="145" stroke="#DC2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="230,145 214.6923992600045,152.3944140798909 214.6923992600045,137.6055859201091" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="250" y1="385" x2="110" y2="385" stroke="#DC2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="110,385 125.30760073999551,377.6055859201091 125.30760073999551,392.3944140798909" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="370" y="145" width="220" height="240" rx="25" fill="none" stroke="#B45309" stroke-width="5"/>
-<line x1="400" y1="145" x2="540" y2="145" stroke="#B45309" stroke-width="4"/>
-<polygon points="540,145 529.1946347717678,150.21958640933477 529.1946347717678,139.78041359066523" stroke="#B45309" stroke-width="1" fill="#B45309"/>
-<line x1="560" y1="385" x2="420" y2="385" stroke="#B45309" stroke-width="4"/>
-<polygon points="420,385 430.8053652282321,379.78041359066526 430.8053652282321,390.21958640933474" stroke="#B45309" stroke-width="1" fill="#B45309"/>
-<text x="480" y="105" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="middle" font-weight="400">중간 Na 계통</text>
+<line x1="400" y1="145" x2="540" y2="145" stroke="#B45309" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="540,145 524.6923992600045,152.3944140798909 524.6923992600045,137.6055859201091" stroke="#B45309" stroke-width="1" fill="#B45309" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="560" y1="385" x2="420" y2="385" stroke="#B45309" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="420,385 435.3076007399955,377.6055859201091 435.3076007399955,392.3944140798909" stroke="#B45309" stroke-width="1" fill="#B45309" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="680" y="145" width="220" height="240" rx="25" fill="none" stroke="#2563EB" stroke-width="5"/>
-<line x1="710" y1="145" x2="850" y2="145" stroke="#2563EB" stroke-width="4"/>
-<polygon points="850,145 839.1946347717678,150.21958640933477 839.1946347717678,139.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="870" y1="385" x2="730" y2="385" stroke="#2563EB" stroke-width="4"/>
-<polygon points="730,385 740.8053652282322,379.78041359066526 740.8053652282322,390.21958640933474" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="790" y="105" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="middle" font-weight="400">물·증기 계통</text>
+<line x1="710" y1="145" x2="850" y2="145" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="850,145 834.6923992600045,152.3944140798909 834.6923992600045,137.6055859201091" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="870" y1="385" x2="730" y2="385" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="730,385 745.3076007399955,377.6055859201091 745.3076007399955,392.3944140798909" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="260" y="215" width="130" height="85" rx="10" fill="#EFF6FF" stroke="#7C3AED" stroke-width="2"/>
-<text x="325.0" y="263.44" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="18" fill="#7C3AED" text-anchor="middle" font-weight="700">중간 열교환기</text>
 <rect x="570" y="215" width="130" height="85" rx="10" fill="#EFF6FF" stroke="#7C3AED" stroke-width="2"/>
-<text x="635.0" y="263.44" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="18" fill="#7C3AED" text-anchor="middle" font-weight="700">증기발생기</text>
-<text x="480" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">각 유체는 열교환 벽으로 분리 · 나트륨과 물의 직접 접촉을 피함</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">나트륨냉각 고속로의 열 전달 경계</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">나트륨냉각 고속로의 열 전달 경계</text>
+<text x="170" y="105" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">1차 Na: 노심</text>
+<text x="170" y="105" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="#25344A">1차 Na: 노심</text>
+<text x="480" y="105" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">중간 Na 계통</text>
+<text x="480" y="105" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="#25344A">중간 Na 계통</text>
+<text x="790" y="105" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">물·증기 계통</text>
+<text x="790" y="105" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="#25344A">물·증기 계통</text>
+<text x="325.0" y="263.44" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">중간 열교환기</text>
+<text x="325.0" y="263.44" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#7C3AED">중간 열교환기</text>
+<text x="635.0" y="263.44" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">증기발생기</text>
+<text x="635.0" y="263.44" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#7C3AED">증기발생기</text>
+<text x="480" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">각 유체는 열교환 벽으로 분리 · 나트륨과 물의 직접 접촉을 피함</text>
+<text x="480" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">각 유체는 열교환 벽으로 분리 · 나트륨과 물의 직접 접촉을 피함</text>
 </svg>

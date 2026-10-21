@@ -1,30 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="510" viewBox="0 0 960 510">
 <rect width="100%" height="100%" fill="white"/>
-<text x="28" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">계단을 더해 구간별 파형 만들기</text>
-<defs><clipPath id="c3"><rect x="85" y="130" width="770" height="250"/></clipPath></defs>
-<line x1="85" y1="252.3404255319149" x2="860" y2="252.3404255319149" stroke="#64748B" stroke-width="2"/>
-<polygon points="860,252.3404255319149 849.1946347717678,257.5600119412496 849.1946347717678,247.12083912258012" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="85.0" y1="380" x2="85.0" y2="125" stroke="#64748B" stroke-width="2"/>
-<polygon points="85.0,125 90.21958640933477,135.80536522823212 79.78041359066523,135.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="855" y="433" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">t</text>
-<text x="85" y="116" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">f(t)</text>
-<line x1="195.0" y1="247.3404255319149" x2="195.0" y2="257.3404255319149" stroke="#64748B" stroke-width="1"/>
-<text x="195.0" y="408" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">1</text>
-<line x1="305.0" y1="247.3404255319149" x2="305.0" y2="257.3404255319149" stroke="#64748B" stroke-width="1"/>
-<text x="305.0" y="408" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">2</text>
-<line x1="525.0" y1="247.3404255319149" x2="525.0" y2="257.3404255319149" stroke="#64748B" stroke-width="1"/>
-<text x="525.0" y="408" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">4</text>
-<line x1="745.0" y1="247.3404255319149" x2="745.0" y2="257.3404255319149" stroke="#64748B" stroke-width="1"/>
-<text x="745.0" y="408" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">6</text>
-<line x1="80.0" y1="305.531914893617" x2="90.0" y2="305.531914893617" stroke="#64748B" stroke-width="1"/>
-<text x="77" y="311.531914893617" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">-1</text>
-<line x1="80.0" y1="199.14893617021275" x2="90.0" y2="199.14893617021275" stroke="#64748B" stroke-width="1"/>
-<text x="77" y="205.14893617021275" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">1</text>
-<line x1="80.0" y1="145.95744680851058" x2="90.0" y2="145.95744680851058" stroke="#64748B" stroke-width="1"/>
-<text x="77" y="151.95744680851058" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">2</text>
-<g clip-path="url(#c3)">
-<polyline points="85.0,252.34 195.0,252.34 195.0,145.96 305.0,145.96 305.0,305.53 525.0,305.53 525.0,199.15 745.0,199.15 745.0,252.34 855.0,252.34" stroke="#2563EB" stroke-width="3" fill="none"/>
+<defs><clipPath id="c4"><rect x="85" y="130" width="770" height="250"/></clipPath></defs>
+<line x1="85" y1="252.3404255319149" x2="860" y2="252.3404255319149" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="860,252.3404255319149 849.1946347717678,257.5600119412496 849.1946347717678,247.12083912258012" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="85.0" y1="380" x2="85.0" y2="125" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="85.0,125 90.21958640933477,135.80536522823212 79.78041359066523,135.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="195.0" y1="247.3404255319149" x2="195.0" y2="257.3404255319149" stroke="#64748B" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="305.0" y1="247.3404255319149" x2="305.0" y2="257.3404255319149" stroke="#64748B" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="525.0" y1="247.3404255319149" x2="525.0" y2="257.3404255319149" stroke="#64748B" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="745.0" y1="247.3404255319149" x2="745.0" y2="257.3404255319149" stroke="#64748B" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="80.0" y1="305.531914893617" x2="90.0" y2="305.531914893617" stroke="#64748B" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="80.0" y1="199.14893617021275" x2="90.0" y2="199.14893617021275" stroke="#64748B" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="80.0" y1="145.95744680851058" x2="90.0" y2="145.95744680851058" stroke="#64748B" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<g clip-path="url(#c4)">
+<polyline points="85.0,252.34 195.0,252.34 195.0,145.96 305.0,145.96 305.0,305.53 525.0,305.53 525.0,199.15 745.0,199.15 745.0,252.34 855.0,252.34" stroke="#2563EB" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text x="70" y="445" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#2563EB" text-anchor="start" font-weight="400">f(t)=2u(t-1)-3u(t-2)+2u(t-4)-u(t-6)</text>
-<text x="70" y="490" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">각 전환점의 계수는 새 높이 - 이전 높이이다.</text>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">계단을 더해 구간별 파형 만들기</text>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">계단을 더해 구간별 파형 만들기</text>
+<text x="869" y="259.3404255319149" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">t</text>
+<text x="869" y="259.3404255319149" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">t</text>
+<text x="85" y="116" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">f(t)</text>
+<text x="85" y="116" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">f(t)</text>
+<text x="195.0" y="408" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">1</text>
+<text x="195.0" y="408" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#64748B">1</text>
+<text x="305.0" y="408" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">2</text>
+<text x="305.0" y="408" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#64748B">2</text>
+<text x="525.0" y="408" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">4</text>
+<text x="525.0" y="408" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#64748B">4</text>
+<text x="745.0" y="408" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">6</text>
+<text x="745.0" y="408" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#64748B">6</text>
+<text x="77" y="311.531914893617" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">-1</text>
+<text x="77" y="311.531914893617" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="#64748B">-1</text>
+<text x="77" y="205.14893617021275" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">1</text>
+<text x="77" y="205.14893617021275" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="#64748B">1</text>
+<text x="77" y="151.95744680851058" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">2</text>
+<text x="77" y="151.95744680851058" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="#64748B">2</text>
+<text x="70" y="445" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">f(t)=2u(t-1)-3u(t-2)+2u(t-4)-u(t-6)</text>
+<text x="70" y="445" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="400" fill="#2563EB">f(t)=2u(t-1)-3u(t-2)+2u(t-4)-u(t-6)</text>
+<text x="70" y="490" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">각 전환점의 계수는 새 높이 - 이전 높이이다.</text>
+<text x="70" y="490" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#25344A">각 전환점의 계수는 새 높이 - 이전 높이이다.</text>
 </svg>

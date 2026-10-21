@@ -1,23 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">교류 전류의 위상: 전도와 변위를 나누어 본다</text>
-<line x1="170" y1="430" x2="770" y2="430" stroke="#64748B" stroke-width="2"/>
-<polygon points="770,430 759.1946347717678,435.21958640933474 759.1946347717678,424.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="170" y1="430" x2="170" y2="130" stroke="#64748B" stroke-width="2"/>
-<polygon points="170,130 175.21958640933477,140.80536522823212 164.78041359066523,140.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="765" y="462" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">실수축</text>
-<text x="160" y="118" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">허수축</text>
-<line x1="170" y1="430" x2="610" y2="430" stroke="#2563EB" stroke-width="6"/>
-<polygon points="610,430 599.1946347717678,435.21958640933474 599.1946347717678,424.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="170" y1="430" x2="170" y2="170" stroke="#7C3AED" stroke-width="6"/>
-<polygon points="170,170 175.21958640933477,180.80536522823212 164.78041359066523,180.80536522823212" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
-<line x1="170" y1="430" x2="610" y2="170" stroke="#DC2626" stroke-width="4"/>
-<polygon points="610,170 603.3527310315769,179.99068642593886 598.0420178243639,171.00332561373244" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="390" y="470" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">E, J전도=σE</text>
-<text x="205" y="190" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">J변위=jωεE</text>
-<text x="435" y="235" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">J전체</text>
-<text x="540" y="125" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">시간 기준: e^(jωt)</text>
-<text x="500" y="330" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">tanδ = σ/(ωε)</text>
-<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">실수 ε,σ의 단순 손실매질에서 전도는 E와 동상, 변위는 90° 앞선다. 복소 유전율의 손실 </text>
-<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">성분을 별도로 쓰면 중복 산입하지 않는다.</text>
+<line x1="170" y1="430" x2="770" y2="430" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="770,430 759.1946347717678,435.21958640933474 759.1946347717678,424.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="170" y1="430" x2="170" y2="130" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="170,130 175.21958640933477,140.80536522823212 164.78041359066523,140.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="170" y1="430" x2="610" y2="430" stroke="#2563EB" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="610,430 588.3892695435358,440.43917281866953 588.3892695435358,419.56082718133047" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="170" y1="430" x2="170" y2="170" stroke="#7C3AED" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="170,170 180.43917281866953,191.61073045646424 159.56082718133047,191.61073045646424" stroke="#7C3AED" stroke-width="1" fill="#7C3AED" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="170" y1="430" x2="610" y2="170" stroke="#DC2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="610,170 600.5830356280673,184.1534724367467 593.0595252511823,171.42137795278765" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">교류 전류의 위상: 전도와 변위를 나누어 본다</text>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">교류 전류의 위상: 전도와 변위를 나누어 본다</text>
+<text x="765" y="462" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">실수축</text>
+<text x="765" y="462" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="#64748B">실수축</text>
+<text x="160" y="118" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">허수축</text>
+<text x="160" y="118" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">허수축</text>
+<text x="390" y="470" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">E, J전도=σE</text>
+<text x="390" y="470" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">E, J전도=σE</text>
+<text x="205" y="190" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">J변위=jωεE</text>
+<text x="205" y="190" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">J변위=jωεE</text>
+<text x="435" y="235" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">J전체</text>
+<text x="435" y="235" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">J전체</text>
+<text x="540" y="125" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">시간 기준: e^(jωt)</text>
+<text x="540" y="125" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">시간 기준: e^(jωt)</text>
+<text x="500" y="330" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">tanδ = σ/(ωε)</text>
+<text x="500" y="330" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">tanδ = σ/(ωε)</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">실수 ε,σ의 단순 손실매질에서 전도는 E와 동상, 변위는 90° 앞선다. 복소 유전율의 손실 </text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">실수 ε,σ의 단순 손실매질에서 전도는 E와 동상, 변위는 90° 앞선다. 복소 유전율의 손실 </text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">성분을 별도로 쓰면 중복 산입하지 않는다.</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">성분을 별도로 쓰면 중복 산입하지 않는다.</text>
 </svg>

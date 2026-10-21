@@ -1,26 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="570" viewBox="0 0 960 570">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">가압중수로와 고속증식로의 구분</text>
 <rect x="35.0" y="120" width="276.6666666666667" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="173.33333333333334" y="169.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">PHWR: 연료 압력관</text>
 <rect x="341.6666666666667" y="120" width="276.6666666666667" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="480.0" y="169.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">중수 계통</text>
-<line x1="313.6666666666667" y1="163" x2="338.6666666666667" y2="163" stroke="#2563EB" stroke-width="3"/>
-<polygon points="338.6666666666667,163 327.86130143843457,168.21958640933477 327.86130143843457,157.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="313.6666666666667" y1="163" x2="338.6666666666667" y2="163" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="338.6666666666667,163 326.5106307849056,168.8720347105016 326.5106307849056,157.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="648.3333333333334" y="120" width="276.6666666666667" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="786.6666666666667" y="169.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">증기발생기</text>
-<line x1="620.3333333333334" y1="163" x2="645.3333333333334" y2="163" stroke="#2563EB" stroke-width="3"/>
-<polygon points="645.3333333333334,163 634.5279681051012,168.21958640933477 634.5279681051012,157.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="480" y="255" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">중수 감속 · 압력관형 구성은 경수로 압력용기와 구별</text>
+<line x1="620.3333333333334" y1="163" x2="645.3333333333334" y2="163" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="645.3333333333334,163 633.1772974515723,168.8720347105016 633.1772974515723,157.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="35.0" y="335" width="276.6666666666667" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="173.33333333333334" y="384.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">FBR: 고속 중성자 노심</text>
 <rect x="341.6666666666667" y="335" width="276.6666666666667" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="480.0" y="384.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">중간 열교환</text>
-<line x1="313.6666666666667" y1="378" x2="338.6666666666667" y2="378" stroke="#2563EB" stroke-width="3"/>
-<polygon points="338.6666666666667,378 327.86130143843457,383.21958640933474 327.86130143843457,372.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="313.6666666666667" y1="378" x2="338.6666666666667" y2="378" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="338.6666666666667,378 326.5106307849056,383.8720347105016 326.5106307849056,372.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="648.3333333333334" y="335" width="276.6666666666667" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-<text x="786.6666666666667" y="384.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">증기발생·터빈</text>
-<line x1="620.3333333333334" y1="378" x2="645.3333333333334" y2="378" stroke="#2563EB" stroke-width="3"/>
-<polygon points="645.3333333333334,378 634.5279681051012,383.21958640933474 634.5279681051012,372.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="480" y="475" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">감속재를 두지 않음 · 대표 나트륨냉각형은 중간 계통으로 분리</text>
+<line x1="620.3333333333334" y1="378" x2="645.3333333333334" y2="378" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="645.3333333333334,378 633.1772974515723,383.8720347105016 633.1772974515723,372.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">가압중수로와 고속증식로의 구분</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">가압중수로와 고속증식로의 구분</text>
+<text x="173.33333333333334" y="169.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">PHWR: 연료 압력관</text>
+<text x="173.33333333333334" y="169.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#2563EB">PHWR: 연료 압력관</text>
+<text x="480.0" y="169.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">중수 계통</text>
+<text x="480.0" y="169.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#2563EB">중수 계통</text>
+<text x="786.6666666666667" y="169.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">증기발생기</text>
+<text x="786.6666666666667" y="169.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#2563EB">증기발생기</text>
+<text x="480" y="255" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">중수 감속 · 압력관형 구성은 경수로 압력용기와 구별</text>
+<text x="480" y="255" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">중수 감속 · 압력관형 구성은 경수로 압력용기와 구별</text>
+<text x="173.33333333333334" y="384.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">FBR: 고속 중성자 노심</text>
+<text x="173.33333333333334" y="384.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#2563EB">FBR: 고속 중성자 노심</text>
+<text x="480.0" y="384.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">중간 열교환</text>
+<text x="480.0" y="384.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#2563EB">중간 열교환</text>
+<text x="786.6666666666667" y="384.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#EFF6FF" stroke="#EFF6FF" stroke-width="6" stroke-linejoin="round" aria-hidden="true">증기발생·터빈</text>
+<text x="786.6666666666667" y="384.6" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="700" fill="#2563EB">증기발생·터빈</text>
+<text x="480" y="475" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">감속재를 두지 않음 · 대표 나트륨냉각형은 중간 계통으로 분리</text>
+<text x="480" y="475" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">감속재를 두지 않음 · 대표 나트륨냉각형은 중간 계통으로 분리</text>
 </svg>

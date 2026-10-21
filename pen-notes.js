@@ -58,21 +58,27 @@
   const $ = id=>document.getElementById(id);
   const panel=document.createElement('aside'); panel.className='pen-panel'; panel.id='penPanel'; panel.hidden=true;
   panel.setAttribute('aria-label','S펜 필기 노트');
-  panel.innerHTML=`<div class="pen-head"><strong>S펜 필기</strong><button id="penLock" type="button" aria-pressed="true">터치 잠금 켜짐</button><button id="penClose" type="button" aria-label="필기 닫기">닫기</button></div>
+  panel.innerHTML=`<div class="pen-resize" id="penResize" role="separator" tabindex="0" aria-label="필기 영역 크기 조절 (화살표 키)"></div>
+    <div class="pen-head"><strong>S펜 필기</strong><div class="pen-head-actions"><button id="penFocus" type="button" aria-pressed="false" title="필기 영역을 화면 가득 넓힙니다">집중</button><button id="penLock" type="button" aria-pressed="true">터치 잠금 켜짐</button><button id="penClose" type="button" aria-label="필기 닫기">닫기</button></div></div>
     <div class="pen-context" id="penContext"></div>
+    <p class="pen-hint" id="penHint"></p>
     <div class="pen-tools" role="group" aria-label="필기 도구">
-      <button id="penDraw" type="button" aria-pressed="true">펜</button><button id="penErase" type="button" aria-pressed="false">획 지우개</button>
-      <label>색 <select id="penColor" aria-label="펜 색"><option value="#182b49">검정</option><option value="#2563eb">파랑</option><option value="#dc2626">빨강</option><option value="#15803d">초록</option></select></label>
-      <label>굵기 <select id="penWidth" aria-label="펜 굵기"><option value="2">얇게</option><option value="4" selected>보통</option><option value="7">굵게</option></select></label>
-      <button id="penUndo" type="button">되돌리기</button><button id="penRedo" type="button">다시 실행</button><button id="penClear" type="button">이 쪽 비우기</button>
+      <span class="pen-seg"><button id="penDraw" type="button" aria-pressed="true">펜</button><button id="penErase" type="button" aria-pressed="false">지우개</button></span>
+      <label class="pen-sel"><span>색</span><select id="penColor" aria-label="펜 색"><option value="#182b49">검정</option><option value="#2563eb">파랑</option><option value="#dc2626">빨강</option><option value="#15803d">초록</option></select></label>
+      <label class="pen-sel"><span>굵기</span><select id="penWidth" aria-label="펜 굵기"><option value="2">얇게</option><option value="4" selected>보통</option><option value="7">굵게</option></select></label>
+      <span class="pen-seg"><button id="penUndo" type="button" aria-label="되돌리기">↶ 되돌리기</button><button id="penRedo" type="button" aria-label="다시 실행">↷</button></span>
+      <details class="pen-more" id="penMore"><summary>더보기</summary><div class="pen-menu">
+        <div class="pen-menu-row"><button id="penClear" type="button">이 쪽 비우기</button></div>
+        <div class="pen-menu-row pen-size" role="group" aria-label="필기 영역 크기"><span>필기 영역</span><button type="button" data-pen-size="s">좁게</button><button type="button" data-pen-size="m">기본</button><button type="button" data-pen-size="l">넓게</button></div>
+        <div class="pen-backup"><button id="penExport" type="button">전체 필기 백업</button><button id="penImport" type="button">백업 가져오기</button><button id="penPng" type="button">현재 쪽 PNG</button><button id="penMouse" type="button" aria-pressed="false">마우스 필기 꺼짐</button><input id="penFile" type="file" accept="application/json,application/gzip,.json,.gz" hidden></div>
+        <p class="pen-help">S펜만 필기합니다. 손바닥·손가락은 잉크가 생기지 않습니다. 터치 잠금 중에는 S펜으로 버튼을 누르세요. S펜 옆 버튼은 지원 기기에서 지우개로 동작합니다.</p>
+        <p class="pen-help">필기는 이 기기의 브라우저에 자동 저장됩니다. Google 로그인은 문제은행의 오답·즐겨찾기만 동기화하며 필기는 포함하지 않습니다. 다른 기기로 옮길 때는 백업 파일을 이용하세요.</p>
+      </div></details>
     </div>
-    <p class="pen-help">S펜만 필기합니다. 손바닥·손가락은 잉크가 생기지 않습니다. 터치 잠금 중에는 S펜으로 버튼을 누르세요. S펜 옆 버튼은 지원 기기에서 지우개로 동작합니다.</p>
     <div class="pen-alert" id="penConfirm" hidden><p>현재 필기 쪽을 비울까요? 되돌리기로 복원할 수 있습니다.</p><button id="penConfirmClear" type="button">비우기</button><button id="penCancelClear" type="button">취소</button></div>
     <div class="pen-stage" id="penStage"><canvas id="penCanvas" aria-label="S펜 전용 필기 영역"></canvas></div>
-    <div class="pen-pages"><button id="penPrevPage" type="button" aria-label="이전 필기 쪽">← 쪽</button><span id="penPageLabel"></span><button id="penNextPage" type="button" aria-label="다음 필기 쪽">쪽 →</button><button id="penAddPage" type="button">+ 새 쪽</button><button id="penScrollUp" type="button">본문 ↑</button><button id="penScrollDown" type="button">본문 ↓</button></div>
-    <div id="penStatus" class="pen-status" role="status"></div>
-    <div class="pen-backup"><button id="penExport" type="button">전체 필기 백업</button><button id="penImport" type="button">백업 가져오기</button><button id="penPng" type="button">현재 쪽 PNG</button><button id="penMouse" type="button" aria-pressed="false">마우스 필기 꺼짐</button><input id="penFile" type="file" accept="application/json,application/gzip,.json,.gz" hidden></div>
-    <p class="pen-help">필기는 이 기기의 브라우저에 자동 저장됩니다. 다른 기기로 옮길 때는 백업 파일을 이용하세요.</p>`;
+    <div class="pen-pages"><button id="penPrevPage" type="button" aria-label="이전 필기 쪽">← 쪽</button><span id="penPageLabel"></span><button id="penNextPage" type="button" aria-label="다음 필기 쪽">쪽 →</button><button id="penAddPage" type="button">+ 새 쪽</button><span class="pen-gap"></span><button id="penScrollUp" type="button" aria-label="본문 위로">본문 ↑</button><button id="penScrollDown" type="button" aria-label="본문 아래로">본문 ↓</button></div>
+    <div id="penStatus" class="pen-status" role="status"></div>`;
   document.body.append(panel);
   const toggle=document.createElement('button'); toggle.type='button'; toggle.id='penToggle'; toggle.textContent='S펜 필기'; toggle.setAttribute('aria-expanded','false'); toggle.setAttribute('aria-controls','penPanel');
   document.querySelector('.top-in,.site-nav').append(toggle);
@@ -210,7 +216,8 @@
   }
   canvas.addEventListener('pointermove',move);canvas.addEventListener('pointerup',endStroke);canvas.addEventListener('pointercancel',endStroke);canvas.addEventListener('lostpointercapture',endStroke);
   canvas.addEventListener('contextmenu',e=>e.preventDefault());
-  function lockUI(){document.body.classList.toggle('pen-locked',opened&&locked);$('penLock').textContent=locked?'터치 잠금 켜짐':'터치 이동 허용';$('penLock').setAttribute('aria-pressed',String(locked));}
+  function lockUI(){document.body.classList.toggle('pen-locked',opened&&locked);$('penLock').textContent=locked?'터치 잠금 켜짐':'터치 이동 허용';$('penLock').setAttribute('aria-pressed',String(locked));
+    $('penHint').innerHTML=locked?'<b>터치 잠금</b> 버튼도 S펜으로 누르세요 · 필기는 <b>이 기기에만</b> 저장':'<b>터치 허용</b> 손가락으로 버튼·스크롤 가능, 잉크는 S펜만 · 필기는 <b>이 기기에만</b> 저장';}
   function touchGuard(e) {
     if(!opened)return;
     const touch=e.pointerType==='touch'||e.type.startsWith('touch');
@@ -225,9 +232,39 @@
     if(importing){message('백업을 가져오는 중입니다. 완료될 때까지 기다려 주세요.');return;}
     endStroke();
     if(!value){save();await saveQueue;if(storageFailed&&unbacked()){message('자동 저장에 실패했습니다. 전체 필기를 백업한 뒤 닫아 주세요.');return;}}
-    opened=value;panel.hidden=!value;document.body.classList.toggle('pen-open',value);toggle.setAttribute('aria-expanded',String(value));lockUI();
+    opened=value;panel.hidden=!value;document.body.classList.toggle('pen-open',value);toggle.setAttribute('aria-expanded',String(value));lockUI();if(typeof applyUI==='function')applyUI();
     if(value){document.dispatchEvent(new CustomEvent('study-pen-open'));switchContext(context());requestAnimationFrame(render);$('penClose').focus();}else{toggle.focus();}
   }
+  const UI_KEY='kepco-pen:ui';
+  const SIZES={s:[.34,.42],m:[null,null],l:[.56,.68]};
+  let ui={side:null,bottom:null,focus:false};
+  try{const v=JSON.parse(localStorage.getItem(UI_KEY));if(v&&typeof v==='object')ui=Object.assign(ui,v);}catch(e){}
+  const portrait=()=>window.matchMedia&&window.matchMedia('(max-width:760px), (max-width:1100px) and (orientation:portrait)').matches;
+  function saveUI(){try{localStorage.setItem(UI_KEY,JSON.stringify(ui));}catch(e){}}
+  function applyUI(){
+    const b=document.body.style;
+    const focus=opened&&!!ui.focus;
+    if(focus)b.setProperty('--pen-width','100vw');else if(ui.side)b.setProperty('--pen-width',(ui.side*100).toFixed(1)+'vw');else b.removeProperty('--pen-width');
+    if(focus)b.setProperty('--pen-height','100dvh');else if(ui.bottom)b.setProperty('--pen-height',(ui.bottom*100).toFixed(1)+'dvh');else b.removeProperty('--pen-height');
+    document.body.classList.toggle('pen-focus',opened&&!!ui.focus);
+    $('penFocus').setAttribute('aria-pressed',String(!!ui.focus));
+    const r=$('penResize');const cur=portrait()?(ui.bottom||.55):(ui.side||.44);
+    r.setAttribute('aria-orientation',portrait()?'horizontal':'vertical');r.setAttribute('aria-valuemin','25');r.setAttribute('aria-valuemax','80');r.setAttribute('aria-valuenow',String(Math.round(cur*100)));
+    if(opened)requestAnimationFrame(render);
+  }
+  function setSize(frac){const v=Math.round(clamp(frac,.25,.8)*100)/100;if(portrait())ui.bottom=v;else ui.side=v;ui.focus=false;saveUI();applyUI();}
+  $('penFocus').addEventListener('click',()=>{ui.focus=!ui.focus;saveUI();applyUI();});
+  panel.querySelectorAll('[data-pen-size]').forEach(btn=>btn.addEventListener('click',()=>{const pair=SIZES[btn.dataset.penSize];if(pair[0]===null){if(portrait())ui.bottom=null;else ui.side=null;ui.focus=false;saveUI();applyUI();}else setSize(portrait()?pair[1]:pair[0]);}));
+  (function(){
+    const r=$('penResize');let drag=null;
+    r.addEventListener('pointerdown',e=>{if(e.pointerType==='touch'&&locked)return;drag={id:e.pointerId};r.setPointerCapture(e.pointerId);e.preventDefault();document.body.classList.add('pen-resizing');});
+    r.addEventListener('pointermove',e=>{if(!drag||e.pointerId!==drag.id)return;const vw=window.innerWidth,vh=window.innerHeight;setSize(portrait()?1-e.clientY/vh:1-e.clientX/vw);});
+    const end=e=>{if(!drag||e.pointerId!==drag.id)return;drag=null;document.body.classList.remove('pen-resizing');};
+    r.addEventListener('pointerup',end);r.addEventListener('pointercancel',end);
+    r.addEventListener('keydown',e=>{const cur=portrait()?(ui.bottom||.55):(ui.side||.44);const grow=portrait()?['ArrowUp']:['ArrowLeft'],shrink=portrait()?['ArrowDown']:['ArrowRight'];
+      if(grow.includes(e.key)){e.preventDefault();setSize(cur+.04);}else if(shrink.includes(e.key)){e.preventDefault();setSize(cur-.04);}});
+  })();
+  window.addEventListener('resize',()=>{if(opened)applyUI();});
   toggle.addEventListener('click',()=>show(!opened));$('penClose').addEventListener('click',()=>show(false));
   $('penLock').addEventListener('click',()=>{locked=!locked;lockUI();});
   $('penMouse').addEventListener('click',()=>{mouse=!mouse;$('penMouse').textContent=mouse?'마우스 필기 켜짐':'마우스 필기 꺼짐';$('penMouse').setAttribute('aria-pressed',String(mouse));});

@@ -1,31 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">선전하와 접지 평면: 중심 높이 h</text>
-<line x1="60" y1="280" x2="900" y2="280" stroke="#64748B" stroke-width="5"/>
-<line x1="180" y1="280" x2="180" y2="292" stroke="#25344A" stroke-width="3"/>
-<line x1="163.0" y1="292" x2="197.0" y2="292" stroke="#25344A" stroke-width="3"/>
-<line x1="169.0" y1="300" x2="191.0" y2="300" stroke="#25344A" stroke-width="3"/>
-<line x1="175.0" y1="308" x2="185.0" y2="308" stroke="#25344A" stroke-width="3"/>
+<line x1="60" y1="280" x2="900" y2="280" stroke="#64748B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="180" y1="280" x2="180" y2="292" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="163.0" y1="292" x2="197.0" y2="292" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="169.0" y1="300" x2="191.0" y2="300" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="175.0" y1="308" x2="185.0" y2="308" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="450" cy="135" r="15" fill="white" stroke="#2563EB" stroke-width="3"/>
 <circle cx="450" cy="135" r="4" fill="#2563EB" stroke="#2563EB" stroke-width="3"/>
 <circle cx="450" cy="425" r="15" fill="white" stroke="#2563EB" stroke-width="3"/>
 <circle cx="450" cy="425" r="4" fill="#2563EB" stroke="#2563EB" stroke-width="3"/>
-<text x="490" y="140" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">+λ, 실제 원통 도선 반지름 a</text>
-<text x="490" y="430" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">-λ, 가상 선전하</text>
-<line x1="350" y1="135" x2="350" y2="280" stroke="#64748B" stroke-width="2"/>
-<polygon points="350,280 346.5202757271102,272.79642318117857 353.4797242728898,272.79642318117857" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="350" y1="280" x2="350" y2="135" stroke="#64748B" stroke-width="2"/>
-<polygon points="350,135 353.4797242728898,142.2035768188214 346.5202757271102,142.2035768188214" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="350.0" y="197.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">h</text>
-<line x1="350" y1="280" x2="350" y2="425" stroke="#64748B" stroke-width="2"/>
-<polygon points="350,425 346.5202757271102,417.79642318117857 353.4797242728898,417.79642318117857" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="350" y1="425" x2="350" y2="280" stroke="#64748B" stroke-width="2"/>
-<polygon points="350,280 353.4797242728898,287.20357681882143 346.5202757271102,287.20357681882143" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="350.0" y="342.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">h</text>
-<line x1="450" y1="165" x2="450" y2="245" stroke="#DC2626" stroke-width="3"/>
-<polygon points="450,245 444.78041359066526,234.19463477176788 455.21958640933474,234.19463477176788" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="80" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">단면: 도선은 종이 수직 방향</text>
-<text x="600" y="235" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">대지에서 V=0</text>
-<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">도선과 영상 사이 거리는 2h다. h≫a이면 C′≈2πε/ln(2h/a), 인력은 단위길이당 계산한</text>
-<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">다.</text>
+<line x1="350" y1="135" x2="350" y2="280" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="350,280 345.6503446588877,270.9955289764732 354.3496553411123,270.9955289764732" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="350" y1="280" x2="350" y2="135" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="350,135 354.3496553411123,144.00447102352678 345.6503446588877,144.00447102352678" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="350" y1="280" x2="350" y2="425" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="350,425 345.6503446588877,415.9955289764732 354.3496553411123,415.9955289764732" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="350" y1="425" x2="350" y2="280" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="350,280 354.3496553411123,289.0044710235268 345.6503446588877,289.0044710235268" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="450" y1="165" x2="450" y2="245" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="450,245 444.1279652894984,232.84396411823886 455.8720347105016,232.84396411823886" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">선전하와 접지 평면: 중심 높이 h</text>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">선전하와 접지 평면: 중심 높이 h</text>
+<text x="490" y="140" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+λ, 실제 원통 도선 반지름 a</text>
+<text x="490" y="140" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">+λ, 실제 원통 도선 반지름 a</text>
+<text x="490" y="430" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">-λ, 가상 선전하</text>
+<text x="490" y="430" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">-λ, 가상 선전하</text>
+<text x="340" y="197.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">h</text>
+<text x="340" y="197.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#64748B">h</text>
+<text x="340" y="342.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">h</text>
+<text x="340" y="342.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#64748B">h</text>
+<text x="80" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">단면: 도선은 종이 수직 방향</text>
+<text x="80" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">단면: 도선은 종이 수직 방향</text>
+<text x="600" y="235" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">대지에서 V=0</text>
+<text x="600" y="235" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">대지에서 V=0</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">도선과 영상 사이 거리는 2h다. h≫a이면 C′≈2πε/ln(2h/a), 인력은 단위길이당 계산한</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">도선과 영상 사이 거리는 2h다. h≫a이면 C′≈2πε/ln(2h/a), 인력은 단위길이당 계산한</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">다.</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">다.</text>
 </svg>

@@ -1,26 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">캐비테이션 기포가 날개 표면을 손상시키는 과정</text>
 <rect x="45" y="330" width="260" height="50" rx="0" fill="#CBD5E1" stroke="#64748B" stroke-width="2"/>
-<text x="175" y="105" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="18" fill="#25344A" text-anchor="middle" font-weight="400">국부 저압에서 기포</text>
 <circle cx="175" cy="260" r="35" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
-<line x1="80" y1="185" x2="265" y2="185" stroke="#2563EB" stroke-width="3"/>
-<polygon points="265,185 254.19463477176788,190.21958640933477 254.19463477176788,179.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="80" y1="185" x2="265" y2="185" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="265,185 252.84396411823886,190.8720347105016 252.84396411823886,179.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="360" y="330" width="260" height="50" rx="0" fill="#CBD5E1" stroke="#64748B" stroke-width="2"/>
-<text x="490" y="105" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="18" fill="#25344A" text-anchor="middle" font-weight="400">압력 회복 구간으로 이동</text>
 <circle cx="490" cy="260" r="48" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
-<line x1="395" y1="185" x2="580" y2="185" stroke="#2563EB" stroke-width="3"/>
-<polygon points="580,185 569.1946347717678,190.21958640933477 569.1946347717678,179.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="395" y1="185" x2="580" y2="185" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="580,185 567.8439641182389,190.8720347105016 567.8439641182389,179.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="675" y="330" width="260" height="50" rx="0" fill="#CBD5E1" stroke="#64748B" stroke-width="2"/>
-<text x="805" y="105" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="18" fill="#25344A" text-anchor="middle" font-weight="400">붕괴 충격·표면 침식</text>
-<line x1="737.5" y1="230" x2="787.0" y2="315" stroke="#DC2626" stroke-width="3"/>
-<polygon points="787.0,315 777.051829153537,308.2892700240895 786.0728132091535,303.0358734269952" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="782.5" y1="230" x2="799.0" y2="315" stroke="#DC2626" stroke-width="3"/>
-<polygon points="799.0,315 791.8169840689197,305.3872853920525 802.0648637219681,303.3979911064607" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="827.5" y1="230" x2="811.0" y2="315" stroke="#DC2626" stroke-width="3"/>
-<polygon points="811.0,315 807.9351362780319,303.3979911064607 818.1830159310803,305.3872853920525" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="872.5" y1="230" x2="823.0" y2="315" stroke="#DC2626" stroke-width="3"/>
-<polygon points="823.0,315 823.9271867908465,303.0358734269952 832.948170846463,308.2892700240895" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<path d="M 775 330 Q 805 370 835 330" stroke="#DC2626" stroke-width="5" fill="none"/>
-<text x="480" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">기포 붕괴의 반복은 소음·진동과 함께 금속 표면을 침식할 수 있다</text>
+<line x1="737.5" y1="230" x2="787.0" y2="315" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="787.0,315 775.8083077977292,307.4504287771007 785.9569148602976,301.5403576053696" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="782.5" y1="230" x2="799.0" y2="315" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="799.0,315 790.9191070775348,304.185696066059 802.447971687214,301.9477399947683" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="827.5" y1="230" x2="811.0" y2="315" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="811.0,315 807.552028312786,301.9477399947683 819.0808929224652,304.185696066059" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="872.5" y1="230" x2="823.0" y2="315" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="823.0,315 824.0430851397024,301.5403576053696 834.1916922022708,307.4504287771007" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 775 330 Q 805 370 835 330" stroke="#DC2626" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">캐비테이션 기포가 날개 표면을 손상시키는 과정</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">캐비테이션 기포가 날개 표면을 손상시키는 과정</text>
+<text x="175" y="105" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">국부 저압에서 기포</text>
+<text x="175" y="105" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">국부 저압에서 기포</text>
+<text x="490" y="105" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">압력 회복 구간으로 이동</text>
+<text x="490" y="105" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">압력 회복 구간으로 이동</text>
+<text x="805" y="105" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">붕괴 충격·표면 침식</text>
+<text x="805" y="105" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">붕괴 충격·표면 침식</text>
+<text x="480" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">기포 붕괴의 반복은 소음·진동과 함께 금속 표면을 침식할 수 있다</text>
+<text x="480" y="465" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">기포 붕괴의 반복은 소음·진동과 함께 금속 표면을 침식할 수 있다</text>
 </svg>

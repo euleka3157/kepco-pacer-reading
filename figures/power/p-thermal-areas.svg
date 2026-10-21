@@ -1,42 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="570" viewBox="0 0 960 570">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">T–s 선도 면적: 공급열·순일·방출열</text>
-<line x1="60" y1="405" x2="305" y2="405" stroke="#64748B" stroke-width="2"/>
-<polygon points="305,405 294.1946347717679,410.21958640933474 294.1946347717679,399.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="60" y1="405" x2="60" y2="165" stroke="#64748B" stroke-width="2"/>
-<polygon points="60,165 65.21958640933477,175.80536522823212 54.78041359066523,175.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="300" y="437" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">s</text>
-<text x="50" y="153" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">T</text>
-<polygon points="90,405 90,285 145,225 235,225 280,175 280,405" stroke="#DC2626" stroke-width="1" fill="#FEE2E2"/>
-<polyline points="90,285 145,225 235,225 280,175" stroke="#25344A" stroke-width="3" fill="none"/>
-<line x1="90" y1="350" x2="280" y2="350" stroke="#25344A" stroke-width="3"/>
-<line x1="90" y1="285" x2="90" y2="350" stroke="#25344A" stroke-width="3"/>
-<line x1="280" y1="175" x2="280" y2="350" stroke="#25344A" stroke-width="3"/>
-<text x="180" y="110" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#DC2626" text-anchor="middle" font-weight="400">공급열 QH</text>
-<line x1="375" y1="405" x2="620" y2="405" stroke="#64748B" stroke-width="2"/>
-<polygon points="620,405 609.1946347717678,410.21958640933474 609.1946347717678,399.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="375" y1="405" x2="375" y2="165" stroke="#64748B" stroke-width="2"/>
-<polygon points="375,165 380.21958640933474,175.80536522823212 369.78041359066526,175.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="615" y="437" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">s</text>
-<text x="365" y="153" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">T</text>
-<polygon points="405,285 460,225 550,225 595,175 595,350 405,350" stroke="#15803D" stroke-width="1" fill="#DBEAFE"/>
-<polyline points="405,285 460,225 550,225 595,175" stroke="#25344A" stroke-width="3" fill="none"/>
-<line x1="405" y1="350" x2="595" y2="350" stroke="#25344A" stroke-width="3"/>
-<line x1="405" y1="285" x2="405" y2="350" stroke="#25344A" stroke-width="3"/>
-<line x1="595" y1="175" x2="595" y2="350" stroke="#25344A" stroke-width="3"/>
-<text x="495" y="110" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#15803D" text-anchor="middle" font-weight="400">사이클 순일 W</text>
-<line x1="690" y1="405" x2="935" y2="405" stroke="#64748B" stroke-width="2"/>
-<polygon points="935,405 924.1946347717678,410.21958640933474 924.1946347717678,399.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="690" y1="405" x2="690" y2="165" stroke="#64748B" stroke-width="2"/>
-<polygon points="690,165 695.2195864093347,175.80536522823212 684.7804135906653,175.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="930" y="437" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">s</text>
-<text x="680" y="153" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">T</text>
-<polygon points="720,405 720,350 910,350 910,405" stroke="#2563EB" stroke-width="1" fill="#DBEAFE"/>
-<polyline points="720,285 775,225 865,225 910,175" stroke="#25344A" stroke-width="3" fill="none"/>
-<line x1="720" y1="350" x2="910" y2="350" stroke="#25344A" stroke-width="3"/>
-<line x1="720" y1="285" x2="720" y2="350" stroke="#25344A" stroke-width="3"/>
-<line x1="910" y1="175" x2="910" y2="350" stroke="#25344A" stroke-width="3"/>
-<text x="810" y="110" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#2563EB" text-anchor="middle" font-weight="400">방출열 QC</text>
-<text x="480" y="485" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">가역 과정: δQ = Tds · 닫힌 사이클: W = QH - QC</text>
-<text x="480" y="535" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">세 그림은 같은 개념 경로 · 축의 T는 절대온도</text>
+<line x1="60" y1="405" x2="305" y2="405" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="305,405 294.1946347717679,410.21958640933474 294.1946347717679,399.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="60" y1="405" x2="60" y2="165" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="60,165 65.21958640933477,175.80536522823212 54.78041359066523,175.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="90,405 90,285 145,225 235,225 280,175 280,405" stroke="#DC2626" stroke-width="1" fill="#FEE2E2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="90,285 145,225 235,225 280,175" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="90" y1="350" x2="280" y2="350" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="90" y1="285" x2="90" y2="350" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="280" y1="175" x2="280" y2="350" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="375" y1="405" x2="620" y2="405" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="620,405 609.1946347717678,410.21958640933474 609.1946347717678,399.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="375" y1="405" x2="375" y2="165" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="375,165 380.21958640933474,175.80536522823212 369.78041359066526,175.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="405,285 460,225 550,225 595,175 595,350 405,350" stroke="#15803D" stroke-width="1" fill="#DBEAFE" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="405,285 460,225 550,225 595,175" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="405" y1="350" x2="595" y2="350" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="405" y1="285" x2="405" y2="350" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="595" y1="175" x2="595" y2="350" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="690" y1="405" x2="935" y2="405" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="935,405 924.1946347717678,410.21958640933474 924.1946347717678,399.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="690" y1="405" x2="690" y2="165" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="690,165 695.2195864093347,175.80536522823212 684.7804135906653,175.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="720,405 720,350 910,350 910,405" stroke="#2563EB" stroke-width="1" fill="#DBEAFE" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="720,285 775,225 865,225 910,175" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="720" y1="350" x2="910" y2="350" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="720" y1="285" x2="720" y2="350" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="910" y1="175" x2="910" y2="350" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">T–s 선도 면적: 공급열·순일·방출열</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">T–s 선도 면적: 공급열·순일·방출열</text>
+<text x="300" y="437" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">s</text>
+<text x="300" y="437" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="#64748B">s</text>
+<text x="50" y="153" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">T</text>
+<text x="50" y="153" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">T</text>
+<text x="180" y="110" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">공급열 QH</text>
+<text x="180" y="110" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="#DC2626">공급열 QH</text>
+<text x="615" y="437" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">s</text>
+<text x="615" y="437" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="#64748B">s</text>
+<text x="365" y="153" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">T</text>
+<text x="365" y="153" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">T</text>
+<text x="495" y="110" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">사이클 순일 W</text>
+<text x="495" y="110" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="#15803D">사이클 순일 W</text>
+<text x="930" y="437" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">s</text>
+<text x="930" y="437" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="end" font-weight="400" fill="#64748B">s</text>
+<text x="680" y="153" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">T</text>
+<text x="680" y="153" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">T</text>
+<text x="810" y="110" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">방출열 QC</text>
+<text x="810" y="110" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="#2563EB">방출열 QC</text>
+<text x="480" y="485" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">가역 과정: δQ = Tds · 닫힌 사이클: W = QH - QC</text>
+<text x="480" y="485" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">가역 과정: δQ = Tds · 닫힌 사이클: W = QH - QC</text>
+<text x="480" y="535" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">세 그림은 같은 개념 경로 · 축의 T는 절대온도</text>
+<text x="480" y="535" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">세 그림은 같은 개념 경로 · 축의 T는 절대온도</text>
 </svg>

@@ -1,26 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">전류의 연속성: 이동 전하와 시간변화 전기장</text>
-<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1"/>
+<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="65" y="200" width="360" height="130" rx="0" fill="#E2E8F0" stroke="#64748B" stroke-width="2"/>
-<line x1="90" y1="150" x2="400" y2="150" stroke="#2563EB" stroke-width="3"/>
-<polygon points="400,150 389.1946347717679,155.21958640933477 389.1946347717679,144.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="165" y="130" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">E, 관습적 전류 J</text>
-<line x1="370" y1="265" x2="130" y2="265" stroke="#DC2626" stroke-width="3"/>
-<polygon points="130,265 140.80536522823212,259.78041359066526 140.80536522823212,270.21958640933474" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="140" y="305" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">전자 이동은 반대</text>
-<text x="55" y="400" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">J = σE,  이동속도는 드리프트</text>
-<text x="55" y="440" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">전하 축적 = 들어옴 - 나감</text>
-<line x1="530" y1="260" x2="650" y2="260" stroke="#2563EB" stroke-width="3"/>
-<line x1="650" y1="150" x2="650" y2="370" stroke="#DC2626" stroke-width="7"/>
-<line x1="795" y1="150" x2="795" y2="370" stroke="#2563EB" stroke-width="7"/>
-<line x1="795" y1="260" x2="910" y2="260" stroke="#2563EB" stroke-width="3"/>
-<line x1="540" y1="260" x2="620" y2="260" stroke="#2563EB" stroke-width="3"/>
-<polygon points="620,260 609.1946347717678,265.21958640933474 609.1946347717678,254.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="90" y1="150" x2="400" y2="150" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="400,150 387.8439641182389,155.8720347105016 387.8439641182389,144.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="370" y1="265" x2="130" y2="265" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="130,265 142.15603588176114,259.1279652894984 142.15603588176114,270.8720347105016" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="530" y1="260" x2="650" y2="260" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="650" y1="150" x2="650" y2="370" stroke="#DC2626" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="795" y1="150" x2="795" y2="370" stroke="#2563EB" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="795" y1="260" x2="910" y2="260" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="540" y1="260" x2="620" y2="260" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="620,260 607.8439641182389,265.8720347105016 607.8439641182389,254.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="670" y1="260" x2="775" y2="260" stroke="#7C3AED" stroke-width="3" stroke-dasharray="5 5"/>
-<polygon points="775,260 764.1946347717678,265.21958640933474 764.1946347717678,254.78041359066523" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
-<text x="555" y="110" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">충전 중인 콘덴서</text>
-<text x="655" y="425" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">Jd = ∂D/∂t</text>
-<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">유전체 틈을 자유전자가 건너야만 전류 연속성이 성립하는 것은 아니다. 변위전류는 변하는 </text>
-<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">장을 나타낸다.</text>
+<polygon points="775,260 762.8439641182389,265.8720347105016 762.8439641182389,254.1279652894984" stroke="#7C3AED" stroke-width="1" fill="#7C3AED" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">전류의 연속성: 이동 전하와 시간변화 전기장</text>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">전류의 연속성: 이동 전하와 시간변화 전기장</text>
+<text x="165" y="130" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">E, 관습적 전류 J</text>
+<text x="165" y="130" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">E, 관습적 전류 J</text>
+<text x="140" y="305" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">전자 이동은 반대</text>
+<text x="140" y="305" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">전자 이동은 반대</text>
+<text x="55" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">J = σE,  이동속도는 드리프트</text>
+<text x="55" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">J = σE,  이동속도는 드리프트</text>
+<text x="55" y="440" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">전하 축적 = 들어옴 - 나감</text>
+<text x="55" y="440" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">전하 축적 = 들어옴 - 나감</text>
+<text x="555" y="110" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">충전 중인 콘덴서</text>
+<text x="555" y="110" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">충전 중인 콘덴서</text>
+<text x="655" y="425" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Jd = ∂D/∂t</text>
+<text x="655" y="425" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">Jd = ∂D/∂t</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">유전체 틈을 자유전자가 건너야만 전류 연속성이 성립하는 것은 아니다. 변위전류는 변하는 </text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">유전체 틈을 자유전자가 건너야만 전류 연속성이 성립하는 것은 아니다. 변위전류는 변하는 </text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">장을 나타낸다.</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">장을 나타낸다.</text>
 </svg>

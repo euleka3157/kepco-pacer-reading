@@ -1,37 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">비오–사바르: 전류요소에서 관측점까지</text>
-<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1"/>
-<line x1="100" y1="380" x2="240" y2="150" stroke="#64748B" stroke-width="5"/>
-<line x1="150" y1="300" x2="195" y2="225" stroke="#DC2626" stroke-width="5"/>
-<polygon points="195,225 193.91644387538028,236.95097929563929 184.9649270330805,231.58006919025942" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100" y1="380" x2="240" y2="150" stroke="#64748B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="150" y1="300" x2="195" y2="225" stroke="#DC2626" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="195,225 193.14892495377467,245.41625629671714 177.85675034817916,236.24095153335983" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="390" cy="270" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="390" y="256" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">P</text>
-<line x1="175" y1="260" x2="380" y2="270" stroke="#2563EB" stroke-width="3"/>
-<polygon points="380,270 368.9531561724357,274.68692238568167 369.46177933081685,264.26014763886724" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="175" y1="260" x2="380" y2="270" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="380,270 367.57230069399014,275.27278768389186 368.144501747169,263.54266609372564" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="390" cy="270" r="15" fill="white" stroke="#7C3AED" stroke-width="3"/>
-<line x1="382" y1="262" x2="398" y2="278" stroke="#7C3AED" stroke-width="3"/>
-<line x1="382" y1="278" x2="398" y2="262" stroke="#7C3AED" stroke-width="3"/>
-<text x="90" y="160" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">I dl</text>
-<text x="265" y="240" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">r</text>
-<text x="220" y="310" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">θ</text>
-<text x="55" y="455" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">dH ∝ I dl sinθ / r²</text>
-<line x1="575" y1="110" x2="575" y2="430" stroke="#DC2626" stroke-width="5"/>
-<line x1="575" y1="300" x2="575" y2="210" stroke="#DC2626" stroke-width="5"/>
-<polygon points="575,210 580.2195864093347,220.80536522823212 569.7804135906653,220.80536522823212" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="382" y1="262" x2="398" y2="278" stroke="#7C3AED" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="382" y1="278" x2="398" y2="262" stroke="#7C3AED" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="575" y1="110" x2="575" y2="430" stroke="#DC2626" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="575" y1="300" x2="575" y2="210" stroke="#DC2626" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="575,210 583.9167934492802,228.45916559822987 566.0832065507198,228.45916559822987" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="850" cy="300" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="850" y="286" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">P</text>
-<line x1="575" y1="110" x2="850" y2="300" stroke="#64748B" stroke-width="2"/>
-<line x1="575" y1="430" x2="850" y2="300" stroke="#64748B" stroke-width="2"/>
-<line x1="575" y1="300" x2="850" y2="300" stroke="#64748B" stroke-width="2"/>
-<polygon points="850,300 842.7964231811786,303.4797242728898 842.7964231811786,296.5202757271102" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<line x1="850" y1="300" x2="575" y2="300" stroke="#64748B" stroke-width="2"/>
-<polygon points="575,300 582.2035768188214,296.5202757271102 582.2035768188214,303.4797242728898" stroke="#64748B" stroke-width="1" fill="#64748B"/>
-<text x="712.5" y="290.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">a</text>
-<text x="785" y="267" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">β1</text>
-<text x="785" y="345" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">β2</text>
-<text x="540" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">유한 직선</text>
-<text x="540" y="470" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">H=I(sinβ1+sinβ2)/(4πa)</text>
-<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">β1·β2는 수선에서 양 끝으로 향하는 선까지의 각이다. 관측점이 선분 사이 높이에 있을 때</text>
-<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400"> 표시한 양의 합을 쓴다.</text>
+<line x1="575" y1="110" x2="850" y2="300" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="575" y1="430" x2="850" y2="300" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="575" y1="300" x2="850" y2="300" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="850,300 840.9955289764732,304.3496553411123 840.9955289764732,295.6503446588877" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="850" y1="300" x2="575" y2="300" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="575,300 584.0044710235268,295.6503446588877 584.0044710235268,304.3496553411123" stroke="#64748B" stroke-width="1" fill="#64748B" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">비오–사바르: 전류요소에서 관측점까지</text>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">비오–사바르: 전류요소에서 관측점까지</text>
+<text x="390" y="246" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">P</text>
+<text x="390" y="246" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">P</text>
+<text x="90" y="160" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">I dl</text>
+<text x="90" y="160" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">I dl</text>
+<text x="265" y="240" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">r</text>
+<text x="265" y="240" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">r</text>
+<text x="220" y="310" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">θ</text>
+<text x="220" y="310" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">θ</text>
+<text x="55" y="455" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">dH ∝ I dl sinθ / r²</text>
+<text x="55" y="455" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">dH ∝ I dl sinθ / r²</text>
+<text x="850" y="286" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">P</text>
+<text x="850" y="286" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">P</text>
+<text x="712.5" y="290.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">a</text>
+<text x="712.5" y="290.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#64748B">a</text>
+<text x="795" y="251" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">β1</text>
+<text x="795" y="251" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">β1</text>
+<text x="789" y="351" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">β2</text>
+<text x="789" y="351" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">β2</text>
+<text x="540" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">유한 직선</text>
+<text x="540" y="100" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">유한 직선</text>
+<text x="540" y="470" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">H=I(sinβ1+sinβ2)/(4πa)</text>
+<text x="540" y="470" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">H=I(sinβ1+sinβ2)/(4πa)</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">β1·β2는 수선에서 양 끝으로 향하는 선까지의 각이다. 관측점이 선분 사이 높이에 있을 때</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">β1·β2는 수선에서 양 끝으로 향하는 선까지의 각이다. 관측점이 선분 사이 높이에 있을 때</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true"> 표시한 양의 합을 쓴다.</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B"> 표시한 양의 합을 쓴다.</text>
 </svg>

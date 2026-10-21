@@ -1,91 +1,111 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="630" viewBox="0 0 960 630">
 <rect width="100%" height="100%" fill="white"/>
-<text x="28" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">무접점 NAND·NOR: 입력망 뒤에 반전 단을 연결</text>
-<text x="235" y="95" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#2563EB" text-anchor="middle" font-weight="400">NAND (DTL 개념)</text>
-<text x="25" y="243" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">A</text>
-<line x1="55" y1="235" x2="80" y2="235" stroke="#25344A" stroke-width="3"/>
-<polygon points="113,222 113,248 88,235" stroke="#25344A" stroke-width="2" fill="white"/>
-<line x1="86" y1="220" x2="86" y2="250" stroke="#25344A" stroke-width="3"/>
-<line x1="115" y1="235" x2="160" y2="235" stroke="#25344A" stroke-width="3"/>
-<text x="25" y="328" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">B</text>
-<line x1="55" y1="320" x2="80" y2="320" stroke="#25344A" stroke-width="3"/>
-<polygon points="113,307 113,333 88,320" stroke="#25344A" stroke-width="2" fill="white"/>
-<line x1="86" y1="305" x2="86" y2="335" stroke="#25344A" stroke-width="3"/>
-<line x1="115" y1="320" x2="160" y2="320" stroke="#25344A" stroke-width="3"/>
-<line x1="160" y1="235" x2="160" y2="320" stroke="#25344A" stroke-width="3"/>
+<line x1="55" y1="235" x2="80" y2="235" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="113,222 113,248 88,235" stroke="#25344A" stroke-width="2" fill="white" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="86" y1="220" x2="86" y2="250" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="115" y1="235" x2="160" y2="235" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="55" y1="320" x2="80" y2="320" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="113,307 113,333 88,320" stroke="#25344A" stroke-width="2" fill="white" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="86" y1="305" x2="86" y2="335" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="115" y1="320" x2="160" y2="320" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="160" y1="235" x2="160" y2="320" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="160" cy="278" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<polyline points="160,145 160.0,163.0 150.0,169.75 170.0,176.5 150.0,183.25 170.0,190.0 150.0,196.75 170.0,203.5 150.0,210.25 160.0,217.0 160,235" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="134.0" y="190.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">R</text>
-<text x="160" y="130" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">+V</text>
-<line x1="160" y1="278" x2="185" y2="278" stroke="#25344A" stroke-width="3"/>
-<polygon points="192,265 192,291 217,278" stroke="#25344A" stroke-width="2" fill="white"/>
-<line x1="219" y1="263" x2="219" y2="293" stroke="#25344A" stroke-width="3"/>
-<line x1="220" y1="278" x2="295" y2="278" stroke="#25344A" stroke-width="3"/>
-<line x1="295" y1="250" x2="295" y2="306" stroke="#25344A" stroke-width="3"/>
-<line x1="295" y1="261" x2="335" y2="233" stroke="#25344A" stroke-width="3"/>
-<line x1="295" y1="295" x2="335" y2="323" stroke="#25344A" stroke-width="3"/>
-<line x1="310" y1="305" x2="328" y2="318" stroke="#25344A" stroke-width="2"/>
-<polygon points="328,318 320.12286421103863,316.6033140072785 324.19755559455854,310.9614336300972" stroke="#25344A" stroke-width="1" fill="#25344A"/>
-<line x1="335" y1="233" x2="335" y2="208" stroke="#25344A" stroke-width="3"/>
-<line x1="335" y1="323" x2="335" y2="343" stroke="#25344A" stroke-width="3"/>
-<line x1="335" y1="343" x2="335" y2="355" stroke="#25344A" stroke-width="3"/>
-<line x1="318.0" y1="355" x2="352.0" y2="355" stroke="#25344A" stroke-width="3"/>
-<line x1="324.0" y1="363" x2="346.0" y2="363" stroke="#25344A" stroke-width="3"/>
-<line x1="330.0" y1="371" x2="340.0" y2="371" stroke="#25344A" stroke-width="3"/>
-<polyline points="335,145 335.0,157.6 325.0,162.325 345.0,167.05 325.0,171.775 345.0,176.5 325.0,181.225 345.0,185.95 325.0,190.675 335.0,195.4 335,208" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="309.0" y="176.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">R_C</text>
-<text x="335" y="130" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">+V</text>
-<line x1="335" y1="208" x2="335" y2="230" stroke="#25344A" stroke-width="3"/>
+<polyline points="160,145 160.0,163.0 150.0,169.75 170.0,176.5 150.0,183.25 170.0,190.0 150.0,196.75 170.0,203.5 150.0,210.25 160.0,217.0 160,235" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="160" y1="278" x2="185" y2="278" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="192,265 192,291 217,278" stroke="#25344A" stroke-width="2" fill="white" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="219" y1="263" x2="219" y2="293" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="220" y1="278" x2="295" y2="278" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="295" y1="250" x2="295" y2="306" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="295" y1="261" x2="335" y2="233" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="295" y1="295" x2="335" y2="323" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="310" y1="305" x2="328" y2="318" stroke="#25344A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="328,318 318.1535802637983,316.2541425090982 323.24694449319816,309.2017920376215" stroke="#25344A" stroke-width="1" fill="#25344A" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="335" y1="233" x2="335" y2="208" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="335" y1="323" x2="335" y2="343" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="335" y1="343" x2="335" y2="355" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="318.0" y1="355" x2="352.0" y2="355" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="324.0" y1="363" x2="346.0" y2="363" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="330.0" y1="371" x2="340.0" y2="371" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="335,145 335.0,157.6 325.0,162.325 345.0,167.05 325.0,171.775 345.0,176.5 325.0,181.225 345.0,185.95 325.0,190.675 335.0,195.4 335,208" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="335" y1="208" x2="335" y2="230" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="335" cy="230" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<line x1="335" y1="230" x2="450" y2="230" stroke="#25344A" stroke-width="3"/>
-<text x="445" y="212" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#2563EB" text-anchor="start" font-weight="400">X</text>
-<line x1="265" y1="278" x2="265" y2="400" stroke="#25344A" stroke-width="3"/>
-<polyline points="265,400 265.0,414.0 255.0,419.25 275.0,424.5 255.0,429.75 275.0,435.0 255.0,440.25 275.0,445.5 255.0,450.75 265.0,456.0 265,470" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="239.0" y="435.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">R_PD</text>
-<line x1="265" y1="470" x2="265" y2="482" stroke="#25344A" stroke-width="3"/>
-<line x1="248.0" y1="482" x2="282.0" y2="482" stroke="#25344A" stroke-width="3"/>
-<line x1="254.0" y1="490" x2="276.0" y2="490" stroke="#25344A" stroke-width="3"/>
-<line x1="260.0" y1="498" x2="270.0" y2="498" stroke="#25344A" stroke-width="3"/>
-<text x="705" y="95" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#2563EB" text-anchor="middle" font-weight="400">NOR (다이오드 + NPN)</text>
-<text x="495" y="243" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">A</text>
-<line x1="525" y1="235" x2="550" y2="235" stroke="#25344A" stroke-width="3"/>
-<polygon points="557,222 557,248 582,235" stroke="#25344A" stroke-width="2" fill="white"/>
-<line x1="584" y1="220" x2="584" y2="250" stroke="#25344A" stroke-width="3"/>
-<line x1="585" y1="235" x2="630" y2="235" stroke="#25344A" stroke-width="3"/>
-<text x="495" y="328" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">B</text>
-<line x1="525" y1="320" x2="550" y2="320" stroke="#25344A" stroke-width="3"/>
-<polygon points="557,307 557,333 582,320" stroke="#25344A" stroke-width="2" fill="white"/>
-<line x1="584" y1="305" x2="584" y2="335" stroke="#25344A" stroke-width="3"/>
-<line x1="585" y1="320" x2="630" y2="320" stroke="#25344A" stroke-width="3"/>
-<line x1="630" y1="235" x2="630" y2="320" stroke="#25344A" stroke-width="3"/>
+<line x1="335" y1="230" x2="450" y2="230" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="265" y1="278" x2="265" y2="400" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="265,400 265.0,414.0 255.0,419.25 275.0,424.5 255.0,429.75 275.0,435.0 255.0,440.25 275.0,445.5 255.0,450.75 265.0,456.0 265,470" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="265" y1="470" x2="265" y2="482" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="248.0" y1="482" x2="282.0" y2="482" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="254.0" y1="490" x2="276.0" y2="490" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="260.0" y1="498" x2="270.0" y2="498" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="525" y1="235" x2="550" y2="235" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="557,222 557,248 582,235" stroke="#25344A" stroke-width="2" fill="white" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="584" y1="220" x2="584" y2="250" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="585" y1="235" x2="630" y2="235" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="525" y1="320" x2="550" y2="320" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="557,307 557,333 582,320" stroke="#25344A" stroke-width="2" fill="white" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="584" y1="305" x2="584" y2="335" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="585" y1="320" x2="630" y2="320" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="630" y1="235" x2="630" y2="320" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="630" cy="278" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<polyline points="630,278 657.0,278.0 667.125,288.0 677.25,268.0 687.375,288.0 697.5,268.0 707.625,288.0 717.75,268.0 727.875,288.0 738.0,278.0 765,278" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="697.5" y="254.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">R_B</text>
-<line x1="765" y1="250" x2="765" y2="306" stroke="#25344A" stroke-width="3"/>
-<line x1="765" y1="261" x2="805" y2="233" stroke="#25344A" stroke-width="3"/>
-<line x1="765" y1="295" x2="805" y2="323" stroke="#25344A" stroke-width="3"/>
-<line x1="780" y1="305" x2="798" y2="318" stroke="#25344A" stroke-width="2"/>
-<polygon points="798,318 790.1228642110386,316.6033140072785 794.1975555945585,310.9614336300972" stroke="#25344A" stroke-width="1" fill="#25344A"/>
-<line x1="805" y1="233" x2="805" y2="208" stroke="#25344A" stroke-width="3"/>
-<line x1="805" y1="323" x2="805" y2="343" stroke="#25344A" stroke-width="3"/>
-<line x1="805" y1="343" x2="805" y2="355" stroke="#25344A" stroke-width="3"/>
-<line x1="788.0" y1="355" x2="822.0" y2="355" stroke="#25344A" stroke-width="3"/>
-<line x1="794.0" y1="363" x2="816.0" y2="363" stroke="#25344A" stroke-width="3"/>
-<line x1="800.0" y1="371" x2="810.0" y2="371" stroke="#25344A" stroke-width="3"/>
-<polyline points="805,145 805.0,157.6 795.0,162.325 815.0,167.05 795.0,171.775 815.0,176.5 795.0,181.225 815.0,185.95 795.0,190.675 805.0,195.4 805,208" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="779.0" y="176.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">R_C</text>
-<text x="805" y="130" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">+V</text>
-<line x1="805" y1="208" x2="805" y2="230" stroke="#25344A" stroke-width="3"/>
+<polyline points="630,278 657.0,278.0 667.125,288.0 677.25,268.0 687.375,288.0 697.5,268.0 707.625,288.0 717.75,268.0 727.875,288.0 738.0,278.0 765,278" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="765" y1="250" x2="765" y2="306" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="765" y1="261" x2="805" y2="233" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="765" y1="295" x2="805" y2="323" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="780" y1="305" x2="798" y2="318" stroke="#25344A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="798,318 788.1535802637983,316.2541425090982 793.2469444931982,309.2017920376215" stroke="#25344A" stroke-width="1" fill="#25344A" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="805" y1="233" x2="805" y2="208" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="805" y1="323" x2="805" y2="343" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="805" y1="343" x2="805" y2="355" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="788.0" y1="355" x2="822.0" y2="355" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="794.0" y1="363" x2="816.0" y2="363" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="800.0" y1="371" x2="810.0" y2="371" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="805,145 805.0,157.6 795.0,162.325 815.0,167.05 795.0,171.775 815.0,176.5 795.0,181.225 815.0,185.95 795.0,190.675 805.0,195.4 805,208" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="805" y1="208" x2="805" y2="230" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="805" cy="230" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<line x1="805" y1="230" x2="920" y2="230" stroke="#25344A" stroke-width="3"/>
-<text x="915" y="212" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#2563EB" text-anchor="start" font-weight="400">X</text>
-<line x1="735" y1="278" x2="735" y2="400" stroke="#25344A" stroke-width="3"/>
-<polyline points="735,400 735.0,414.0 725.0,419.25 745.0,424.5 725.0,429.75 745.0,435.0 725.0,440.25 745.0,445.5 725.0,450.75 735.0,456.0 735,470" stroke="#25344A" stroke-width="3" fill="none"/>
-<text x="709.0" y="435.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">R_PD</text>
-<line x1="735" y1="470" x2="735" y2="482" stroke="#25344A" stroke-width="3"/>
-<line x1="718.0" y1="482" x2="752.0" y2="482" stroke="#25344A" stroke-width="3"/>
-<line x1="724.0" y1="490" x2="746.0" y2="490" stroke="#25344A" stroke-width="3"/>
-<line x1="730.0" y1="498" x2="740.0" y2="498" stroke="#25344A" stroke-width="3"/>
-<text x="40" y="560" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">NAND: 두 입력 모두 높을 때만 ON → 출력 0</text>
-<text x="40" y="605" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">NOR: 하나라도 높으면 ON → 출력 0 · 레벨 시프트 다이오드 방향에 주의</text>
+<line x1="805" y1="230" x2="920" y2="230" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="735" y1="278" x2="735" y2="400" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="735,400 735.0,414.0 725.0,419.25 745.0,424.5 725.0,429.75 745.0,435.0 725.0,440.25 745.0,445.5 725.0,450.75 735.0,456.0 735,470" stroke="#25344A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="735" y1="470" x2="735" y2="482" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="718.0" y1="482" x2="752.0" y2="482" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="724.0" y1="490" x2="746.0" y2="490" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="730.0" y1="498" x2="740.0" y2="498" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">무접점 NAND·NOR: 입력망 뒤에 반전 단을 연결</text>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">무접점 NAND·NOR: 입력망 뒤에 반전 단을 연결</text>
+<text x="235" y="95" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">NAND (DTL 개념)</text>
+<text x="235" y="95" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="#2563EB">NAND (DTL 개념)</text>
+<text x="25" y="243" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">A</text>
+<text x="25" y="243" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#25344A">A</text>
+<text x="25" y="328" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">B</text>
+<text x="25" y="328" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#25344A">B</text>
+<text x="134.0" y="190.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R</text>
+<text x="134.0" y="190.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">R</text>
+<text x="160" y="130" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+V</text>
+<text x="160" y="130" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">+V</text>
+<text x="309.0" y="176.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R_C</text>
+<text x="309.0" y="176.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">R_C</text>
+<text x="335" y="130" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+V</text>
+<text x="335" y="130" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">+V</text>
+<text x="445" y="212" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">X</text>
+<text x="445" y="212" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#2563EB">X</text>
+<text x="239.0" y="435.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R_PD</text>
+<text x="239.0" y="435.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">R_PD</text>
+<text x="705" y="95" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">NOR (다이오드 + NPN)</text>
+<text x="705" y="95" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="middle" font-weight="400" fill="#2563EB">NOR (다이오드 + NPN)</text>
+<text x="495" y="243" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">A</text>
+<text x="495" y="243" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#25344A">A</text>
+<text x="495" y="328" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">B</text>
+<text x="495" y="328" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#25344A">B</text>
+<text x="697.5" y="254.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R_B</text>
+<text x="697.5" y="254.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">R_B</text>
+<text x="779.0" y="176.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R_C</text>
+<text x="779.0" y="176.5" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">R_C</text>
+<text x="805" y="130" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">+V</text>
+<text x="805" y="130" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">+V</text>
+<text x="915" y="212" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">X</text>
+<text x="915" y="212" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#2563EB">X</text>
+<text x="709.0" y="435.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R_PD</text>
+<text x="709.0" y="435.0" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="end" font-weight="400" fill="#25344A">R_PD</text>
+<text x="40" y="560" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">NAND: 두 입력 모두 높을 때만 ON → 출력 0</text>
+<text x="40" y="560" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">NAND: 두 입력 모두 높을 때만 ON → 출력 0</text>
+<text x="40" y="605" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">NOR: 하나라도 높으면 ON → 출력 0 · 레벨 시프트 다이오드 방향에 주의</text>
+<text x="40" y="605" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">NOR: 하나라도 높으면 ON → 출력 0 · 레벨 시프트 다이오드 방향에 주의</text>
 </svg>

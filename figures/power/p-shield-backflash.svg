@@ -1,37 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">가공지선의 차폐와 접지전위 상승·역섬락</text>
-<polyline points="185.0,430 250,120 315.0,430" stroke="#64748B" stroke-width="3" fill="none"/>
-<line x1="198.0" y1="368.0" x2="302.0" y2="368.0" stroke="#64748B" stroke-width="2"/>
-<line x1="211.0" y1="306.0" x2="289.0" y2="306.0" stroke="#64748B" stroke-width="2"/>
-<line x1="224.0" y1="244.0" x2="276.0" y2="244.0" stroke="#64748B" stroke-width="2"/>
-<line x1="237.0" y1="182.0" x2="263.0" y2="182.0" stroke="#64748B" stroke-width="2"/>
-<line x1="152.5" y1="253.3" x2="347.5" y2="253.3" stroke="#64748B" stroke-width="3"/>
-<line x1="172.0" y1="191.29999999999998" x2="328.0" y2="191.29999999999998" stroke="#64748B" stroke-width="3"/>
+<polyline points="185.0,430 250,120 315.0,430" stroke="#64748B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="198.0" y1="368.0" x2="302.0" y2="368.0" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="211.0" y1="306.0" x2="289.0" y2="306.0" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="224.0" y1="244.0" x2="276.0" y2="244.0" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="237.0" y1="182.0" x2="263.0" y2="182.0" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="152.5" y1="253.3" x2="347.5" y2="253.3" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="172.0" y1="191.29999999999998" x2="328.0" y2="191.29999999999998" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="250" cy="120" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="265" y="105" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">가공지선</text>
 <circle cx="165" cy="240" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
 <circle cx="335" cy="240" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
 <line x1="250" y1="120" x2="165" y2="240" stroke="#2563EB" stroke-width="2" stroke-dasharray="5 5"/>
 <line x1="250" y1="120" x2="335" y2="240" stroke="#2563EB" stroke-width="2" stroke-dasharray="5 5"/>
-<text x="250" y="200" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">차폐각</text>
-<polyline points="620.0,430 685,120 750.0,430" stroke="#64748B" stroke-width="3" fill="none"/>
-<line x1="633.0" y1="368.0" x2="737.0" y2="368.0" stroke="#64748B" stroke-width="2"/>
-<line x1="646.0" y1="306.0" x2="724.0" y2="306.0" stroke="#64748B" stroke-width="2"/>
-<line x1="659.0" y1="244.0" x2="711.0" y2="244.0" stroke="#64748B" stroke-width="2"/>
-<line x1="672.0" y1="182.0" x2="698.0" y2="182.0" stroke="#64748B" stroke-width="2"/>
-<line x1="587.5" y1="253.3" x2="782.5" y2="253.3" stroke="#64748B" stroke-width="3"/>
-<line x1="607.0" y1="191.29999999999998" x2="763.0" y2="191.29999999999998" stroke="#64748B" stroke-width="3"/>
-<polyline points="690,55 660,90 695,100 680,125" stroke="#DC2626" stroke-width="5" fill="none"/>
-<line x1="685" y1="145" x2="685" y2="405" stroke="#DC2626" stroke-width="4"/>
-<polygon points="685,405 679.7804135906653,394.1946347717679 690.2195864093347,394.1946347717679" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="685" y1="430" x2="685" y2="442" stroke="#25344A" stroke-width="3"/>
-<line x1="668.0" y1="442" x2="702.0" y2="442" stroke="#25344A" stroke-width="3"/>
-<line x1="674.0" y1="450" x2="696.0" y2="450" stroke="#25344A" stroke-width="3"/>
-<line x1="680.0" y1="458" x2="690.0" y2="458" stroke="#25344A" stroke-width="3"/>
-<line x1="670" y1="235" x2="600" y2="235" stroke="#DC2626" stroke-width="4"/>
-<polygon points="600,235 610.8053652282322,229.78041359066523 610.8053652282322,240.21958640933477" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="540" y="300" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#DC2626" text-anchor="start" font-weight="400">철탑 → 상도체</text>
-<text x="540" y="329" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#DC2626" text-anchor="start" font-weight="400">역섬락 가능</text>
-<text x="480" y="505" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">철탑 접지전위 상승: 개념적으로 V ≈ 낙뢰전류 × 접지 임피던스</text>
+<line x1="250" y1="120" x2="250" y2="205" stroke="#64748B" stroke-width="2" stroke-dasharray="4 4"/>
+<path d="M 250 170 A 50 50 0 0 1 221.1 160.8" stroke="#B45309" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="620.0,430 685,120 750.0,430" stroke="#64748B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="633.0" y1="368.0" x2="737.0" y2="368.0" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="646.0" y1="306.0" x2="724.0" y2="306.0" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="659.0" y1="244.0" x2="711.0" y2="244.0" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="672.0" y1="182.0" x2="698.0" y2="182.0" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="587.5" y1="253.3" x2="782.5" y2="253.3" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="607.0" y1="191.29999999999998" x2="763.0" y2="191.29999999999998" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="690,55 660,90 695,100 680,125" stroke="#DC2626" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="685" y1="145" x2="685" y2="405" stroke="#DC2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="685,405 677.6055859201091,389.6923992600045 692.3944140798909,389.6923992600045" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="685" y1="430" x2="685" y2="442" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="668.0" y1="442" x2="702.0" y2="442" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="674.0" y1="450" x2="696.0" y2="450" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="680.0" y1="458" x2="690.0" y2="458" stroke="#25344A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="670" y1="235" x2="600" y2="235" stroke="#DC2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,235 615.3076007399955,227.6055859201091 615.3076007399955,242.3944140798909" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">가공지선의 차폐와 접지전위 상승·역섬락</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">가공지선의 차폐와 접지전위 상승·역섬락</text>
+<text x="265" y="105" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">가공지선</text>
+<text x="265" y="105" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">가공지선</text>
+<text x="206" y="162" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="end" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">차폐각</text>
+<text x="206" y="162" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="end" font-weight="400" fill="#B45309">차폐각</text>
+<text x="492" y="300" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">철탑 → 상도체</text>
+<text x="492" y="300" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#DC2626">철탑 → 상도체</text>
+<text x="492" y="329" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">역섬락 가능</text>
+<text x="492" y="329" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="start" font-weight="400" fill="#DC2626">역섬락 가능</text>
+<text x="480" y="505" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">철탑 접지전위 상승: 개념적으로 V ≈ 낙뢰전류 × 접지 임피던스</text>
+<text x="480" y="505" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">철탑 접지전위 상승: 개념적으로 V ≈ 낙뢰전류 × 접지 임피던스</text>
 </svg>

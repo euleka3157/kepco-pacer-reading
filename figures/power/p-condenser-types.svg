@@ -1,34 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">표면 복수기와 혼합 복수기</text>
 <rect x="50" y="145" width="360" height="245" rx="20" fill="#F8FAFC" stroke="#64748B" stroke-width="2"/>
-<line x1="230" y1="85" x2="230" y2="150" stroke="#DC2626" stroke-width="4"/>
-<polygon points="230,150 224.78041359066523,139.19463477176788 235.21958640933477,139.19463477176788" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="230" y="65" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">터빈 배기 증기</text>
-<line x1="230" y1="390" x2="230" y2="455" stroke="#2563EB" stroke-width="4"/>
-<polygon points="230,455 224.78041359066523,444.1946347717679 235.21958640933477,444.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="80" y1="220" x2="380" y2="220" stroke="#2563EB" stroke-width="10"/>
-<line x1="80" y1="280" x2="380" y2="280" stroke="#2563EB" stroke-width="10"/>
-<line x1="30" y1="220" x2="110" y2="220" stroke="#2563EB" stroke-width="3"/>
-<polygon points="110,220 99.19463477176788,225.21958640933477 99.19463477176788,214.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="350" y1="280" x2="430" y2="280" stroke="#2563EB" stroke-width="3"/>
-<polygon points="430,280 419.1946347717679,285.21958640933474 419.1946347717679,274.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="230" y="345" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">관 안: 냉각수</text>
-<text x="230" y="505" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">표면형: 증기·냉각수 분리</text>
+<line x1="230" y1="85" x2="230" y2="150" stroke="#DC2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="230,150 222.6055859201091,134.6923992600045 237.3944140798909,134.6923992600045" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="230" y1="390" x2="230" y2="455" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="230,455 222.6055859201091,439.6923992600045 237.3944140798909,439.6923992600045" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="80" y1="220" x2="380" y2="220" stroke="#2563EB" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="80" y1="280" x2="380" y2="280" stroke="#2563EB" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="30" y1="220" x2="110" y2="220" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="110,220 97.84396411823886,225.8720347105016 97.84396411823886,214.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="350" y1="280" x2="430" y2="280" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="430,280 417.8439641182389,285.8720347105016 417.8439641182389,274.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="520" y="145" width="360" height="245" rx="20" fill="#F8FAFC" stroke="#64748B" stroke-width="2"/>
-<line x1="700" y1="85" x2="700" y2="150" stroke="#DC2626" stroke-width="4"/>
-<polygon points="700,150 694.7804135906653,139.19463477176788 705.2195864093347,139.19463477176788" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="700" y="65" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">터빈 배기 증기</text>
-<line x1="700" y1="390" x2="700" y2="455" stroke="#2563EB" stroke-width="4"/>
-<polygon points="700,455 694.7804135906653,444.1946347717679 705.2195864093347,444.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="590" y1="185" x2="590" y2="300" stroke="#2563EB" stroke-width="3"/>
-<polygon points="590,300 584.7804135906653,289.1946347717679 595.2195864093347,289.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="665" y1="185" x2="665" y2="300" stroke="#2563EB" stroke-width="3"/>
-<polygon points="665,300 659.7804135906653,289.1946347717679 670.2195864093347,289.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="740" y1="185" x2="740" y2="300" stroke="#2563EB" stroke-width="3"/>
-<polygon points="740,300 734.7804135906653,289.1946347717679 745.2195864093347,289.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="810" y1="185" x2="810" y2="300" stroke="#2563EB" stroke-width="3"/>
-<polygon points="810,300 804.7804135906653,289.1946347717679 815.2195864093347,289.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="700" y1="85" x2="700" y2="150" stroke="#DC2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="700,150 692.6055859201091,134.6923992600045 707.3944140798909,134.6923992600045" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="700" y1="390" x2="700" y2="455" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="700,455 692.6055859201091,439.6923992600045 707.3944140798909,439.6923992600045" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="590" y1="185" x2="590" y2="300" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="590,300 584.1279652894984,287.8439641182389 595.8720347105016,287.8439641182389" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="665" y1="185" x2="665" y2="300" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="665,300 659.1279652894984,287.8439641182389 670.8720347105016,287.8439641182389" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="740" y1="185" x2="740" y2="300" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="740,300 734.1279652894984,287.8439641182389 745.8720347105016,287.8439641182389" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="810" y1="185" x2="810" y2="300" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="810,300 804.1279652894984,287.8439641182389 815.8720347105016,287.8439641182389" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="535" y="330" width="330" height="45" rx="0" fill="#DBEAFE" stroke="none" stroke-width="2"/>
-<text x="700" y="505" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">혼합형: 직접 접촉·혼합</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">표면 복수기와 혼합 복수기</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">표면 복수기와 혼합 복수기</text>
+<text x="230" y="65" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">터빈 배기 증기</text>
+<text x="230" y="65" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">터빈 배기 증기</text>
+<text x="230" y="345" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">관 안: 냉각수</text>
+<text x="230" y="345" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">관 안: 냉각수</text>
+<text x="230" y="505" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">표면형: 증기·냉각수 분리</text>
+<text x="230" y="505" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">표면형: 증기·냉각수 분리</text>
+<text x="700" y="65" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">터빈 배기 증기</text>
+<text x="700" y="65" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">터빈 배기 증기</text>
+<text x="700" y="505" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">혼합형: 직접 접촉·혼합</text>
+<text x="700" y="505" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">혼합형: 직접 접촉·혼합</text>
 </svg>

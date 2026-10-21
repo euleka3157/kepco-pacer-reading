@@ -1,39 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
 <rect width="100%" height="100%" fill="white"/>
-<text x="28" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">신호흐름도: 가지 이득과 Mason의 비접촉 루프</text>
 <circle cx="100" cy="170" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="92" y="145" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">R</text>
 <circle cx="300" cy="170" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="292" y="145" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">E</text>
 <circle cx="550" cy="170" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="542" y="145" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">Y</text>
 <circle cx="800" cy="170" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
-<text x="792" y="145" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">C</text>
-<line x1="105" y1="170" x2="295" y2="170" stroke="#2563EB" stroke-width="3"/>
-<polygon points="295,170 284.1946347717679,175.21958640933477 284.1946347717679,164.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="305" y1="170" x2="545" y2="170" stroke="#2563EB" stroke-width="3"/>
-<polygon points="545,170 534.1946347717678,175.21958640933477 534.1946347717678,164.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="555" y1="170" x2="795" y2="170" stroke="#2563EB" stroke-width="3"/>
-<polygon points="795,170 784.1946347717678,175.21958640933477 784.1946347717678,164.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="200" y="150" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">1</text>
-<text x="420" y="150" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">G</text>
-<text x="680" y="150" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">1</text>
-<path d="M 550 175 Q 425 330 300 175" stroke="#DC2626" stroke-width="3" fill="none"/>
-<line x1="310" y1="190" x2="300" y2="175" stroke="#DC2626" stroke-width="3"/>
-<polygon points="300,175 310.3366966205944,181.0953017131059 301.6507798041768,186.88591292405098" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<text x="420" y="275" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#DC2626" text-anchor="start" font-weight="400">-H</text>
-<text x="55" y="350" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">루프 이득 L = -GH     →     Δ = 1 - L = 1 + GH</text>
+<line x1="105" y1="170" x2="295" y2="170" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="295,170 282.8439641182389,175.8720347105016 282.8439641182389,164.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="305" y1="170" x2="545" y2="170" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="545,170 532.8439641182389,175.8720347105016 532.8439641182389,164.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="555" y1="170" x2="795" y2="170" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="795,170 782.8439641182389,175.8720347105016 782.8439641182389,164.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 550 175 Q 425 330 300 175" stroke="#DC2626" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="310" y1="190" x2="300" y2="175" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="300,175 311.6287836981687,181.85721442724414 301.85712727969894,188.37165203955735" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="180" cy="430" r="42" fill="white" stroke="#2563EB" stroke-width="3"/>
-<line x1="150" y1="400" x2="173" y2="390" stroke="#2563EB" stroke-width="3"/>
-<polygon points="173,390 165.17190849449418,399.09510766189317 161.00953771012266,389.52165485783866" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="180" y="438" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">L1</text>
+<line x1="150" y1="400" x2="173" y2="390" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="173,390 164.19339705630594,400.2319961196298 159.510729923888,389.4618617150685" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="460" cy="430" r="42" fill="white" stroke="#2563EB" stroke-width="3"/>
-<line x1="430" y1="400" x2="453" y2="390" stroke="#2563EB" stroke-width="3"/>
-<polygon points="453,390 445.1719084944942,399.09510766189317 441.00953771012263,389.52165485783866" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="460" y="438" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">L2</text>
+<line x1="430" y1="400" x2="453" y2="390" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="453,390 444.19339705630597,400.2319961196298 439.510729923888,389.4618617150685" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="740" cy="430" r="42" fill="white" stroke="#2563EB" stroke-width="3"/>
-<line x1="710" y1="400" x2="733" y2="390" stroke="#2563EB" stroke-width="3"/>
-<polygon points="733,390 725.1719084944942,399.09510766189317 721.0095377101227,389.52165485783866" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<text x="740" y="438" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">L3</text>
-<text x="45" y="530" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">서로 노드를 공유하지 않는 루프만 L1L2 같은 곱에 포함한다.</text>
+<line x1="710" y1="400" x2="733" y2="390" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="733,390 724.1933970563059,400.2319961196298 719.510729923888,389.4618617150685" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">신호흐름도: 가지 이득과 Mason의 비접촉 루프</text>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="25" text-anchor="start" font-weight="700" fill="#25344A">신호흐름도: 가지 이득과 Mason의 비접촉 루프</text>
+<text x="92" y="145" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">R</text>
+<text x="92" y="145" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">R</text>
+<text x="292" y="145" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">E</text>
+<text x="292" y="145" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">E</text>
+<text x="542" y="145" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">Y</text>
+<text x="542" y="145" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">Y</text>
+<text x="792" y="145" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">C</text>
+<text x="792" y="145" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">C</text>
+<text x="200" y="150" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">1</text>
+<text x="200" y="150" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">1</text>
+<text x="420" y="150" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">G</text>
+<text x="420" y="150" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">G</text>
+<text x="680" y="150" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">1</text>
+<text x="680" y="150" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="start" font-weight="400" fill="#25344A">1</text>
+<text x="420" y="275" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">-H</text>
+<text x="420" y="275" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#DC2626">-H</text>
+<text x="55" y="350" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">루프 이득 L = -GH     →     Δ = 1 - L = 1 + GH</text>
+<text x="55" y="350" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#25344A">루프 이득 L = -GH     →     Δ = 1 - L = 1 + GH</text>
+<text x="180" y="438" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">L1</text>
+<text x="180" y="438" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">L1</text>
+<text x="460" y="438" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">L2</text>
+<text x="460" y="438" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">L2</text>
+<text x="740" y="438" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">L3</text>
+<text x="740" y="438" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">L3</text>
+<text x="45" y="530" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">서로 노드를 공유하지 않는 루프만 L1L2 같은 곱에 포함한다.</text>
+<text x="45" y="530" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="23" text-anchor="start" font-weight="400" fill="#25344A">서로 노드를 공유하지 않는 루프만 L1L2 같은 곱에 포함한다.</text>
 </svg>

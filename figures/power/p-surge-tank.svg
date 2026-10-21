@@ -1,18 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="550" viewBox="0 0 960 550">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">서지 탱크와 수압관로</text>
 <rect x="70" y="115" width="210" height="75" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
-<text x="175" y="160" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">상류 수원</text>
-<polyline points="270,180 530,180 760,395" stroke="#2563EB" stroke-width="12" fill="none"/>
+<polyline points="270,180 530,180 760,395" stroke="#2563EB" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="480" y="75" width="80" height="180" rx="0" fill="white" stroke="#25344A" stroke-width="3"/>
 <rect x="484" y="150" width="72" height="100" rx="0" fill="#DBEAFE" stroke="none" stroke-width="2"/>
-<line x1="520" y1="250" x2="520" y2="180" stroke="#2563EB" stroke-width="12"/>
-<line x1="610" y1="95" x2="610" y2="220" stroke="#DC2626" stroke-width="3"/>
-<polygon points="610,220 604.7804135906653,209.19463477176788 615.2195864093347,209.19463477176788" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
-<line x1="640" y1="220" x2="640" y2="95" stroke="#DC2626" stroke-width="3"/>
-<polygon points="640,95 645.2195864093347,105.80536522823212 634.7804135906653,105.80536522823212" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="520" y1="250" x2="520" y2="180" stroke="#2563EB" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="610" y1="95" x2="610" y2="220" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="610,220 604.1279652894984,207.84396411823886 615.8720347105016,207.84396411823886" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="640" y1="220" x2="640" y2="95" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="640,95 645.8720347105016,107.15603588176114 634.1279652894984,107.15603588176114" stroke="#DC2626" stroke-width="1" fill="#DC2626" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="790" cy="425" r="45" fill="#E2E8F0" stroke="#25344A" stroke-width="3"/>
-<text x="790" y="433" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">수차</text>
-<text x="520" y="305" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">서지 탱크</text>
-<text x="480" y="510" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">부하 급변 → 유량 변화 → 압력 파동을 수면 변동으로 완화</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">서지 탱크와 수압관로</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">서지 탱크와 수압관로</text>
+<text x="175" y="160" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">상류 수원</text>
+<text x="175" y="160" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">상류 수원</text>
+<text x="790" y="433" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">수차</text>
+<text x="790" y="433" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">수차</text>
+<text x="520" y="305" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">서지 탱크</text>
+<text x="520" y="305" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">서지 탱크</text>
+<text x="480" y="510" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">부하 급변 → 유량 변화 → 압력 파동을 수면 변동으로 완화</text>
+<text x="480" y="510" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" text-anchor="middle" font-weight="400" fill="#25344A">부하 급변 → 유량 변화 → 압력 파동을 수면 변동으로 완화</text>
 </svg>

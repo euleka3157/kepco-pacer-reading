@@ -1,20 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">자기 경계조건: 법선 B, 접선 H</text>
 <rect x="70" y="110" width="820" height="180" rx="0" fill="#EFF6FF" stroke="#2563EB" stroke-width="1"/>
 <rect x="70" y="290" width="820" height="180" rx="0" fill="#ECFDF5" stroke="#15803D" stroke-width="1"/>
-<line x1="450" y1="430" x2="450" y2="150" stroke="#7C3AED" stroke-width="3"/>
-<polygon points="450,150 455.21958640933474,160.80536522823212 444.78041359066526,160.80536522823212" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
-<text x="470" y="165" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">법선 n</text>
-<line x1="570" y1="245" x2="800" y2="245" stroke="#2563EB" stroke-width="3"/>
-<polygon points="800,245 789.1946347717678,250.21958640933477 789.1946347717678,239.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
-<line x1="570" y1="340" x2="800" y2="340" stroke="#0D9488" stroke-width="3"/>
-<polygon points="800,340 789.1946347717678,345.21958640933474 789.1946347717678,334.78041359066526" stroke="#0D9488" stroke-width="1" fill="#0D9488"/>
-<text x="110" y="180" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">매질 1, μ1</text>
-<text x="110" y="385" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">매질 2, μ2</text>
-<text x="570" y="220" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">H1t</text>
-<text x="570" y="380" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">H2t</text>
-<text x="100" y="520" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">B1n = B2n / 자유 표면전류가 없으면 H1t = H2t</text>
-<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">자유 표면전류가 있으면 접선 H가 점프한다. 도체라는 이유만으로 표면전류 조건을 생략하지</text>
-<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400"> 않는다.</text>
+<line x1="450" y1="430" x2="450" y2="150" stroke="#7C3AED" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="450,150 455.8720347105016,162.15603588176114 444.1279652894984,162.15603588176114" stroke="#7C3AED" stroke-width="1" fill="#7C3AED" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="570" y1="245" x2="800" y2="245" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="800,245 787.8439641182389,250.8720347105016 787.8439641182389,239.1279652894984" stroke="#2563EB" stroke-width="1" fill="#2563EB" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="570" y1="340" x2="800" y2="340" stroke="#0D9488" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="800,340 787.8439641182389,345.8720347105016 787.8439641182389,334.1279652894984" stroke="#0D9488" stroke-width="1" fill="#0D9488" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">자기 경계조건: 법선 B, 접선 H</text>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">자기 경계조건: 법선 B, 접선 H</text>
+<text x="470" y="165" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">법선 n</text>
+<text x="470" y="165" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">법선 n</text>
+<text x="110" y="180" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">매질 1, μ1</text>
+<text x="110" y="180" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">매질 1, μ1</text>
+<text x="110" y="385" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">매질 2, μ2</text>
+<text x="110" y="385" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">매질 2, μ2</text>
+<text x="570" y="220" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">H1t</text>
+<text x="570" y="220" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">H1t</text>
+<text x="570" y="380" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">H2t</text>
+<text x="570" y="380" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">H2t</text>
+<text x="100" y="520" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">B1n = B2n / 자유 표면전류가 없으면 H1t = H2t</text>
+<text x="100" y="520" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#25344A">B1n = B2n / 자유 표면전류가 없으면 H1t = H2t</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">자유 표면전류가 있으면 접선 H가 점프한다. 도체라는 이유만으로 표면전류 조건을 생략하지</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B">자유 표면전류가 있으면 접선 H가 점프한다. 도체라는 이유만으로 표면전류 조건을 생략하지</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true"> 않는다.</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="start" font-weight="400" fill="#64748B"> 않는다.</text>
 </svg>

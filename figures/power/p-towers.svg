@@ -1,47 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
 <rect width="100%" height="100%" fill="white"/>
-<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">철탑 형태와 오프셋의 개념</text>
-<polyline points="62.5,350 95,130 127.5,350" stroke="#64748B" stroke-width="3" fill="none"/>
-<line x1="69.0" y1="306.0" x2="121.0" y2="306.0" stroke="#64748B" stroke-width="2"/>
-<line x1="75.5" y1="262.0" x2="114.5" y2="262.0" stroke="#64748B" stroke-width="2"/>
-<line x1="82.0" y1="218.0" x2="108.0" y2="218.0" stroke="#64748B" stroke-width="2"/>
-<line x1="88.5" y1="174.0" x2="101.5" y2="174.0" stroke="#64748B" stroke-width="2"/>
-<line x1="46.25" y1="224.60000000000002" x2="143.75" y2="224.60000000000002" stroke="#64748B" stroke-width="3"/>
-<line x1="56.0" y1="180.6" x2="134.0" y2="180.6" stroke="#64748B" stroke-width="3"/>
-<text x="95" y="400" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">사각</text>
+<polyline points="62.5,350 95,130 127.5,350" stroke="#64748B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="69.0" y1="306.0" x2="121.0" y2="306.0" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="75.5" y1="262.0" x2="114.5" y2="262.0" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="82.0" y1="218.0" x2="108.0" y2="218.0" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="88.5" y1="174.0" x2="101.5" y2="174.0" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="46.25" y1="224.60000000000002" x2="143.75" y2="224.60000000000002" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="56.0" y1="180.6" x2="134.0" y2="180.6" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="206" y="190" width="84" height="160" rx="0" fill="none" stroke="#64748B" stroke-width="3"/>
-<line x1="206" y1="190" x2="290" y2="230" stroke="#64748B" stroke-width="2"/>
-<line x1="290" y1="190" x2="206" y2="230" stroke="#64748B" stroke-width="2"/>
-<line x1="206" y1="230" x2="290" y2="270" stroke="#64748B" stroke-width="2"/>
-<line x1="290" y1="230" x2="206" y2="270" stroke="#64748B" stroke-width="2"/>
-<line x1="206" y1="270" x2="290" y2="310" stroke="#64748B" stroke-width="2"/>
-<line x1="290" y1="270" x2="206" y2="310" stroke="#64748B" stroke-width="2"/>
-<line x1="206" y1="310" x2="290" y2="350" stroke="#64748B" stroke-width="2"/>
-<line x1="290" y1="310" x2="206" y2="350" stroke="#64748B" stroke-width="2"/>
-<polyline points="183,210 183,165 248,190 313,165 313,210" stroke="#64748B" stroke-width="3" fill="none"/>
-<text x="248" y="400" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">방형</text>
-<line x1="351" y1="350" x2="351" y2="145" stroke="#64748B" stroke-width="6"/>
-<line x1="451" y1="350" x2="451" y2="145" stroke="#64748B" stroke-width="6"/>
-<line x1="336" y1="145" x2="466" y2="145" stroke="#64748B" stroke-width="6"/>
-<text x="401" y="400" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">문형</text>
-<polyline points="519,350 534,245 494,190 614,190 574,245 589,350" stroke="#64748B" stroke-width="3" fill="none"/>
-<polyline points="484,200 509,145 554,185 599,145 624,200" stroke="#64748B" stroke-width="3" fill="none"/>
-<line x1="529" y1="260" x2="579" y2="260" stroke="#64748B" stroke-width="2"/>
-<line x1="529" y1="290" x2="579" y2="290" stroke="#64748B" stroke-width="2"/>
-<line x1="529" y1="320" x2="579" y2="320" stroke="#64748B" stroke-width="2"/>
-<text x="554" y="400" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">우두형</text>
-<polyline points="672,350 687,245 647,190 767,190 727,245 742,350" stroke="#64748B" stroke-width="3" fill="none"/>
-<polyline points="647,190 662,150 752,150 767,190" stroke="#64748B" stroke-width="3" fill="none"/>
-<line x1="682" y1="260" x2="732" y2="260" stroke="#64748B" stroke-width="2"/>
-<line x1="682" y1="290" x2="732" y2="290" stroke="#64748B" stroke-width="2"/>
-<line x1="682" y1="320" x2="732" y2="320" stroke="#64748B" stroke-width="2"/>
-<text x="707" y="400" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">회전형</text>
-<line x1="827" y1="350" x2="827" y2="155" stroke="#64748B" stroke-width="7"/>
-<line x1="893" y1="350" x2="893" y2="155" stroke="#64748B" stroke-width="7"/>
-<line x1="795" y1="155" x2="925" y2="155" stroke="#64748B" stroke-width="6"/>
-<line x1="827" y1="180" x2="893" y2="180" stroke="#64748B" stroke-width="4"/>
-<line x1="827" y1="245" x2="893" y2="245" stroke="#64748B" stroke-width="4"/>
-<line x1="827" y1="310" x2="893" y2="310" stroke="#64748B" stroke-width="4"/>
-<text x="860" y="400" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">MC형</text>
-<text x="480" y="480" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">외형 분류를 읽는 개념도 · 실제 치수와 상 배치는 설계별로 다름</text>
+<line x1="206" y1="190" x2="290" y2="230" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="290" y1="190" x2="206" y2="230" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="206" y1="230" x2="290" y2="270" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="290" y1="230" x2="206" y2="270" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="206" y1="270" x2="290" y2="310" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="290" y1="270" x2="206" y2="310" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="206" y1="310" x2="290" y2="350" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="290" y1="310" x2="206" y2="350" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="183,210 183,165 248,190 313,165 313,210" stroke="#64748B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="351" y1="350" x2="351" y2="145" stroke="#64748B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="451" y1="350" x2="451" y2="145" stroke="#64748B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="336" y1="145" x2="466" y2="145" stroke="#64748B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="519,350 534,245 494,190 614,190 574,245 589,350" stroke="#64748B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="484,200 509,145 554,185 599,145 624,200" stroke="#64748B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="529" y1="260" x2="579" y2="260" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="529" y1="290" x2="579" y2="290" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="529" y1="320" x2="579" y2="320" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="672,350 687,245 647,190 767,190 727,245 742,350" stroke="#64748B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="647,190 662,150 752,150 767,190" stroke="#64748B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="682" y1="260" x2="732" y2="260" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="682" y1="290" x2="732" y2="290" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="682" y1="320" x2="732" y2="320" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="827" y1="350" x2="827" y2="155" stroke="#64748B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="893" y1="350" x2="893" y2="155" stroke="#64748B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="795" y1="155" x2="925" y2="155" stroke="#64748B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="827" y1="180" x2="893" y2="180" stroke="#64748B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="827" y1="245" x2="893" y2="245" stroke="#64748B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="827" y1="310" x2="893" y2="310" stroke="#64748B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">철탑 형태와 오프셋의 개념</text>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#25344A">철탑 형태와 오프셋의 개념</text>
+<text x="95" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">사각</text>
+<text x="95" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">사각</text>
+<text x="248" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">방형</text>
+<text x="248" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">방형</text>
+<text x="401" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">문형</text>
+<text x="401" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">문형</text>
+<text x="554" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">우두형</text>
+<text x="554" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">우두형</text>
+<text x="707" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">회전형</text>
+<text x="707" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">회전형</text>
+<text x="860" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">MC형</text>
+<text x="860" y="400" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" text-anchor="middle" font-weight="400" fill="#25344A">MC형</text>
+<text x="480" y="480" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="white" stroke="white" stroke-width="6" stroke-linejoin="round" aria-hidden="true">외형 분류를 읽는 개념도 · 실제 치수와 상 배치는 설계별로 다름</text>
+<text x="480" y="480" font-family="Noto, Noto Sans KR, Noto Sans CJK KR, Source Han Sans K, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" text-anchor="middle" font-weight="400" fill="#25344A">외형 분류를 읽는 개념도 · 실제 치수와 상 배치는 설계별로 다름</text>
 </svg>
