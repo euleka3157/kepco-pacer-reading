@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">저항과 누설: 길이·면적·반지름을 확인한다</text>
+<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1"/>
+<rect x="80" y="180" width="280" height="150" rx="0" fill="#E2E8F0" stroke="#64748B" stroke-width="2"/>
+<ellipse cx="360" cy="255" rx="40" ry="75" fill="#CBD5E1" stroke="#64748B" stroke-width="3"/>
+<line x1="80" y1="390" x2="360" y2="390" stroke="#64748B" stroke-width="2"/>
+<polygon points="360,390 352.79642318117857,393.4797242728898 352.79642318117857,386.5202757271102" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<line x1="360" y1="390" x2="80" y2="390" stroke="#64748B" stroke-width="2"/>
+<polygon points="80,390 87.20357681882142,386.5202757271102 87.20357681882142,393.4797242728898" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<text x="220.0" y="380.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">길이 ℓ</text>
+<line x1="115" y1="255" x2="325" y2="255" stroke="#2563EB" stroke-width="3"/>
+<polygon points="325,255 314.1946347717679,260.21958640933474 314.1946347717679,249.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="145" y="150" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">전류</text>
+<text x="365" y="265" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">단면 S</text>
+<text x="70" y="450" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">R = ρℓ/S</text>
+<circle cx="730" cy="245" r="130" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+<circle cx="730" cy="245" r="55" fill="#E2E8F0" stroke="#64748B" stroke-width="3"/>
+<line x1="795.0" y1="245.0" x2="850.0" y2="245.0" stroke="#DC2626" stroke-width="3"/>
+<polygon points="850.0,245.0 839.1946347717678,250.21958640933477 839.1946347717678,239.78041359066523" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="762.5" y1="301.29165124598853" x2="790.0" y2="348.92304845413264" stroke="#DC2626" stroke-width="3"/>
+<polygon points="790.0,348.92304845413264 780.077022958152,342.17512087398194 789.1176118136159,336.9555344646472" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="697.5" y1="301.29165124598853" x2="670.0" y2="348.92304845413264" stroke="#DC2626" stroke-width="3"/>
+<polygon points="670.0,348.92304845413264 670.8823881863841,336.9555344646472 679.922977041848,342.175120873982" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="665.0" y1="245.0" x2="610.0" y2="245.00000000000003" stroke="#DC2626" stroke-width="3"/>
+<polygon points="610.0,245.00000000000003 620.8053652282322,239.78041359066526 620.8053652282322,250.2195864093348" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="697.5" y1="188.7083487540115" x2="670.0" y2="141.0769515458674" stroke="#DC2626" stroke-width="3"/>
+<polygon points="670.0,141.0769515458674 679.922977041848,147.82487912601806 670.8823881863841,153.04446553535283" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="762.5" y1="188.7083487540115" x2="790.0" y2="141.07695154586736" stroke="#DC2626" stroke-width="3"/>
+<polygon points="790.0,141.07695154586736 789.1176118136159,153.0444655353528 780.077022958152,147.82487912601803" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="565" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">구형·동축: 누설은 반지름 방향</text>
+<text x="550" y="445" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">같은 전극과 균일 매질이면 RC = ρε</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">구·반구·동축·평행선·대지의 누설 저항은 해당 정전용량과 같은 전극 기하를 사용해 대응시</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">킨다.</text>
+</svg>

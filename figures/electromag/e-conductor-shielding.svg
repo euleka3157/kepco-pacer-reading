@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">도체 속 공동과 차폐: 표면에 전하가 재배치된다</text>
+<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1"/>
+<circle cx="240" cy="260" r="150" fill="#E2E8F0" stroke="#64748B" stroke-width="3"/>
+<circle cx="240" cy="260" r="90" fill="white" stroke="#64748B" stroke-width="3"/>
+<text x="190" y="265" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">빈 공동</text>
+<line x1="55" y1="90" x2="430" y2="90" stroke="#2563EB" stroke-width="3"/>
+<polygon points="430,90 419.1946347717679,95.21958640933477 419.1946347717679,84.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="135" y="70" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">외부 정전계</text>
+<text x="75" y="455" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">내부에 전하 없는 닫힌 도체 공동</text>
+<text x="75" y="490" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">정전평형: 공동의 E=0</text>
+<circle cx="720" cy="260" r="150" fill="#E2E8F0" stroke="#64748B" stroke-width="3"/>
+<circle cx="720" cy="260" r="90" fill="white" stroke="#64748B" stroke-width="3"/>
+<circle cx="720" cy="260" r="20" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
+<text x="720" y="268" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="26" fill="#DC2626" text-anchor="middle" font-weight="700">+</text>
+<text x="797.0" y="268.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="start" font-weight="400">-</text>
+<text x="772.6898628384835" y="326.68986283848346" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="start" font-weight="400">-</text>
+<text x="714.0" y="351.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="start" font-weight="400">-</text>
+<text x="655.3101371615165" y="326.68986283848346" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="start" font-weight="400">-</text>
+<text x="631.0" y="268.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="start" font-weight="400">-</text>
+<text x="655.3101371615165" y="209.31013716151656" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="start" font-weight="400">-</text>
+<text x="714.0" y="185.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="start" font-weight="400">-</text>
+<text x="772.6898628384835" y="209.31013716151654" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="start" font-weight="400">-</text>
+<text x="545" y="455" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">공동 안에 +q가 있으면</text>
+<text x="545" y="490" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">안쪽 표면에 총 -q 유도</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">E=0은 금속 내부의 정전평형 조건이다. 공동 안에 실제 전하가 있으면 공동의 전계까지 0인 </text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">것은 아니다.</text>
+</svg>

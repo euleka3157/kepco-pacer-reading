@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">선로의 전압 강하: 벡터 합과 크기의 차</text>
+<line x1="120" y1="360" x2="470" y2="360" stroke="#2563EB" stroke-width="5"/>
+<polygon points="470,360 459.1946347717679,365.21958640933474 459.1946347717679,354.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="470" y1="360" x2="620" y2="435" stroke="#15803D" stroke-width="4"/>
+<polygon points="620,435 608.0011175260429,434.83623377587475 612.6696575363255,425.49915375530946" stroke="#15803D" stroke-width="1" fill="#15803D"/>
+<line x1="620" y1="435" x2="730" y2="215" stroke="#7C3AED" stroke-width="4"/>
+<polygon points="730,215 729.8362337758747,226.99888247395714 720.4991537553094,222.3303424636745" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<line x1="120" y1="360" x2="730" y2="215" stroke="#DC2626" stroke-width="4"/>
+<polygon points="730,215 720.694637253395,222.5769534876555 718.2804621984594,212.42076877378898" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="285" y="395" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#2563EB" text-anchor="start" font-weight="400">Vr</text>
+<text x="535" y="420" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#15803D" text-anchor="start" font-weight="400">RI</text>
+<text x="720" y="340" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#7C3AED" text-anchor="start" font-weight="400">jXI</text>
+<text x="430" y="240" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#DC2626" text-anchor="start" font-weight="400">Vs = Vr + RI + jXI</text>
+<line x1="120" y1="360" x2="325" y2="465" stroke="#64748B" stroke-width="2"/>
+<polygon points="325,465 313.0032728793562,464.71975297894676 317.76223986811874,455.428436477077" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<text x="350" y="475" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">I (지상)</text>
+<text x="480" y="75" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">임피던스 전압강하는 벡터 · 전압강하율은 전압 크기의 비교</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="580" viewBox="0 0 960 580">
+<rect width="100%" height="100%" fill="white"/>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">2전력계: 전압코일과 전류코일 사이의 각도</text>
+<rect x="35" y="65" width="440" height="425" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="51" y="94" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">W2: Vab와 Ia</text>
+<line x1="175" y1="320" x2="405" y2="320" stroke="#64748B" stroke-width="2"/>
+<polygon points="405,320 394.1946347717679,325.21958640933474 394.1946347717679,314.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<line x1="175" y1="320" x2="175" y2="130" stroke="#64748B" stroke-width="2"/>
+<polygon points="175,130 180.21958640933477,140.80536522823212 169.78041359066523,140.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<text x="400" y="352" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">Re</text>
+<text x="165" y="118" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">Im</text>
+<line x1="175" y1="320" x2="356.8653347947321" y2="215.0" stroke="#7C3AED" stroke-width="3"/>
+<polygon points="356.8653347947321,215.0 350.1174072145814,224.92297704184796 344.8978208052467,215.88238818638416" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<text x="366.8653347947321" y="207.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#7C3AED" text-anchor="start" font-weight="400">Vab</text>
+<line x1="175" y1="320" x2="315.95389311788625" y2="371.3030214988503" stroke="#2563EB" stroke-width="3"/>
+<polygon points="315.95389311788625,371.3030214988503 304.0149674561985,372.5121757672104 307.5853748398413,362.70256210239785" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="325.95389311788625" y="363.3030214988503" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="start" font-weight="400">Ia</text>
+<path d="M 245 345 A 75 75 0 0 0 240 282" stroke="#B45309" stroke-width="3" fill="none"/>
+<text x="55" y="425" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">W2 = V선 I선 cos(30°+φ)</text>
+<rect x="505" y="65" width="440" height="425" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="521" y="94" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">W1: Vcb와 Ic</text>
+<line x1="645" y1="320" x2="875" y2="320" stroke="#64748B" stroke-width="2"/>
+<polygon points="875,320 864.1946347717678,325.21958640933474 864.1946347717678,314.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<line x1="645" y1="320" x2="645" y2="130" stroke="#64748B" stroke-width="2"/>
+<polygon points="645,130 650.2195864093347,140.80536522823212 639.7804135906653,140.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<text x="870" y="352" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">Re</text>
+<line x1="645" y1="320" x2="645.0" y2="125.0" stroke="#15803D" stroke-width="3"/>
+<polygon points="645.0,125.0 650.2195864093347,135.80536522823212 639.7804135906653,135.80536522823212" stroke="#15803D" stroke-width="1" fill="#15803D"/>
+<text x="655.0" y="117.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#15803D" text-anchor="start" font-weight="400">Vcb</text>
+<line x1="645" y1="320" x2="617.2162915732912" y2="162.43075951804673" stroke="#DC2626" stroke-width="3"/>
+<polygon points="617.2162915732912,162.43075951804673 624.2329127176293,172.1655953007822 613.9523343907692,173.9783386370943" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="627.2162915732912" y="154.43075951804673" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#DC2626" text-anchor="start" font-weight="400">Ic</text>
+<text x="590" y="130" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#64748B" text-anchor="start" font-weight="400">Im</text>
+<text x="525" y="425" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">W1 = V선 I선 cos(30°−φ)</text>
+<text x="50" y="535" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">예시 φ = 20° 지상 부하 — W1 각도 10°, W2 각도 50°</text>
+</svg>

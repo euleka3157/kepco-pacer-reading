@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">구형·반구형 접지전극: 전류가 퍼지는 넓이</text>
+<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1"/>
+<circle cx="240" cy="260" r="60" fill="#E2E8F0" stroke="#64748B" stroke-width="3"/>
+<circle cx="240" cy="260" r="155" fill="none" stroke="#2563EB" stroke-width="2"/>
+<line x1="310.0" y1="260.0" x2="385.0" y2="260.0" stroke="#DC2626" stroke-width="3"/>
+<polygon points="385.0,260.0 374.1946347717679,265.21958640933474 374.1946347717679,254.78041359066523" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="289.49747468305833" y1="309.49747468305833" x2="342.5304832720494" y2="362.5304832720494" stroke="#DC2626" stroke-width="3"/>
+<polygon points="342.5304832720494,362.5304832720494 331.1991313009394,358.58074119099894 338.58074119099894,351.1991313009394" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="240.0" y1="330.0" x2="240.0" y2="405.0" stroke="#DC2626" stroke-width="3"/>
+<polygon points="240.0,405.0 234.78041359066523,394.1946347717679 245.21958640933477,394.1946347717679" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="190.50252531694167" y1="309.49747468305833" x2="137.46951672795063" y2="362.5304832720494" stroke="#DC2626" stroke-width="3"/>
+<polygon points="137.46951672795063,362.5304832720494 141.41925880900112,351.1991313009394 148.80086869906066,358.58074119099894" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="170.0" y1="260.0" x2="95.0" y2="260.0" stroke="#DC2626" stroke-width="3"/>
+<polygon points="95.0,260.0 105.80536522823212,254.78041359066523 105.80536522823212,265.21958640933474" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="190.50252531694167" y1="210.50252531694167" x2="137.46951672795058" y2="157.46951672795063" stroke="#DC2626" stroke-width="3"/>
+<polygon points="137.46951672795058,157.46951672795063 148.8008686990606,161.41925880900112 141.4192588090011,168.80086869906066" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="240.0" y1="190.0" x2="239.99999999999997" y2="115.0" stroke="#DC2626" stroke-width="3"/>
+<polygon points="239.99999999999997,115.0 245.21958640933474,125.80536522823212 234.7804135906652,125.80536522823212" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="289.49747468305833" y1="210.50252531694167" x2="342.53048327204937" y2="157.46951672795058" stroke="#DC2626" stroke-width="3"/>
+<polygon points="342.53048327204937,157.46951672795058 338.5807411909989,168.8008686990606 331.19913130093937,161.4192588090011" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="55" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">무한 균일 매질 속 구형 전극</text>
+<text x="55" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">전류 통과 면적 4πr²</text>
+<line x1="535" y1="250" x2="910" y2="250" stroke="#64748B" stroke-width="5"/>
+<path d="M 660 250 A 60 60 0 0 0 780 250" stroke="#64748B" stroke-width="3" fill="#E2E8F0"/>
+<path d="M 565 250 A 155 155 0 0 0 875 250" stroke="#2563EB" stroke-width="2" fill="none"/>
+<line x1="780.6217782649107" y1="285.0" x2="845.5736835487436" y2="322.5" stroke="#DC2626" stroke-width="3"/>
+<polygon points="845.5736835487436,322.5 833.6061695592582,321.61761181361584 838.825755968593,312.57702295815204" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="755.0" y1="310.6217782649107" x2="792.5" y2="375.5736835487436" stroke="#DC2626" stroke-width="3"/>
+<polygon points="792.5,375.5736835487436 782.577022958152,368.8257559685929 791.6176118136159,363.60616955925815" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="720.0" y1="320.0" x2="720.0" y2="395.0" stroke="#DC2626" stroke-width="3"/>
+<polygon points="720.0,395.0 714.7804135906653,384.1946347717679 725.2195864093347,384.1946347717679" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="685.0" y1="310.6217782649107" x2="647.5" y2="375.5736835487436" stroke="#DC2626" stroke-width="3"/>
+<polygon points="647.5,375.5736835487436 648.3823881863841,363.60616955925815 657.422977041848,368.8257559685929" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="659.3782217350893" y1="285.0" x2="594.4263164512564" y2="322.5" stroke="#DC2626" stroke-width="3"/>
+<polygon points="594.4263164512564,322.5 601.174244031407,312.57702295815204 606.3938304407418,321.61761181361584" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="535" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">균일 반공간의 반구형 전극</text>
+<text x="550" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">전류 통과 면적 2πr²</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">반구형 전극의 지표면 밖은 전류가 흐르지 않는 이상화다. 같은 반지름과 고유저항에서 반구</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400"> 저항은 구 저항의 2배다.</text>
+</svg>

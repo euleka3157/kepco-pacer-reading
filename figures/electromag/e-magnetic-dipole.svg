@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">자극의 모형과 실제 자기력선의 닫힌 경로</text>
+<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1"/>
+<rect x="100" y="225" width="135" height="90" rx="0" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<rect x="235" y="225" width="135" height="90" rx="0" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+<text x="155" y="280" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="26" fill="#2563EB" text-anchor="start" font-weight="400">S</text>
+<text x="290" y="280" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="26" fill="#DC2626" text-anchor="start" font-weight="400">N</text>
+<path d="M 340 225 C 420 130 45 130 130 225" stroke="#2563EB" stroke-width="3" fill="none"/>
+<line x1="250" y1="153.75" x2="210" y2="153.75" stroke="#2563EB" stroke-width="2"/>
+<polygon points="210,153.75 220.80536522823212,148.53041359066523 220.80536522823212,158.96958640933477" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<path d="M 340 225 C 420 85 45 85 130 225" stroke="#2563EB" stroke-width="3" fill="none"/>
+<line x1="250" y1="120.0" x2="210" y2="120.0" stroke="#2563EB" stroke-width="2"/>
+<polygon points="210,120.0 220.80536522823212,114.78041359066523 220.80536522823212,125.21958640933477" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="140" y1="270" x2="325" y2="270" stroke="#7C3AED" stroke-width="3"/>
+<polygon points="325,270 314.1946347717679,275.21958640933474 314.1946347717679,264.78041359066526" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<text x="65" y="420" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">바깥 N→S / 자석 내부 S→N</text>
+<text x="60" y="455" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">B는 닫힘: 단독 자기 단극자 없음</text>
+<circle cx="620" cy="260" r="20" fill="#EFF6FF" stroke="#2563EB" stroke-width="3"/>
+<text x="620" y="268" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="26" fill="#2563EB" text-anchor="middle" font-weight="700">-</text>
+<circle cx="825" cy="260" r="20" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
+<text x="825" y="268" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="26" fill="#DC2626" text-anchor="middle" font-weight="700">+</text>
+<line x1="645" y1="260" x2="800" y2="260" stroke="#7C3AED" stroke-width="3"/>
+<polygon points="800,260 789.1946347717678,265.21958640933474 789.1946347717678,254.78041359066523" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<text x="660" y="240" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">자기모멘트</text>
+<text x="550" y="110" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">가상 자극 모형: 자석을 두 극으로</text>
+<text x="550" y="420" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">자위·자극 힘의 계산 모형</text>
+<text x="550" y="455" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">실제 고립 단극자의 존재 주장이 아님</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">자극 모형의 단위 관례와 전류고리의 자기모멘트 m[A·m²]를 구분한다.</text>
+</svg>

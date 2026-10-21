@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="100%" height="100%" fill="white"/>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">종속원이 있는 회로: 제어 관계까지 유지</text>
+<rect x="20" y="65" width="450" height="390" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="36" y="94" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">마름모: 제어값에 의해 정해지는 전원</text>
+<polyline points="90,190 144.0,190.0 164.25,200.0 184.5,180.0 204.75,200.0 225.0,180.0 245.25,200.0 265.5,180.0 285.75,200.0 306.0,190.0 360,190" stroke="#25344A" stroke-width="3" fill="none"/>
+<text x="225.0" y="166.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">R</text>
+<line x1="90" y1="190" x2="90" y2="263" stroke="#25344A" stroke-width="3"/>
+<circle cx="90" cy="290" r="27" fill="white" stroke="#25344A" stroke-width="3"/>
+<text x="90" y="285" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">+</text>
+<text x="90" y="309" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">−</text>
+<text x="48" y="297" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">E</text>
+<line x1="360" y1="190" x2="360" y2="242" stroke="#25344A" stroke-width="3"/>
+<polygon points="360,242 392,280 360,318 328,280" stroke="#2563EB" stroke-width="3" fill="white"/>
+<line x1="360" y1="318" x2="360" y2="390" stroke="#25344A" stroke-width="3"/>
+<line x1="90" y1="317" x2="90" y2="390" stroke="#25344A" stroke-width="3"/>
+<line x1="90" y1="390" x2="360" y2="390" stroke="#25344A" stroke-width="3"/>
+<text x="360" y="270" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="400">+</text>
+<text x="360" y="298" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="400">−</text>
+<text x="215" y="255" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">v</text>
+<text x="140" y="235" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">+</text>
+<text x="295" y="235" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">−</text>
+<text x="400" y="287" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">μv</text>
+<line x1="110" y1="135" x2="200" y2="135" stroke="#2563EB" stroke-width="3"/>
+<polygon points="200,135 189.19463477176788,140.21958640933477 189.19463477176788,129.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="215" y="141" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">i</text>
+<rect x="520" y="105" width="390" height="105" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="715.0" y="149.76" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">독립원을 0으로</text>
+<text x="715.0" y="179.76" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">종속원 관계는 유지</text>
+<rect x="520" y="250" width="390" height="105" rx="10" fill="#EFF6FF" stroke="#15803D" stroke-width="2"/>
+<text x="715.0" y="294.76" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#15803D" text-anchor="middle" font-weight="700">등가저항이 필요하면</text>
+<text x="715.0" y="324.76" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#15803D" text-anchor="middle" font-weight="700">시험원 Vt·It를 연결</text>
+<text x="565" y="420" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">R등가 = Vt / It</text>
+<text x="65" y="505" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">종속 전압원의 값이 0인지 여부는 제어변수 v를 풀어서 결정한다</text>
+</svg>

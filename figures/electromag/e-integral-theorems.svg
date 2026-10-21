@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">가우스 정리와 스토크스 정리: 경계와 내부의 대응</text>
+<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1"/>
+<circle cx="240" cy="270" r="100" fill="#EFF6FF" stroke="#2563EB" stroke-width="3"/>
+<circle cx="240" cy="270" r="20" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
+<text x="240" y="278" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="26" fill="#DC2626" text-anchor="middle" font-weight="700">+</text>
+<line x1="350.0" y1="270.0" x2="390.0" y2="270.0" stroke="#2563EB" stroke-width="3"/>
+<polygon points="390.0,270.0 379.1946347717679,275.21958640933474 379.1946347717679,264.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="317.78174593052023" y1="347.78174593052023" x2="346.06601717798213" y2="376.06601717798213" stroke="#2563EB" stroke-width="3"/>
+<polygon points="346.06601717798213,376.06601717798213 334.73466520687214,372.11627509693164 342.11627509693164,364.73466520687214" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="240.0" y1="380.0" x2="240.0" y2="420.0" stroke="#2563EB" stroke-width="3"/>
+<polygon points="240.0,420.0 234.78041359066523,409.1946347717679 245.21958640933477,409.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="162.21825406947977" y1="347.78174593052023" x2="133.93398282201787" y2="376.06601717798213" stroke="#2563EB" stroke-width="3"/>
+<polygon points="133.93398282201787,376.06601717798213 137.88372490306838,364.73466520687214 145.2653347931279,372.11627509693164" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="130.0" y1="270.0" x2="90.0" y2="270.0" stroke="#2563EB" stroke-width="3"/>
+<polygon points="90.0,270.0 100.80536522823212,264.78041359066526 100.80536522823212,275.21958640933474" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="162.21825406947977" y1="192.21825406947977" x2="133.93398282201787" y2="163.93398282201787" stroke="#2563EB" stroke-width="3"/>
+<polygon points="133.93398282201787,163.93398282201787 145.2653347931279,167.88372490306838 137.88372490306838,175.2653347931279" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="239.99999999999997" y1="160.0" x2="239.99999999999997" y2="120.0" stroke="#2563EB" stroke-width="3"/>
+<polygon points="239.99999999999997,120.0 245.21958640933474,130.80536522823212 234.7804135906652,130.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="317.7817459305202" y1="192.21825406947977" x2="346.0660171779821" y2="163.93398282201787" stroke="#2563EB" stroke-width="3"/>
+<polygon points="346.0660171779821,163.93398282201787 342.1162750969316,175.2653347931279 334.7346652068721,167.88372490306838" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="70" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">닫힌 면 S · 안의 부피 V</text>
+<text x="68" y="475" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">∫(닫힌면) A·n dS = ∫∫∫ div A dV</text>
+<ellipse cx="720" cy="285" rx="160" ry="65" fill="#ECFDF5" stroke="#15803D" stroke-width="3"/>
+<line x1="720" y1="285" x2="720" y2="130" stroke="#7C3AED" stroke-width="3"/>
+<polygon points="720,130 725.2195864093347,140.80536522823212 714.7804135906653,140.80536522823212" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<line x1="690" y1="350" x2="750" y2="350" stroke="#15803D" stroke-width="3"/>
+<polygon points="750,350 739.1946347717678,355.21958640933474 739.1946347717678,344.78041359066526" stroke="#15803D" stroke-width="1" fill="#15803D"/>
+<text x="840" y="370" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">C</text>
+<text x="740" y="150" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">양의 법선 n</text>
+<text x="560" y="410" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">경계 C의 방향 ↔ 오른손 법선</text>
+<text x="555" y="455" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">∮ A·dl = ∬ curl A·n dS</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">닫힌 면은 바깥 법선, 열린 면의 경계 순환은 오른손 방향으로 일관되게 정한다.</text>
+</svg>

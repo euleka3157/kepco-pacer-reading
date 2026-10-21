@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">접지 구의 영상전하: 중심 기준 거리</text>
+<circle cx="320" cy="270" r="160" fill="#E2E8F0" stroke="#64748B" stroke-width="3"/>
+<line x1="210" y1="390" x2="210" y2="402" stroke="#25344A" stroke-width="3"/>
+<line x1="193.0" y1="402" x2="227.0" y2="402" stroke="#25344A" stroke-width="3"/>
+<line x1="199.0" y1="410" x2="221.0" y2="410" stroke="#25344A" stroke-width="3"/>
+<line x1="205.0" y1="418" x2="215.0" y2="418" stroke="#25344A" stroke-width="3"/>
+<circle cx="320" cy="270" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
+<text x="320" y="256" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">O</text>
+<circle cx="740" cy="270" r="20" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
+<text x="740" y="278" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="26" fill="#DC2626" text-anchor="middle" font-weight="700">+</text>
+<circle cx="380" cy="270" r="20" fill="#EFF6FF" stroke="#2563EB" stroke-width="3"/>
+<text x="380" y="278" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="26" fill="#2563EB" text-anchor="middle" font-weight="700">-</text>
+<line x1="320" y1="270" x2="740" y2="270" stroke="#64748B" stroke-width="2" stroke-dasharray="5 5"/>
+<line x1="320" y1="270" x2="320" y2="110" stroke="#2563EB" stroke-width="3"/>
+<polygon points="320,110 325.21958640933474,120.80536522823212 314.78041359066526,120.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="335" y="185" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">a</text>
+<line x1="320" y1="445" x2="740" y2="445" stroke="#64748B" stroke-width="2"/>
+<polygon points="740,445 732.7964231811786,448.4797242728898 732.7964231811786,441.5202757271102" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<line x1="740" y1="445" x2="320" y2="445" stroke="#64748B" stroke-width="2"/>
+<polygon points="320,445 327.20357681882143,441.5202757271102 327.20357681882143,448.4797242728898" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<text x="530.0" y="435.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">d &gt; a</text>
+<line x1="320" y1="365" x2="380" y2="365" stroke="#64748B" stroke-width="2"/>
+<polygon points="380,365 372.79642318117857,368.4797242728898 372.79642318117857,361.5202757271102" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<line x1="380" y1="365" x2="320" y2="365" stroke="#64748B" stroke-width="2"/>
+<polygon points="320,365 327.20357681882143,361.5202757271102 327.20357681882143,368.4797242728898" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<text x="350.0" y="355.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">b</text>
+<text x="550" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">q′ = -(a/d)q</text>
+<text x="550" y="140" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">b = a²/d &lt; a</text>
+<text x="550" y="350" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">q′는 도체 안의 가상 전하</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">구 표면의 전위가 0이 되도록 크기와 위치를 함께 정한다. 평면 영상처럼 같은 거리·같은 크</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">기가 아니다.</text>
+</svg>

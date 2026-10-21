@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">열전효과: 무엇을 넣고 무엇을 얻는가</text>
+<path d="M 90 230 Q 190 110 290 230" stroke="#DC2626" stroke-width="5" fill="none"/>
+<path d="M 290 230 Q 190 350 90 230" stroke="#2563EB" stroke-width="5" fill="none"/>
+<circle cx="90" cy="230" r="12" fill="#B45309" stroke="#B45309" stroke-width="3"/>
+<circle cx="290" cy="230" r="12" fill="#0D9488" stroke="#0D9488" stroke-width="3"/>
+<path d="M 400 230 Q 500 110 600 230" stroke="#DC2626" stroke-width="5" fill="none"/>
+<path d="M 600 230 Q 500 350 400 230" stroke="#DC2626" stroke-width="5" fill="none"/>
+<circle cx="400" cy="230" r="12" fill="#B45309" stroke="#B45309" stroke-width="3"/>
+<circle cx="600" cy="230" r="12" fill="#0D9488" stroke="#0D9488" stroke-width="3"/>
+<path d="M 710 230 Q 810 110 910 230" stroke="#DC2626" stroke-width="5" fill="none"/>
+<path d="M 910 230 Q 810 350 710 230" stroke="#2563EB" stroke-width="5" fill="none"/>
+<circle cx="710" cy="230" r="12" fill="#B45309" stroke="#B45309" stroke-width="3"/>
+<circle cx="910" cy="230" r="12" fill="#0D9488" stroke="#0D9488" stroke-width="3"/>
+<text x="55" y="85" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">제벡: 두 금속, 온도차</text>
+<text x="65" y="370" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">ΔT → 기전력</text>
+<text x="365" y="85" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">톰슨: 한 금속, 온도기울기</text>
+<text x="365" y="370" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">전류 + 온도기울기 → 열</text>
+<text x="675" y="85" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">펠티에: 두 금속의 접합</text>
+<text x="675" y="370" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">전류 → 흡열·발열</text>
+<line x1="745" y1="330" x2="865" y2="330" stroke="#7C3AED" stroke-width="3"/>
+<polygon points="865,330 854.1946347717678,335.21958640933474 854.1946347717678,324.78041359066526" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<text x="675" y="410" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">전류 반전 → 열 역할 반전</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">색은 재료를 구분한다. 접합의 고온·저온 또는 흡열·발열 방향은 재료 조합과 전류 방향에 </text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">의존한다.</text>
+</svg>

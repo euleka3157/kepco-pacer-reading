@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+<rect width="100%" height="100%" fill="white"/>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">개루프와 폐루프: 오차·조작량·제어량</text>
+<text x="40" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">개루프</text>
+<line x1="70" y1="155" x2="230" y2="155" stroke="#2563EB" stroke-width="3"/>
+<polygon points="230,155 219.19463477176788,160.21958640933477 219.19463477176788,149.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="230" y="115" width="220" height="80" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="340.0" y="162.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">제어기·대상</text>
+<line x1="450" y1="155" x2="760" y2="155" stroke="#2563EB" stroke-width="3"/>
+<polygon points="760,155 749.1946347717678,160.21958640933477 749.1946347717678,149.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="80" y="135" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">목표 r</text>
+<text x="640" y="135" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">출력 y</text>
+<text x="40" y="250" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">음의 피드백</text>
+<line x1="50" y1="330" x2="180" y2="330" stroke="#2563EB" stroke-width="3"/>
+<polygon points="180,330 169.19463477176788,335.21958640933474 169.19463477176788,324.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<circle cx="202" cy="330" r="22" fill="white" stroke="#25344A" stroke-width="3"/>
+<text x="196" y="338" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">Σ</text>
+<text x="167" y="312" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">+</text>
+<text x="214" y="373" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#DC2626" text-anchor="start" font-weight="400">-</text>
+<line x1="224" y1="330" x2="290" y2="330" stroke="#2563EB" stroke-width="3"/>
+<polygon points="290,330 279.1946347717679,335.21958640933474 279.1946347717679,324.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="290" y="290" width="170" height="80" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="375.0" y="337.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">제어기 C(s)</text>
+<line x1="460" y1="330" x2="530" y2="330" stroke="#2563EB" stroke-width="3"/>
+<polygon points="530,330 519.1946347717678,335.21958640933474 519.1946347717678,324.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="530" y="290" width="170" height="80" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="615.0" y="337.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">대상 P(s)</text>
+<line x1="700" y1="330" x2="900" y2="330" stroke="#2563EB" stroke-width="3"/>
+<polygon points="900,330 889.1946347717678,335.21958640933474 889.1946347717678,324.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<circle cx="790" cy="330" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
+<line x1="790" y1="330" x2="790" y2="450" stroke="#25344A" stroke-width="3"/>
+<line x1="790" y1="450" x2="650" y2="450" stroke="#2563EB" stroke-width="3"/>
+<polygon points="650,450 660.8053652282322,444.78041359066526 660.8053652282322,455.21958640933474" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="390" y="415" width="260" height="70" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="520.0" y="457.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">센서·검출 H(s)</text>
+<line x1="390" y1="450" x2="202" y2="450" stroke="#25344A" stroke-width="3"/>
+<line x1="202" y1="450" x2="202" y2="352" stroke="#2563EB" stroke-width="3"/>
+<polygon points="202,352 207.21958640933477,362.8053652282321 196.78041359066523,362.8053652282321" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="65" y="309" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">r</text>
+<text x="240" y="305" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">e</text>
+<text x="477" y="305" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">u</text>
+<text x="860" y="305" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">y</text>
+<text x="70" y="525" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">e = r - Hy     ·     제어 요소: 조절부 + 조작부     ·     대상은 제어장치와 구별</text>
+</svg>

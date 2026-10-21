@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">중성자에 의한 핵분열과 연쇄 반응</text>
+<circle cx="100" cy="250" r="10" fill="#2563EB" stroke="#2563EB" stroke-width="3"/>
+<line x1="120" y1="250" x2="280" y2="250" stroke="#2563EB" stroke-width="4"/>
+<polygon points="280,250 269.1946347717679,255.21958640933477 269.1946347717679,244.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<circle cx="330" cy="250" r="55" fill="#FEF3C7" stroke="#B45309" stroke-width="3"/>
+<text x="330" y="258" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="middle" font-weight="400">핵</text>
+<line x1="395" y1="250" x2="600" y2="130" stroke="#DC2626" stroke-width="4"/>
+<polygon points="600,130 593.3116399562452,139.96322437392158 588.0379869666697,130.95406718339655" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<circle cx="625" cy="130" r="10" fill="#2563EB" stroke="#2563EB" stroke-width="3"/>
+<line x1="645" y1="130" x2="740" y2="130" stroke="#2563EB" stroke-width="3"/>
+<polygon points="740,130 729.1946347717678,135.21958640933477 729.1946347717678,124.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<circle cx="790" cy="130" r="40" fill="#FEF3C7" stroke="#B45309" stroke-width="3"/>
+<line x1="395" y1="250" x2="600" y2="250" stroke="#DC2626" stroke-width="4"/>
+<polygon points="600,250 589.1946347717678,255.21958640933477 589.1946347717678,244.78041359066523" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<circle cx="625" cy="250" r="10" fill="#2563EB" stroke="#2563EB" stroke-width="3"/>
+<line x1="645" y1="250" x2="740" y2="250" stroke="#2563EB" stroke-width="3"/>
+<polygon points="740,250 729.1946347717678,255.21958640933477 729.1946347717678,244.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<circle cx="790" cy="250" r="40" fill="#FEF3C7" stroke="#B45309" stroke-width="3"/>
+<line x1="395" y1="250" x2="600" y2="370" stroke="#DC2626" stroke-width="4"/>
+<polygon points="600,370 588.0379869666697,369.04593281660345 593.3116399562452,360.03677562607845" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<circle cx="625" cy="370" r="10" fill="#2563EB" stroke="#2563EB" stroke-width="3"/>
+<line x1="645" y1="370" x2="740" y2="370" stroke="#2563EB" stroke-width="3"/>
+<polygon points="740,370 729.1946347717678,375.21958640933474 729.1946347717678,364.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<circle cx="790" cy="370" r="40" fill="#FEF3C7" stroke="#B45309" stroke-width="3"/>
+<text x="470" y="440" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="middle" font-weight="400">분열 조각 + 중성자 + 에너지</text>
+<text x="480" y="495" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="19" fill="#25344A" text-anchor="middle" font-weight="400">오른쪽 원: 다음 핵분열 대상 핵 · 중성자의 일부가 다음 분열을 유발</text>
+</svg>

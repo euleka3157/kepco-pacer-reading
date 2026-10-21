@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">트립 코일의 에너지원</text>
+<rect x="65" y="100" width="230" height="70" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="180.0" y="142.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">직류 축전지</text>
+<line x1="300" y1="135" x2="405" y2="135" stroke="#2563EB" stroke-width="3"/>
+<polygon points="405,135 394.1946347717679,140.21958640933477 394.1946347717679,129.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="410" y="100" width="210" height="70" rx="10" fill="#EFF6FF" stroke="#7C3AED" stroke-width="2"/>
+<text x="515.0" y="141.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#7C3AED" text-anchor="middle" font-weight="700">보호 접점·회로</text>
+<line x1="625" y1="135" x2="710" y2="135" stroke="#2563EB" stroke-width="3"/>
+<polygon points="710,135 699.1946347717678,140.21958640933477 699.1946347717678,129.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="715" y="100" width="180" height="70" rx="10" fill="#EFF6FF" stroke="#DC2626" stroke-width="2"/>
+<text x="805.0" y="142.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#DC2626" text-anchor="middle" font-weight="700">트립 코일</text>
+<text x="325" y="180" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="18" fill="#25344A" text-anchor="start" font-weight="400">직류 트립</text>
+<rect x="65" y="210" width="230" height="70" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="180.0" y="252.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">충전 콘덴서</text>
+<line x1="300" y1="245" x2="405" y2="245" stroke="#2563EB" stroke-width="3"/>
+<polygon points="405,245 394.1946347717679,250.21958640933477 394.1946347717679,239.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="410" y="210" width="210" height="70" rx="10" fill="#EFF6FF" stroke="#7C3AED" stroke-width="2"/>
+<text x="515.0" y="251.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#7C3AED" text-anchor="middle" font-weight="700">보호 접점·회로</text>
+<line x1="625" y1="245" x2="710" y2="245" stroke="#2563EB" stroke-width="3"/>
+<polygon points="710,245 699.1946347717678,250.21958640933477 699.1946347717678,239.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="715" y="210" width="180" height="70" rx="10" fill="#EFF6FF" stroke="#DC2626" stroke-width="2"/>
+<text x="805.0" y="252.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#DC2626" text-anchor="middle" font-weight="700">트립 코일</text>
+<text x="325" y="290" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="18" fill="#25344A" text-anchor="start" font-weight="400">방전 트립</text>
+<rect x="65" y="320" width="230" height="70" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="180.0" y="362.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">CT 2차 전류</text>
+<line x1="300" y1="355" x2="405" y2="355" stroke="#2563EB" stroke-width="3"/>
+<polygon points="405,355 394.1946347717679,360.21958640933474 394.1946347717679,349.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="410" y="320" width="210" height="70" rx="10" fill="#EFF6FF" stroke="#7C3AED" stroke-width="2"/>
+<text x="515.0" y="361.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#7C3AED" text-anchor="middle" font-weight="700">보호 접점·회로</text>
+<line x1="625" y1="355" x2="710" y2="355" stroke="#2563EB" stroke-width="3"/>
+<polygon points="710,355 699.1946347717678,360.21958640933474 699.1946347717678,349.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="715" y="320" width="180" height="70" rx="10" fill="#EFF6FF" stroke="#DC2626" stroke-width="2"/>
+<text x="805.0" y="362.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#DC2626" text-anchor="middle" font-weight="700">트립 코일</text>
+<text x="325" y="400" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="18" fill="#25344A" text-anchor="start" font-weight="400">전류 트립</text>
+</svg>

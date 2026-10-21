@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+<rect width="100%" height="100%" fill="white"/>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">세 크기에서 역률 복원: 전압합과 전류합</text>
+<rect x="35" y="65" width="440" height="420" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="51" y="94" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">3전압계: 같은 전류 기준</text>
+<line x1="80" y1="325" x2="235" y2="325" stroke="#2563EB" stroke-width="4"/>
+<polygon points="235,325 224.19463477176788,330.21958640933474 224.19463477176788,319.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="235" y1="325" x2="355" y2="205" stroke="#DC2626" stroke-width="4"/>
+<polygon points="355,205 351.0502579189495,216.33135197111002 343.66864802889,208.94974208105052" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="80" y1="325" x2="355" y2="205" stroke="#7C3AED" stroke-width="4"/>
+<polygon points="355,205 347.18400191776834,214.10550240121603 343.0089126235502,204.5375894352995" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<line x1="235" y1="325" x2="385" y2="325" stroke="#64748B" stroke-width="2" stroke-dasharray="5 5"/>
+<text x="130" y="360" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">VR</text>
+<text x="325" y="280" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">VL</text>
+<text x="135" y="230" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">V합</text>
+<path d="M 290 325 A 55 55 0 0 0 274 286" stroke="#B45309" stroke-width="3" fill="none"/>
+<text x="302" y="307" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">φ</text>
+<text x="63" y="430" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">V합² = VR² + VL²</text>
+<text x="190" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">+ 2VRVL cosφ</text>
+<rect x="505" y="65" width="440" height="420" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="521" y="94" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">3전류계: 같은 전압 기준</text>
+<line x1="550" y1="235" x2="705" y2="235" stroke="#15803D" stroke-width="4"/>
+<polygon points="705,235 694.1946347717678,240.21958640933477 694.1946347717678,229.78041359066523" stroke="#15803D" stroke-width="1" fill="#15803D"/>
+<line x1="705" y1="235" x2="825" y2="355" stroke="#DC2626" stroke-width="4"/>
+<polygon points="825,355 813.66864802889,351.0502579189495 821.0502579189495,343.66864802889" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="550" y1="235" x2="825" y2="355" stroke="#7C3AED" stroke-width="4"/>
+<polygon points="825,355 813.0089126235503,355.4624105647005 817.1840019177683,345.89449759878397" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<line x1="705" y1="235" x2="855" y2="235" stroke="#64748B" stroke-width="2" stroke-dasharray="5 5"/>
+<text x="600" y="215" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">IR</text>
+<text x="795" y="280" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">IL</text>
+<text x="605" y="330" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">I합</text>
+<path d="M 760 235 A 55 55 0 0 1 744 274" stroke="#B45309" stroke-width="3" fill="none"/>
+<text x="772" y="253" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">φ</text>
+<text x="533" y="430" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">I합² = IR² + IL²</text>
+<text x="660" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">+ 2IRIL cosφ</text>
+<text x="50" y="530" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">R 가지와 부하 가지의 위상차 φ — 스칼라 크기를 단순 덧셈하지 않음</text>
+</svg>

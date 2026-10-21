@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+<rect width="100%" height="100%" fill="white"/>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">블록의 연결: 직렬·병렬·가합점·인출점</text>
+<text x="35" y="92" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">직렬</text>
+<line x1="65" y1="150" x2="180" y2="150" stroke="#2563EB" stroke-width="3"/>
+<polygon points="180,150 169.19463477176788,155.21958640933477 169.19463477176788,144.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="180" y="115" width="120" height="70" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="240.0" y="157.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">G1</text>
+<line x1="300" y1="150" x2="360" y2="150" stroke="#2563EB" stroke-width="3"/>
+<polygon points="360,150 349.1946347717679,155.21958640933477 349.1946347717679,144.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="360" y="115" width="120" height="70" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="420.0" y="157.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">G2</text>
+<line x1="480" y1="150" x2="590" y2="150" stroke="#2563EB" stroke-width="3"/>
+<polygon points="590,150 579.1946347717678,155.21958640933477 579.1946347717678,144.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="650" y="160" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#2563EB" text-anchor="start" font-weight="400">G = G1G2</text>
+<text x="35" y="240" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">병렬</text>
+<line x1="65" y1="330" x2="140" y2="330" stroke="#2563EB" stroke-width="3"/>
+<polygon points="140,330 129.19463477176788,335.21958640933474 129.19463477176788,324.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<circle cx="140" cy="330" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
+<line x1="140" y1="280" x2="140" y2="380" stroke="#25344A" stroke-width="3"/>
+<line x1="140" y1="280" x2="220" y2="280" stroke="#2563EB" stroke-width="3"/>
+<polygon points="220,280 209.19463477176788,285.21958640933474 209.19463477176788,274.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="140" y1="380" x2="220" y2="380" stroke="#2563EB" stroke-width="3"/>
+<polygon points="220,380 209.19463477176788,385.21958640933474 209.19463477176788,374.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="220" y="250" width="130" height="60" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="285.0" y="287.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">G1</text>
+<rect x="220" y="350" width="130" height="60" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="285.0" y="387.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">G2</text>
+<line x1="350" y1="280" x2="440" y2="280" stroke="#25344A" stroke-width="3"/>
+<line x1="350" y1="380" x2="440" y2="380" stroke="#25344A" stroke-width="3"/>
+<line x1="440" y1="280" x2="440" y2="308" stroke="#2563EB" stroke-width="3"/>
+<polygon points="440,308 434.78041359066526,297.1946347717679 445.21958640933474,297.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="440" y1="380" x2="440" y2="352" stroke="#2563EB" stroke-width="3"/>
+<polygon points="440,352 445.21958640933474,362.8053652282321 434.78041359066526,362.8053652282321" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<circle cx="440" cy="330" r="22" fill="white" stroke="#25344A" stroke-width="3"/>
+<text x="434" y="338" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">Σ</text>
+<text x="405" y="312" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">+</text>
+<text x="460" y="377" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">+</text>
+<line x1="462" y1="330" x2="580" y2="330" stroke="#2563EB" stroke-width="3"/>
+<polygon points="580,330 569.1946347717678,335.21958640933474 569.1946347717678,324.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="650" y="340" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#2563EB" text-anchor="start" font-weight="400">G = G1 + G2</text>
+<text x="35" y="485" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">가합점: 부호대로 더함</text>
+<text x="500" y="485" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">인출점: 같은 신호가 분기됨</text>
+<text x="35" y="530" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#2563EB" text-anchor="start" font-weight="400">음의 피드백: T = G / (1 + GH)</text>
+</svg>

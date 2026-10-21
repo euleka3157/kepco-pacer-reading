@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">휘스톤 브리지: 두 분압점의 전위 비교</text>
+<polyline points="220,110 194.0,142.0 176.48885999883734,147.69407374905535 182.26114000116266,172.30592625094465 156.98885999883734,171.69407374905535 162.76114000116266,196.30592625094465 137.48885999883734,195.69407374905535 143.26114000116266,220.30592625094465 117.98885999883733,219.69407374905535 116.0,238.0 90,270" stroke="#25344A" stroke-width="3" fill="none"/>
+<text x="134.8210359969771" y="205.13422300226716" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">R1</text>
+<polyline points="90,270 116.0,302.0 117.98885999883734,320.30592625094465 143.26114000116266,319.69407374905535 137.48885999883734,344.30592625094465 162.76114000116266,343.69407374905535 156.98885999883734,368.30592625094465 182.26114000116266,367.69407374905535 176.48885999883734,392.30592625094465 194.0,398.0 220,430" stroke="#25344A" stroke-width="3" fill="none"/>
+<text x="134.8210359969771" y="334.86577699773284" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">R2</text>
+<polyline points="220,110 246.0,142.0 247.98885999883734,160.30592625094465 273.26114000116263,159.69407374905535 267.48885999883737,184.30592625094465 292.76114000116263,183.69407374905535 286.98885999883737,208.30592625094465 312.26114000116263,207.69407374905535 306.48885999883737,232.30592625094465 324.0,238.0 350,270" stroke="#25344A" stroke-width="3" fill="none"/>
+<text x="264.8210359969771" y="174.86577699773284" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">R3</text>
+<polyline points="350,270 324.0,302.0 306.48885999883737,307.69407374905535 312.26114000116263,332.30592625094465 286.98885999883737,331.69407374905535 292.76114000116263,356.30592625094465 267.48885999883737,355.69407374905535 273.26114000116263,380.30592625094465 247.98885999883734,379.69407374905535 246.0,398.0 220,430" stroke="#25344A" stroke-width="3" fill="none"/>
+<text x="264.8210359969771" y="365.13422300226716" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">R4</text>
+<circle cx="220" cy="110" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
+<text x="220" y="98" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">+Vs</text>
+<circle cx="90" cy="270" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
+<text x="90" y="258" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">B</text>
+<circle cx="350" cy="270" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
+<text x="350" y="258" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">C</text>
+<circle cx="220" cy="430" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
+<text x="220" y="418" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">0</text>
+<line x1="90" y1="270" x2="190" y2="270" stroke="#25344A" stroke-width="3"/>
+<circle cx="220" cy="270" r="30" fill="white" stroke="#25344A" stroke-width="3"/>
+<text x="220" y="278" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="middle" font-weight="400">G</text>
+<line x1="250" y1="270" x2="350" y2="270" stroke="#25344A" stroke-width="3"/>
+<line x1="165" y1="320" x2="275" y2="320" stroke="#64748B" stroke-width="3"/>
+<polygon points="275,320 264.1946347717679,325.21958640933474 264.1946347717679,314.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<text x="170" y="354" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">Ig = 0</text>
+<rect x="480" y="110" width="410" height="88" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="685.0" y="161.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">평형: VB = VC</text>
+<text x="500" y="255" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">R1 / R2 = R3 / R4</text>
+<text x="500" y="310" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">R1·R4 = R2·R3</text>
+<text x="500" y="385" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">검류계 가지 전류만 0</text>
+<text x="500" y="425" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">다른 가지에는 전류가 흐름</text>
+</svg>

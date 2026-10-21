@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500">
+<rect width="100%" height="100%" fill="white"/>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">커패시터 연결 직후: 전하와 에너지의 차이</text>
+<rect x="20" y="65" width="440" height="350" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="36" y="94" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">처음: 두 커패시터 분리</text>
+<line x1="150" y1="170" x2="150.0" y2="250.5" stroke="#25344A" stroke-width="3"/>
+<line x1="150.0" y1="264.5" x2="150" y2="345" stroke="#25344A" stroke-width="3"/>
+<line x1="128.0" y1="250.5" x2="172.0" y2="250.5" stroke="#25344A" stroke-width="3"/>
+<line x1="128.0" y1="264.5" x2="172.0" y2="264.5" stroke="#25344A" stroke-width="3"/>
+<text x="118.0" y="257.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">C1</text>
+<line x1="345" y1="170" x2="345.0" y2="250.5" stroke="#25344A" stroke-width="3"/>
+<line x1="345.0" y1="264.5" x2="345" y2="345" stroke="#25344A" stroke-width="3"/>
+<line x1="323.0" y1="250.5" x2="367.0" y2="250.5" stroke="#25344A" stroke-width="3"/>
+<line x1="323.0" y1="264.5" x2="367.0" y2="264.5" stroke="#25344A" stroke-width="3"/>
+<text x="313.0" y="257.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">C2</text>
+<text x="88" y="145" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">V1</text>
+<text x="290" y="145" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">V2</text>
+<text x="75" y="385" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">Q합 = C1V1 + C2V2</text>
+<rect x="490" y="65" width="450" height="350" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="506" y="94" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">같은 극성끼리 병렬 연결 후</text>
+<line x1="575" y1="170" x2="850" y2="170" stroke="#25344A" stroke-width="3"/>
+<line x1="575" y1="345" x2="850" y2="345" stroke="#25344A" stroke-width="3"/>
+<line x1="600" y1="170" x2="600.0" y2="250.5" stroke="#25344A" stroke-width="3"/>
+<line x1="600.0" y1="264.5" x2="600" y2="345" stroke="#25344A" stroke-width="3"/>
+<line x1="578.0" y1="250.5" x2="622.0" y2="250.5" stroke="#25344A" stroke-width="3"/>
+<line x1="578.0" y1="264.5" x2="622.0" y2="264.5" stroke="#25344A" stroke-width="3"/>
+<text x="568.0" y="257.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">C1</text>
+<line x1="830" y1="170" x2="830.0" y2="250.5" stroke="#25344A" stroke-width="3"/>
+<line x1="830.0" y1="264.5" x2="830" y2="345" stroke="#25344A" stroke-width="3"/>
+<line x1="808.0" y1="250.5" x2="852.0" y2="250.5" stroke="#25344A" stroke-width="3"/>
+<line x1="808.0" y1="264.5" x2="852.0" y2="264.5" stroke="#25344A" stroke-width="3"/>
+<text x="798.0" y="257.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">C2</text>
+<text x="625" y="140" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">공통 전압 Vf</text>
+<text x="535" y="385" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">Vf = Q합/(C1+C2)</text>
+<text x="75" y="470" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">총전하는 보존 / 전압이 달랐다면 일부 에너지는 접속 과정에서 소모</text>
+</svg>

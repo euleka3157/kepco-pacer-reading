@@ -1,0 +1,54 @@
+#penToggle { flex:none; min-height:44px; padding:0 12px; border:1px solid var(--line,#dce2e9); border-radius:10px; background:var(--card,#fff); color:var(--ink,#18212b); cursor:pointer; font:inherit; font-size:14px; }
+#penToggle[aria-expanded="true"] { background:#e8f0ff; color:#174eab; }
+.pen-panel[hidden] { display:none !important; }
+.pen-panel { --pen-line:#dce2e9; position:fixed; z-index:90; right:0; top:0; bottom:0; width:var(--pen-width,44vw); box-sizing:border-box; display:flex; flex-direction:column; gap:8px; padding:12px max(12px,env(safe-area-inset-right)) max(10px,env(safe-area-inset-bottom)) 12px; background:#f5f7fb; color:#172338; border-left:1px solid #c8d1df; box-shadow:-4px 0 20px #0001; font:14px/1.4 "IBM Plex Sans KR","Malgun Gothic",sans-serif; }
+body.pen-open { width:calc(100% - var(--pen-width,44vw)); }
+body.pen-open .shell { grid-template-columns:minmax(0,1fr); }
+body.pen-open .toc { position:fixed; z-index:95; top:0; bottom:0; left:0; width:min(20rem,80vw); transform:translateX(-105%); background:var(--card,#fff); }
+body.pen-open .toc.open { transform:none; }
+body.pen-open .toc-btn { display:block; }
+body.pen-open .controls { display:none; }
+body.pen-open .row.opts { flex-wrap:wrap; justify-content:flex-start; }
+body.pen-open .row.main { flex-wrap:wrap; }
+body.pen-open .speed { min-width:190px; }
+body.pen-open .tts-only { display:none; }
+body.pen-open.tts .group.tts-only { display:flex; }
+body.pen-open.tts .tg.tts-only { display:inline-block; }
+body.pen-open .brand { display:none; }
+body.pen-locked, body.pen-locked * { touch-action:none !important; }
+.pen-panel * { box-sizing:border-box; }
+.pen-panel button,.pen-panel select,.pen-panel input { font:inherit; }
+.pen-panel button,.pen-panel select { min-height:40px; padding:6px 10px; border:1px solid #c8d1df; border-radius:8px; background:#fff; color:#172338; cursor:pointer; }
+.pen-panel button:disabled { opacity:.4; cursor:default; }
+.pen-panel button[aria-pressed="true"] { background:#dce9ff; border-color:#2972d4; color:#154987; }
+.pen-head,.pen-tools,.pen-pages,.pen-backup { display:flex; flex-wrap:wrap; align-items:center; gap:6px; }
+.pen-head strong { flex:1; font-size:16px; }
+.pen-context { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-weight:600; }
+.pen-tools label { display:inline-flex; align-items:center; gap:5px; }
+.pen-tools select { max-width:100%; }
+.pen-stage { flex:1; min-height:100px; display:flex; align-items:center; justify-content:center; overflow:hidden; background:#e5eaf2; border:1px solid #c8d1df; border-radius:10px; touch-action:none; user-select:none; -webkit-user-select:none; }
+#penCanvas { display:block; max-width:100%; max-height:100%; background:#fff; touch-action:none; cursor:crosshair; }
+.pen-status { min-height:1.4em; font-size:12px; color:#465971; }
+.pen-help { margin:0; font-size:12px; color:#536275; }
+.pen-pages { justify-content:center; }
+.pen-backup { border-top:1px solid #dce2e9; padding-top:6px; }
+.pen-backup button { min-height:34px; font-size:12px; }
+.pen-alert { padding:8px; background:#fff4dc; border:1px solid #d5a345; border-radius:8px; }
+.pen-alert[hidden] { display:none; }
+.pen-alert p { margin:0 0 8px; }
+.pen-alert button { margin-right:6px; }
+.pen-panel :focus-visible { outline:3px solid #2267c7; outline-offset:2px; }
+@media(min-width:1500px) { body.pen-open { --pen-width:620px; } }
+@media(max-width:760px), (max-width:1100px) and (orientation:portrait) {
+  body.pen-open { width:100%; }
+  body.pen-open:has(.scroller) { height:45dvh; }
+  body.pen-open:not(:has(.scroller)) { padding-bottom:58dvh; }
+  .pen-panel { top:auto; left:0; width:100%; height:55dvh; border-left:0; border-top:1px solid #c8d1df; padding:6px 8px; gap:4px; }
+  .pen-panel button,.pen-panel select { min-height:34px; padding:4px 7px; font-size:12px; }
+  .pen-head strong { font-size:14px; }
+  .pen-help { display:none; }
+  .pen-backup { padding-top:3px; }
+  .pen-stage { min-height:70px; }
+  .pen-context { font-size:12px; }
+}
+@media print { .pen-panel,#penToggle { display:none !important; } body.pen-open { width:100%; } }

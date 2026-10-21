@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500">
+<rect width="100%" height="100%" fill="white"/>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">복소 평면의 크기와 위상: atan2로 사분면까지</text>
+<defs><clipPath id="c3"><rect x="120" y="130" width="440" height="260"/></clipPath></defs>
+<line x1="120" y1="325.0" x2="565" y2="325.0" stroke="#64748B" stroke-width="2"/>
+<polygon points="565,325.0 554.1946347717678,330.21958640933474 554.1946347717678,319.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<line x1="208.0" y1="390" x2="208.0" y2="125" stroke="#64748B" stroke-width="2"/>
+<polygon points="208.0,125 213.21958640933477,135.80536522823212 202.78041359066523,135.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<text x="560" y="420" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">Re</text>
+<text x="120" y="116" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">Im</text>
+<line x1="208.0" y1="325.0" x2="472.0" y2="195.0" stroke="#2563EB" stroke-width="4"/>
+<polygon points="472.0,195.0 464.61203814033144,204.45611017068236 460.0003437057289,195.09082301118187" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="472.0" y1="325.0" x2="472.0" y2="195.0" stroke="#64748B" stroke-width="2" stroke-dasharray="5 4"/>
+<line x1="208.0" y1="195.0" x2="472.0" y2="195.0" stroke="#64748B" stroke-width="2" stroke-dasharray="5 4"/>
+<g clip-path="url(#c3)">
+<polyline points="287.2,325.0 287.19,324.12 287.16,323.24 287.12,322.35 287.06,321.47 286.98,320.59 286.88,319.72 286.76,318.84 286.62,317.96 286.47,317.09 286.3,316.21 286.11,315.34 285.91,314.47 285.68,313.61 285.44,312.74 285.18,311.88 284.91,311.02 284.61,310.17 284.3,309.32 283.97,308.47 283.63,307.63 283.26,306.79 282.88,305.95 282.49,305.12 282.07,304.29 281.64,303.47 281.19,302.65 280.73,301.84 280.25,301.03 279.75,300.23 279.24,299.43 278.71,298.64 278.16,297.86 277.6,297.08 277.02,296.31 276.43,295.54 275.82,294.78 275.19,294.03 274.55,293.29 273.9,292.55" stroke="#DC2626" stroke-width="3" fill="none"/>
+</g>
+<text x="287.2" y="279.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#DC2626" text-anchor="start" font-weight="400">θ</text>
+<text x="620" y="180" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="26" fill="#2563EB" text-anchor="start" font-weight="400">G(jω)=3+j2</text>
+<text x="620" y="245" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="400">크기 = √13</text>
+<text x="620" y="310" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="400">위상 ≈ 33.7°</text>
+<text x="55" y="460" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">위상은 원점에서 복소수를 보는 각도다. 실수부가 음수이면 사분면을 보정한다.</text>
+</svg>

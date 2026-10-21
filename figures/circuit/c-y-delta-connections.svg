@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
+<rect width="100%" height="100%" fill="white"/>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">Y·Δ 결선: 선전류와 상전류를 구별</text>
+<rect x="20" y="65" width="445" height="470" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="36" y="94" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">Y: 공통 중성점 n</text>
+<polyline points="100,170 127.0,199.0 129.8060602556865,216.68918527918842 154.5689397443135,213.93581472081158 150.0560602556865,238.43918527918842 174.8189397443135,235.68581472081158 170.3060602556865,260.18918527918845 195.0689397443135,257.43581472081155 190.5560602556865,281.93918527918845 208.0,286.0 235,315" stroke="#25344A" stroke-width="3" fill="none"/>
+<text x="148.47075666478491" y="226.14595532994775" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">Z</text>
+<circle cx="100" cy="170" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
+<text x="100" y="156" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">a</text>
+<polyline points="390,170 359.0,199.0 340.5434287122426,202.57228586481105 342.5815712877574,228.05271413518895 317.2934287122426,224.32228586481105 319.3315712877574,249.80271413518895 294.0434287122426,246.07228586481105 296.0815712877574,271.552714135189 270.7934287122426,267.822285864811 266.0,286.0 235,315" stroke="#25344A" stroke-width="3" fill="none"/>
+<text x="294.73791465183075" y="260.02651392445347" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">Z</text>
+<circle cx="390" cy="170" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
+<text x="390" y="156" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">b</text>
+<polyline points="235,470 235.0,439.0 245.0,427.375 225.0,415.75 245.0,404.125 225.0,392.5 245.0,380.875 225.0,369.25 245.0,357.625 235.0,346.0 235,315" stroke="#25344A" stroke-width="3" fill="none"/>
+<text x="261.0" y="392.5" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">Z</text>
+<circle cx="235" cy="470" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
+<text x="235" y="456" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">c</text>
+<circle cx="235" cy="315" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
+<text x="250" y="335" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">n</text>
+<line x1="105" y1="130" x2="185" y2="225" stroke="#2563EB" stroke-width="3"/>
+<polygon points="185,225 174.04735791621766,220.09697732163517 182.0323981042971,213.37273295272615" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="195" y="145" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="start" font-weight="400">Ia = I상</text>
+<text x="80" y="525" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">V선 = √3 V상</text>
+<rect x="490" y="65" width="450" height="470" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="506" y="94" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">Δ: 세 상을 고리로</text>
+<polyline points="710,150 679.0,202.0 658.7855302579144,216.37935457683358 664.3394697420856,246.12064542316642 635.5355302579144,255.37935457683358 641.0894697420856,285.1206454231664 612.2855302579144,294.3793545768336 617.8394697420856,324.1206454231664 589.0355302579144,333.3793545768336 586.0,358.0 555,410" stroke="#25344A" stroke-width="3" fill="none"/>
+<text x="610.1673786705774" y="292.28954901559945" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">Z</text>
+<polyline points="555,410 617.0,410.0 640.25,420.0 663.5,400.0 686.75,420.0 710.0,400.0 733.25,420.0 756.5,400.0 779.75,420.0 803.0,410.0 865,410" stroke="#25344A" stroke-width="3" fill="none"/>
+<text x="710.0" y="386.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">Z</text>
+<polyline points="865,410 834.0,358.0 830.9644697420856,333.3793545768336 802.1605302579144,324.1206454231664 807.7144697420856,294.3793545768336 778.9105302579144,285.1206454231664 784.4644697420856,255.37935457683358 755.6605302579144,246.12064542316645 761.2144697420856,216.37935457683355 741.0,202.0 710,150" stroke="#25344A" stroke-width="3" fill="none"/>
+<text x="809.8326213294226" y="292.28954901559945" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="end" font-weight="400">Z</text>
+<circle cx="710" cy="150" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
+<text x="710" y="136" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">a</text>
+<circle cx="555" cy="410" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
+<text x="555" y="396" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">b</text>
+<circle cx="865" cy="410" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
+<text x="865" y="396" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">c</text>
+<line x1="710" y1="90" x2="710" y2="150" stroke="#2563EB" stroke-width="3"/>
+<polygon points="710,150 704.7804135906653,139.19463477176788 715.2195864093347,139.19463477176788" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="745" y="115" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">Ia</text>
+<line x1="679" y1="205" x2="635" y2="280" stroke="#DC2626" stroke-width="3"/>
+<polygon points="635,280 635.9656494109636,268.03891638625055 644.9696959626639,273.3212903632481" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="590" y="220" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">Iab</text>
+<line x1="805" y1="285" x2="760" y2="210" stroke="#15803D" stroke-width="3"/>
+<polygon points="760,210 770.0350729669195,216.58006919025942 761.0835561246197,221.95097929563929" stroke="#15803D" stroke-width="1" fill="#15803D"/>
+<text x="808" y="230" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">Ica</text>
+<text x="535" y="490" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">Ia = Iab − Ica</text>
+<text x="535" y="525" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">I선 = √3 I상</text>
+</svg>

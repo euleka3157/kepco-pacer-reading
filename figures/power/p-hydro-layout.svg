@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">댐식·수로식·양수식 발전의 물 경로</text>
+<rect x="35.0" y="105" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="135.0" y="154.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">상류 저수지</text>
+<rect x="265.0" y="105" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="365.0" y="154.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">댐·취수구</text>
+<line x1="237.0" y1="148" x2="262.0" y2="148" stroke="#2563EB" stroke-width="3"/>
+<polygon points="262.0,148 251.19463477176788,153.21958640933477 251.19463477176788,142.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="495.0" y="105" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="595.0" y="154.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">수압관로</text>
+<line x1="467.0" y1="148" x2="492.0" y2="148" stroke="#2563EB" stroke-width="3"/>
+<polygon points="492.0,148 481.1946347717679,153.21958640933477 481.1946347717679,142.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="725.0" y="105" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="825.0" y="154.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">수차·하류</text>
+<line x1="697.0" y1="148" x2="722.0" y2="148" stroke="#2563EB" stroke-width="3"/>
+<polygon points="722.0,148 711.1946347717678,153.21958640933477 711.1946347717678,142.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="80" y="270" width="240" height="60" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="200" y="310" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">상부 저수지</text>
+<rect x="640" y="390" width="240" height="60" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="760" y="430" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">하부 저수지</text>
+<line x1="330" y1="310" x2="625" y2="405" stroke="#2563EB" stroke-width="5"/>
+<polygon points="625,405 613.1148320735339,406.6561350668653 616.3147659784846,396.7194982041237" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="625" y1="365" x2="330" y2="270" stroke="#DC2626" stroke-width="5"/>
+<polygon points="330,270 341.8851679264661,268.3438649331347 338.68523402151544,278.2805017958763" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="515" y="445" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="start" font-weight="400">발전</text>
+<text x="525" y="300" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#DC2626" text-anchor="start" font-weight="400">양수</text>
+<text x="480" y="525" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">양수는 전력을 소비해 물을 올리고, 발전은 위치에너지를 회수</text>
+</svg>

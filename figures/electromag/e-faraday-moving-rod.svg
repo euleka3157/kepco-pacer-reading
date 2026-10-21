@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">패러데이·렌츠: 증가를 막는 유도와 운동기전력</text>
+<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1"/>
+<ellipse cx="250" cy="295" rx="145" ry="60" fill="none" stroke="#2563EB" stroke-width="3"/>
+<rect x="205" y="100" width="90" height="115" rx="0" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+<text x="235" y="165" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="26" fill="#DC2626" text-anchor="start" font-weight="400">N</text>
+<line x1="250" y1="220" x2="250" y2="260" stroke="#DC2626" stroke-width="3"/>
+<polygon points="250,260 244.78041359066523,249.19463477176788 255.21958640933477,249.19463477176788" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="65" y="95" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">N극이 고리 쪽으로 접근</text>
+<line x1="250" y1="300" x2="250" y2="195" stroke="#7C3AED" stroke-width="3"/>
+<polygon points="250,195 255.21958640933477,205.80536522823212 244.78041359066523,205.80536522823212" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<text x="290" y="225" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">유도 B</text>
+<text x="60" y="435" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">다가오는 N극을 밀어내는 방향</text>
+<text x="60" y="475" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">접근 반전 → 유도전류 반전</text>
+<circle cx="580" cy="170" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="572" y1="162" x2="588" y2="178" stroke="#64748B" stroke-width="3"/>
+<line x1="572" y1="178" x2="588" y2="162" stroke="#64748B" stroke-width="3"/>
+<circle cx="580" cy="290" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="572" y1="282" x2="588" y2="298" stroke="#64748B" stroke-width="3"/>
+<line x1="572" y1="298" x2="588" y2="282" stroke="#64748B" stroke-width="3"/>
+<circle cx="580" cy="410" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="572" y1="402" x2="588" y2="418" stroke="#64748B" stroke-width="3"/>
+<line x1="572" y1="418" x2="588" y2="402" stroke="#64748B" stroke-width="3"/>
+<circle cx="700" cy="170" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="692" y1="162" x2="708" y2="178" stroke="#64748B" stroke-width="3"/>
+<line x1="692" y1="178" x2="708" y2="162" stroke="#64748B" stroke-width="3"/>
+<circle cx="700" cy="290" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="692" y1="282" x2="708" y2="298" stroke="#64748B" stroke-width="3"/>
+<line x1="692" y1="298" x2="708" y2="282" stroke="#64748B" stroke-width="3"/>
+<circle cx="700" cy="410" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="692" y1="402" x2="708" y2="418" stroke="#64748B" stroke-width="3"/>
+<line x1="692" y1="418" x2="708" y2="402" stroke="#64748B" stroke-width="3"/>
+<circle cx="820" cy="170" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="812" y1="162" x2="828" y2="178" stroke="#64748B" stroke-width="3"/>
+<line x1="812" y1="178" x2="828" y2="162" stroke="#64748B" stroke-width="3"/>
+<circle cx="820" cy="290" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="812" y1="282" x2="828" y2="298" stroke="#64748B" stroke-width="3"/>
+<line x1="812" y1="298" x2="828" y2="282" stroke="#64748B" stroke-width="3"/>
+<circle cx="820" cy="410" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="812" y1="402" x2="828" y2="418" stroke="#64748B" stroke-width="3"/>
+<line x1="812" y1="418" x2="828" y2="402" stroke="#64748B" stroke-width="3"/>
+<line x1="565" y1="150" x2="900" y2="150" stroke="#64748B" stroke-width="4"/>
+<line x1="565" y1="430" x2="900" y2="430" stroke="#64748B" stroke-width="4"/>
+<line x1="760" y1="150" x2="760" y2="430" stroke="#DC2626" stroke-width="7"/>
+<line x1="780" y1="290" x2="900" y2="290" stroke="#2563EB" stroke-width="3"/>
+<polygon points="900,290 889.1946347717678,295.21958640933474 889.1946347717678,284.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="840" y="270" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">v</text>
+<text x="775" y="185" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">+</text>
+<text x="775" y="420" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">-</text>
+<text x="540" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">막대 이동: B는 종이 안</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">오른쪽에서 양전하의 v×B는 위쪽이므로 윗단이 +다. e=Bℓv는 서로 수직이고 균일한 장의 크</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">기식이다.</text>
+</svg>

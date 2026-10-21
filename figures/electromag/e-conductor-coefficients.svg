@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">도체계 계수: 자기 전하와 다른 도체의 영향</text>
+<circle cx="245" cy="245" r="75" fill="#EFF6FF" stroke="#2563EB" stroke-width="3"/>
+<circle cx="710" cy="245" r="110" fill="#ECFDF5" stroke="#15803D" stroke-width="3"/>
+<text x="195" y="250" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">Q1, V1</text>
+<text x="660" y="250" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">Q2, V2</text>
+<line x1="245" y1="105" x2="710" y2="105" stroke="#64748B" stroke-width="2"/>
+<polygon points="710,105 702.7964231811786,108.47972427288984 702.7964231811786,101.52027572711016" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<line x1="710" y1="105" x2="245" y2="105" stroke="#64748B" stroke-width="2"/>
+<polygon points="245,105 252.2035768188214,101.52027572711016 252.2035768188214,108.47972427288984" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<text x="477.5" y="95.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">중심 거리 R (서로 충분히 멀 때 점전하 근사)</text>
+<line x1="245" y1="245" x2="315" y2="245" stroke="#64748B" stroke-width="3"/>
+<polygon points="315,245 304.1946347717679,250.21958640933477 304.1946347717679,239.78041359066523" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<line x1="710" y1="245" x2="810" y2="245" stroke="#64748B" stroke-width="3"/>
+<polygon points="810,245 799.1946347717678,250.21958640933477 799.1946347717678,239.78041359066523" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<text x="265" y="280" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">a</text>
+<text x="760" y="280" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">b</text>
+<line x1="70" y1="405" x2="890" y2="405" stroke="#64748B" stroke-width="3"/>
+<line x1="480" y1="405" x2="480" y2="417" stroke="#25344A" stroke-width="3"/>
+<line x1="463.0" y1="417" x2="497.0" y2="417" stroke="#25344A" stroke-width="3"/>
+<line x1="469.0" y1="425" x2="491.0" y2="425" stroke="#25344A" stroke-width="3"/>
+<line x1="475.0" y1="433" x2="485.0" y2="433" stroke="#25344A" stroke-width="3"/>
+<text x="65" y="450" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">V1=p11Q1+p12Q2</text>
+<text x="520" y="450" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">Q1=C11V1+C12V2</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">전위계수와 용량계수는 서로 역인 관계다. 주변 도체와 접지 기준이 달라지면 계수도 달라진</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">다.</text>
+</svg>

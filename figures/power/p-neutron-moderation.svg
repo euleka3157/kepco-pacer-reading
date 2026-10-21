@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="530" viewBox="0 0 960 530">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">감속재는 속도를 줄이고 제어봉은 중성자를 흡수</text>
+<circle cx="285" cy="170" r="45" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+<line x1="70" y1="170" x2="230" y2="170" stroke="#DC2626" stroke-width="6"/>
+<polygon points="230,170 219.19463477176788,175.21958640933477 219.19463477176788,164.78041359066523" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="320" y1="205" x2="455" y2="285" stroke="#2563EB" stroke-width="3"/>
+<polygon points="455,285 443.0432781484615,283.9817649755867 448.3651934041921,275.00103298154136" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="130" y="125" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">빠른 중성자</text>
+<text x="395" y="335" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">충돌 뒤 느려짐</text>
+<text x="280" y="245" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">감속재 핵</text>
+<rect x="670" y="100" width="80" height="270" rx="10" fill="#CBD5E1" stroke="#64748B" stroke-width="2"/>
+<line x1="515" y1="235" x2="670" y2="235" stroke="#DC2626" stroke-width="5"/>
+<polygon points="670,235 659.1946347717678,240.21958640933477 659.1946347717678,229.78041359066523" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="710" y="420" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="middle" font-weight="400">흡수체·제어봉</text>
+<text x="480" y="485" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">감속과 흡수는 구별 · 실제 물질의 흡수 단면적도 함께 고려</text>
+</svg>

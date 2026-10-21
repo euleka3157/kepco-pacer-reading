@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="550" viewBox="0 0 960 550">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">충동과 반동: 회전력을 만드는 방식</text>
+<circle cx="235" cy="255" r="90" fill="#E2E8F0" stroke="#64748B" stroke-width="4"/>
+<ellipse cx="320.0" cy="255.0" rx="13" ry="9" fill="#CBD5E1" stroke="#64748B" stroke-width="3"/>
+<ellipse cx="295.10407640085657" cy="315.10407640085657" rx="13" ry="9" fill="#CBD5E1" stroke="#64748B" stroke-width="3"/>
+<ellipse cx="235.0" cy="340.0" rx="13" ry="9" fill="#CBD5E1" stroke="#64748B" stroke-width="3"/>
+<ellipse cx="174.89592359914346" cy="315.10407640085657" rx="13" ry="9" fill="#CBD5E1" stroke="#64748B" stroke-width="3"/>
+<ellipse cx="150.0" cy="255.0" rx="13" ry="9" fill="#CBD5E1" stroke="#64748B" stroke-width="3"/>
+<ellipse cx="174.89592359914343" cy="194.89592359914346" rx="13" ry="9" fill="#CBD5E1" stroke="#64748B" stroke-width="3"/>
+<ellipse cx="234.99999999999997" cy="170.0" rx="13" ry="9" fill="#CBD5E1" stroke="#64748B" stroke-width="3"/>
+<ellipse cx="295.1040764008565" cy="194.89592359914343" rx="13" ry="9" fill="#CBD5E1" stroke="#64748B" stroke-width="3"/>
+<line x1="55" y1="165" x2="240" y2="165" stroke="#2563EB" stroke-width="6"/>
+<polygon points="240,165 229.19463477176788,170.21958640933477 229.19463477176788,159.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="285" y1="185" x2="350" y2="220" stroke="#DC2626" stroke-width="4"/>
+<polygon points="350,220 338.011583199456,219.47287324443224 342.9607931854192,210.28148327050062" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="235" y="420" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="middle" font-weight="400">충동: 제트 운동량 변화</text>
+<circle cx="725" cy="255" r="80" fill="none" stroke="#64748B" stroke-width="3"/>
+<line x1="725" y1="170" x2="725" y2="340" stroke="#64748B" stroke-width="9"/>
+<line x1="725" y1="170" x2="775" y2="170" stroke="#64748B" stroke-width="7"/>
+<line x1="725" y1="340" x2="675" y2="340" stroke="#64748B" stroke-width="7"/>
+<line x1="775" y1="170" x2="850" y2="170" stroke="#2563EB" stroke-width="5"/>
+<polygon points="850,170 839.1946347717678,175.21958640933477 839.1946347717678,164.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="675" y1="340" x2="600" y2="340" stroke="#2563EB" stroke-width="5"/>
+<polygon points="600,340 610.8053652282322,334.78041359066526 610.8053652282322,345.21958640933474" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="775" y1="140" x2="710" y2="140" stroke="#DC2626" stroke-width="3"/>
+<polygon points="710,140 720.8053652282322,134.78041359066523 720.8053652282322,145.21958640933477" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="675" y1="370" x2="740" y2="370" stroke="#DC2626" stroke-width="3"/>
+<polygon points="740,370 729.1946347717678,375.21958640933474 729.1946347717678,364.78041359066526" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="725" y="420" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="middle" font-weight="400">반동: 분출의 반작용</text>
+<text x="480" y="500" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">파랑: 유체 흐름 · 빨강: 회전자에 작용하는 힘의 예</text>
+</svg>

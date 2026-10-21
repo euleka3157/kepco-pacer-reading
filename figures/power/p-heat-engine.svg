@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">열기관의 에너지 흐름과 가열 곡선</text>
+<rect x="35.0" y="100" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="135.0" y="149.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">연료·열원</text>
+<rect x="265.0" y="100" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="365.0" y="149.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">열 QH 유입</text>
+<line x1="237.0" y1="143" x2="262.0" y2="143" stroke="#2563EB" stroke-width="3"/>
+<polygon points="262.0,143 251.19463477176788,148.21958640933477 251.19463477176788,137.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="495.0" y="100" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="595.0" y="149.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">기관: 일 W</text>
+<line x1="467.0" y1="143" x2="492.0" y2="143" stroke="#2563EB" stroke-width="3"/>
+<polygon points="492.0,143 481.1946347717679,148.21958640933477 481.1946347717679,137.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="725.0" y="100" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="825.0" y="149.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">폐열 QC 방출</text>
+<line x1="697.0" y1="143" x2="722.0" y2="143" stroke="#2563EB" stroke-width="3"/>
+<polygon points="722.0,143 711.1946347717678,148.21958640933477 711.1946347717678,137.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="140" y1="440" x2="810" y2="440" stroke="#64748B" stroke-width="2"/>
+<polygon points="810,440 799.1946347717678,445.21958640933474 799.1946347717678,434.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<line x1="140" y1="440" x2="140" y2="220" stroke="#64748B" stroke-width="2"/>
+<polygon points="140,220 145.21958640933477,230.80536522823212 134.78041359066523,230.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<text x="805" y="472" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">공급 열량</text>
+<text x="130" y="208" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">온도</text>
+<polyline points="170,410 330,310 580,310 760,190" stroke="#2563EB" stroke-width="4" fill="none"/>
+<text x="240" y="340" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">현열</text>
+<text x="450" y="285" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">상변화·잠열</text>
+<text x="700" y="265" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">현열</text>
+<text x="480" y="520" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">일정 압력의 순물질: 상변화 동안 온도가 일정한 구간이 존재</text>
+</svg>

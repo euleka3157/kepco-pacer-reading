@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="550" viewBox="0 0 960 550">
+<rect width="100%" height="100%" fill="white"/>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">전감산기: A - B - Bin을 계산한다</text>
+<rect x="220" y="100" width="150" height="110" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="295.0" y="162.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">반감산기 1</text>
+<rect x="490" y="100" width="150" height="110" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="565.0" y="162.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">반감산기 2</text>
+<rect x="720" y="290" width="120" height="120" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="780.0" y="357.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">OR</text>
+<text x="40" y="138" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="400">A</text>
+<text x="40" y="188" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="400">B</text>
+<line x1="80" y1="130" x2="220" y2="130" stroke="#2563EB" stroke-width="3"/>
+<polygon points="220,130 209.19463477176788,135.21958640933477 209.19463477176788,124.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="80" y1="180" x2="220" y2="180" stroke="#2563EB" stroke-width="3"/>
+<polygon points="220,180 209.19463477176788,185.21958640933477 209.19463477176788,174.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="370" y1="130" x2="490" y2="130" stroke="#2563EB" stroke-width="3"/>
+<polygon points="490,130 479.1946347717679,135.21958640933477 479.1946347717679,124.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="390" y="108" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="start" font-weight="400">A XOR B</text>
+<text x="25" y="248" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="400">Bin</text>
+<line x1="80" y1="240" x2="470" y2="240" stroke="#25344A" stroke-width="3"/>
+<line x1="470" y1="240" x2="470" y2="180" stroke="#25344A" stroke-width="3"/>
+<line x1="470" y1="180" x2="490" y2="180" stroke="#2563EB" stroke-width="3"/>
+<polygon points="490,180 479.1946347717679,185.21958640933477 479.1946347717679,174.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="640" y1="130" x2="900" y2="130" stroke="#2563EB" stroke-width="3"/>
+<polygon points="900,130 889.1946347717678,135.21958640933477 889.1946347717678,124.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="900" y="105" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#2563EB" text-anchor="end" font-weight="400">차 D</text>
+<line x1="370" y1="180" x2="420" y2="180" stroke="#25344A" stroke-width="3"/>
+<line x1="420" y1="180" x2="420" y2="320" stroke="#25344A" stroke-width="3"/>
+<line x1="420" y1="320" x2="720" y2="320" stroke="#2563EB" stroke-width="3"/>
+<polygon points="720,320 709.1946347717678,325.21958640933474 709.1946347717678,314.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="430" y="300" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">(NOT A) AND B</text>
+<line x1="640" y1="180" x2="680" y2="180" stroke="#25344A" stroke-width="3"/>
+<line x1="680" y1="180" x2="680" y2="380" stroke="#25344A" stroke-width="3"/>
+<line x1="680" y1="380" x2="720" y2="380" stroke="#2563EB" stroke-width="3"/>
+<polygon points="720,380 709.1946347717678,385.21958640933474 709.1946347717678,374.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="840" y1="350" x2="925" y2="350" stroke="#2563EB" stroke-width="3"/>
+<polygon points="925,350 914.1946347717678,355.21958640933474 914.1946347717678,344.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="925" y="325" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#DC2626" text-anchor="end" font-weight="400">Bout</text>
+<text x="40" y="460" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#2563EB" text-anchor="start" font-weight="400">D=A XOR B XOR Bin</text>
+<text x="40" y="510" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#DC2626" text-anchor="start" font-weight="400">Bout=[(NOT A) AND B] OR [(NOT(A XOR B)) AND Bin]</text>
+</svg>

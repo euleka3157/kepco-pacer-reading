@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="550" viewBox="0 0 960 550">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">조력 발전: 바다와 저수지 수위차를 이용</text>
+<rect x="50" y="180" width="170" height="180" rx="0" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<rect x="280" y="280" width="170" height="80" rx="0" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<rect x="220" y="140" width="60" height="220" rx="0" fill="#CBD5E1" stroke="#64748B" stroke-width="2"/>
+<circle cx="250" cy="320" r="25" fill="white" stroke="#2563EB" stroke-width="3"/>
+<line x1="130" y1="320" x2="370" y2="320" stroke="#DC2626" stroke-width="4"/>
+<polygon points="370,320 359.1946347717679,325.21958640933474 359.1946347717679,314.78041359066526" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="135" y="405" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">바다</text>
+<text x="365" y="405" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">저수지</text>
+<text x="250" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="middle" font-weight="400">밀물 때 저수</text>
+<rect x="530" y="280" width="170" height="80" rx="0" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<rect x="760" y="180" width="170" height="180" rx="0" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<rect x="700" y="140" width="60" height="220" rx="0" fill="#CBD5E1" stroke="#64748B" stroke-width="2"/>
+<circle cx="730" cy="320" r="25" fill="white" stroke="#2563EB" stroke-width="3"/>
+<line x1="850" y1="320" x2="610" y2="320" stroke="#DC2626" stroke-width="4"/>
+<polygon points="610,320 620.8053652282322,314.78041359066526 620.8053652282322,325.21958640933474" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="615" y="405" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">바다</text>
+<text x="845" y="405" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">저수지</text>
+<text x="730" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="middle" font-weight="400">썰물 때 발전</text>
+<text x="480" y="490" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">단방향 낙조 발전의 예 · 양방향 등 다른 운전 방식도 존재</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">Routh 특수 경우: 첫 열 0과 한 행 전체 0</text>
+<rect x="40" y="95" width="380" height="65" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="230.0" y="134.76" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">첫 열만 0</text>
+<text x="65" y="205" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">0 → ε &gt; 0으로 바꾼다.</text>
+<text x="65" y="260" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">표를 계속 채운다.</text>
+<text x="65" y="315" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">ε → 0+에서 부호를 판단한다.</text>
+<line x1="450" y1="170" x2="450" y2="400" stroke="#64748B" stroke-width="1"/>
+<polygon points="450,400 444.78041359066526,389.1946347717679 455.21958640933474,389.1946347717679" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<rect x="510" y="95" width="400" height="65" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="710.0" y="134.76" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">한 행 전체가 0</text>
+<text x="535" y="205" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">윗행 → 보조다항식 A(s)</text>
+<text x="535" y="260" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">A′(s)의 계수로 영행 대체</text>
+<text x="535" y="315" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">A(s)=0의 대칭 근도 확인</text>
+<text x="535" y="375" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#DC2626" text-anchor="start" font-weight="400">예: A(s)=s²+4 → ±j2</text>
+<text x="40" y="480" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">영행 자체가 언제나 안정·불안정을 결정하지 않는다. 중복도와 나머지 근을 본다.</text>
+</svg>

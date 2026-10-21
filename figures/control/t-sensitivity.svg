@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460">
+<rect width="100%" height="100%" fill="white"/>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">감도: 개루프 변화가 폐루프에서는 얼마나 줄어드는가</text>
+<text x="45" y="160" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#2563EB" text-anchor="start" font-weight="400">G=10</text>
+<line x1="280" y1="153" x2="410" y2="153" stroke="#2563EB" stroke-width="3"/>
+<polygon points="410,153 399.1946347717679,158.21958640933477 399.1946347717679,147.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="410" y="113" width="240" height="80" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="530.0" y="160.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">T=G/(1+G)</text>
+<line x1="650" y1="153" x2="760" y2="153" stroke="#2563EB" stroke-width="3"/>
+<polygon points="760,153 749.1946347717678,158.21958640933477 749.1946347717678,147.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="790" y="160" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#15803D" text-anchor="start" font-weight="400">0.9091</text>
+<text x="45" y="300" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#2563EB" text-anchor="start" font-weight="400">G=11 (+10%)</text>
+<line x1="280" y1="293" x2="410" y2="293" stroke="#2563EB" stroke-width="3"/>
+<polygon points="410,293 399.1946347717679,298.21958640933474 399.1946347717679,287.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="410" y="253" width="240" height="80" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="530.0" y="300.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">T=G/(1+G)</text>
+<line x1="650" y1="293" x2="760" y2="293" stroke="#2563EB" stroke-width="3"/>
+<polygon points="760,293 749.1946347717678,298.21958640933474 749.1946347717678,287.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="790" y="300" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#15803D" text-anchor="start" font-weight="400">0.9167</text>
+<text x="55" y="400" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#25344A" text-anchor="start" font-weight="400">H=1일 때 출력 이득은 0.9091 → 0.9167, 약 +0.83%만 변한다.</text>
+</svg>

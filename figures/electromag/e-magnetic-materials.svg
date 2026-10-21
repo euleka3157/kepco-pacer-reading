@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">자성체의 응답: 강자성·상자성·반자성</text>
+<line x1="60" y1="115" x2="890" y2="115" stroke="#2563EB" stroke-width="3"/>
+<polygon points="890,115 879.1946347717678,120.21958640933477 879.1946347717678,109.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="370" y="90" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">외부 자계 H →</text>
+<rect x="60" y="190" width="255" height="200" rx="5" fill="#F8FAFC" stroke="#64748B" stroke-width="2"/>
+<text x="50" y="165" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">강자성: 강한 정렬</text>
+<line x1="95" y1="230" x2="275" y2="230" stroke="#DC2626" stroke-width="4"/>
+<polygon points="275,230 264.1946347717679,235.21958640933477 264.1946347717679,224.78041359066523" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="95" y1="285" x2="275" y2="285" stroke="#DC2626" stroke-width="4"/>
+<polygon points="275,285 264.1946347717679,290.21958640933474 264.1946347717679,279.78041359066526" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="95" y1="340" x2="275" y2="340" stroke="#DC2626" stroke-width="4"/>
+<polygon points="275,340 264.1946347717679,345.21958640933474 264.1946347717679,334.78041359066526" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="70" y="460" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">비선형·포화·이력 가능</text>
+<rect x="370" y="190" width="255" height="200" rx="5" fill="#F8FAFC" stroke="#64748B" stroke-width="2"/>
+<text x="360" y="165" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">상자성: 약한 같은 방향</text>
+<line x1="405" y1="230" x2="490" y2="230" stroke="#0D9488" stroke-width="4"/>
+<polygon points="490,230 479.1946347717679,235.21958640933477 479.1946347717679,224.78041359066523" stroke="#0D9488" stroke-width="1" fill="#0D9488"/>
+<line x1="405" y1="285" x2="490" y2="285" stroke="#0D9488" stroke-width="4"/>
+<polygon points="490,285 479.1946347717679,290.21958640933474 479.1946347717679,279.78041359066526" stroke="#0D9488" stroke-width="1" fill="#0D9488"/>
+<line x1="405" y1="340" x2="490" y2="340" stroke="#0D9488" stroke-width="4"/>
+<polygon points="490,340 479.1946347717679,345.21958640933474 479.1946347717679,334.78041359066526" stroke="#0D9488" stroke-width="1" fill="#0D9488"/>
+<text x="380" y="460" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">작은 양의 자화율</text>
+<rect x="680" y="190" width="255" height="200" rx="5" fill="#F8FAFC" stroke="#64748B" stroke-width="2"/>
+<text x="670" y="165" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">반자성: 유도된 반대 방향</text>
+<line x1="800" y1="230" x2="715" y2="230" stroke="#7C3AED" stroke-width="4"/>
+<polygon points="715,230 725.8053652282322,224.78041359066523 725.8053652282322,235.21958640933477" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<line x1="800" y1="285" x2="715" y2="285" stroke="#7C3AED" stroke-width="4"/>
+<polygon points="715,285 725.8053652282322,279.78041359066526 725.8053652282322,290.21958640933474" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<line x1="800" y1="340" x2="715" y2="340" stroke="#7C3AED" stroke-width="4"/>
+<polygon points="715,340 725.8053652282322,334.78041359066526 725.8053652282322,345.21958640933474" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<text x="690" y="460" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">작은 음의 자화율</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">화살표 길이는 상대적 크기의 개념도다. 강자성체의 자화는 도메인과 이력에 영향을 받으며 </text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">단순 일정 μ로 모두 설명되지 않는다.</text>
+</svg>

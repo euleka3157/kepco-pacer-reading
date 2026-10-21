@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="530" viewBox="0 0 960 530">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">ZCT와 GPT: 서로 다른 영상량 검출</text>
+<ellipse cx="245" cy="240" rx="65" ry="135" fill="none" stroke="#2563EB" stroke-width="5"/>
+<line x1="65" y1="175" x2="425" y2="175" stroke="#25344A" stroke-width="3"/>
+<text x="75" y="163" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">a</text>
+<line x1="310" y1="175" x2="380" y2="175" stroke="#2563EB" stroke-width="3"/>
+<polygon points="380,175 369.1946347717679,180.21958640933477 369.1946347717679,169.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="65" y1="240" x2="425" y2="240" stroke="#25344A" stroke-width="3"/>
+<text x="75" y="228" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">b</text>
+<line x1="310" y1="240" x2="380" y2="240" stroke="#2563EB" stroke-width="3"/>
+<polygon points="380,240 369.1946347717679,245.21958640933477 369.1946347717679,234.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="65" y1="305" x2="425" y2="305" stroke="#25344A" stroke-width="3"/>
+<text x="75" y="293" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="start" font-weight="400">c</text>
+<line x1="310" y1="305" x2="380" y2="305" stroke="#2563EB" stroke-width="3"/>
+<polygon points="380,305 369.1946347717679,310.21958640933474 369.1946347717679,299.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="245" y1="375" x2="245" y2="410" stroke="#25344A" stroke-width="3"/>
+<text x="245" y="450" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">Ia + Ib + Ic = 3I0</text>
+<rect x="495.0" y="175" width="123.33333333333333" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="556.6666666666666" y="224.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">각 상 전압</text>
+<rect x="648.3333333333333" y="175" width="123.33333333333333" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="709.9999999999999" y="224.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">GPT 변성</text>
+<line x1="620.3333333333333" y1="218" x2="645.3333333333333" y2="218" stroke="#2563EB" stroke-width="3"/>
+<polygon points="645.3333333333333,218 634.5279681051011,223.21958640933477 634.5279681051011,212.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="801.6666666666666" y="175" width="123.33333333333333" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="863.3333333333333" y="224.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">오픈 Δ 출력</text>
+<line x1="773.6666666666666" y1="218" x2="798.6666666666666" y2="218" stroke="#2563EB" stroke-width="3"/>
+<polygon points="798.6666666666666,218 787.8613014384345,223.21958640933477 787.8613014384345,212.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="715" y="345" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">Va0 + Vb0 + Vc0 = 3V0</text>
+<text x="715" y="400" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">영상 전압 검출</text>
+</svg>

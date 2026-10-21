@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">단로기·차단기·퓨즈의 역할</text>
+<rect x="35.0" y="135" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="135.0" y="184.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">단로기 DS</text>
+<rect x="265.0" y="135" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="365.0" y="184.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">차단기 CB</text>
+<line x1="237.0" y1="178" x2="262.0" y2="178" stroke="#2563EB" stroke-width="3"/>
+<polygon points="262.0,178 251.19463477176788,183.21958640933477 251.19463477176788,172.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="495.0" y="135" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="595.0" y="184.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">단로기 DS</text>
+<line x1="467.0" y1="178" x2="492.0" y2="178" stroke="#2563EB" stroke-width="3"/>
+<polygon points="492.0,178 481.1946347717679,183.21958640933477 481.1946347717679,172.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="725.0" y="135" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="825.0" y="184.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">부하</text>
+<line x1="697.0" y1="178" x2="722.0" y2="178" stroke="#2563EB" stroke-width="3"/>
+<polygon points="722.0,178 711.1946347717678,183.21958640933477 711.1946347717678,172.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="480" y="300" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#DC2626" text-anchor="middle" font-weight="400">정전: CB 개방 → 무부하 확인 → DS 개방</text>
+<text x="480" y="350" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#2563EB" text-anchor="middle" font-weight="400">복전: DS 투입 → CB 투입</text>
+<rect x="80" y="410" width="800" height="75" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="480" y="455" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">퓨즈: 과전류로 용단 · GIS: 가스 절연으로 기기와 모선을 구성</text>
+</svg>

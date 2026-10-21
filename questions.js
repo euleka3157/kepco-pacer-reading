@@ -516,6 +516,7 @@ window.MathJax = {
     submitted = false; selfRevealed = false; clearMath();
     const question = visibleQuestions[currentIndex];
     $('questionCard').hidden = !question; $('emptyState').hidden = !!question;
+    $('questionCard').dataset.studyId = question ? question.id : '';
     $('feedback').hidden = true; $('tryAgain').hidden = true; $('checkButton').disabled = true;
     $('checkButton').hidden = false;
     $('checkButton').textContent = '정답 확인';

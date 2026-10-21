@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">유전체 경계의 힘: 법선·접선 조건을 나눈다</text>
+<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1"/>
+<rect x="75" y="150" width="330" height="130" rx="0" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<rect x="75" y="280" width="330" height="130" rx="0" fill="#DCFCE7" stroke="#15803D" stroke-width="2"/>
+<line x1="170" y1="170" x2="170" y2="390" stroke="#7C3AED" stroke-width="3"/>
+<polygon points="170,390 164.78041359066523,379.1946347717679 175.21958640933477,379.1946347717679" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<line x1="320" y1="280" x2="320" y2="350" stroke="#DC2626" stroke-width="3"/>
+<polygon points="320,350 314.78041359066526,339.1946347717679 325.21958640933474,339.1946347717679" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="90" y="200" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">ε1</text>
+<text x="90" y="370" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">ε2</text>
+<text x="185" y="250" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">D</text>
+<text x="335" y="325" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">힘</text>
+<text x="65" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">전계가 경계면에 수직</text>
+<text x="55" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">σ자유=0이면 Dn이 동일</text>
+<rect x="555" y="150" width="165" height="260" rx="0" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<rect x="720" y="150" width="165" height="260" rx="0" fill="#DCFCE7" stroke="#15803D" stroke-width="2"/>
+<line x1="610" y1="175" x2="610" y2="390" stroke="#7C3AED" stroke-width="3"/>
+<polygon points="610,390 604.7804135906653,379.1946347717679 615.2195864093347,379.1946347717679" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<line x1="800" y1="175" x2="800" y2="390" stroke="#7C3AED" stroke-width="3"/>
+<polygon points="800,390 794.7804135906653,379.1946347717679 805.2195864093347,379.1946347717679" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<line x1="720" y1="300" x2="785" y2="300" stroke="#DC2626" stroke-width="3"/>
+<polygon points="785,300 774.1946347717678,305.21958640933474 774.1946347717678,294.78041359066526" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="570" y="230" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">ε1</text>
+<text x="820" y="230" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">ε2</text>
+<text x="550" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">전계가 경계면에 평행</text>
+<text x="540" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">접선 E가 동일</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">ε1&gt;ε2, 법선은 1→2. 선형 매질·자유 표면전하 없음·전기왜곡 무시에서 경계 힘은 (T2-T</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">1)n으로 표시했다. 다른 기계적 조건에는 일반화하지 않는다.</text>
+</svg>

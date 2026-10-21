@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">흡출관과 캐비테이션</text>
+<polygon points="150,130 270,130 310,370 110,370" stroke="#64748B" stroke-width="4" fill="#EFF6FF"/>
+<line x1="210" y1="170" x2="210" y2="315" stroke="#2563EB" stroke-width="5"/>
+<polygon points="210,315 204.78041359066523,304.1946347717679 215.21958640933477,304.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="70" y="365" width="300" height="70" rx="0" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="210" y="490" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">흡출관: 속도수두 회수</text>
+<rect x="450.0" y="135" width="133.33333333333334" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="516.6666666666666" y="184.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">국부 저압</text>
+<rect x="613.3333333333334" y="135" width="133.33333333333334" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="680.0" y="184.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">증기 기포</text>
+<line x1="585.3333333333334" y1="178" x2="610.3333333333334" y2="178" stroke="#2563EB" stroke-width="3"/>
+<polygon points="610.3333333333334,178 599.5279681051012,183.21958640933477 599.5279681051012,172.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="776.6666666666667" y="135" width="133.33333333333334" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="843.3333333333334" y="184.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">고압부 붕괴</text>
+<line x1="748.6666666666667" y1="178" x2="773.6666666666667" y2="178" stroke="#2563EB" stroke-width="3"/>
+<polygon points="773.6666666666667,178 762.8613014384346,183.21958640933477 762.8613014384346,172.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<circle cx="520" cy="330" r="14" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+<circle cx="650" cy="330" r="27" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+<circle cx="800" cy="330" r="9" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+<text x="685" y="420" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#DC2626" text-anchor="middle" font-weight="400">충격·소음·침식 → 성능 저하</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="490" viewBox="0 0 960 490">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">차단 시간과 자동 재폐로 동작 책무</text>
+<rect x="35.0" y="110" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="135.0" y="159.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">고장 발생</text>
+<rect x="265.0" y="110" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="365.0" y="159.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">계전기 동작</text>
+<line x1="237.0" y1="153" x2="262.0" y2="153" stroke="#2563EB" stroke-width="3"/>
+<polygon points="262.0,153 251.19463477176788,158.21958640933477 251.19463477176788,147.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="495.0" y="110" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="595.0" y="159.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">트립·접점 개방</text>
+<line x1="467.0" y1="153" x2="492.0" y2="153" stroke="#2563EB" stroke-width="3"/>
+<polygon points="492.0,153 481.1946347717679,158.21958640933477 481.1946347717679,147.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="725.0" y="110" width="200.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="825.0" y="159.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">아크 소호</text>
+<line x1="697.0" y1="153" x2="722.0" y2="153" stroke="#2563EB" stroke-width="3"/>
+<polygon points="722.0,153 711.1946347717678,158.21958640933477 711.1946347717678,147.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="70" y1="330" x2="890" y2="330" stroke="#64748B" stroke-width="3"/>
+<line x1="90" y1="310" x2="90" y2="350" stroke="#2563EB" stroke-width="4"/>
+<text x="90" y="390" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#2563EB" text-anchor="middle" font-weight="400">O</text>
+<line x1="340" y1="310" x2="340" y2="350" stroke="#2563EB" stroke-width="4"/>
+<text x="340" y="390" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#2563EB" text-anchor="middle" font-weight="400">CO</text>
+<line x1="740" y1="310" x2="740" y2="350" stroke="#2563EB" stroke-width="4"/>
+<text x="740" y="390" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#2563EB" text-anchor="middle" font-weight="400">CO</text>
+<text x="215" y="305" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="19" fill="#25344A" text-anchor="middle" font-weight="400">규정 휴지시간</text>
+<text x="540" y="305" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="19" fill="#25344A" text-anchor="middle" font-weight="400">규정 휴지시간</text>
+<text x="480" y="455" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">O: 개방 · CO: 투입 직후 개방 · 시간은 기기 정격의 명시값 확인</text>
+</svg>

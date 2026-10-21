@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="32" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">뱅킹과 스폿 네트워크: 1차 전원부터 구별</text>
+<rect x="20" y="65" width="445" height="455" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="35" y="95" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">저압 뱅킹: 같은 1차 간선</text>
+<line x1="65" y1="145" x2="420" y2="145" stroke="#25344A" stroke-width="4"/>
+<text x="95" y="125" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">하나의 고압 간선</text>
+<line x1="140" y1="145" x2="140" y2="212" stroke="#25344A" stroke-width="3"/>
+<circle cx="140" cy="235" r="23" fill="white" stroke="#2563EB" stroke-width="3"/>
+<circle cx="140" cy="266" r="23" fill="white" stroke="#2563EB" stroke-width="3"/>
+<line x1="140" y1="289" x2="140" y2="370" stroke="#25344A" stroke-width="3"/>
+<line x1="345" y1="145" x2="345" y2="212" stroke="#25344A" stroke-width="3"/>
+<circle cx="345" cy="235" r="23" fill="white" stroke="#2563EB" stroke-width="3"/>
+<circle cx="345" cy="266" r="23" fill="white" stroke="#2563EB" stroke-width="3"/>
+<line x1="345" y1="289" x2="345" y2="370" stroke="#25344A" stroke-width="3"/>
+<line x1="95" y1="370" x2="405" y2="370" stroke="#2563EB" stroke-width="4"/>
+<line x1="180" y1="370" x2="180" y2="445" stroke="#2563EB" stroke-width="3"/>
+<polygon points="180,445 174.78041359066523,434.1946347717679 185.21958640933477,434.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="315" y1="370" x2="315" y2="445" stroke="#2563EB" stroke-width="3"/>
+<polygon points="315,445 309.78041359066526,434.1946347717679 320.21958640933474,434.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="100" y="495" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">변압기 2차를 공통 저압선에 연결</text>
+<rect x="490" y="65" width="450" height="455" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="505" y="95" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">스폿: 독립 간선들이 같은 부하점에 공급</text>
+<text x="529" y="125" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">간선 1</text>
+<line x1="565" y1="145" x2="565" y2="212" stroke="#25344A" stroke-width="3"/>
+<circle cx="565" cy="235" r="23" fill="white" stroke="#2563EB" stroke-width="3"/>
+<circle cx="565" cy="266" r="23" fill="white" stroke="#2563EB" stroke-width="3"/>
+<line x1="565" y1="289" x2="565" y2="320" stroke="#25344A" stroke-width="3"/>
+<rect x="542" y="320" width="46" height="42" rx="2" fill="white" stroke="#15803D" stroke-width="2"/>
+<text x="565" y="348" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#15803D" text-anchor="middle" font-weight="400">NP</text>
+<line x1="565" y1="362" x2="565" y2="410" stroke="#25344A" stroke-width="3"/>
+<text x="679" y="125" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">간선 2</text>
+<line x1="715" y1="145" x2="715" y2="212" stroke="#25344A" stroke-width="3"/>
+<circle cx="715" cy="235" r="23" fill="white" stroke="#2563EB" stroke-width="3"/>
+<circle cx="715" cy="266" r="23" fill="white" stroke="#2563EB" stroke-width="3"/>
+<line x1="715" y1="289" x2="715" y2="320" stroke="#25344A" stroke-width="3"/>
+<rect x="692" y="320" width="46" height="42" rx="2" fill="white" stroke="#15803D" stroke-width="2"/>
+<text x="715" y="348" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#15803D" text-anchor="middle" font-weight="400">NP</text>
+<line x1="715" y1="362" x2="715" y2="410" stroke="#25344A" stroke-width="3"/>
+<text x="829" y="125" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">간선 3</text>
+<line x1="865" y1="145" x2="865" y2="212" stroke="#25344A" stroke-width="3"/>
+<circle cx="865" cy="235" r="23" fill="white" stroke="#2563EB" stroke-width="3"/>
+<circle cx="865" cy="266" r="23" fill="white" stroke="#2563EB" stroke-width="3"/>
+<line x1="865" y1="289" x2="865" y2="320" stroke="#25344A" stroke-width="3"/>
+<rect x="842" y="320" width="46" height="42" rx="2" fill="white" stroke="#15803D" stroke-width="2"/>
+<text x="865" y="348" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#15803D" text-anchor="middle" font-weight="400">NP</text>
+<line x1="865" y1="362" x2="865" y2="410" stroke="#25344A" stroke-width="3"/>
+<line x1="540" y1="410" x2="895" y2="410" stroke="#2563EB" stroke-width="4"/>
+<line x1="715" y1="410" x2="715" y2="465" stroke="#2563EB" stroke-width="3"/>
+<polygon points="715,465 709.7804135906653,454.1946347717679 720.2195864093347,454.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="630" y="500" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">공통 부하 모선</text>
+<text x="40" y="570" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">NP: 네트워크 프로텍터 — 고장·역송 조건에서 해당 변압기 가지를 분리</text>
+<text x="40" y="610" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">단선도이며 각 선은 3상 회로를 대표한다. 독립 간선을 고압측에서 서로 묶지 않는다.</text>
+</svg>

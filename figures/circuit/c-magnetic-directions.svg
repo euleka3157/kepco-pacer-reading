@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
+<rect width="100%" height="100%" fill="white"/>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">자기장·운동·힘·유도전류의 방향</text>
+<rect x="24" y="65" width="440" height="210" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="40" y="94" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">직선전류와 자기장</text>
+<circle cx="155" cy="175" r="42" fill="white" stroke="#2563EB" stroke-width="3"/>
+<circle cx="155" cy="175" r="6" fill="#2563EB" stroke="#2563EB" stroke-width="3"/>
+<path d="M 230 175 A 75 75 0 1 0 155 250" stroke="#DC2626" stroke-width="3" fill="none"/>
+<line x1="155" y1="250" x2="190" y2="241" stroke="#DC2626" stroke-width="3"/>
+<polygon points="190,241 180.83497136909153,248.74611194049172 178.23518891556733,238.63584684345315" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="280" y="160" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">⊙ I : 화면 밖</text>
+<text x="280" y="205" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">B : 반시계</text>
+<rect x="490" y="65" width="445" height="210" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="506" y="94" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">v × B : 양전하에 작용하는 힘</text>
+<line x1="565" y1="220" x2="700" y2="220" stroke="#2563EB" stroke-width="3"/>
+<polygon points="700,220 689.1946347717678,225.21958640933477 689.1946347717678,214.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="705" y="227" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">v</text>
+<circle cx="605" cy="150" r="22" fill="white" stroke="#15803D" stroke-width="3"/>
+<line x1="592" y1="137" x2="618" y2="163" stroke="#15803D" stroke-width="3"/>
+<line x1="618" y1="137" x2="592" y2="163" stroke="#15803D" stroke-width="3"/>
+<text x="640" y="153" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">B : 화면 안</text>
+<line x1="565" y1="220" x2="565" y2="125" stroke="#DC2626" stroke-width="3"/>
+<polygon points="565,125 570.2195864093347,135.80536522823212 559.7804135906653,135.80536522823212" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="535" y="115" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">F</text>
+<rect x="24" y="295" width="910" height="245" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="40" y="324" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">렌츠 법칙: 자속 변화를 막는 방향</text>
+<circle cx="195" cy="410" r="63" fill="white" stroke="#2563EB" stroke-width="3"/>
+<circle cx="195" cy="410" r="7" fill="#2563EB" stroke="#2563EB" stroke-width="3"/>
+<line x1="145" y1="458" x2="122" y2="421" stroke="#DC2626" stroke-width="3"/>
+<polygon points="122,421 132.13743913673423,427.42124035907466 123.27160285368194,432.93243588637745" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="55" y="535" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">바깥쪽 B 증가 → 유도 B는 안쪽</text>
+<circle cx="660" cy="410" r="63" fill="white" stroke="#2563EB" stroke-width="3"/>
+<circle cx="660" cy="410" r="7" fill="#2563EB" stroke="#2563EB" stroke-width="3"/>
+<line x1="610" y1="458" x2="642" y2="472" stroke="#DC2626" stroke-width="3"/>
+<polygon points="642,472 630.0084768512035,472.45096848213075 634.1926939285128,462.8870437339951" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="505" y="535" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">바깥쪽 B 감소 → 유도 B는 바깥쪽</text>
+<text x="285" y="395" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">증가: 시계방향 I</text>
+<text x="750" y="395" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">감소: 반시계 I</text>
+</svg>

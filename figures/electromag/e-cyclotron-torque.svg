@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">자기력과 회전: 원운동은 속력보다 방향을 바꾼다</text>
+<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1"/>
+<circle cx="100" cy="160" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="92" y1="152" x2="108" y2="168" stroke="#64748B" stroke-width="3"/>
+<line x1="92" y1="168" x2="108" y2="152" stroke="#64748B" stroke-width="3"/>
+<circle cx="100" cy="300" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="92" y1="292" x2="108" y2="308" stroke="#64748B" stroke-width="3"/>
+<line x1="92" y1="308" x2="108" y2="292" stroke="#64748B" stroke-width="3"/>
+<circle cx="100" cy="440" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="92" y1="432" x2="108" y2="448" stroke="#64748B" stroke-width="3"/>
+<line x1="92" y1="448" x2="108" y2="432" stroke="#64748B" stroke-width="3"/>
+<circle cx="240" cy="160" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="232" y1="152" x2="248" y2="168" stroke="#64748B" stroke-width="3"/>
+<line x1="232" y1="168" x2="248" y2="152" stroke="#64748B" stroke-width="3"/>
+<circle cx="240" cy="300" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="232" y1="292" x2="248" y2="308" stroke="#64748B" stroke-width="3"/>
+<line x1="232" y1="308" x2="248" y2="292" stroke="#64748B" stroke-width="3"/>
+<circle cx="240" cy="440" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="232" y1="432" x2="248" y2="448" stroke="#64748B" stroke-width="3"/>
+<line x1="232" y1="448" x2="248" y2="432" stroke="#64748B" stroke-width="3"/>
+<circle cx="380" cy="160" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="372" y1="152" x2="388" y2="168" stroke="#64748B" stroke-width="3"/>
+<line x1="372" y1="168" x2="388" y2="152" stroke="#64748B" stroke-width="3"/>
+<circle cx="380" cy="300" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="372" y1="292" x2="388" y2="308" stroke="#64748B" stroke-width="3"/>
+<line x1="372" y1="308" x2="388" y2="292" stroke="#64748B" stroke-width="3"/>
+<circle cx="380" cy="440" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="372" y1="432" x2="388" y2="448" stroke="#64748B" stroke-width="3"/>
+<line x1="372" y1="448" x2="388" y2="432" stroke="#64748B" stroke-width="3"/>
+<circle cx="240" cy="300" r="95" fill="none" stroke="#2563EB" stroke-width="3"/>
+<circle cx="335" cy="300" r="20" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
+<text x="335" y="308" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="26" fill="#DC2626" text-anchor="middle" font-weight="700">+</text>
+<line x1="335" y1="275" x2="335" y2="180" stroke="#2563EB" stroke-width="3"/>
+<polygon points="335,180 340.21958640933474,190.80536522823212 329.78041359066526,190.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="310" y1="300" x2="250" y2="300" stroke="#DC2626" stroke-width="3"/>
+<polygon points="250,300 260.8053652282321,294.78041359066526 260.8053652282321,305.21958640933474" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="350" y="195" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">v</text>
+<text x="275" y="280" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">F</text>
+<text x="60" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">q&gt;0, B는 종이 안</text>
+<text x="60" y="490" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">r = mv/(|q|B)</text>
+<line x1="550" y1="270" x2="890" y2="270" stroke="#2563EB" stroke-width="3"/>
+<polygon points="890,270 879.1946347717678,275.21958640933474 879.1946347717678,264.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="710" y1="330" x2="780" y2="170" stroke="#7C3AED" stroke-width="3"/>
+<polygon points="780,170 780.4509684821307,181.9915231487966 770.8870437339951,177.80730607148726" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<text x="850" y="245" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">B</text>
+<text x="785" y="175" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">m</text>
+<polyline points="773.2241844694512,202.6823212153683 775.2239624928284,204.009142932924 777.1830420024878,205.39535196759087 779.0996599591049,206.83970082480397 780.9720915358864,208.34088968808246 782.7986516707986,209.89756758877658 784.5776965830091,211.50833362184835 786.3076252521789,213.17173820659139 787.9868808592724,214.8862843911559 789.6139521875896,216.65042919970418 791.1873749827591,218.4625850209847 792.7057332704679,220.32112103707522 794.1676606307434,222.22436469100865 795.5718414276383,224.1706031919615 796.9170119932149,226.15808505665012 798.2019617647604,228.18502168554727 799.425534374212,230.24958897250104 800.5866286888097,232.34992894630736 801.684199802042,234.48415144275842 802.7172599739908,236.65033580566313 803.6848795202308,238.84653261530795 804.5861876484828,241.07076544280307 805.4203732422677,243.32103262873486 806.1866855908571,245.5953090845245 806.8844350648617,247.89154811487091 807.5129937368516,250.20768325963817 808.0717959464484,252.54163015353046 808.5603388093816,254.89128840187996 808.9781826700502,257.2545434708603 809.3249514971831,259.62926859042443 809.600333222242,262.01332666825374 809.8040800202624,264.4045722129974 809.9360085328782,266.8008532650693 809.9960000333332,269.20001333326667 809.9840005333263,271.5998933354667 809.9000208315973,273.9983335416543 809.7441365042096,276.3931755175338 809.5164878365357,278.782264066974 809.217279697011,281.1634491715389 808.8467813527649,283.5345879253597 808.4053262272994,285.8935464636049 807.89331160043,288.2382018828151 807.3111982507611,290.5664441513724 806.6595100410158,292.87617800838683 805.9388334465953,295.16532484928945 805.1498170277903,297.4318245964361 804.2931708461208,299.6736375530386 803.3696658253284,301.8887462387538 802.380133057597,304.07515720528 801.3254630556263,306.2309028303255 800.2066049512298,308.35404308833625 799.0245656411809,310.44266729638775 797.7804088810733,312.4948958336707 796.4752543280131,314.5088818330227 795.1102765330027,316.4828128429844 793.6867038839245,318.4149124588832 792.2058175000742,320.3034419214775 790.6689500792406,322.14670168172296 789.077484698367,323.9430329302516 787.4328535688754,325.69081909018854 785.7365367477732,327.3884872719618" stroke="#DC2626" stroke-width="3" fill="none"/>
+<line x1="789.077484698367" y1="323.9430329302516" x2="785.7365367477732" y2="327.3884872719618" stroke="#DC2626" stroke-width="3"/>
+<polygon points="785.7365367477732,327.3884872719618 789.5113354751666,315.9976622549725 797.005729023602,323.2647383161692" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="570" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">자기쌍극자의 회전력</text>
+<text x="570" y="460" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">τ = m×B: m을 B와 정렬</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">왼쪽 양전하가 오른쪽 점에서 위로 움직이면 힘은 중심 방향인 왼쪽이다. 자계만 있을 때 운</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">동에너지는 일정하다.</text>
+</svg>

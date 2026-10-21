@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">단선·연선과 1 + 6 + 12가닥의 기하</text>
+<circle cx="165" cy="230" r="78" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+<text x="165" y="370" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">단선의 금속 단면</text>
+<circle cx="403.0" cy="230.0" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<circle cx="421.0" cy="261.1769145362398" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<circle cx="439.0" cy="292.3538290724796" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<circle cx="421.0" cy="198.8230854637602" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<circle cx="439.0" cy="230.0" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<circle cx="457.0" cy="261.1769145362398" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<circle cx="475.0" cy="292.3538290724796" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<circle cx="439.0" cy="167.64617092752042" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<circle cx="457.0" cy="198.8230854637602" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<circle cx="475.0" cy="230.0" r="18" fill="#DCFCE7" stroke="#2563EB" stroke-width="2"/>
+<circle cx="493.0" cy="261.1769145362398" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<circle cx="511.0" cy="292.3538290724796" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<circle cx="475.0" cy="167.64617092752042" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<circle cx="493.0" cy="198.8230854637602" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<circle cx="511.0" cy="230.0" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<circle cx="529.0" cy="261.1769145362398" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<circle cx="511.0" cy="167.64617092752042" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<circle cx="529.0" cy="198.8230854637602" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<circle cx="547.0" cy="230.0" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="475" y="370" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">연선 19가닥: 1 + 6 + 12</text>
+<line x1="730" y1="145" x2="730" y2="320" stroke="#DC2626" stroke-width="3"/>
+<polygon points="730,320 724.7804135906653,309.1946347717679 735.2195864093347,309.1946347717679" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="730" y1="320" x2="730" y2="145" stroke="#DC2626" stroke-width="3"/>
+<polygon points="730,145 735.2195864093347,155.80536522823212 724.7804135906653,155.80536522823212" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="755" y="240" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">D = (2n + 1)d</text>
+<text x="480" y="440" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">금속 면적은 소선 단면의 합 · 소선 사이 빈 공간은 제외</text>
+</svg>

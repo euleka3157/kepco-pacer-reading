@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">HVDC와 상분리 모선</text>
+<rect x="35.0" y="110" width="154.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="112.0" y="159.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">교류 계통</text>
+<rect x="219.0" y="110" width="154.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="296.0" y="159.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">변환소 AC→DC</text>
+<line x1="191.0" y1="153" x2="216.0" y2="153" stroke="#2563EB" stroke-width="3"/>
+<polygon points="216.0,153 205.19463477176788,158.21958640933477 205.19463477176788,147.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="403.0" y="110" width="154.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="480.0" y="159.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">직류 선로</text>
+<line x1="375.0" y1="153" x2="400.0" y2="153" stroke="#2563EB" stroke-width="3"/>
+<polygon points="400.0,153 389.1946347717679,158.21958640933477 389.1946347717679,147.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="587.0" y="110" width="154.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="664.0" y="159.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">변환소 DC→AC</text>
+<line x1="559.0" y1="153" x2="584.0" y2="153" stroke="#2563EB" stroke-width="3"/>
+<polygon points="584.0,153 573.1946347717678,158.21958640933477 573.1946347717678,147.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="771.0" y="110" width="154.0" height="86" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="848.0" y="159.6" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#2563EB" text-anchor="middle" font-weight="700">교류 계통</text>
+<line x1="743.0" y1="153" x2="768.0" y2="153" stroke="#2563EB" stroke-width="3"/>
+<polygon points="768.0,153 757.1946347717678,158.21958640933477 757.1946347717678,147.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<circle cx="300" cy="300" r="57" fill="#E2E8F0" stroke="#64748B" stroke-width="3"/>
+<circle cx="300" cy="300" r="25" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+<text x="300" y="390" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">A상</text>
+<circle cx="480" cy="300" r="57" fill="#E2E8F0" stroke="#64748B" stroke-width="3"/>
+<circle cx="480" cy="300" r="25" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+<text x="480" y="390" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">B상</text>
+<circle cx="660" cy="300" r="57" fill="#E2E8F0" stroke="#64748B" stroke-width="3"/>
+<circle cx="660" cy="300" r="25" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+<text x="660" y="390" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">C상</text>
+</svg>

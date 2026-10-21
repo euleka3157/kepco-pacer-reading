@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="580" viewBox="0 0 960 580">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">무손실 송전선의 수전단 P–Q 원과 모선 종류</text>
+<line x1="240" y1="225" x2="490" y2="225" stroke="#64748B" stroke-width="2"/>
+<polygon points="490,225 479.1946347717679,230.21958640933477 479.1946347717679,219.78041359066523" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<line x1="240" y1="225" x2="240" y2="75" stroke="#64748B" stroke-width="2"/>
+<polygon points="240,75 245.21958640933477,85.80536522823212 234.78041359066523,85.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<text x="485" y="257" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">P</text>
+<text x="230" y="63" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">Q</text>
+<line x1="240" y1="225" x2="240" y2="520" stroke="#64748B" stroke-width="2"/>
+<circle cx="240" cy="365" r="168" fill="none" stroke="#2563EB" stroke-width="3"/>
+<circle cx="240" cy="365" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
+<text x="256" y="385" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">중심 (0, -Vr²/X)</text>
+<line x1="240" y1="365" x2="358.79393923934" y2="246.20606076066002" stroke="#DC2626" stroke-width="3"/>
+<polygon points="358.79393923934,246.20606076066002 354.8441971582895,257.53741273177 347.46258726823,250.15580284171054" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<circle cx="358.79393923934" cy="246.20606076066002" r="5" fill="#25344A" stroke="#25344A" stroke-width="1"/>
+<text x="368.79393923934" y="234.20606076066002" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#DC2626" text-anchor="start" font-weight="400">운전점</text>
+<rect x="550" y="100" width="320" height="90" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="710.0" y="137.43" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="middle" font-weight="700">슬랙</text>
+<text x="710.0" y="166.43" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="middle" font-weight="700">|V|, δ 지정</text>
+<rect x="550" y="230" width="320" height="90" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="710.0" y="267.43" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="middle" font-weight="700">PV</text>
+<text x="710.0" y="296.43" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="middle" font-weight="700">P, |V| 지정</text>
+<rect x="550" y="360" width="320" height="90" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="710.0" y="397.43" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="middle" font-weight="700">PQ</text>
+<text x="710.0" y="426.43" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="middle" font-weight="700">P, Q 지정</text>
+</svg>

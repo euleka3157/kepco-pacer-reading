@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">힘의 방향: qv×B와 Iℓ×B</text>
+<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1"/>
+<circle cx="110" cy="170" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="102" y1="162" x2="118" y2="178" stroke="#64748B" stroke-width="3"/>
+<line x1="102" y1="178" x2="118" y2="162" stroke="#64748B" stroke-width="3"/>
+<circle cx="110" cy="290" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="102" y1="282" x2="118" y2="298" stroke="#64748B" stroke-width="3"/>
+<line x1="102" y1="298" x2="118" y2="282" stroke="#64748B" stroke-width="3"/>
+<circle cx="110" cy="400" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="102" y1="392" x2="118" y2="408" stroke="#64748B" stroke-width="3"/>
+<line x1="102" y1="408" x2="118" y2="392" stroke="#64748B" stroke-width="3"/>
+<circle cx="240" cy="170" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="232" y1="162" x2="248" y2="178" stroke="#64748B" stroke-width="3"/>
+<line x1="232" y1="178" x2="248" y2="162" stroke="#64748B" stroke-width="3"/>
+<circle cx="240" cy="290" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="232" y1="282" x2="248" y2="298" stroke="#64748B" stroke-width="3"/>
+<line x1="232" y1="298" x2="248" y2="282" stroke="#64748B" stroke-width="3"/>
+<circle cx="240" cy="400" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="232" y1="392" x2="248" y2="408" stroke="#64748B" stroke-width="3"/>
+<line x1="232" y1="408" x2="248" y2="392" stroke="#64748B" stroke-width="3"/>
+<circle cx="370" cy="170" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="362" y1="162" x2="378" y2="178" stroke="#64748B" stroke-width="3"/>
+<line x1="362" y1="178" x2="378" y2="162" stroke="#64748B" stroke-width="3"/>
+<circle cx="370" cy="290" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="362" y1="282" x2="378" y2="298" stroke="#64748B" stroke-width="3"/>
+<line x1="362" y1="298" x2="378" y2="282" stroke="#64748B" stroke-width="3"/>
+<circle cx="370" cy="400" r="15" fill="white" stroke="#64748B" stroke-width="3"/>
+<line x1="362" y1="392" x2="378" y2="408" stroke="#64748B" stroke-width="3"/>
+<line x1="362" y1="408" x2="378" y2="392" stroke="#64748B" stroke-width="3"/>
+<circle cx="205" cy="280" r="20" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
+<text x="205" y="288" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="26" fill="#DC2626" text-anchor="middle" font-weight="700">+</text>
+<line x1="230" y1="280" x2="365" y2="280" stroke="#2563EB" stroke-width="3"/>
+<polygon points="365,280 354.1946347717679,285.21958640933474 354.1946347717679,274.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="205" y1="255" x2="205" y2="130" stroke="#DC2626" stroke-width="3"/>
+<polygon points="205,130 210.21958640933477,140.80536522823212 199.78041359066523,140.80536522823212" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="285" y="260" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">v</text>
+<text x="220" y="150" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">F</text>
+<text x="70" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">q&gt;0, B는 종이 안 ⊗</text>
+<text x="70" y="475" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">음전하는 힘 방향이 반대</text>
+<line x1="590" y1="150" x2="590" y2="420" stroke="#2563EB" stroke-width="7"/>
+<line x1="810" y1="150" x2="810" y2="420" stroke="#2563EB" stroke-width="7"/>
+<line x1="590" y1="350" x2="590" y2="220" stroke="#2563EB" stroke-width="5"/>
+<polygon points="590,220 595.2195864093347,230.80536522823212 584.7804135906653,230.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="810" y1="350" x2="810" y2="220" stroke="#2563EB" stroke-width="5"/>
+<polygon points="810,220 815.2195864093347,230.80536522823212 804.7804135906653,230.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="610" y1="280" x2="680" y2="280" stroke="#DC2626" stroke-width="3"/>
+<polygon points="680,280 669.1946347717678,285.21958640933474 669.1946347717678,274.78041359066526" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<line x1="790" y1="280" x2="720" y2="280" stroke="#DC2626" stroke-width="3"/>
+<polygon points="720,280 730.8053652282322,274.78041359066526 730.8053652282322,285.21958640933474" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="540" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">같은 방향의 평행 전류: 인력</text>
+<text x="550" y="470" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">반대 방향의 평행 전류: 척력</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">왼쪽: 오른쪽 속도 × 종이 안 자계 = 위쪽 힘. 자기력은 속도와 수직이므로 입자의 속력 자</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">체는 바꾸지 않는다.</text>
+</svg>

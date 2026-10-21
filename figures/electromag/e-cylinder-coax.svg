@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">원통형 전하와 동축 구조: 반지름을 어디서 재는가</text>
+<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1"/>
+<circle cx="225" cy="255" r="100" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
+<circle cx="225" cy="255" r="160" fill="none" stroke="#64748B" stroke-width="2"/>
+<circle cx="225" cy="255" r="20" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
+<text x="225" y="263" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="26" fill="#DC2626" text-anchor="middle" font-weight="700">+</text>
+<line x1="225" y1="255" x2="325" y2="255" stroke="#0D9488" stroke-width="3"/>
+<polygon points="325,255 314.1946347717679,260.21958640933474 314.1946347717679,249.78041359066523" stroke="#0D9488" stroke-width="1" fill="#0D9488"/>
+<text x="265" y="240" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">a</text>
+<text x="60" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">균일 체적전하 원통</text>
+<text x="55" y="420" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">r&lt;a: E ∝ r</text>
+<text x="55" y="455" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">r&gt;a: E ∝ 1/r</text>
+<circle cx="720" cy="255" r="145" fill="#E2E8F0" stroke="#64748B" stroke-width="3"/>
+<circle cx="720" cy="255" r="112" fill="white" stroke="#64748B" stroke-width="3"/>
+<circle cx="720" cy="255" r="45" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
+<line x1="720" y1="255" x2="765" y2="255" stroke="#64748B" stroke-width="2"/>
+<polygon points="765,255 757.7964231811786,258.4797242728898 757.7964231811786,251.52027572711015" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<line x1="765" y1="255" x2="720" y2="255" stroke="#64748B" stroke-width="2"/>
+<polygon points="720,255 727.2035768188214,251.52027572711015 727.2035768188214,258.4797242728898" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<text x="742.5" y="245.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" font-weight="400">a</text>
+<line x1="720" y1="255" x2="800" y2="176" stroke="#0D9488" stroke-width="3"/>
+<polygon points="800,176 795.9790710782855,187.30628721581581 788.6440314764287,179.8783990114039" stroke="#0D9488" stroke-width="1" fill="#0D9488"/>
+<text x="795" y="170" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">b</text>
+<line x1="780" y1="290" x2="830" y2="315" stroke="#2563EB" stroke-width="3"/>
+<polygon points="830,315 818.0011175260429,314.83623377587475 822.6696575363255,305.49915375530946" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="550" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">동축 단면: a&lt;r&lt;b</text>
+<text x="550" y="430" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">E = λ/(2πεr)</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">a는 내부 도체 반지름, b는 외부 도체의 안쪽 반지름이다. 동축 전압은 유한한 두 반지름 사</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">이에서 정의한다.</text>
+</svg>

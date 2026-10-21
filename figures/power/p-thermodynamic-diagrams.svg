@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="590" viewBox="0 0 960 590">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">T–s 선도에서 카르노와 랭킨 과정</text>
+<line x1="75" y1="420" x2="425" y2="420" stroke="#64748B" stroke-width="2"/>
+<polygon points="425,420 414.1946347717679,425.21958640933474 414.1946347717679,414.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<line x1="75" y1="420" x2="75" y2="130" stroke="#64748B" stroke-width="2"/>
+<polygon points="75,130 80.21958640933477,140.80536522823212 69.78041359066523,140.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<text x="420" y="452" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">s</text>
+<text x="65" y="118" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">T</text>
+<rect x="150" y="170" width="200" height="170" rx="0" fill="none" stroke="#2563EB" stroke-width="3"/>
+<line x1="175" y1="170" x2="320" y2="170" stroke="#2563EB" stroke-width="3"/>
+<polygon points="320,170 309.1946347717679,175.21958640933477 309.1946347717679,164.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="350" y1="210" x2="350" y2="310" stroke="#2563EB" stroke-width="3"/>
+<polygon points="350,310 344.78041359066526,299.1946347717679 355.21958640933474,299.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="325" y1="340" x2="180" y2="340" stroke="#2563EB" stroke-width="3"/>
+<polygon points="180,340 190.80536522823212,334.78041359066526 190.80536522823212,345.21958640933474" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="150" y1="310" x2="150" y2="210" stroke="#2563EB" stroke-width="3"/>
+<polygon points="150,210 155.21958640933477,220.80536522823212 144.78041359066523,220.80536522823212" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="250" y="115" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="18" fill="#25344A" text-anchor="middle" font-weight="400">카르노: 등온 2 + 등엔트로피 2</text>
+<line x1="540" y1="420" x2="890" y2="420" stroke="#64748B" stroke-width="2"/>
+<polygon points="890,420 879.1946347717678,425.21958640933474 879.1946347717678,414.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<line x1="540" y1="420" x2="540" y2="130" stroke="#64748B" stroke-width="2"/>
+<polygon points="540,130 545.2195864093347,140.80536522823212 534.7804135906653,140.80536522823212" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<text x="885" y="452" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="end" font-weight="400">s</text>
+<text x="530" y="118" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">T</text>
+<path d="M 585 390 Q 655 110 720 110 Q 785 110 855 390" stroke="#64748B" stroke-width="2" fill="none"/>
+<polyline points="600,370 600,345 640,255 780,255 825,155 825,370 600,370" stroke="#DC2626" stroke-width="3" fill="none"/>
+<text x="580" y="390" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#DC2626" text-anchor="start" font-weight="400">1</text>
+<text x="575" y="335" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#DC2626" text-anchor="start" font-weight="400">2</text>
+<text x="835" y="150" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#DC2626" text-anchor="start" font-weight="400">3</text>
+<text x="840" y="390" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#DC2626" text-anchor="start" font-weight="400">4</text>
+<text x="725" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="18" fill="#25344A" text-anchor="middle" font-weight="400">이상 랭킨의 개념 경로</text>
+<text x="480" y="505" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">1→2 펌프 · 2→3 보일러 · 3→4 터빈 · 4→1 복수기</text>
+<text x="480" y="555" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#25344A" text-anchor="middle" font-weight="400">가역 과정에서 곡선 아래 ∫Tds가 열량 · 실제 손실은 별도</text>
+</svg>

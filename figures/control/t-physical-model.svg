@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="590" viewBox="0 0 960 590">
+<rect width="100%" height="100%" fill="white"/>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">물리계 모델: 저장·소산 요소에서 전달함수까지</text>
+<line x1="70" y1="110" x2="70" y2="340" stroke="#25344A" stroke-width="3"/>
+<polyline points="70,160 110.0,160.0 125.0,170.0 140.0,150.0 155.0,170.0 170.0,150.0 185.0,170.0 199.99999999999997,150.0 215.00000000000003,170.0 230.0,160.0 270,160" stroke="#25344A" stroke-width="3" fill="none"/>
+<text x="170.0" y="136.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">스프링 k</text>
+<line x1="70" y1="285" x2="150" y2="285" stroke="#25344A" stroke-width="3"/>
+<rect x="150" y="260" width="70" height="50" rx="0" fill="white" stroke="#25344A" stroke-width="2"/>
+<line x1="220" y1="285" x2="270" y2="285" stroke="#25344A" stroke-width="3"/>
+<line x1="270" y1="160" x2="270" y2="285" stroke="#25344A" stroke-width="3"/>
+<line x1="270" y1="220" x2="350" y2="220" stroke="#25344A" stroke-width="3"/>
+<rect x="350" y="150" width="180" height="140" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="440.0" y="227.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">질량 m</text>
+<line x1="530" y1="220" x2="730" y2="220" stroke="#DC2626" stroke-width="3"/>
+<polygon points="730,220 719.1946347717678,225.21958640933477 719.1946347717678,214.78041359066523" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="740" y="230" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#DC2626" text-anchor="start" font-weight="400">F(t)</text>
+<line x1="380" y1="370" x2="570" y2="370" stroke="#2563EB" stroke-width="3"/>
+<polygon points="570,370 559.1946347717678,375.21958640933474 559.1946347717678,364.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="580" y="380" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="23" fill="#2563EB" text-anchor="start" font-weight="400">변위 x(t)</text>
+<text x="145" y="340" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">점성감쇠 b</text>
+<text x="75" y="440" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#2563EB" text-anchor="start" font-weight="400">mx″+bx′+kx=F · 초기값 0: X/F=1/(ms²+bs+k)</text>
+<text x="75" y="495" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="400">전기 요소: V/I = R, sL, 1/(sC) (초기값 0)</text>
+<text x="75" y="550" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">힘 ↔ 전압, 속도 ↔ 전류 대응에서는 m↔L, b↔R, 1/k↔C</text>
+</svg>

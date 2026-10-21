@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="34" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">유전체를 넣은 방향에 따라 직렬 또는 병렬</text>
+<line x1="480" y1="60" x2="480" y2="470" stroke="#CBD5E1" stroke-width="1"/>
+<rect x="75" y="150" width="330" height="130" rx="0" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<rect x="75" y="280" width="330" height="130" rx="0" fill="#DCFCE7" stroke="#15803D" stroke-width="2"/>
+<line x1="70" y1="150" x2="410" y2="150" stroke="#DC2626" stroke-width="6"/>
+<line x1="70" y1="410" x2="410" y2="410" stroke="#2563EB" stroke-width="6"/>
+<text x="100" y="210" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">ε1, d1</text>
+<text x="100" y="350" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">ε2, d2</text>
+<line x1="340" y1="180" x2="340" y2="385" stroke="#7C3AED" stroke-width="3"/>
+<polygon points="340,385 334.78041359066526,374.1946347717679 345.21958640933474,374.1946347717679" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<text x="365" y="285" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">D</text>
+<text x="65" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">층이 전계에 수직 → 직렬</text>
+<text x="60" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">D1n=D2n, 전압강하 합산</text>
+<rect x="555" y="150" width="165" height="260" rx="0" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<rect x="720" y="150" width="165" height="260" rx="0" fill="#DCFCE7" stroke="#15803D" stroke-width="2"/>
+<line x1="550" y1="150" x2="890" y2="150" stroke="#DC2626" stroke-width="6"/>
+<line x1="550" y1="410" x2="890" y2="410" stroke="#2563EB" stroke-width="6"/>
+<text x="580" y="250" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">ε1,S1</text>
+<text x="745" y="250" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">ε2,S2</text>
+<line x1="635" y1="285" x2="635" y2="370" stroke="#7C3AED" stroke-width="3"/>
+<polygon points="635,370 629.7804135906653,359.1946347717679 640.2195864093347,359.1946347717679" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<line x1="800" y1="285" x2="800" y2="370" stroke="#7C3AED" stroke-width="3"/>
+<polygon points="800,370 794.7804135906653,359.1946347717679 805.2195864093347,359.1946347717679" stroke="#7C3AED" stroke-width="1" fill="#7C3AED"/>
+<text x="550" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">층이 전계에 평행 → 병렬</text>
+<text x="555" y="465" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">E1t=E2t, 저장전하 합산</text>
+<text x="30" y="565" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">동축 다층도 반지름 방향의 전압강하를 합산한다. 층마다 유전율과 반지름 구간을 함께 지정</text>
+<text x="30" y="593" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#64748B" text-anchor="start" font-weight="400">한다.</text>
+</svg>

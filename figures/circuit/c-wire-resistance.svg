@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500">
+<rect width="100%" height="100%" fill="white"/>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">도체의 저항: 길이·단면적·재료</text>
+<rect x="115" y="165" width="480" height="160" rx="0" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<ellipse cx="115" cy="245" rx="45" ry="80" fill="#EFF6FF" stroke="#2563EB" stroke-width="3"/>
+<ellipse cx="595" cy="245" rx="45" ry="80" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+<line x1="160" y1="245" x2="545" y2="245" stroke="#DC2626" stroke-width="4"/>
+<polygon points="545,245 534.1946347717678,250.21958640933477 534.1946347717678,239.78041359066523" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="325" y="225" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">I</text>
+<line x1="115" y1="360" x2="595" y2="360" stroke="#64748B" stroke-width="2"/>
+<line x1="115" y1="360" x2="595" y2="360" stroke="#64748B" stroke-width="2"/>
+<polygon points="595,360 584.1946347717678,365.21958640933474 584.1946347717678,354.78041359066526" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<text x="340" y="395" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">ℓ</text>
+<line x1="740" y1="160" x2="610" y2="215" stroke="#15803D" stroke-width="3"/>
+<polygon points="610,215 617.9176279103322,205.98272944436462 621.9851471117413,215.59686573860432" stroke="#15803D" stroke-width="1" fill="#15803D"/>
+<text x="730" y="125" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">단면적 A</text>
+<text x="700" y="300" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">재료의 ρ</text>
+<rect x="60" y="425" width="400" height="50" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="260.0" y="457.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">R = ρℓ / A</text>
+<rect x="500" y="425" width="400" height="50" rx="10" fill="#EFF6FF" stroke="#15803D" stroke-width="2"/>
+<text x="700.0" y="457.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#15803D" text-anchor="middle" font-weight="700">G = σA / ℓ,  σ = 1/ρ</text>
+</svg>

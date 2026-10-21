@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#25344A" text-anchor="start" font-weight="700">이도 D와 수평장력 T · 하중의 벡터 합</text>
+<line x1="100" y1="120" x2="100" y2="420" stroke="#64748B" stroke-width="8"/>
+<line x1="575" y1="120" x2="575" y2="420" stroke="#64748B" stroke-width="8"/>
+<line x1="100" y1="150" x2="575" y2="150" stroke="#64748B" stroke-width="2" stroke-dasharray="6 6"/>
+<polyline points="100.0,150.0 105.9375,156.171875 111.875,162.1875 117.8125,168.046875 123.75,173.75 129.6875,179.296875 135.625,184.6875 141.5625,189.921875 147.5,195.0 153.4375,199.921875 159.375,204.6875 165.3125,209.296875 171.25,213.75 177.1875,218.046875 183.125,222.1875 189.0625,226.171875 195.0,230.0 200.9375,233.671875 206.875,237.1875 212.8125,240.546875 218.75,243.75 224.6875,246.796875 230.625,249.6875 236.5625,252.421875 242.5,255.0 248.4375,257.421875 254.375,259.6875 260.3125,261.796875 266.25,263.75 272.1875,265.546875 278.125,267.1875 284.0625,268.671875 290.0,270.0 295.9375,271.171875 301.875,272.1875 307.8125,273.046875 313.75,273.75 319.6875,274.296875 325.625,274.6875 331.5625,274.921875 337.5,275.0 343.4375,274.921875 349.375,274.6875 355.3125,274.296875 361.25,273.75 367.1875,273.046875 373.125,272.1875 379.0625,271.171875 385.0,270.0 390.9375,268.671875 396.875,267.1875 402.8125,265.546875 408.75,263.75 414.6875,261.796875 420.625,259.6875 426.5625,257.421875 432.5,255.0 438.4375,252.421875 444.375,249.6875 450.3125,246.796875 456.25,243.75 462.1875,240.546875 468.125,237.1875 474.0625,233.671875 480.0,230.0 485.9375,226.171875 491.875,222.1875 497.8125,218.046875 503.75,213.75 509.6875,209.29687499999997 515.625,204.6875 521.5625,199.92187500000003 527.5,195.0 533.4375,189.921875 539.375,184.68749999999997 545.3125,179.296875 551.25,173.75000000000003 557.1875,168.046875 563.125,162.1875 569.0625,156.17187499999997 575.0,150.0" stroke="#2563EB" stroke-width="4" fill="none"/>
+<line x1="338" y1="150" x2="338" y2="275" stroke="#DC2626" stroke-width="3"/>
+<polygon points="338,275 332.78041359066526,264.1946347717679 343.21958640933474,264.1946347717679" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="354" y="220" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" fill="#DC2626" text-anchor="start" font-weight="400">D</text>
+<line x1="100" y1="105" x2="575" y2="105" stroke="#64748B" stroke-width="3"/>
+<polygon points="575,105 564.1946347717678,110.21958640933477 564.1946347717678,99.78041359066523" stroke="#64748B" stroke-width="1" fill="#64748B"/>
+<text x="338" y="88" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">경간 S</text>
+<line x1="160" y1="180" x2="110" y2="180" stroke="#2563EB" stroke-width="3"/>
+<polygon points="110,180 120.80536522823212,174.78041359066523 120.80536522823212,185.21958640933477" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="190" y="198" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="start" font-weight="400">T</text>
+<line x1="745" y1="170" x2="745" y2="350" stroke="#2563EB" stroke-width="3"/>
+<polygon points="745,350 739.7804135906653,339.1946347717679 750.2195864093347,339.1946347717679" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<line x1="745" y1="170" x2="875" y2="170" stroke="#15803D" stroke-width="3"/>
+<polygon points="875,170 864.1946347717678,175.21958640933477 864.1946347717678,164.78041359066523" stroke="#15803D" stroke-width="1" fill="#15803D"/>
+<line x1="745" y1="170" x2="875" y2="350" stroke="#DC2626" stroke-width="3"/>
+<polygon points="875,350 864.4421504451458,344.2963333918378 872.9049710109178,338.184296316558" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="725" y="390" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="middle" font-weight="400">자중·착빙</text>
+<text x="855" y="145" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">풍압</text>
+<text x="865" y="300" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#DC2626" text-anchor="start" font-weight="400">합성하중</text>
+<text x="480" y="490" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">같은 w, T에서 D ∝ S² · 같은 S, w에서 D ∝ 1/T</text>
+</svg>

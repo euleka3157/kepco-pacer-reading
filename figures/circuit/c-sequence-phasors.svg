@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">정상·역상·영상: 상회전과 세 전류의 합</text>
+<text x="65" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">정상분</text>
+<line x1="165" y1="285" x2="270.0" y2="285.0" stroke="#2563EB" stroke-width="3"/>
+<polygon points="270.0,285.0 259.1946347717679,290.21958640933474 259.1946347717679,279.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="280.0" y="277.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="start" font-weight="400">a</text>
+<line x1="165" y1="285" x2="112.50000000000003" y2="375.93266739736606" stroke="#DC2626" stroke-width="3"/>
+<polygon points="112.50000000000003,375.93266739736606 113.38238818638418,363.9651534078806 122.422977041848,369.18473981721536" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="122.50000000000003" y="367.93266739736606" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#DC2626" text-anchor="start" font-weight="400">b</text>
+<line x1="165" y1="285" x2="112.50000000000003" y2="194.06733260263394" stroke="#15803D" stroke-width="3"/>
+<polygon points="112.50000000000003,194.06733260263394 122.422977041848,200.8152601827846 113.38238818638418,206.03484659211938" stroke="#15803D" stroke-width="1" fill="#15803D"/>
+<text x="122.50000000000003" y="186.06733260263394" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#15803D" text-anchor="start" font-weight="400">c</text>
+<text x="45" y="445" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">합 = 0</text>
+<text x="380" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">역상분</text>
+<line x1="480" y1="285" x2="585.0" y2="285.0" stroke="#2563EB" stroke-width="3"/>
+<polygon points="585.0,285.0 574.1946347717678,290.21958640933474 574.1946347717678,279.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="595.0" y="277.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#2563EB" text-anchor="start" font-weight="400">a</text>
+<line x1="480" y1="285" x2="427.5" y2="194.06733260263394" stroke="#DC2626" stroke-width="3"/>
+<polygon points="427.5,194.06733260263394 437.42297704184796,200.8152601827846 428.38238818638416,206.03484659211938" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="437.5" y="186.06733260263394" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#DC2626" text-anchor="start" font-weight="400">b</text>
+<line x1="480" y1="285" x2="427.5" y2="375.93266739736606" stroke="#15803D" stroke-width="3"/>
+<polygon points="427.5,375.93266739736606 428.38238818638416,363.9651534078806 437.42297704184796,369.18473981721536" stroke="#15803D" stroke-width="1" fill="#15803D"/>
+<text x="437.5" y="367.93266739736606" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="21" fill="#15803D" text-anchor="start" font-weight="400">c</text>
+<text x="360" y="445" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">합 = 0</text>
+<text x="695" y="100" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">영상분</text>
+<line x1="730" y1="210" x2="875" y2="210" stroke="#2563EB" stroke-width="3"/>
+<polygon points="875,210 864.1946347717678,215.21958640933477 864.1946347717678,204.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="885" y="218" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="start" font-weight="400">a</text>
+<line x1="730" y1="272" x2="875" y2="272" stroke="#DC2626" stroke-width="3"/>
+<polygon points="875,272 864.1946347717678,277.21958640933474 864.1946347717678,266.78041359066526" stroke="#DC2626" stroke-width="1" fill="#DC2626"/>
+<text x="885" y="280" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#DC2626" text-anchor="start" font-weight="400">b</text>
+<line x1="730" y1="334" x2="875" y2="334" stroke="#15803D" stroke-width="3"/>
+<polygon points="875,334 864.1946347717678,339.21958640933474 864.1946347717678,328.78041359066526" stroke="#15803D" stroke-width="1" fill="#15803D"/>
+<text x="885" y="342" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#15803D" text-anchor="start" font-weight="400">c</text>
+<text x="675" y="445" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">합 = 3I0</text>
+<text x="170" y="495" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">각 상의 실제 값 = 영상분 + 정상분 + 역상분</text>
+</svg>

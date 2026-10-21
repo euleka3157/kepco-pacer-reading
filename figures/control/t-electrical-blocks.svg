@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="550" viewBox="0 0 960 550">
+<rect width="100%" height="100%" fill="white"/>
+<text x="28" y="38" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">R·L·C의 전달 블록: 초기조건이 0인 경우</text>
+<text x="45" y="157" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="400">I(s)</text>
+<line x1="125" y1="150" x2="270" y2="150" stroke="#2563EB" stroke-width="3"/>
+<polygon points="270,150 259.1946347717679,155.21958640933477 259.1946347717679,144.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="270" y="110" width="210" height="80" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="375.0" y="157.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">R</text>
+<line x1="480" y1="150" x2="640" y2="150" stroke="#2563EB" stroke-width="3"/>
+<polygon points="640,150 629.1946347717678,155.21958640933477 629.1946347717678,144.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="650" y="157" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="400">V(s)</text>
+<text x="755" y="157" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">V(s)=R I(s)</text>
+<text x="45" y="307" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="400">I(s)</text>
+<line x1="125" y1="300" x2="270" y2="300" stroke="#2563EB" stroke-width="3"/>
+<polygon points="270,300 259.1946347717679,305.21958640933474 259.1946347717679,294.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="270" y="260" width="210" height="80" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="375.0" y="307.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">sL</text>
+<line x1="480" y1="300" x2="640" y2="300" stroke="#2563EB" stroke-width="3"/>
+<polygon points="640,300 629.1946347717678,305.21958640933474 629.1946347717678,294.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="650" y="307" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="400">V(s)</text>
+<text x="755" y="307" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">V(s)=sL I(s)</text>
+<text x="45" y="457" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="400">I(s)</text>
+<line x1="125" y1="450" x2="270" y2="450" stroke="#2563EB" stroke-width="3"/>
+<polygon points="270,450 259.1946347717679,455.21958640933474 259.1946347717679,444.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<rect x="270" y="410" width="210" height="80" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="375.0" y="457.26" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="middle" font-weight="700">1/(sC)</text>
+<line x1="480" y1="450" x2="640" y2="450" stroke="#2563EB" stroke-width="3"/>
+<polygon points="640,450 629.1946347717678,455.21958640933474 629.1946347717678,444.78041359066526" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="650" y="457" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="400">V(s)</text>
+<text x="755" y="457" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="20" fill="#25344A" text-anchor="start" font-weight="400">V(s)=I(s)/(sC)</text>
+</svg>

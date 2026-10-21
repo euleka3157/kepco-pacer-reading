@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="530" viewBox="0 0 960 530">
+<rect width="100%" height="100%" fill="white"/>
+<text x="36" y="40" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="25" fill="#25344A" text-anchor="start" font-weight="700">R·L·C: 저장량과 직류 정상상태</text>
+<rect x="35" y="75" width="290" height="390" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="51" y="104" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">R</text>
+<polyline points="80,195 120.0,195.0 135.0,205.0 150.0,185.0 165.0,205.0 180.0,185.0 195.0,205.0 209.99999999999997,185.0 225.00000000000003,205.0 240.0,195.0 280,195" stroke="#25344A" stroke-width="3" fill="none"/>
+<text x="180.0" y="171.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">R</text>
+<line x1="90" y1="150" x2="180" y2="150" stroke="#2563EB" stroke-width="3"/>
+<polygon points="180,150 169.19463477176788,155.21958640933477 169.19463477176788,144.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="195" y="155" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="start" font-weight="400">i</text>
+<text x="75" y="270" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">v = Ri</text>
+<text x="65" y="340" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">저항 유지</text>
+<polyline points="100,400 132.0,400.0 144.0,410.0 156.0,390.0 168.0,410.0 180.0,390.0 192.0,410.0 204.0,390.0 216.0,410.0 228.0,400.0 260,400" stroke="#15803D" stroke-width="3" fill="none"/>
+<rect x="345" y="75" width="290" height="390" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="361" y="104" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">L</text>
+<polyline points="390.0,195.0 420.0,195.0 420.0,195.0 421.75,192.966351954477 423.5,190.9827790731257 425.25,189.0981235033859 427.0,187.35879172019784 428.75,185.8076118445749 430.5,184.4827790731257 432.25,183.4169151855512 434.0,182.636265288163 435.75,182.1600515722632 437.5,182.0 439.25,182.1600515722632 441.0,182.636265288163 442.75,183.4169151855512 444.5,184.48277907312567 446.25,185.8076118445749 448.0,187.35879172019784 449.75,189.0981235033859 451.5,190.98277907312567 453.25,192.966351954477 455.0,195.0 456.75,192.966351954477 458.5,190.9827790731257 460.25,189.0981235033859 462.0,187.35879172019784 463.75,185.80761184457486 465.5,184.4827790731257 467.25,183.4169151855512 469.0,182.636265288163 470.75,182.1600515722632 472.5,182.0 474.25,182.1600515722632 476.0,182.636265288163 477.75,183.4169151855512 479.5,184.48277907312567 481.25,185.8076118445749 483.0,187.35879172019784 484.75,189.0981235033859 486.5,190.98277907312567 488.25,192.96635195447698 490.0,195.0 491.75,192.96635195447698 493.5,190.9827790731257 495.25,189.0981235033859 497.0,187.35879172019787 498.75,185.8076118445749 500.5,184.4827790731257 502.25,183.4169151855512 504.0,182.636265288163 505.75,182.1600515722632 507.5,182.0 509.25,182.1600515722632 511.0,182.636265288163 512.75,183.4169151855512 514.5,184.48277907312567 516.25,185.80761184457486 518.0,187.35879172019781 519.75,189.09812350338586 521.5,190.98277907312567 523.25,192.966351954477 525.0,194.99999999999997 526.75,192.966351954477 528.5,190.9827790731257 530.25,189.09812350338592 532.0,187.35879172019784 533.75,185.80761184457486 535.5,184.4827790731257 537.25,183.41691518555123 539.0,182.636265288163 540.75,182.1600515722632 542.5,182.0 544.25,182.1600515722632 546.0,182.636265288163 547.75,183.4169151855512 549.5,184.48277907312567 551.25,185.8076118445749 553.0,187.35879172019784 554.75,189.0981235033859 556.5,190.98277907312564 558.25,192.96635195447698 560.0,195.0 590.0,195.0" stroke="#25344A" stroke-width="3" fill="none"/>
+<text x="490.0" y="163.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">L</text>
+<line x1="400" y1="150" x2="490" y2="150" stroke="#2563EB" stroke-width="3"/>
+<polygon points="490,150 479.1946347717679,155.21958640933477 479.1946347717679,144.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="505" y="155" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="start" font-weight="400">i</text>
+<text x="385" y="270" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">λ = Li</text>
+<text x="375" y="340" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">이상 L → 단락</text>
+<line x1="410" y1="400" x2="570" y2="400" stroke="#15803D" stroke-width="4"/>
+<rect x="655" y="75" width="290" height="390" rx="10" fill="#FAFCFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="671" y="104" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="700">C</text>
+<line x1="700" y1="195" x2="793.0" y2="195.0" stroke="#25344A" stroke-width="3"/>
+<line x1="807.0" y1="195.0" x2="900" y2="195" stroke="#25344A" stroke-width="3"/>
+<line x1="793.0" y1="217.0" x2="793.0" y2="173.0" stroke="#25344A" stroke-width="3"/>
+<line x1="807.0" y1="217.0" x2="807.0" y2="173.0" stroke="#25344A" stroke-width="3"/>
+<text x="800.0" y="163.0" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="middle" font-weight="400">C</text>
+<line x1="710" y1="150" x2="800" y2="150" stroke="#2563EB" stroke-width="3"/>
+<polygon points="800,150 789.1946347717678,155.21958640933477 789.1946347717678,144.78041359066523" stroke="#2563EB" stroke-width="1" fill="#2563EB"/>
+<text x="815" y="155" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#2563EB" text-anchor="start" font-weight="400">i</text>
+<text x="695" y="270" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">q = Cv</text>
+<text x="685" y="340" font-family="Noto, Noto Sans KR, Malgun Gothic, sans-serif" font-size="22" fill="#25344A" text-anchor="start" font-weight="400">이상 C → 개방</text>
+<line x1="720" y1="400" x2="780" y2="400" stroke="#15803D" stroke-width="4"/>
+<line x1="820" y1="400" x2="880" y2="400" stroke="#15803D" stroke-width="4"/>
+<circle cx="780" cy="400" r="4" fill="white" stroke="#15803D" stroke-width="3"/>
+<circle cx="820" cy="400" r="4" fill="white" stroke="#15803D" stroke-width="3"/>
+</svg>
